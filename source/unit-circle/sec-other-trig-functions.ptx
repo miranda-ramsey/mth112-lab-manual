@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-other-trig-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Other Trigonometric Functions</title>
+    <introduction>
+        <p>
+            In this section, we'll  
+        </p>
+    </introduction>
+    <!--
+
+    <subsection>
+        <title>Textbook Reference</title>
+        <p> 
+            This relates to content in <section-mark/>3.2 and <section-mark/>3.3 of
+            <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e" visual="http://tiny.cc/111Z-Textbook">Algebra and Trigonometry 2e</url>.
+        </p>
+    </subsection>
+
+    <exercises>
+        <title>Preparation Exercises</title>
+        <exercise>
+            <task>
+                <statement>
+                    <p>
+                        For any real number <m>k</m> other than <m>0</m>, what is <m>\dfrac{0}{k}</m> and why?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        For any real number <m>k</m> other than <m>0</m>, what is <m>\dfrac{k}{0}</m> and why?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Given <m>f(x) = \sqrt{x+2}</m>, evaluate <m>f(23)</m> and <m>f(-18)</m>.
+                    </p>
+                </statement>
+            </task>
+        </exercise>
+        <exercise>
+            <task>
+                <statement>
+                    <p>
+                        Draw <m>x \gt -2</m> on a number line and write the set of values in both interval and set-builder notations.
+                    </p>
+                </statement>
+                <hint>
+                    <p>
+                        <url href="https://www.youtube.com/watch?v=aLvRu8Int4M" visual="https://youtu.be/aLvRu8Int4M">Here is a review video</url> of these two notations.
+                    </p>
+                </hint>
+            </task>
+            <task>
+                <statement>
+                    <p> 
+                        Draw <m>x \leq 6</m> on a number line and write the set of values in both interval and set-builder notations.
+                    </p>
+                </statement>
+            </task>
+        </exercise>
+    </exercises>
+
+    <exercises xml:id="practice-domain-and-range">
+        <title>Practice Exercises</title>
+		<exercise>
+            <introduction>
+                <p>
+                    Algebraically find the domain of the following functions. State the domains in both interval notation and set-builder notation.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>f(x) = \sqrt{-2x + 18}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>g(t) = \sqrt[3]{3t-24}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>h(k) = \dfrac{k+3}{k-9}</m>
+                    </p>
+                </statement>
+            </task>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    Find the domain and range of the function <m>p</m> graphed in <xref ref="graph-domain-range"/>.
+                    State both in interval notation and set-builder notation.
+                </p>
+                <figure xml:id="graph-domain-range">
+                    <caption><m>y=p(x)</m></caption>
+                    <image width="60%">
+                        <description>
+                            <p>
+                                A curve beginning with an empty circle at <m>(-6,-5)</m>, 
+                                traveling up to just below <m>y=-3</m>, 
+                                down to just below <m>y=-4</m>, 
+                                then up to the point <m>(5,6)</m>. 
+                                There is an empty circle at <m>(-6,-5)</m> and a filled circle at <m>(5,6)</m>.
+                            </p>
+                        </description>
+                        <latex-image>
+                            \begin{tikzpicture}
+                            \begin{axis}
+                            \addplot+[first,smooth,openclosed,domain=-6:5]
+                            {0.1*(x+5)*(x+1)*(x-4)};
+                            \end{axis}
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+                </figure>
+            </statement>
+        </exercise>
+        <exercise>
+            <introduction>
+                <p>
+                    Below are the graphs of <m>y=r(t)</m> in <xref ref="graph-behaviors-smooth"/> and <m>y=s(t)</m> in <xref ref="graph-behaviors-pointy"/>.
+                </p>
+                <sidebyside>
+                    <figure xml:id="graph-behaviors-smooth">
+                        <caption><m>y=r(t)</m></caption>
+                        <image>
+                            <description>
+                                <p>
+                                    Graph of a function. The curve begins with a filled circle at <m>(-7,7)</m>,
+                                    travels smoothly to the point <m>(-4,1)</m>,
+                                    remains flat to the point <m>(-3,1)</m>,
+                                    then travels smoothly through the points <m>(-3,1)</m>, <m>(-1,3)</m>, <m>(3,-3)</m>,
+                                    before ending with an empty circle at the point <m>(6,2)</m>.
+                                </p>
+                            </description>
+                            <latex-image>
+                                <![CDATA[
+                                \begin{tikzpicture}[
+                                    declare function={
+                                    func(\x)= (\x<=-4) * (2/3*(\x+4)^2+1)  +
+                                    and(\x>-4, \x<=-3)   +
+                                    and(\x>-3, \x<=-2) * ((x+3)^2+1)   +
+                                    and(\x>-2, \x<=0) * (-(x+1)^2+3)   +
+                                    and(\x>0, \x<=2) * (-2*x+2)    +
+                                    and(\x>2, \x<=4) * ((x-3)^2-3) +
+                                    (\x>4) * (2*(x-4)-2);
+                                    }
+                                    ]
+                                    \begin{axis}[xlabel={$t$}]
+                                    \addplot+[domain=-7:6, samples=66, closedopen] {func(x)};
+                                    \legend{\(y = r(t)\)}
+                                    \end{axis}
+                                \end{tikzpicture}
+                                ]]>
+                            </latex-image>
+                        </image>
+                    </figure>
+                    <figure xml:id="graph-behaviors-pointy">
+                        <caption><m>y=s(t))</m></caption>
+                        <image width="60%">
+                            <description>
+                                <p>
+                                    Graph of a continuous, irregular curve. It travels through the points 
+                                    <m>(-7,-6)</m>;
+                                    <m>(-6,-5)</m>;
+                                    <m>(-4,-1)</m>;
+                                    <m>(-3,0)</m>;
+                                    <m>(-1,-1)</m>;
+                                    <m>(0,-3)</m>;
+                                    <m>(1,-4)</m>;
+                                    <m>(2,-3)</m>;
+                                    <m>(3,-1)</m>;
+                                    <m>(4,0)</m>;
+                                    <m>(5,3)</m>;
+                                    <m>(6,3)</m>.
+                                    At the point <m>(-7,-6)</m> there is an empty circle. At the point <m>(6,3)</m> there is a filled circle.
+                                </p>
+                            </description>
+                            <latex-image>
+                            <![CDATA[
+                            \begin{tikzpicture}[
+                                declare function={
+                                    func(\x)= (\x<=-6) * (\x + 1)   +
+                                    and(\x>-6, \x<=-4) * (2*\x + 7) +
+                                    and(\x>-4, \x<=-3) * (\x + 3) +
+                                    and(\x>-3, \x<=-1) * (-\x/2 - 1.5) +
+                                    and(\x>-1, \x<=0) * (2*(\x)^2 - 3) +
+                                    and(\x>0, \x<=1) * (-(\x)^2 - 3) +
+                                    and(\x>1, \x<=2) * (-(\x - 2)^2 - 3) +
+                                    and(\x>2, \x<=3) * (2*(\x - 2)^2 - 3) +
+                                    and(\x>3, \x<=5) * ((\x - 3)^2 - 1) +
+                                    (\x>5) * (3);
+                                }
+                                ]
+                                \begin{axis}
+                                    \addplot+[second, domain=-7:6, samples=66, openclosed] {func(x)};
+                                    \legend{\(y = h(x)\)};
+                                \end{axis}
+                            \end{tikzpicture}
+                            ]]>
+                            </latex-image>
+                        </image>
+                    </figure>
+                </sidebyside>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Over what intervals is <m>r</m> increasing?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Over what interval is <m>s</m> negative?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What is the absolute maximum value of <m>r</m>?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        State any local minimum points of <m>s</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Over what intervals is <m>r</m> constant?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Over what intervals is <m>s</m> decreasing?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Over what interval is <m>r</m> positive?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What is the absolute minimum value of <m>s</m>?
+                    </p>
+                </statement>
+            </task>
+		</exercise>
+    </exercises>
+    
+    <subsection xml:id="definitions-domain-range-and-behaviors">
+        <title>Definitions</title>
+        <definition>
+            <title>Domain and Range</title>
+            <statement>
+                <p>
+                    The <term>domain</term> of a function is the set of all possible input values for the function. 
+                </p>
+                <p>
+                    The <term>range</term> of a function is the set of all possible output values for the function. 
+                </p>
+                <p>
+                    The domain and range are commonly stated using interval notation or set-builder notation.
+                </p>
+            </statement>
+        </definition>
+            <example>
+                <title>Domain and Range</title>
+                <p>
+                    <url href="https://www.desmos.com/calculator/dgrur8be3f" visual="https://tiny.cc/111Z-DomRang">View this Desmos graph</url> to see an interactive example of these definitions.
+                </p>
+            </example>
+        <definition>
+            <title>Positive and Negative</title>
+            <statement>
+                <p>
+                    A function <m>f</m> is <term>positive</term> if the output values are greater than <m>0</m>. <m>f</m> is positive when <m>f(x) \gt 0</m>.
+                </p>
+                <p>
+                    A function <m>f</m> is <term>negative</term> if the output values are less than <m>0</m>. <m>f</m> is negative when <m>f(x) \lt 0</m>.
+                </p>
+            </statement>
+        </definition>
+            <example>
+                <title>Positive and Negative</title>
+                <p>
+                    <url href="https://www.desmos.com/calculator/v8qsikcufe" visual="https://tiny.cc/111Z-PosNeg">View this Desmos graph</url> to see an interactive example of these definitions.
+                </p>
+            </example>
+        <definition>
+            <title>Increasing, Decreasing, and Constant</title>
+            <statement>
+                <p>
+                    Let <m>f</m> be a function that is defined on an open interval <m>I</m>, with <m>a</m> and <m>b</m> in <m>I</m> and <m>b \gt a</m>.
+                </p>
+                <p>
+                    <m>f</m> is <term>increasing</term> on <m>I</m> if <m>f(b) \gt f(a)</m> for all <m>a</m> and <m>b</m> in <m>I</m>. In other words, as you move left-to-right on the interval <m>I</m>, your <m>y</m>-values increase.
+                </p>
+                <p>
+                    <m>f</m> is <term>decreasing</term> on <m>I</m> if <m>f(b) \lt f(a)</m> for all <m>a</m> and <m>b</m> in <m>I</m>. In other words, as you move left-to-right on the interval <m>I</m>, your <m>y</m>-values decrease.
+                </p>
+                <p>
+                    <m>f</m> is <term>constant</term> on <m>I</m> if <m>f(b) = f(a)</m> for all <m>a</m> and <m>b</m> in <m>I</m>. In other words, as you move left-to-right on the interval <m>I</m>, your <m>y</m>-values do not change.
+                </p>
+            </statement>
+        </definition>
+            <example>
+                <title>Positive and Negative</title>
+                <p>
+                    <url href="https://www.desmos.com/calculator/ondcewmuy0" visual="https://tiny.cc/111Z-IncDec">View this Desmos graph</url> to see an interactive example of these definitions.
+                </p>
+            </example>
+        <definition>
+            <title>Local Minimum or Maximum</title>
+            <statement>
+                <p>
+                    Given a function <m>f</m> that is defined on an open interval <m>I</m>, with <m>c</m> in <m>I</m>.
+                </p>
+                <p>
+                    <m>f</m> has a <term>local maximum</term> at <m>x = c</m> if <m>f(c) \geq f(x)</m> for all <m>x</m> in <m>I</m>. 
+                    The <term>local maximum value</term> of <m>f</m> is the output <m>f(c)</m>.
+                </p>
+                <p>
+                    <m>f</m> has a <term>local minimum</term> at <m>x = c</m> if <m>f(c) \leq f(x)</m> for all <m>x</m> in <m>I</m>. 
+                    The <term>local minimum value</term> of <m>f</m> is the output <m>f(c)</m>.
+                </p>
+            </statement>
+        </definition>
+            <example>
+                <figure xml:id="example-local-extrema">
+                    <caption>Local Extrema</caption>
+                    <image width="60%">
+                        <description>
+                            <p>
+                                Graph of a smooth curve. The function begins near around <m>(-4, 4.8)</m>,
+                                curves downward to a local minimum at <m>x = -3</m>, 
+                                upward to a local maximum at around <m>x=-1</m>, 
+                                downward to a local minimum at <m>x = 2</m>, 
+                                then back up to around the point <m>(3, 1)</m>.
+                                Each local minimum or maximum is at a peak or valley of the curve, and
+                                the local minimum at <m>x = 2</m> is much lower than the local minimum at <m>x = -3</m>
+                            </p>
+                        </description>
+                        <latex-image>
+                                \begin{tikzpicture}
+                                \begin{axis}
+                                \addplot+[first,smooth,-,domain=-4:3]{1/8*x^4+1/3*x^3-5/4*x^2-3*x+2};
+                            \addplot[soliddot]coordinates{(-4,4.667)(-3,0.875)(-1,3.542)(2,-4.333)(3,0.8735)};
+                                \node at (axis cs:-4.3,0.5) {\color{first}\tiny{local min}};
+                                \node at (axis cs:-1.1,4.892) {\color{first}\tiny{local}};
+                                \node at (axis cs:-1.1,4.242) {\color{first}\tiny{max}};
+                                \node at (axis cs:3.5,-4.5) {\color{first}\tiny{local min}};
+                                \end{axis}
+                                \end{tikzpicture}
+                        </latex-image>
+                    </image>
+                </figure>
+                <p>
+                    In <xref ref="example-local-extrema"/>, the function has two local minimum points and one local maximum point.
+                    <ul>
+                        <li>The local minimum value of about <m>0.9</m> occurs at <m>x = -3</m>.</li>
+                        <li>The local minimum value of about <m>-4.3</m> occurs at <m>x = 2</m>.</li>
+                        <li>The local maximum value of about <m>3.5</m> occurs at <m>x = -1</m>.</li>
+                    </ul>
+                </p>
+            </example>
+        <definition>
+            <title>Absolute Minimum or Maximum</title>
+            <statement>
+                <p>
+                    <m>f</m> has an <term>absolute maximum</term> at <m>x = c</m> if <m>f(c) \geq f(x)</m> for all <m>x</m> in the domain of <m>f</m>. 
+                    The <term>absolute maximum value</term> of <m>f</m> is the output <m>f(c)</m>.
+                </p>
+                <p>
+                    <m>f</m> has an <term>absolute minimum</term> at <m>x = c</m> if <m>f(c) \leq f(x)</m> for all <m>x</m> in the domain of <m>f</m>. 
+                    The <term>absolute minimum value</term> of <m>f</m> is the output <m>f(c)</m>.
+                </p>
+            </statement>
+        </definition>
+            <example>
+                <figure xml:id="example-absolute-extrema">
+                    <caption>Absolute Extrema</caption>
+                    <image width="60%">
+                        <description>
+                            <p>
+                                Graph of the same curve from <xref ref="example-local-extrema"/>. 
+                                The point at <m>(-4,4.8)</m> is the absolute maximum, sitting above all other points on the graph.
+                                The point at <m>(2,-4.3)</m> is not only a local minimum, but also an absolute minimum, sitting below all other points on the graph.
+                            </p>
+                        </description>
+                        <latex-image>
+                                \begin{tikzpicture}
+                                \begin{axis}
+                                \addplot+[first,smooth,-,domain=-4:3]{1/8*x^4+1/3*x^3-5/4*x^2-3*x+2};
+                            \addplot[soliddot]coordinates{(-4,4.667)(-3,0.875)(-1,3.542)(2,-4.333)(3,0.8735)};
+                                \node at (axis cs:-4,5.8) {\color{first}\tiny{absolute}};
+                                \node at (axis cs:-4,5.2) {\color{first}\tiny{max}};
+                                \node at (axis cs:4,-4.8) {\color{first}\tiny{absolute min}};
+                                \end{axis}
+                                \end{tikzpicture}
+                        </latex-image>
+                    </image>
+                </figure>
+                <p>
+                    In <xref ref="example-absolute-extrema"/>, the function has an absolute minimum point and an absolute maximum point.
+                    <ul>
+                        <li>The absolute minimum value of about <m>-4.3</m> occurs at <m>x = 2</m>.</li>
+                        <li>The absolute maximum value of about <m>4.8</m> occurs at <m>x = -4</m>.</li>
+                    </ul>
+                </p>
+            </example>
+        </subsection>
+        
+        
+    <exercises xml:id="exit-domain-range-and-behaviors">
+        <title>Exit Exercises</title>
+        <exercise>
+            <statement>
+                <p>
+                    What is the domain of <m>f(x) = \sqrt{x}</m>? What is the domain of <m>g(x) = \sqrt[3]{x}</m>? Why are these domains different?
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    Graphically speaking, what is the difference between a function being negative and a function decreasing?
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <introduction>
+                <p>
+                    For the function <m>F</m> graphed in <xref ref="graph-domain-range-exit"/>, answer the following.
+                </p>
+                <figure xml:id="graph-domain-range-exit">
+                    <caption><m>y=F(x)</m></caption>
+                    <image width="60%">
+                        <description>
+                            <p>
+                                Graph of a function. From below, the curve travels up to the point <m>(-7,2)</m>,
+                                then passes smoothly through the points <m>(-4,-1)</m>;
+                                <m>(-2,-1)</m>;
+                                <m>(0,-3)</m>;
+                                <m>(5,4)</m>;
+                                <m>(7,0)</m>;
+                                then continues downward and to the right off of the grid.
+                            </p>
+                        </description>
+                        <latex-image>
+                            <![CDATA[
+                            \begin{tikzpicture}[
+                                declare function={
+                                func(\x)=
+                                (\x<=-7) * (-2*(\x+7)^2+2)  +
+                                and(\x>-7, \x<=-5) * (-0.5*(\x+7)^2+2)  +
+                                and(\x>-5, \x<=-4) * ((\x+4)^2-1)   +
+                                and(\x>-4, \x<=-2) * (-1)   +
+                                and(\x>-2, \x<=-1) * (-1*(\x+2)^2-1)    +
+                                and(\x>-1, \x<=1) * ((\x)^2-3)  +
+                                and(\x>1, \x<=3) * (2*(\x-1)-2) +
+                                and(\x>3, \x<=5) * (-0.5*(\x-5)^2+4)    +
+                                and(\x>5, \x<=7) * (-1*(\x-5)^2+4)  +
+                                (\x>7) * (4/(\x-6)-4);
+                                }
+                                ]
+                                \begin{axis}[
+                                width=\axisdefaultwidth,
+                                height=0.6*\axisdefaultheight,
+                                xmin=-10,xmax=10,
+                                ymin=-5,ymax=5,
+                                xtick={-8,-6,...,8},
+                                minor xtick={-9,-7,-5,...,7,9},
+                                ytick={-4,-2,...,6},
+                                minor ytick={-7,-5,...,7},
+                                ]
+                                \addplot+[samples=100, domain=-8.871:10] {func(x)};
+                                \end{axis}
+                                \end{tikzpicture}
+                                ]]>
+                        </latex-image>
+                    </image>
+                </figure>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Over what intervals is <m>F</m> increasing?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What is the range of <m>F</m>?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Over what intervals is <m>F</m> negative?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What are any local minimum points on <m>F</m>?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Over what intervals is <m>F</m> constant?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What is the absolute maximum value of <m>F</m>?
+                    </p>
+                </statement>
+            </task>
+        </exercise>
+    </exercises>
+    <reading-questions>
+        <exercise>
+        <statement>
+            <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
+        </statement>
+    </exercise>
+    </reading-questions>
+    -->
+</section>

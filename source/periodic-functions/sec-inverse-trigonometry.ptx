@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--TODO: reference url footnote-->
+<section xml:id="sec-inverse-trigonometry" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Inverse Trigonometry</title>
+    <introduction>
+        <p>
+            In this section, we'll 
+        </p>
+    </introduction>
+    <!--
+
+    <subsection>
+        <title>Textbook Reference</title>
+        <p> 
+            This relates to content in <section-mark/>6.7 of 
+            <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e" visual="http://tiny.cc/111Z-Textbook">Algebra and Trigonometry 2e</url>.
+        </p>
+    </subsection>
+
+    <exercises xml:id="prep-models">
+		<title>Preparation Exercises</title>
+		<exercise>
+			<statement>
+                <p>
+                    Find the formula for an exponential function <m>f</m> that satisfies <m>f(-2) = \dfrac{16}{27}</m> and <m>f(3)=\dfrac{9}{2}</m>.	
+                </p>
+			</statement>
+		</exercise>
+        <exercise>
+            <statement>
+                <p>
+                    The substance Einsteinium-253 decays at a continuous rate of about 3.3862% per day.  If a scientist starts with a 60 mg sample of Einsteinium-253, how long until there are only 30 mg remaining?
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    The function <m>V(t) = 32.8(1.093)^t</m> represents the value (in thousands of dollars) of a collectable car <m>t</m> years after June 1st, 2015.  How long will it take for the value of the car to reach $65,600?
+                </p>
+			</statement>
+		</exercise>
+	</exercises>
+
+	<exercises xml:id="practice-models">
+		<title>Practice Exercises</title>
+		<exercise>
+            <introduction>
+                <p>
+                    A doctor prescribes 175 milligrams of a drug that decays by 20% each hour.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Write an exponential model representing <m>D</m>, the amount of the drug (in mg) remaining in the patient's system, <m>t</m> hours after having the drug administered.  (Note: 20% per hour is not a continuous rate.)
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+	                    To the nearest hour, what is the half-life of the drug?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+	                    When will there be 25 mg of the drug remaining in the patient's system?
+                    </p>
+                </statement>
+            </task>
+		</exercise>
+		<exercise>
+            <statement>
+                <p>
+                    In 2022, Canada's population grew by about 2.7%.  If Canada's population were to maintain that same growth rate, how long would it take for Canada's population to double?
+                </p>
+                <aside><p>Growth rate obtained from <url href="https://www.statcan.gc/ca/en/subjects-start/population_and_demography/40-million"/></p></aside>
+            </statement>
+		</exercise>
+		<exercise>
+            <statement>
+                <p>
+                    Cobalt-60 is used for radiotherapy and has a half-life of 5.26 years.  Find the continuous annual rate of decay.
+                </p>
+                <aside><p>Half-life value obtained from <url href="https://www.britannica.com/science/cobalt-60"/></p></aside>
+            </statement>
+		</exercise>
+    </exercises>
+
+    
+    <subsection xml:id="definitions-models">
+        <title>Definitions</title>
+        <definition>
+            <title>Doubling Time</title>
+            <statement>
+                <p>
+                    The amount of time it takes an exponential growth model to increase to double the starting value.
+                </p>
+            </statement>
+        </definition>
+        <definition>
+            <title>Half-Life</title>
+            <statement>
+                <p>
+                    The amount of time it takes an exponential decay model to decay to half of the starting value.
+                </p>
+            </statement>
+        </definition>
+        <definition>
+            <title>Exponential Function of the Form <m>f(t)=ae^{kt}</m></title>
+            <statement>
+                <p>
+                    For any real number <m>t</m>, an <term>exponential function with the form <m>f(t) = a e^{kt}</m></term> where
+                    <ul>
+                        <li><m>a</m> is a non-zero real number</li>
+                        <li><m>k</m> is any non-zero real number and is the continuous growth rate.</li>
+                    </ul>
+                    Exponential functions of the form <m>f(t)=ae^{kt}</m> are often referred to as a <term>continuous growth model</term>.
+                </p>
+            </statement>
+        </definition>
+        <definition>
+            <title>Key Characteristics of <m>f(t) = ae^{kt}</m></title>
+            <statement>
+                <p>
+                        For an exponential function <m>f(t) = ae^{kt}</m>, with <m>a \gt 0</m>, we have the following:
+                    <ul>
+                        <li><m>(0,a)</m> is the vertical intercept.</li>
+                        <li>There is no horizontal intercept.</li>
+                        <li>The domain of <m>f</m> is <m>(-\infty, infty)</m>.</li>
+                        <li>The range of <m>f</m> is <m>(0, infty)</m>.</li>
+                        <li><m>f</m> is a one-to-one function.</li>
+                        <li>The horizontal asymptote is <m>y = 0</m>.</li>
+                        <li><p>If <m>k \gt 0</m>, then <m>f</m> is an increasing function and
+                                <ul>
+                                    <li>as <m>t \to \infty</m>, <m>f(t) \to \infty</m>, and</li>
+                                    <li>as <m>t \to -\infty</m>, <m>f(t) \to 0</m>.</li>
+                                </ul>
+                            </p>
+                            <figure xml:id="fig-definitions-models-growth">
+                                <caption><m>y = ae^{kt}, k \gt 0</m></caption>
+                                <image width="60%">
+                                    <description>
+                                        <p>
+                                            Graph of a function exhibiting exponential growth, beginning near the <m>x</m>-axis and sharply increasing to the right.
+                                        </p>
+                                    </description>
+                                    <latex-image>
+                                        \begin{tikzpicture}
+                                        \begin{axis}[
+                                        framedaxes,
+                                        height=5cm,
+                                        width=5cm,
+                                        xlabel={$t$},
+                                        ylabel={$y$},
+                                        xmin=-6,xmax=6,
+                                        ymin=-6,ymax=6,
+                                        xtick={-16,16},
+                                        minor xtick={-16,16},
+                                        ytick={-16,16},
+                                        minor ytick={-16,16},
+                                        grid=both
+                                        ]
+                                        \addplot+[first,smooth,domain=-6:2.584] {2^x};
+                                        \addplot[soliddot] coordinates {(0,1)};
+                                        \end{axis}
+                                        \end{tikzpicture}
+                                    </latex-image>
+                                </image>
+                            </figure>
+                        </li>
+                        <li>
+                            <p>If <m>k \lt 0</m>, then <m>f</m> is a decreasing function and
+                            <ul>
+                                <li>as <m>t \to \infty</m>, <m>f(t) \to 0</m>, and</li>
+                                <li>as <m>t \to -\infty</m>, <m>f(t) \to \infty</m>.</li>
+                            </ul>
+                            </p>
+                            <figure xml:id="fig-definitions-models-decay">
+                                <caption><m>y = ae^{kt}, k \lt 0</m></caption>
+                                <image width="60%">
+                                    <description>
+                                        <p>
+                                            Graph of a function exhibiting exponential decay, sharply decreasing from the left, and approaching the <m>x</m>-axis to the right.
+                                        </p>
+                                    </description>
+                                    <latex-image>
+                                            \begin{tikzpicture}
+                                            \begin{axis}[
+                                            framedaxes,
+                                            height=5cm,
+                                            width=5cm,
+                                            xlabel={$t$},
+                                            ylabel={$y$},
+                                            xmin=-6,xmax=6,
+                                            ymin=-6,ymax=6,
+                                            xtick={-16,16},
+                                            minor xtick={-16,16},
+                                            ytick={-16,16},
+                                            minor ytick={-16,16},
+                                            grid=both
+                                            ]
+                                            % use TeX as calculator:
+                                            \addplot+[first,smooth,domain=-2.584:6] {0.5^x};
+                                            \addplot[soliddot] coordinates {(0,1)};
+                                            \end{axis}
+                                            \end{tikzpicture}
+                                    </latex-image>
+                                </image>
+                            </figure>
+                        </li>
+                    </ul>
+                </p>
+            </statement>
+        </definition>
+        <definition>
+            <title>Decibels</title>
+            <statement>
+                <p>
+                    The loudness <m>L(x)</m>, measured in <term>decibels (dB)</term>, of a sound of intensity <m>x</m>, measured in watts/m<m>^2</m>, is defined by 
+                    <me>L(x) = 10 \log \left( \frac{x}{I_0} \right)</me> 
+                    where <m>I_0 = 10^{-12}</m> watts/m$^2$ and approximately represents the least intense sound that a human ear can detect.
+                </p>
+            </statement>
+        </definition>
+        <definition>
+            <title>pH</title>
+            <statement>
+                <p>
+                    The <term>pH of a chemical solution</term> is used to measure the acidity or alkalinity of the solution.  
+                </p>
+                <p>
+                    The formula used to calculate the pH of a solution is 
+                    <me>\text{pH}=-\log\left[\text{H}^+\right]</me>
+                    where <m>\left[\text{H}^+\right]</m> is the concentration of hydrogen ions in moles per liter. 
+                </p>
+                <p>
+                    pH values range from 0 (acidic) to 14 (basic), with 7 being neutral.
+                </p>
+            </statement>
+        </definition>
+        <definition>
+            <title>Richter Scale</title>
+            <statement>
+                <p>
+                    The Richter scale is one way of converting seismographic readings into numbers that provide a reference for measuring the magnitude <m>M</m> of an earthquake.  All earthquakes are compared to a zero-level earthquake whose seismographic reading measures 0.001 millimeter at a distance of 100 kilometers from the epicenter.  
+                </p>
+                <p>
+                    An earthquake whose seismographic reading measures <m>x</m> millimeters has a magnitude <m>M(x)</m>, give by 
+                    <me>M(x)=\log\left(\dfrac{x}{x_0}\right)</me> 
+                    where <m>x_0=10^{-3}</m> is the reading of a zero-level earthquake the same distance from the epicenter.
+                </p>
+            </statement>
+        </definition>
+    </subsection>
+
+    <exercises xml:id="exit-models">
+        <title>Exit Exercises</title>
+        <exercise>
+            <task>
+                <statement>
+                    <p>
+		                For what type of exponential models would we discuss the half-life?  What does the half-life measure?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+		                For what type of exponential models would we discuss the doubling time?  What does the doubling time measure?
+                    </p>
+                </statement>
+            </task>
+	    </exercise>
+        <exercise>
+		    <statement>
+                <p>
+                    A patient receives an injection of 20 mg of a medicine that decays exponentially.  45 minutes after the injection, there are 8 mg of medicine left in her body.   What is the half-life of this medication?
+                </p>
+            </statement>
+	    </exercise>
+        <exercise>
+		    <statement>
+                <p>
+                    A research student is working with a culture of bacteria that doubles in size every 13 minutes.  The initial population count was 1350 bacteria.  Find an exponential function that expresses the bacteria population, <m>P</m>, as a function of <m>t</m>, the number of <em>hours</em> after the experiment began.
+                </p>
+            </statement>
+	    </exercise>
+    </exercises>
+
+    <reading-questions>
+        <exercise>
+        <statement>
+            <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
+        </statement>
+    </exercise>
+    </reading-questions>
+    -->
+</section>

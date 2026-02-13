@@ -1,0 +1,214 @@
+INFO    : Building target web
+INFO    : PreTeXt source passed schema validation.
+INFO    : XSL conversion of /home/miranda/mth112/mth112-lab-manual/source/main.ptx by /home/miranda/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/miranda/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : Generating any needed assets.
+INFO    : XSL conversion of /home/miranda/mth112/mth112-lab-manual/source/main.ptx by /home/miranda/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/miranda/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /home/miranda/mth112/mth112-lab-manual/source/main.ptx by /home/miranda/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/miranda/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /home/miranda/mth112/mth112-lab-manual/source/main.ptx by /home/miranda/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/miranda/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /home/miranda/mth112/mth112-lab-manual/source/main.ptx by /home/miranda/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/miranda/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /home/miranda/mth112/mth112-lab-manual/source/main.ptx by /home/miranda/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/miranda/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /home/miranda/mth112/mth112-lab-manual/source/main.ptx by /home/miranda/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/miranda/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /home/miranda/mth112/mth112-lab-manual/source/main.ptx by /home/miranda/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/miranda/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /home/miranda/mth112/mth112-lab-manual/source/main.ptx by /home/miranda/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/miranda/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /home/miranda/mth112/mth112-lab-manual/source/main.ptx by /home/miranda/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/miranda/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /home/miranda/mth112/mth112-lab-manual/source/main.ptx by /home/miranda/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/miranda/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /home/miranda/mth112/mth112-lab-manual/source/main.ptx by /home/miranda/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/miranda/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /home/miranda/mth112/mth112-lab-manual/source/main.ptx by /home/miranda/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/miranda/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /home/miranda/mth112/mth112-lab-manual/source/main.ptx by /home/miranda/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/miranda/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /home/miranda/mth112/mth112-lab-manual/source/main.ptx by /home/miranda/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/miranda/.ptx/2.17.1/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : converting latex-image pictures from /home/miranda/mth112/mth112-lab-manual/source/main.ptx to svg graphics for placement in /home/miranda/mth112/mth112-lab-manual/generated-assets/latex-image
+INFO    : extracting latex-image pictures from /home/miranda/mth112/mth112-lab-manual/source/main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'cli.version': '2.17', 'publisher': '/home/miranda/mth112/mth112-lab-manual/publication/publication.ptx'}
+INFO    : discovering source file's directory name: /home/miranda/mth112/mth112-lab-manual/source
+INFO    : verifying and expanding input directory: /home/miranda/mth112/mth112-lab-manual/source/../generated-assets
+INFO    : input directory expanded to absolute path: /home/miranda/mth112/mth112-lab-manual/generated-assets
+INFO    : verifying and expanding input directory: /home/miranda/mth112/mth112-lab-manual/source/../assets
+INFO    : input directory expanded to absolute path: /home/miranda/mth112/mth112-lab-manual/assets
+INFO    : XSL conversion of /home/miranda/mth112/mth112-lab-manual/source/main.ptx by /home/miranda/.ptx/2.17.1/core/xsl/extract-latex-image.xsl
+INFO    : messages from the log for XSL processing:
+INFO    : * PTX:INFO:   checking ONLY the last TWO YEARS of element deprecations.
+Rerun with the string parameter "author.deprecations.all" set to "yes" to check your source against all deprecations.
+INFO    : successful application of /home/miranda/.ptx/2.17.1/core/xsl/extract-latex-image.xsl
+INFO    : converting fig-prep-functions-transformations-2.tex to fig-prep-functions-transformations-2.pdf
+INFO    : cropping fig-prep-functions-transformations-2.pdf to cropped-fig-prep-functions-transformations-2.pdf
+INFO    : renaming cropped-fig-prep-functions-transformations-2.pdf to fig-prep-functions-transformations-2.pdf
+INFO    : converting fig-prep-functions-transformations-2.pdf to fig-prep-functions-transformations-2.svg
+INFO    : converting fig-definitions-models-decay-2.tex to fig-definitions-models-decay-2.pdf
+INFO    : cropping fig-definitions-models-decay-2.pdf to cropped-fig-definitions-models-decay-2.pdf
+INFO    : renaming cropped-fig-definitions-models-decay-2.pdf to fig-definitions-models-decay-2.pdf
+INFO    : converting fig-definitions-models-decay-2.pdf to fig-definitions-models-decay-2.svg
+INFO    : converting fig-practice-rationals-graph-2.tex to fig-practice-rationals-graph-2.pdf
+INFO    : cropping fig-practice-rationals-graph-2.pdf to cropped-fig-practice-rationals-graph-2.pdf
+INFO    : renaming cropped-fig-practice-rationals-graph-2.pdf to fig-practice-rationals-graph-2.pdf
+INFO    : converting fig-practice-rationals-graph-2.pdf to fig-practice-rationals-graph-2.svg
+INFO    : converting fig-practice-functions-transformations-2.tex to fig-practice-functions-transformations-2.pdf
+INFO    : cropping fig-practice-functions-transformations-2.pdf to cropped-fig-practice-functions-transformations-2.pdf
+INFO    : renaming cropped-fig-practice-functions-transformations-2.pdf to fig-practice-functions-transformations-2.pdf
+INFO    : converting fig-practice-functions-transformations-2.pdf to fig-practice-functions-transformations-2.svg
+INFO    : converting example-absolute-extrema-2.tex to example-absolute-extrema-2.pdf
+INFO    : cropping example-absolute-extrema-2.pdf to cropped-example-absolute-extrema-2.pdf
+INFO    : renaming cropped-example-absolute-extrema-2.pdf to example-absolute-extrema-2.pdf
+INFO    : converting example-absolute-extrema-2.pdf to example-absolute-extrema-2.svg
+INFO    : converting fig-definitions-exponentials-e-2.tex to fig-definitions-exponentials-e-2.pdf
+INFO    : cropping fig-definitions-exponentials-e-2.pdf to cropped-fig-definitions-exponentials-e-2.pdf
+INFO    : renaming cropped-fig-definitions-exponentials-e-2.pdf to fig-definitions-exponentials-e-2.pdf
+INFO    : converting fig-definitions-exponentials-e-2.pdf to fig-definitions-exponentials-e-2.svg
+INFO    : converting practice-piecewise-defined-2-4-1-2.tex to practice-piecewise-defined-2-4-1-2.pdf
+INFO    : cropping practice-piecewise-defined-2-4-1-2.pdf to cropped-practice-piecewise-defined-2-4-1-2.pdf
+INFO    : renaming cropped-practice-piecewise-defined-2-4-1-2.pdf to practice-piecewise-defined-2-4-1-2.pdf
+INFO    : converting practice-piecewise-defined-2-4-1-2.pdf to practice-piecewise-defined-2-4-1-2.svg
+INFO    : converting fig-definitions-functions-inverse-pass-2.tex to fig-definitions-functions-inverse-pass-2.pdf
+INFO    : cropping fig-definitions-functions-inverse-pass-2.pdf to cropped-fig-definitions-functions-inverse-pass-2.pdf
+INFO    : renaming cropped-fig-definitions-functions-inverse-pass-2.pdf to fig-definitions-functions-inverse-pass-2.pdf
+INFO    : converting fig-definitions-functions-inverse-pass-2.pdf to fig-definitions-functions-inverse-pass-2.svg
+INFO    : converting fig-preparation-logarithms-2.tex to fig-preparation-logarithms-2.pdf
+INFO    : cropping fig-preparation-logarithms-2.pdf to cropped-fig-preparation-logarithms-2.pdf
+INFO    : renaming cropped-fig-preparation-logarithms-2.pdf to fig-preparation-logarithms-2.pdf
+INFO    : converting fig-preparation-logarithms-2.pdf to fig-preparation-logarithms-2.svg
+INFO    : converting graph-behaviors-pointy-2.tex to graph-behaviors-pointy-2.pdf
+INFO    : cropping graph-behaviors-pointy-2.pdf to cropped-graph-behaviors-pointy-2.pdf
+INFO    : renaming cropped-graph-behaviors-pointy-2.pdf to graph-behaviors-pointy-2.pdf
+INFO    : converting graph-behaviors-pointy-2.pdf to graph-behaviors-pointy-2.svg
+INFO    : converting fig-definitions-functions-logarithmic-decreasing-2.tex to fig-definitions-functions-logarithmic-decreasing-2.pdf
+INFO    : cropping fig-definitions-functions-logarithmic-decreasing-2.pdf to cropped-fig-definitions-functions-logarithmic-decreasing-2.pdf
+INFO    : renaming cropped-fig-definitions-functions-logarithmic-decreasing-2.pdf to fig-definitions-functions-logarithmic-decreasing-2.pdf
+INFO    : converting fig-definitions-functions-logarithmic-decreasing-2.pdf to fig-definitions-functions-logarithmic-decreasing-2.svg
+INFO    : converting graph-domain-range-2.tex to graph-domain-range-2.pdf
+INFO    : cropping graph-domain-range-2.pdf to cropped-graph-domain-range-2.pdf
+INFO    : renaming cropped-graph-domain-range-2.pdf to graph-domain-range-2.pdf
+INFO    : converting graph-domain-range-2.pdf to graph-domain-range-2.svg
+INFO    : converting graph-domain-range-exit-2.tex to graph-domain-range-exit-2.pdf
+INFO    : cropping graph-domain-range-exit-2.pdf to cropped-graph-domain-range-exit-2.pdf
+INFO    : renaming cropped-graph-domain-range-exit-2.pdf to graph-domain-range-exit-2.pdf
+INFO    : converting graph-domain-range-exit-2.pdf to graph-domain-range-exit-2.svg
+INFO    : converting practice-functions-logarithmic-5-1-2.tex to practice-functions-logarithmic-5-1-2.pdf
+INFO    : cropping practice-functions-logarithmic-5-1-2.pdf to cropped-practice-functions-logarithmic-5-1-2.pdf
+INFO    : renaming cropped-practice-functions-logarithmic-5-1-2.pdf to practice-functions-logarithmic-5-1-2.pdf
+INFO    : converting practice-functions-logarithmic-5-1-2.pdf to practice-functions-logarithmic-5-1-2.svg
+INFO    : converting fig-practice-functions-algebra-2.tex to fig-practice-functions-algebra-2.pdf
+INFO    : cropping fig-practice-functions-algebra-2.pdf to cropped-fig-practice-functions-algebra-2.pdf
+INFO    : renaming cropped-fig-practice-functions-algebra-2.pdf to fig-practice-functions-algebra-2.pdf
+INFO    : converting fig-practice-functions-algebra-2.pdf to fig-practice-functions-algebra-2.svg
+INFO    : converting fig-practice-functions-inverse-2.tex to fig-practice-functions-inverse-2.pdf
+INFO    : cropping fig-practice-functions-inverse-2.pdf to cropped-fig-practice-functions-inverse-2.pdf
+INFO    : renaming cropped-fig-practice-functions-inverse-2.pdf to fig-practice-functions-inverse-2.pdf
+INFO    : converting fig-practice-functions-inverse-2.pdf to fig-practice-functions-inverse-2.svg
+INFO    : converting graph-piecewise-2-2.tex to graph-piecewise-2-2.pdf
+INFO    : cropping graph-piecewise-2-2.pdf to cropped-graph-piecewise-2-2.pdf
+INFO    : renaming cropped-graph-piecewise-2-2.pdf to graph-piecewise-2-2.pdf
+INFO    : converting graph-piecewise-2-2.pdf to graph-piecewise-2-2.svg
+INFO    : converting fig-exit-polynomials-2.tex to fig-exit-polynomials-2.pdf
+INFO    : cropping fig-exit-polynomials-2.pdf to cropped-fig-exit-polynomials-2.pdf
+INFO    : renaming cropped-fig-exit-polynomials-2.pdf to fig-exit-polynomials-2.pdf
+INFO    : converting fig-exit-polynomials-2.pdf to fig-exit-polynomials-2.svg
+INFO    : converting fig-definitions-functions-logarithmic-increasing-2.tex to fig-definitions-functions-logarithmic-increasing-2.pdf
+INFO    : cropping fig-definitions-functions-logarithmic-increasing-2.pdf to cropped-fig-definitions-functions-logarithmic-increasing-2.pdf
+INFO    : renaming cropped-fig-definitions-functions-logarithmic-increasing-2.pdf to fig-definitions-functions-logarithmic-increasing-2.pdf
+INFO    : converting fig-definitions-functions-logarithmic-increasing-2.pdf to fig-definitions-functions-logarithmic-increasing-2.svg
+INFO    : converting example-local-extrema-2.tex to example-local-extrema-2.pdf
+INFO    : cropping example-local-extrema-2.pdf to cropped-example-local-extrema-2.pdf
+INFO    : renaming cropped-example-local-extrema-2.pdf to example-local-extrema-2.pdf
+INFO    : converting example-local-extrema-2.pdf to example-local-extrema-2.svg
+INFO    : converting fig-functions-example-does-not-pass-2.tex to fig-functions-example-does-not-pass-2.pdf
+INFO    : cropping fig-functions-example-does-not-pass-2.pdf to cropped-fig-functions-example-does-not-pass-2.pdf
+INFO    : renaming cropped-fig-functions-example-does-not-pass-2.pdf to fig-functions-example-does-not-pass-2.pdf
+INFO    : converting fig-functions-example-does-not-pass-2.pdf to fig-functions-example-does-not-pass-2.svg
+INFO    : converting graph-def-piecewise-2.tex to graph-def-piecewise-2.pdf
+INFO    : cropping graph-def-piecewise-2.pdf to cropped-graph-def-piecewise-2.pdf
+INFO    : renaming cropped-graph-def-piecewise-2.pdf to graph-def-piecewise-2.pdf
+INFO    : converting graph-def-piecewise-2.pdf to graph-def-piecewise-2.svg
+INFO    : converting sec-functions-and-function-notation-5-2-5-1-1.tex to sec-functions-and-function-notation-5-2-5-1-1.pdf
+INFO    : cropping sec-functions-and-function-notation-5-2-5-1-1.pdf to cropped-sec-functions-and-function-notation-5-2-5-1-1.pdf
+INFO    : renaming cropped-sec-functions-and-function-notation-5-2-5-1-1.pdf to sec-functions-and-function-notation-5-2-5-1-1.pdf
+INFO    : converting sec-functions-and-function-notation-5-2-5-1-1.pdf to sec-functions-and-function-notation-5-2-5-1-1.svg
+INFO    : converting fig-definitions-functions-inverse-nopass-2.tex to fig-definitions-functions-inverse-nopass-2.pdf
+INFO    : cropping fig-definitions-functions-inverse-nopass-2.pdf to cropped-fig-definitions-functions-inverse-nopass-2.pdf
+INFO    : renaming cropped-fig-definitions-functions-inverse-nopass-2.pdf to fig-definitions-functions-inverse-nopass-2.pdf
+INFO    : converting fig-definitions-functions-inverse-nopass-2.pdf to fig-definitions-functions-inverse-nopass-2.svg
+INFO    : converting sec-functions-and-function-notation-5-2-4-1-1.tex to sec-functions-and-function-notation-5-2-4-1-1.pdf
+INFO    : cropping sec-functions-and-function-notation-5-2-4-1-1.pdf to cropped-sec-functions-and-function-notation-5-2-4-1-1.pdf
+INFO    : renaming cropped-sec-functions-and-function-notation-5-2-4-1-1.pdf to sec-functions-and-function-notation-5-2-4-1-1.pdf
+INFO    : converting sec-functions-and-function-notation-5-2-4-1-1.pdf to sec-functions-and-function-notation-5-2-4-1-1.svg
+INFO    : converting sec-functions-and-function-notation-5-3-2-1-2.tex to sec-functions-and-function-notation-5-3-2-1-2.pdf
+INFO    : cropping sec-functions-and-function-notation-5-3-2-1-2.pdf to cropped-sec-functions-and-function-notation-5-3-2-1-2.pdf
+INFO    : renaming cropped-sec-functions-and-function-notation-5-3-2-1-2.pdf to sec-functions-and-function-notation-5-3-2-1-2.pdf
+INFO    : converting sec-functions-and-function-notation-5-3-2-1-2.pdf to sec-functions-and-function-notation-5-3-2-1-2.svg
+INFO    : converting graph-behaviors-smooth-2.tex to graph-behaviors-smooth-2.pdf
+INFO    : cropping graph-behaviors-smooth-2.pdf to cropped-graph-behaviors-smooth-2.pdf
+INFO    : renaming cropped-graph-behaviors-smooth-2.pdf to graph-behaviors-smooth-2.pdf
+INFO    : converting graph-behaviors-smooth-2.pdf to graph-behaviors-smooth-2.svg
+INFO    : converting fig-definitions-functions-exponential-decay-2.tex to fig-definitions-functions-exponential-decay-2.pdf
+INFO    : cropping fig-definitions-functions-exponential-decay-2.pdf to cropped-fig-definitions-functions-exponential-decay-2.pdf
+INFO    : renaming cropped-fig-definitions-functions-exponential-decay-2.pdf to fig-definitions-functions-exponential-decay-2.pdf
+INFO    : converting fig-definitions-functions-exponential-decay-2.pdf to fig-definitions-functions-exponential-decay-2.svg
+INFO    : converting fig-definitions-functions-exponential-growth-2.tex to fig-definitions-functions-exponential-growth-2.pdf
+INFO    : cropping fig-definitions-functions-exponential-growth-2.pdf to cropped-fig-definitions-functions-exponential-growth-2.pdf
+INFO    : renaming cropped-fig-definitions-functions-exponential-growth-2.pdf to fig-definitions-functions-exponential-growth-2.pdf
+INFO    : converting fig-definitions-functions-exponential-growth-2.pdf to fig-definitions-functions-exponential-growth-2.svg
+INFO    : converting fig-practice-polynomial-function-2.tex to fig-practice-polynomial-function-2.pdf
+INFO    : cropping fig-practice-polynomial-function-2.pdf to cropped-fig-practice-polynomial-function-2.pdf
+INFO    : renaming cropped-fig-practice-polynomial-function-2.pdf to fig-practice-polynomial-function-2.pdf
+INFO    : converting fig-practice-polynomial-function-2.pdf to fig-practice-polynomial-function-2.svg
+INFO    : converting fig-exit-rational-graphs-2.tex to fig-exit-rational-graphs-2.pdf
+INFO    : cropping fig-exit-rational-graphs-2.pdf to cropped-fig-exit-rational-graphs-2.pdf
+INFO    : renaming cropped-fig-exit-rational-graphs-2.pdf to fig-exit-rational-graphs-2.pdf
+INFO    : converting fig-exit-rational-graphs-2.pdf to fig-exit-rational-graphs-2.svg
+INFO    : converting practice-functions-exponential-4-1-2.tex to practice-functions-exponential-4-1-2.pdf
+INFO    : cropping practice-functions-exponential-4-1-2.pdf to cropped-practice-functions-exponential-4-1-2.pdf
+INFO    : renaming cropped-practice-functions-exponential-4-1-2.pdf to practice-functions-exponential-4-1-2.pdf
+INFO    : converting practice-functions-exponential-4-1-2.pdf to practice-functions-exponential-4-1-2.svg
+INFO    : converting fig-functions-example-passes-2.tex to fig-functions-example-passes-2.pdf
+INFO    : cropping fig-functions-example-passes-2.pdf to cropped-fig-functions-example-passes-2.pdf
+INFO    : renaming cropped-fig-functions-example-passes-2.pdf to fig-functions-example-passes-2.pdf
+INFO    : converting fig-functions-example-passes-2.pdf to fig-functions-example-passes-2.svg
+INFO    : converting fig-exit-piecewise-2-2.tex to fig-exit-piecewise-2-2.pdf
+INFO    : cropping fig-exit-piecewise-2-2.pdf to cropped-fig-exit-piecewise-2-2.pdf
+INFO    : renaming cropped-fig-exit-piecewise-2-2.pdf to fig-exit-piecewise-2-2.pdf
+INFO    : converting fig-exit-piecewise-2-2.pdf to fig-exit-piecewise-2-2.svg
+INFO    : converting fig-definitions-models-growth-2.tex to fig-definitions-models-growth-2.pdf
+INFO    : cropping fig-definitions-models-growth-2.pdf to cropped-fig-definitions-models-growth-2.pdf
+INFO    : renaming cropped-fig-definitions-models-growth-2.pdf to fig-definitions-models-growth-2.pdf
+INFO    : converting fig-definitions-models-growth-2.pdf to fig-definitions-models-growth-2.svg
+INFO    : Removing temporary directory /tmp/ptx-mtocuh1q
+INFO    : Finished generating assets.
+
+INFO    : Preparing to build into /home/miranda/mth112/mth112-lab-manual/output/web.
+INFO    : discovering source file's directory name: /home/miranda/mth112/mth112-lab-manual/source
+INFO    : verifying and expanding input directory: /home/miranda/mth112/mth112-lab-manual/source/../generated-assets
+INFO    : input directory expanded to absolute path: /home/miranda/mth112/mth112-lab-manual/generated-assets
+INFO    : verifying and expanding input directory: /home/miranda/mth112/mth112-lab-manual/source/../assets
+INFO    : input directory expanded to absolute path: /home/miranda/mth112/mth112-lab-manual/assets
+INFO    : XSL conversion of /home/miranda/mth112/mth112-lab-manual/source/main.ptx by /home/miranda/.ptx/2.17.1/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : successful application of /home/miranda/.ptx/2.17.1/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : Downloading rs services file from https://runestone.academy/cdn/runestone/latest/webpack_static_imports.xml.
+INFO    : Runestone Services via online CDN query: version 7.11.14
+INFO    : Downloading Runestone Services, version 7.11.14
+INFO    : Extracting Runestone Services from archive file
+INFO    : Building custom css theme: theme-default-modern
+INFO    : converting /home/miranda/mth112/mth112-lab-manual/source/main.ptx to HTML in /tmp/ptx-u6mxf92y
+INFO    : XSL conversion of /home/miranda/mth112/mth112-lab-manual/source/main.ptx by /home/miranda/.ptx/2.17.1/core/xsl/pretext-html.xsl
+INFO    : messages from the log for XSL processing:
+INFO    : * PTX:INFO:   checking ONLY the last TWO YEARS of element deprecations.
+Rerun with the string parameter "author.deprecations.all" set to "yes" to check your source against all deprecations.
+INFO    : successful application of /home/miranda/.ptx/2.17.1/core/xsl/pretext-html.xsl
+INFO    : Removing temporary directory /tmp/ptx-u6mxf92y
+INFO    : Removing temporary directory /tmp/ptx-msmu18nb
+INFO    : 
+Success! Run `pretext view web` to see the results.
+
+INFO    : 

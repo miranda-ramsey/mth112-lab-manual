@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-sine-cosine-graphs" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <title>Graphs of Sine and Cosine Functions</title>
+    <introduction>
+        <p>
+            In this section, we'll 
+        </p>
+    </introduction>
+
+    <!--
+    <subsection>
+        <title>Textbook Reference</title>
+        <p> 
+            This relates to content in <section-mark/>6.1 of 
+            <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e" visual="http://tiny.cc/111Z-Textbook">Algebra and Trigonometry 2e</url>.
+        </p>
+    </subsection>
+
+    <exercises xml:id="prep-compound-interest">
+		<title>Preparation Exercises</title>
+		<exercise>
+            <introduction>
+                <p>
+                    The function <m>V(t) = 52.8(1.093)^t</m> represents the value (in thousands of dollars) of a collectable car <m>t</m> years after June 1st, 2015.
+                </p>
+            </introduction>
+            <task>
+				<statement>
+                    <p>
+		                What was the value of the car on June 1st, 2015?
+                    </p>
+				</statement>
+            </task>
+            <task>
+				<statement>
+                    <p>
+                        Is the value of the car increasing or decreasing and at what rate is the value of the car changing?
+                    </p>
+				</statement>
+            </task>
+		</exercise>
+		<exercise>
+            <introduction>
+                <p>
+                    Simple Interest is calculated using the formula <m>I = P r t</m>, where <m>I</m> is the interest earned, <m>P</m> is the principal or initial amount of money, <m>r</m> is the interest rate, and <m>t</m> is the amount of time that the interest is earned.
+                </p>
+            </introduction>
+            <task>
+				<statement>
+                    <p>
+                        How much simple interest is owed after 7 years on a $4,000 loan that earns 6% annual simple interest?  How much will need to be paid back in total at the end of 7 years?
+                    </p>
+				</statement>
+            </task>
+            <task>
+				<statement>
+                    <p>
+                        How much simple interest is earned after 6 years on a $3000 investment that earns 4% annual simple interest?  
+                    </p>
+				</statement>
+            </task>
+		</exercise>
+	</exercises>
+
+	<exercises xml:id="practice-compound-interest">
+		<title>Practice Exercises</title>
+		<exercise>
+            <statement>
+                <p>
+                    How much is owed at the end of a 6 years if $12,000 is borrowed at 6.4% annual interest, compounded quarterly?
+                </p>
+            </statement>
+		</exercise>
+		<exercise>
+            <statement>
+                <p>
+                    Maya said the formula she set up for an exercise to calculate the amount (in dollars) owed on a loan after some number of years is <m>A = 10250\left(1+\frac{0.04}{12}\right)^{120}</m>. What is the principal of the loan, the nominal interest rate, the number of compounds per year, and the number of years of the loan?
+                </p>
+            </statement>
+		</exercise>
+		<exercise>
+            <statement>
+                <p>
+                    If Marshon invests $5000 at 5.8% annual interest compounded continuously, how much will he have in the account in 13 years?
+                </p>
+            </statement>
+		</exercise>
+    </exercises>
+
+    
+    <subsection xml:id="definitions-compound-interest">
+        <title>Definitions</title>
+        <definition>
+            <title>Simple Interest</title>
+            <statement>
+                <p>
+                        The formula to calculate <term>simple interest</term> is
+                    <me>I = Prt</me>
+                    where 
+                    <dl>
+                    <li><title><m>I</m></title> <p>is the amount of interest earned,</p></li>
+                        <li><title><m>P</m></title> <p>is the principal or intiial amount of money,</p></li>
+                        <li><title><m>r</m></title> <p>is the annual interest rate, and</p></li>
+                        <li><title><m>t</m></title> <p>is the number of years the interest is earned.</p></li>
+                    </dl>
+                </p>
+            </statement>
+        </definition>
+        <definition>
+            <title>Compound Interest</title>
+            <statement>
+                <p>
+                        The formula to calculate <term>compound interest</term> is
+                        <me>A = P \left(1 + \dfrac{r}{n}\right)^{nt}</me>
+                    where 
+                    <dl>
+                        <li><title><m>A</m></title> <p> is total amount of money owed or earned,</p></li>
+                        <li><title><m>P</m></title> <p> is the principal,</p></li>
+                        <li><title><m>r</m></title> <p> is the nominal annual interest rate,</p></li>
+                        <li><title><m>n</m></title> <p> is the number of times the interst is compounded per year, and</p></li>
+                        <li><title><m>t</m></title> <p> is the number of years the interest is earned.</p></li>
+                    </dl>
+                    <alert>Note: This formula is used where there is a finite number of compounding per year.</alert>
+                </p>
+            </statement>
+        </definition>
+        <definition>
+            <title>The Number <m>e</m></title>
+            <statement>
+                <p>
+                    <term><m>e</m></term>, also known as <term>Euler's Number</term>, is the irrational number that results from 
+                    <me>\lim_{n \to \infty} \left(1 + \frac{1}{n}\right)^n</me>
+                </p>
+            </statement>
+        </definition>
+            <example>
+                <p>
+                    You can watch this <url href="https://youtu.be/AuA2EAgAegE">Numberphile YouTube video about <m>e</m></url>.
+                </p>
+            </example>
+        <definition>
+            <title>Continuously Compounded Interest</title>
+            <statement>
+                <p>
+                        The formula to calculate <term>continuously compounded interest</term> is
+                        <me>A = Pe^{rt}</me>
+                    where 
+                    <dl>
+                        <li><title><m>A</m></title> <p> is total amount of money owed or earned,</p></li>
+                        <li><title><m>P</m></title> <p> is the principal,</p></li>
+                        <li><title><m>r</m></title> <p> is the nominal annual interest rate, and </p></li>
+                        <li><title><m>t</m></title> <p> is the number of years the interest is earned.</p></li>
+                    </dl>
+                    <alert>Note: This formula is used when the compounding happens continuously.</alert>
+                </p>
+            </statement>
+        </definition>
+        <definition>
+            <title>Effective Interest Rate</title>
+            <statement>
+                <p>
+                    The <term>effective interest rate</term>, <m>r_e</m> is the equivalent interest rate that, if compounded annually, would yield the same result after 1 year as compounding the stated nominal rate <m>n</m> times per year or compounding the nominal rate continuously.
+                </p>
+                <p>
+                    When compounding <m>n</m> times per year, <m>r_e = \left(1 + \frac{r}{n}\right)^n - 1</m>, where <m>r</m> is the nominal annual interest rate.
+                </p>
+                <p>
+                    When compounding continuously, <m>r_e = e^r - 1</m>, where <m>r</m> is the nominal annual interest rate.
+                </p>
+            </statement>
+        </definition>
+
+	</subsection>
+        
+    <exercises xml:id="exit-compound-interest">
+        <title>Exit Exercises</title>
+        <exercise>
+		    <statement>
+                <p>
+                    In the year 2001, Alyssa opened a retirement account that earns a nominal interest rate 7.25% per year. Her initial deposit was $13,500. How much will the account be worth in 2025 if interest compounds monthly? How much more would she make if interest compounded continuously?
+                </p>
+            </statement>
+	    </exercise>
+        <exercise>
+		    <statement>
+                <p>
+                    Kyoko received a $10,000 scholarship that she gets to invest for college. Her bank has several investment accounts to choose from, all compounding daily.  Her goal is to have $15,000 by the time she finishes high school in 6 years.  To the nearest hundredth of a percent, what should her minimum nominal interest rate be in order to reach her goal? 
+                </p>
+            </statement>
+	    </exercise>
+        <exercise>
+		    <statement>
+                <p>
+                    A small business is planning on building a new facility in 9 years. They can invest money at 7% annual interest, compounded daily, right now. If they need $600,000 to build the new facility in 9 years, what is the minimum they need to invest to ensure they have $600,000 in 9 years?
+                </p>
+            </statement>
+	    </exercise>
+    </exercises>
+
+    <reading-questions>
+        <exercise>
+            <statement>
+                <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
+            </statement>
+        </exercise>
+    </reading-questions>
+    -->
+</section>

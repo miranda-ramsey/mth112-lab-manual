@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-trig-identities" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <title>Trigonometric Identities</title>
+    <introduction>
+        <p>
+            In this section, we'll 
+        </p>
+    </introduction>
+
+    <!--
+    <subsection>
+        <title>Textbook Reference</title>
+        <p> 
+            This relates to content in <section-mark/>5.6 of 
+            <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e" visual="http://tiny.cc/111Z-Textbook">Algebra and Trigonometry 2e</url>.
+        </p>
+    </subsection>
+
+    <exercises xml:id="prep-rational-functions">
+		<title>Preparation Exercises</title>
+		<exercise>
+            <task>
+                <statement>
+                    <p>
+                        For any real number <m>k</m> other tha n0, what is <m>\dfrac{0}{k}</m> and why?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        For any real number <m>k</m> other tha n0, what is <m>\dfrac{k}{0}</m> and why?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What is the domain of <m>f(x) = \dfrac{3x^2-3x-36}{2x^2+2x-60}</m>?
+                    </p>
+                </statement>
+            </task>
+		</exercise>
+		<exercise>
+            <introduction>
+                <p>
+                    Let <m>g(x) = -7(x+2)^2(x-1)^3(x+5)</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        What are the <m>x</m>-intercepts and their behaviors?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What is the <m>y</m>-intercept?
+                    </p>
+                </statement>
+            </task>
+		</exercise>
+	</exercises>
+
+	<exercises xml:id="practice-rational-functions">
+		<title>Practice Exercises</title>
+		<exercise>
+            <introduction>
+                <p>
+                    Let <m>r(x) = \dfrac{p(x)}{q(x)}</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        What usually happens on the graph of <m>r(x)</m> when <m>p(x) = 0</m>?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What usually happens on the graph of <m>r(x)</m> when <m>q(x) = 0</m>?
+                    </p>
+                </statement>
+            </task>
+		</exercise>
+		<exercise>
+            <introduction>
+                <p>
+                    Let <m>R(x) = \dfrac{5(x+3)(x-4)^2}{(x-2)^2(x+1)}</m>.  
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        What is the domain of <m>R</m>?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What is the <m>y</m>-intercept of <m>R</m>?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What are the zeros of <m>R</m>?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What are the <m>x</m>-intercepts of <m>R</m>?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What happens when <m>x=-1</m>?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What happens when <m>x=2</m>?
+                    </p>
+                </statement>
+            </task>
+		</exercise>
+		<exercise>
+            <introduction>
+                <p>
+                    When working with a rational function,
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        What is the behavior of a vertical asymptote that comes from a root of the denominator with odd multiplicity?  Include at least two sketches of possible examples in your answer.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+	                    What is the behavior of a vertical asymptote that comes from a root of the denominator with even multiplicity?  Include at least two sketches of possible examples in your answer.
+                    </p>
+                </statement>
+            </task>
+		</exercise>
+        <exercise>
+            <statement>
+                <p>
+                    Sketch a graph of a function <m>y=F(x)</m> below that has:
+                    <ul>
+                        <li>a vertical asymptote at <m>x=-2</m> with even multiplicity,</li>
+                        <li>a <m>y</m>-intercept at <m>(0,-2)</m>,</li>
+                        <li>an<m>x</m>-intercept at <m>(-4,0)</m> with even multiplicity,</li>
+                        <li>an<m>x</m>-intercept at <m>(3,0)</m> with odd multiplicity, and</li>
+                        <li>there are no other vertical asymptotes or <m>x</m>-intercepts.</li>
+                    </ul>
+                </p>
+                        <image width="60%">
+                            <description>
+                                <p>
+                                    An empty graph.
+                                </p>
+                            </description>
+                            <latex-image>
+                                \begin{tikzpicture}
+                                \begin{axis}
+                                \end{axis}
+                                \end{tikzpicture}
+                            </latex-image>
+                        </image>
+            </statement>
+        </exercise>
+    </exercises>
+
+    
+    <subsection xml:id="definitions-rational-functions">
+        <title>Definitions</title>
+        <definition>
+            <title>Rational Function</title>
+            <statement>
+                <p>
+                    A <term>rational function</term> is a function that can be written as the quotient of two polynomial functions, where the denominator is not 0.
+                    <me>r(x)=\dfrac{p(x)}{q(x)}</me>
+                    where <m>p</m> and <m>q</m> are polynomial functions and <m>q(x)\neq0</m>.
+                </p>
+            </statement>
+        </definition>
+        <definition>
+            <title>Vertical Asymptotes</title>
+            <statement>
+                <p>
+                    Given a function <m>f</m> and a real number <m>a</m>, a <term>vertical asymptote</term> of the graph of <m>y=f(x)</m> is a vertical line <m>x=a</m> where <m>f(x)</m> tends toward positive or negative infinity as <m>x</m> approaches <m>a</m> from either the left or the right. We write this as:
+                    <me>\text{As } x \to a^{-}, f(x) \to \pm \infty \text{ or as } x \to a^{+}, f(x) \to \infty.</me>
+                </p>
+            </statement>
+        </definition>
+        <example>
+            <p>
+                <m>x=1</m> is a vertical asymptote of <m>f(x)=\dfrac{x-5}{x-1}</m> due to the following:
+                <ul>
+                    <li>As <m>x</m> approaches <m>x=1</m> from the left, the <m>y</m>-values increase towards <m>\infty</m>. Mathematically, we write this: As <m>x \to 1^{-}, f(x) \to \infty</m>.</li>
+                    <li>As <m>x</m> approaches <m>x=1</m> from the right, the <m>y</m>-values decrease towards <m>-\infty</m>. Mathematically, we write this: As <m>x \to 1^{+}, f(x) \to -\infty</m>.</li>
+                </ul>
+                <url href="https://www.desmos.com/calculator/t10efozl3i" visual="https://tiny.cc/111Z-VertAsymp">View this Desmos graph</url> to see an interactive version of this example.
+            </p>
+        </example>
+        <definition>
+            <title>Multiplicity and Vertical Asymptotes</title>
+            <statement>
+                <p>
+                    The multiplicity of a root of the denominator of a rational function impacts the behavior of the vertical asymptote.
+                </p>
+                <p>
+                    If the rational function is factored and reduced to its simplest terms, <term>a root of the denominator with even multiplicity</term> will produce a vertical asymptote that approaches <m>\infty</m> on both sides or that approaches <m>-\infty</m> on both sides.
+                </p>
+                <p>
+                    If the rational function is factored and reduced to its simplest terms, <term>a root of the denominator with odd multiplicity</term> will produce a vertical asymptote that approaches <m>\infty</m> on one side and <m>-\infty</m> on the other.
+                </p>
+            </statement>
+        </definition>
+        <example>
+            <p>
+                <url href="https://www.desmos.com/calculator/u1ed06auqc" visual="https://tiny.cc/111Z-MultiplicityAndVA">View this Desmos graph</url> to see an interactive version of this example.
+            </p>
+        </example>
+        <definition>
+            <title>Horizontal Asymptotes</title>
+            <statement>
+                <p>
+                    Given a function <m>f</m> and a real number <m>L</m>, a <term>horizontal asymptote</term> of a graph of <m>y=f(x)</m> is a horizontal line <m>y=L</m> where <m>f(x)</m> tends toward <m>L</m>  as <m>x</m> approaches <m>\infty</m> or as <m>x</m> approaches <m>-\infty</m>. We write this as:
+                    <me>\text{As } x \to \infty \text{ or as } x \to -\infty, f(x) \to L.</me>
+                </p>
+            </statement>
+        </definition>
+        <example>
+            <p>
+                <url href="https://www.desmos.com/calculator/9bqtdmnl4w" visual="http://tiny.cc/111Z-HorizAsymp">View this Desmos graph</url> to see an interactive version of this example.
+            </p>
+        </example>
+	</subsection>
+        
+    <exercises xml:id="exit-rational-functions">
+        <title>Exit Exercises</title>
+        <exercise>
+            <task>
+                <statement>
+                    <p>
+                        Explain when and why rational functions have vertical asymptotes?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        If <m>(-5,0)</m> is an <m>x</m>-intercept of a rational function <m>R</m>, what do you know about the formula for <m>R(x)</m>?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        If <m>x=4</m> is a vertical asymptote of a rational function <m>R</m>, what do you know about the formula for <m>R(x)</m>?
+                    </p>
+                </statement>
+            </task>
+	    </exercise>
+        <exercise>
+            <introduction>
+                <p>
+                    Let <m>R(x)=\dfrac{4x(x-7)^2(x+4)}{5(x+7)(x+1)}</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        What is the domain of <m>R</m>? Answer using both interval and set-builder notation.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What are the <m>x</m>-intercepts of the graph of <m>R</m>?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What are the vertical asymptotes of the graph of <m>R</m>?
+                    </p>
+                </statement>
+            </task>
+	    </exercise>
+    </exercises>
+
+    <reading-questions>
+        <exercise>
+            <statement>
+                <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
+            </statement>
+        </exercise>
+    </reading-questions>
+    -->
+</section>

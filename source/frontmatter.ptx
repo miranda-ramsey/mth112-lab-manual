@@ -1,39 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- This frontmatter division will contain all content before the -->
-<!-- first chapter. Fill in and comment/uncomment to see how this -->
-<!-- works. -->
 
 <frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frontmatter">
-  <bibinfo>
-  
-    <author>
-      <personname>You</personname>
-      <department>Your department</department>
-      <institution>Your institution</institution>
-    </author>
-    <date>
-      <today />
-    </date>
 
-    <website>
-      <url href="https://pretextbook.org">My Website</url>
-    </website>
+    <bibinfo>
+        <author>
+            <personname>Mathematics Faculty</personname>
+            <institution>Portland Community College</institution>
+        </author>
 
-    <copyright>
-      <year>2020<ndash />2024</year>
-      <holder>You</holder>
-      <shortlicense> This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org/licenses/by-sa/4.0"> CreativeCommons.org</url>
-      </shortlicense>
-    </copyright>
-  
-  </bibinfo>
+        <credit>
+            <role>Project Lead</role>
+            <entity>Ross Kouzes</entity>
+        </credit>
+        <credit>
+            <role>PreTeXt Conversion</role>
+            <entity>Miranda Ramsey</entity>
+        </credit>
+        <credit>
+            <role>Contributing Authors</role>
+            <entity>Shane Horner, Ross Kouzes, Scot Leavitt</entity>
+        </credit>
+        <credit>
+            <role>Additional Contributors</role>
+            <entity>
+                Amy Cakebread, Bethany Downs, Wendy Fresh, Dave Froemke, Peter Haberman, Scot Leavitt,
+                Emily Nelson, Kim Neuburger, Emily O’Sullivan, Jeff Pettit, Dennis Reynolds,
+                Rebecca Ross, Heiko Spoddeck, Greta Swanson, Stephanie Yurasits
+            </entity>
+        </credit>
 
-  <titlepage>
-    <titlepage-items/>
-  </titlepage>
+        <date>
+            <today />
+        </date>
 
-  <colophon xml:id="front-colophon">
-    <colophon-items/>
-  </colophon>
+        <copyright>
+            <year>2025</year>
+            <holder>Portland Community College</holder>
+            <shortlicense>
+                This work is licensed under the Creative Commons
+                Attribution-Noncommercial-ShareAlike (CC BY-NC-SA) 4.0 International License. To
+                view a copy of this license, visit
+                <url href="http://creativecommons.org/licenses/by-nc-sa/4.0/" visual="creativecommons.org/licenses/by-nc-sa/4.0">CreativeCommons.org</url>
+            </shortlicense>
+        </copyright>
+    </bibinfo>
+
+    <titlepage>
+        <titlepage-items/>
+    </titlepage>
+
+    <colophon xml:id="front-colophon">
+        <colophon-items/>
+    </colophon>
+
+    <preface xml:id="preface">
+        <title>Preface</title>
+        <p>
+            This is the second part of the two part lab manual for MTH111 and MTH112 at Portland
+            Community College. The first chapter is "Chapter 5" to align with the first portion of
+            the lab manual. 
+
+            This lab manual was designed with the intent of being used in the following manner. In
+            each section:
+            <ul>
+                <li>
+                    <p>
+                        Students will complete the Preparation Exercises before receiving
+                        instruction on the content. Some instructors will have students do this
+                        before coming to class, while others might do it as a warmup in class.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        There will be some instructor-led presentation of the content. This may be a
+                        formal class lecture, a discovery activity, a video lecture, or something
+                        else.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Students will then engage in Practice Exercises in a group setting to
+                        reinforce their initial understanding of the foundational concepts.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        An instructor will then assign one or more group activities. Because many of
+                        these activities are webbased and instructors can choose to use different
+                        activities, we have not included any of the possible activities in this
+                        document.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The Definitions are meant to provide a single location for all definitions
+                        and some key concepts. Students can use this as a resource after having
+                        covered the topics in class.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Students will complete some or all of the Exit Exercises, as decided by
+                        their instructor, to summarize their understanding of key concepts.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        In general, not every section of this lab manual will take the same amount
+                        of class time. Some sectionsmight be half-day topics, while others could be
+                        two-day topics.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Each instructor will identify for their class which exercises will be
+                        submitted as part of the course grade.
+                    </p>
+                </li>
+            </ul>
+        </p>
+        <p>
+            Course Resource Links:
+            <dl>
+                <li>
+                    <title>Algebra and Trigonometry 2e</title>
+                    <p>
+                        <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e" visual="tiny.cc/111Z-Textbook"/>
+                    </p>
+                </li>
+                <li>
+                    <title>MTH 112 Supplement</title>
+                    <p>
+                        <url href="https://spot.pcc.edu/math/mth111-112-supplement-landing.html" visual="tiny.cc/112Z-Supplement"/>
+                    </p>
+                </li>
+            </dl>
+        </p>
+    </preface>
 </frontmatter>
 

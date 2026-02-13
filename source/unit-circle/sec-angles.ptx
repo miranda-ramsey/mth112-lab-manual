@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-angles" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Angles</title>
+    <introduction>
+        <p>
+            In this section, we'll 
+        </p>
+    </introduction>
+    <!--
+    <subsection>
+        <title>Textbook Reference</title>
+        <p>
+            This relates to content in <section-mark/>3.1 and <section-mark/>3.2 of
+            <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e" visual="http://tiny.cc/111Z-Textbook">Algebra and Trigonometry 2e</url>.
+        </p>
+    </subsection>
+
+    <exercises>
+        <title>Preparation Exercises</title>
+        <exercise>
+            <introduction>
+                <p>
+                    Many of us have at least one restaurant we would love to go to for a meal. Go
+                    online and find a menu for a restaurant you'd choose to eat at.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        What is the name of the restaurant and what type of food do they serve?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What is a dish you would like to get and how much does it cost?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Are there any other dishes on the menu that cost the same as your dish? If
+                        so, what are they?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        If I ask you the price of any specific dish from the menu, do you know how
+                        much it costs?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        If you know how much I paid for a dish, do you know exactly what I ordered
+                        based just on the price? Explain your answer.
+                    </p>
+                </statement>
+            </task>
+        </exercise>
+    </exercises>
+
+    <exercises>
+        <title>Practice Exercises</title>
+        <exercise>
+            <introduction>
+                <p>
+                    Determine if each of the following relations show <m>y</m> as a function of
+                    <m>x</m>. Explain your reasoning by referencing the definition of a function. If
+                    a relation is not a function provide a specific example why the definition was
+                    not satisfied. Assume all ordered pairs are of the form <m>(x,y)</m>.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>\left\{
+                            (\text{red},\text{pepper}),
+                            (\text{green},\text{pear}),
+                            (\text{purple},\text{grape}),\\
+                            (\text{orange},\text{orange}),
+                            (\text{yellow},\text{pepper}),
+                            (\text{red},\text{onion})
+                            \right\}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <tabular row-headers="yes" halign="right" top="major" left="major">
+                        <col right="medium"/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col right="major"/>
+                        <row bottom="minor">
+                            <cell><m>x</m></cell>
+                            <cell><m>-5</m></cell>
+                            <cell><m>3</m></cell>
+                            <cell><m>-1</m></cell>
+                            <cell><m>2</m></cell>
+                            <cell><m>4</m></cell>
+                            <cell><m>6</m></cell>
+                        </row>
+                        <row bottom="major">
+                            <cell><m>y</m></cell>
+                            <cell><m>9</m></cell>
+                            <cell><m>-4</m></cell>
+                            <cell><m>2</m></cell>
+                            <cell><m>-4</m></cell>
+                            <cell><m>-5</m></cell>
+                            <cell><m>-6</m></cell>
+                        </row>
+                    </tabular>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <image width="60%">
+                        <description>
+                            <p>
+                                Graph of a smooth curve, forming the shape of a capital letter W.
+                                From left to right, it curves down through the point <m>(-4,0)</m>,
+                                up through the point <m>(-2,0)</m>, down through the point
+                                <m>(1,0)</m>, and back up through the point <m>(4,0)</m>.
+                            </p>
+                        </description>
+                        <latex-image>
+                            \begin{tikzpicture}
+                                \begin{axis}[
+                                        xmin=-6,
+                                        xmax=6,
+                                        ymin=-6,
+                                        ymax=6,
+                                        xtick={-4,-2,...,4},
+                                        minor xtick={-5,...,5},
+                                        ytick={-4,-2,...,4},
+                                        minor ytick={-5,...,5}
+                                    ]
+                                    \addplot+[smooth, domain=-4.826:4.59036] {0.05*(x+4)*(x+2)*(x-1)*(x-4)};
+                                \end{axis}
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <image width="60%">
+                        <description>
+                            <p>
+                                Graph of a smooth curve, forming the shape of a capital letter E.
+                                From top to bottom, it curves smoothly through four points on the
+                                y-axis. There are arrows at the top and bottom, indicating that the
+                                ends of the line both extend to the right of the grid.
+                            </p>
+                        </description>
+                        <latex-image>
+                            \begin{tikzpicture}
+                                \begin{axis}[
+                                        xmin=-6,
+                                        xmax=6,
+                                        ymin=-6,
+                                        ymax=6,
+                                        xtick={-4,-2,...,4},
+                                        minor xtick={-5,...,5},
+                                        ytick={-4,-2,...,4},
+                                        minor ytick={-5,...,5}
+                                    ]
+                                    \addplot+[smooth,domain=-3.54:3.88] ({0.1*(x-3)*(x-1.5)*(x+0.2)*(x+3)}, x);
+                                \end{axis}
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+                </statement>
+            </task>
+        </exercise>
+        <exercise>
+            <task>
+                <introduction>
+                    <p>
+                        Let <m>y=g(x)</m> be defined as the set of <m>(x,y)</m> ordered pairs:
+                        <me>\{(-60,5), (-23,4), (-4,3), (3,2), (4,1), (5,0), (12,-1)\}</me>
+                    </p>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            Find <m>g(5)</m>.
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Solve <m>g(x) = 3</m>.
+                        </p>
+                    </statement>
+                </task>
+            </task>
+            <task>
+                <introduction>
+                    <p>
+                        Let <m>y = h(x)</m> be defined by the graph below.
+                    </p>
+                    <image width="60%">
+                        <description>
+                            <p>
+                                Graph of a continuous, irregular curve. It travels through the
+                                points
+                                <m>(-7,-6)</m>;
+                                <m>(-6,-5)</m>;
+                                <m>(-4,-1)</m>;
+                                <m>(-3,0)</m>;
+                                <m>(-1,-1)</m>;
+                                <m>(0,-3)</m>;
+                                <m>(1,-4)</m>;
+                                <m>(2,-3)</m>;
+                                <m>(3,-1)</m>;
+                                <m>(4,0)</m>;
+                                <m>(5,3)</m>;
+                                <m>(6,3)</m>.
+                                At the point <m>(-7,-6)</m> there is an empty circle. At the point
+                                <m>(6,3)</m> there is a filled circle.
+                            </p>
+                        </description>
+                        <latex-image>
+                            <![CDATA[
+                            \begin{tikzpicture}[
+                                declare function={
+                                    func(\x)= (\x<=-6) * (\x + 1)   +
+                                    and(\x>-6, \x<=-4) * (2*\x + 7) +
+                                    and(\x>-4, \x<=-3) * (\x + 3) +
+                                    and(\x>-3, \x<=-1) * (-\x/2 - 1.5) +
+                                    and(\x>-1, \x<=0) * (2*(\x)^2 - 3) +
+                                    and(\x>0, \x<=1) * (-(\x)^2 - 3) +
+                                    and(\x>1, \x<=2) * (-(\x - 2)^2 - 3) +
+                                    and(\x>2, \x<=3) * (2*(\x - 2)^2 - 3) +
+                                    and(\x>3, \x<=5) * ((\x - 3)^2 - 1) +
+                                    (\x>5) * (3);
+                                }
+                                ]
+                                \begin{axis}
+                                    \addplot+[domain=-7:6, samples=66, openclosed] {func(x)};
+                                    \legend{\(y = h(x)\)};
+                                \end{axis}
+                            \end{tikzpicture}
+                            ]]>
+                        </latex-image>
+                    </image>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            Find <m>h(-4)</m>.
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Solve <m>h(x)=-3</m>.
+                        </p>
+                    </statement>
+                </task>
+            </task>
+            <task>
+                <introduction>
+                    <p>
+                        Let <m>f(x) = x^2 - 3</m>.
+                    </p>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            Find <m>f(-4)</m>.
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Solve <m>f(x)=46</m>.
+                        </p>
+                    </statement>
+                </task>
+            </task>
+        </exercise>
+    </exercises>
+
+    <subsection xml:id="definitions-functions-and-function-notation">
+        <title>Definitions</title>
+        <definition>
+            <title>Relation</title>
+            <statement>
+                <p>
+                    A <term>relation</term> is a set of <m>(x,y)</m> ordered pairs.
+                </p>
+                <p>
+                    The variable of <m>x</m> is called the <term>independent variable</term> or
+                    <term>input variable</term>. Each individual <m>x</m>-value is referred to as a
+                    <term>input</term> or <term>input value</term>.
+                </p>
+                <p>
+                    The variable of <m>y</m> is called the <term>dependent variable</term> or
+                    <term>output variable</term>. Each individual <m>y</m>-value is referred to as a
+                    <term>output</term> or <term>output value</term>.
+                </p>
+            </statement>
+        </definition>
+        <example>
+            <title>Relation</title>
+            <p>
+                The set
+                <me>\{(0,-2), (1,-1), (2,0), (1,-3), (3,-4)\}</me>
+                is a relation.
+            </p>
+        </example>
+        <definition>
+            <title>Function</title>
+            <statement>
+                <p>
+                    A <term>function</term> is a relation where each possible input value is paired
+                    with <em>exactly one</em> output value. We say, <q>The output is a function of
+                    the input,</q> and often write this algebraically as <m>y = f(x)</m>.
+                </p>
+            </statement>
+        </definition>
+        <example>
+            <title>Function</title>
+            <p>
+                The set
+                <me>
+                    \{(0,-2), (1,-1), (4,0), (9,1), (16,2)\}
+                </me>
+                is a function.
+            </p>
+        </example>
+        <example>
+            <title>Not a function</title>
+            <p>
+                The set
+                <me>
+                    \{(0,-2), (1,-1), (2,0), (1,-3), (3,-4)\}
+                </me>
+                is a relation, but <em>not</em> a function.
+            </p>
+        </example>
+        <definition>
+            <title>Domain and Range</title>
+            <statement>
+                <p>
+                    The <term>Domain</term> of a relation or function is the set of all possible
+                    input values. The <term>Range</term> of a relation or function is the set of all
+                    possible output values.
+                </p>
+            </statement>
+        </definition>
+        <example>
+            <title>Domain and Range</title>
+            <p>
+                Given the function
+                <me>\{(0,-2), (1,-1), (4,0), (9,1), (16,2)\}</me>
+                the domain of the function is <m>\{0,4,1,9,16\}</m> and the range of the function is
+                <m>\{-2,0,-1,1,2\}</m>.
+            </p>
+        </example>
+        <definition>
+            <title>Vertical Line Test</title>
+            <statement>
+                <p>
+                    If a vertical line can be drawn that intersects the graph more than once, the
+                    graph is not the graph of a function with <m>x</m> as the independent variable
+                    and <m>y</m> as the dependent variable.
+                </p>
+            </statement>
+        </definition>
+        <example>
+            <sidebyside widths="47% 47%" margins="0%">
+                <figure xml:id="fig-functions-example-does-not-pass">
+                    <caption>Does Not Pass</caption>
+                    <image>
+                        <description>
+                            <p>
+                                A graph of a parabola opening up to the right. A vertical line is
+                                drawn at <m>x=2</m>, intersecting the parabola at <m>(2,3)</m> and
+                                <m>(2,-1)</m>, demonstrating the vertical line test.
+                            </p>
+                        </description>
+                        <latex-image>
+                            \begin{tikzpicture}
+                                \begin{axis}[width=210pt]
+                                    \addplot+[smooth, domain=-2.16:4.16] ({(x-1)^2-2}, {x});
+                                    \addplot[verticallinetest] coordinates {(2,8) (2,-8)} node[rotate=90, above right]{\(x=2\)};
+                                    \addplot[soliddot, fifth] coordinates{(2,3) (2,-1)};
+                                \end{axis}
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+                </figure>
+                <figure xml:id="fig-functions-example-passes">
+                    <caption>Passes</caption>
+                    <image>
+                        <description>
+                            <p>
+                                A graph of a smooth curve that travels from left to right, passing
+                                through the points
+                                <m>(-6,-1)</m>;
+                                <m>(-3,0)</m>;
+                                <m>(-2,1)</m>;
+                                <m>(-1,2)</m>;
+                                <m>(2,3)</m>; and
+                                <m>(7,4)</m>.
+                                There are no <m>x</m>-values for which a vertical line can be drawn
+                                that passes through the graph more than once.
+                            </p>
+                        </description>
+                        <latex-image>
+                            \begin{tikzpicture}
+                                \begin{axis}[width=210pt]
+                                    \addplot+[domain=-0.817:3.15] ({(x-1)^3 - 2}, {x});
+                                \end{axis}
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+                </figure>
+            </sidebyside>
+        </example>
+    </subsection>
+
+    <exercises xml:id="exit-functions-and-function-notation">
+        <title>Exit Exercises</title>
+        <exercise>
+            <task>
+                <statement>
+                    <p>
+                        What is the definition of a function?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What are two examples of functions that you use in your daily life outside
+                        of school? Explain how these are functions, referencing the definition of a
+                        function.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What do you look for in the graph of a relation to determine if the graph is
+                        the graph of a function or not? Fully explain your answer.
+                    </p>
+                </statement>
+            </task>
+        </exercise>
+        <exercise>
+            <p>
+                If <m>f(x) = 2x^2 - 7x</m>, evaluate <m>f(-3)</m>.
+            </p>
+        </exercise>
+        <exercise>
+            <p>
+                If <m>g(x) = x^2 + 6x</m>, solve <m>g(x)=16</m>.
+            </p>
+        </exercise>
+    </exercises>
+    <reading-questions>
+        <exercise>
+            <statement>
+                <p>
+                    On a scale of 1<ndash/>5, how are you feeling with the concepts related to the
+                    graphical behaviors of functions?
+                </p>
+            </statement>
+        </exercise>
+    </reading-questions>
+    -->
+</section>

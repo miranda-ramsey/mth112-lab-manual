@@ -1,0 +1,5 @@
+/home/miranda/mth112/mth112-lab-manual/source/main.ptx:133:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element blockquote, got p
+/home/miranda/mth112/mth112-lab-manual/source/main.ptx:17:0:ERROR:RELAXNGV:RELAXNG_ERR_NOTELEM: Expecting an element got text
+/home/miranda/mth112/mth112-lab-manual/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element section there
+/home/miranda/mth112/mth112-lab-manual/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element sidebyside, got section
+/home/miranda/mth112/mth112-lab-manual/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element proof, got section

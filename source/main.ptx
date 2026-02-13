@@ -2,21 +2,53 @@
 
 <pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
   <!-- we first include a file which contains the docinfo element: -->
+    <!--test-->
   <xi:include href="./docinfo.ptx" />
 
-  <book xml:id="my-great-book">
-    <title>My Great Book</title>
-    <subtitle>An example to get you started</subtitle>
+  <book xml:id="mth-112-workbook">
+    <title>Lab Manual for MTH 112</title>
+	<subtitle>Precalculus II: Trigonometry</subtitle>
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
 
-    <!-- Include chapters -->
-    <xi:include href="./ch-chapter-title.ptx" />
+    <!-- Include sections -->
+	<chapter xml:id="unit-circle">
+		<title>The Unit Circle</title>
+		<xi:include href="./unit-circle/sec-angles.ptx" />
+		<xi:include href="./unit-circle/sec-right-angle-trig.ptx" />
+		<xi:include href="./unit-circle/sec-unit-circle.ptx" />
+		<xi:include href="./unit-circle/sec-other-trig-functions.ptx" />
+	</chapter>
 
+	<chapter xml:id="periodic-functions">
+		<title>Periodic Functions</title>
+		<xi:include href="./periodic-functions/sec-sine-cosine-graphs.ptx" />
+		<xi:include href="./periodic-functions/sec-other-graphs.ptx" />
+		<xi:include href="./periodic-functions/sec-inverse-trigonometry.ptx" />
+	</chapter>
 
+	<chapter xml:id="trigonometric-identities">
+		<title>Trigonometric Identities</title>
+		<xi:include href="./trig-identities/sec-summary.ptx" />
+		<xi:include href="./trig-identities/sec-trig-identities.ptx" />
+		<xi:include href="./trig-identities/sec-sum-and-difference.ptx" />
+		<xi:include href="./trig-identities/sec-double-angle.ptx" />
+		<xi:include href="./trig-identities/sec-sum-to-product.ptx" />
+		<xi:include href="./trig-identities/sec-solving-equations.ptx" />
+	</chapter>
+
+	<chapter xml:id="further-applications">
+		<title>Further Applications of Trigonometry</title>
+		<xi:include href="./applications/sec-polar-coordinates.ptx" />
+		<xi:include href="./applications/sec-complex-numbers.ptx" />
+		<xi:include href="./applications/sec-vectors.ptx" />
+	</chapter>
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />
+		<!--
+		<xi:include href="./direct-links.ptx" />
+		-->
 
   </book>
 </pretext>

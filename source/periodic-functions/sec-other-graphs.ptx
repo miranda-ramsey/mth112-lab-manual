@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-other-graphs" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <title>Graphs of Other Trigonometric Functions</title>
+    <introduction>
+    <p>
+        In this section, we'll
+    </p>
+    </introduction>
+
+    <!--
+    <subsection>
+        <title>Textbook Reference</title>
+        <p> 
+            This relates to content in <section-mark/>6.1 and <section-mark/>6.2 of 
+            <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e" visual="http://tiny.cc/111Z-Textbook">Algebra and Trigonometry 2e</url>.
+        </p>
+    </subsection>
+
+    <exercises xml:id="prep-functions-exponential">
+		<title>Preparation Exercises</title>
+		<exercise>
+			<introduction>
+				<p>
+                    Suppose you have a water filter that can remove 60% of the contaminants in the water each time the water passes through the filter.
+				</p>
+			</introduction>
+            <task>
+				<statement>
+                    <p>
+                        If 60% of the contaminants are removed with each pass, what percent still remains after a single pass?
+                    </p>
+				</statement>
+            </task>
+            <task>
+				<statement>
+                    <p>
+                            If you start with <m>156.25</m> mcg of contaminants in some water, how much will be left after you pass the water through the filter once?
+                    </p>
+				</statement>
+            </task>
+            <task>
+				<statement>
+                    <p>
+                        How much will be left after a second pass through the filter?
+                    </p>
+				</statement>
+            </task>
+            <task>
+				<statement>
+                    <p>
+                        How much will be left after a third pass through the filter?
+                    </p>
+				</statement>
+            </task>
+            <task>
+				<statement>
+                    <p>
+                        Will the filter ever remove all of the contaminants from the water? Why or why not?
+                    </p>
+				</statement>
+            </task>
+		</exercise>
+	</exercises>
+
+	<exercises xml:id="practice-functions-exponential">
+		<title>Practice Exercises</title>
+		<exercise>
+            <introduction>
+                <p>
+                    Which of the following functions are exponential functions? For the exponential functions, identify if they represent exponential growth or decay.
+                </p>
+            </introduction>
+			<task>
+                <statement>
+                    <p>
+                        <m>f(x) = 2\left(\dfrac{3}{4}\right)^x</m>
+                    </p>
+                </statement>
+			</task>
+			<task>
+                <statement>
+                    <p>
+                        <m>g(x) = 3\left(-5\right)^x</m>
+                    </p>
+                </statement>
+			</task>
+			<task>
+                <statement>
+                    <p>
+                        <m>h(x) = 4(x)^7</m>
+                    </p>
+                </statement>
+			</task>
+			<task>
+                <statement>
+                    <p>
+                        <m>j(x) = 59^{x+2}</m>
+                    </p>
+                </statement>
+			</task>
+		</exercise>
+		<exercise>
+            <introduction>
+                <p>
+                    A baseball card was worth $50 in 1995 and its value has increased by 7% per year every year since then. Find a formula for a function <m>V</m> that models the value of the baseball card <m>t</m> years after 1995.                 
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Evaluate <m>V(21)</m> and explain its meaning in context.
+                    </p>
+                </statement>
+            </task>
+		</exercise>
+
+		<exercise>
+            <introduction>
+                <p>Match each function with one of the graphs below.</p>
+                    <image width="60%">
+                        <description>
+                            <p>
+                                Four exponential functions graphed together. 
+                                Function D intersects the <m>y</m>-axis at a higher point than functions A, B, and C, which all share the same <m>y</m>-intercept.
+                                Function D approaches zero to the left and points upward to the right.
+                                Function A points upward to the left and approaches zero to the right.
+                                Functions B and C both approach zero to the left and point upward to the right, but B goes upward at a much steeper rate than C.
+                            </p>
+                        </description>
+                        <latex-image>
+                            \begin{tikzpicture}
+                            \begin{axis}[
+							framedaxes,
+							height=2.5in,
+							width=3.5in,
+							xlabel={$x$},
+							ylabel={$y$},
+							xmin=-6,xmax=6,
+							ymin=-1,ymax=6,
+							grid=both,
+							xtick={-15,15},
+							ytick={-15,15},
+							]
+							\addplot+[color=first,domain=-1.58:6,smooth] {2*0.5^x};
+							\addplot+[color=second,domain=-6:1,smooth] {2* 3^x};
+							\addplot+[color=third,domain=-6:2.71,smooth] {2* 1.5^x};
+							\addplot+[color=fourth,domain=-6:3.8,smooth] {3* 1.2^x};
+							\node at (axis cs:-1.8,5.5) [first] {$\boldsymbol{A}$};	
+							\node at (axis cs:1.3,5.5) [second] {$\boldsymbol{B}$};	
+							\node at (axis cs:2.2,5.5) [third] {$\boldsymbol{C}$};	
+							\node at (axis cs:4,5.5) [fourth] {$\boldsymbol{D}$};	
+                            \end{axis}
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>F(x) = 2(3)^x</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>G(x) = 2(0.5)^x</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>H(x) = 3(1.2)^x</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>J(x) = 2(1.5)^x</m>
+                    </p>
+                </statement>
+            </task>
+		</exercise>
+    </exercises>
+
+    
+    <subsection xml:id="definitions-functions-exponential">
+        <title>Definitions</title>
+        <definition>
+            <title>Exponential Function</title>
+            <statement>
+                <p>
+                    For any real number <m>x</m>, an <term>exponential function</term> is a function of the form <m>f(x) = a \cdot b^x</m> where
+                    <ul>
+                        <li><m>a</m> is a non-zero real number</li>
+                        <li><m>b</m> is any positive real number, where <m>b \neq 1</m></li>
+                    </ul>
+                    Exponential functions grow or decay with a constant <em>percent</em> rate of change.
+                </p>
+            </statement>
+        </definition>
+
+        <definition>
+            <title>Key Characteristics of Exponential Functions</title>
+            <statement>
+                <p>
+                    For an exponential function <m>f(x) = a \cdot b^x</m>, with <m>a \gt 0</m> and <m>b \gt 0</m>, <m>b \neq 1</m>, we have the following:
+                    <ul>
+                        <li><m>(0,a)</m> is the vertical intercept.</li>
+                        <li>There is no horizontal intercept.</li>
+                        <li>The domain of <m>f</m> is <m>(-\infty, \infty)</m>.</li>
+                        <li>The range of <m>f</m> is <m>(0, \infty)</m>.</li>
+                        <li><m>f</m> is a one-to-one function.</li>
+                        <li>The horizontal asymptote is <m>y = 0</m>.</li>
+                        <li><p>If <m>b \gt 1</m>, then <m>f</m> is an increasing function and
+                                <ul>
+                                    <li>as <m>x \to \infty</m>, <m>f(x) \to \infty</m>, and</li>
+                                    <li>as <m>x \to -\infty</m>, <m>f(x) \to 0</m>.</li>
+                                </ul>
+                            </p>
+                            <figure xml:id="fig-definitions-functions-exponential-growth">
+                                <caption><m>y = a \cdot b^x, b \gt 1</m></caption>
+                                <image width="60%">
+                                    <description>
+                                        <p>
+                                            Graph of an exponentially increasing function. 
+                                            The curve begins very close to the <m>x</m>-axis, 
+                                            passes through the point <m>(0,a)</m>, 
+                                            then curves sharply upward off of the graph to the right.
+                                        </p>
+                                    </description>
+                                    <latex-image>
+                                            \begin{tikzpicture}
+                                            \begin{axis}[
+                                            framedaxes,
+                                            height=5cm,
+                                            width=5cm,
+                                            xlabel={$x$},
+                                            ylabel={$y$},
+                                            xmin=-6,xmax=6,
+                                            ymin=-6,ymax=6,
+                                            xtick={-16,16},
+                                            minor xtick={-16,16},
+                                            ytick={-16,16},
+                                            minor ytick={-16,16},
+                                            grid=both
+                                            ]
+                                            \addplot+[first,smooth,domain=-6:2.584] {2^x};
+                                            \addplot[soliddot] coordinates {(0,1)};
+                                            \node at (axis cs:-1.5,1.5) {{\tiny $(0,a)$}};									
+                                            \end{axis}
+                                            \end{tikzpicture}
+                                    </latex-image>
+                                </image>
+                            </figure>
+                        </li>
+                        <li>
+                            <p>If <m>0 \lt b \lt 1</m>, then <m>f</m> is a decreasing function and
+                            <ul>
+                                <li>as <m>x \to \infty</m>, <m>f(x) \to 0</m>, and</li>
+                                <li>as <m>x \to -\infty</m>, <m>f(x) \to \infty</m>.</li>
+                            </ul>
+                            </p>
+                            <figure xml:id="fig-definitions-functions-exponential-decay">
+                                <caption><m>y = a \cdot b^x, 0 \lt b \lt 1</m></caption>
+                                <image width="60%">
+                                    <description>
+                                        <p>
+                                            Graph of an exponentially decreasing function. 
+                                            From the left the curve comes down from the top of the graph, 
+                                            passes through the point <m>(0,a)</m>, 
+                                            then levels off near the <m>x</m>-axis.
+                                        </p>
+                                    </description>
+                                    <latex-image>
+                                            \begin{tikzpicture}
+                                            \begin{axis}[
+                                            framedaxes,
+                                            height=5cm,
+                                            width=5cm,
+                                            xlabel={$x$},
+                                            ylabel={$y$},
+                                            xmin=-6,xmax=6,
+                                            ymin=-6,ymax=6,
+                                            xtick={-16,16},
+                                            minor xtick={-16,16},
+                                            ytick={-16,16},
+                                            minor ytick={-16,16},
+                                            grid=both
+                                            ]
+                                            \addplot+[first,smooth,domain=-2.584:6] {2^(-x)};
+                                            \addplot[soliddot] coordinates {(0,1)};
+                                            \node at (axis cs:1.5,1.5) {{\tiny $(0,a)$}};									
+                                            \end{axis}
+                                            \end{tikzpicture}
+                                    </latex-image>
+                                </image>
+                            </figure>
+                        </li>
+                    </ul>
+                </p>
+            </statement>
+        </definition>
+            <example>
+                <p>
+                    <url href="https://www.desmos.com/calculator/zcp3gaj5ws" visual="https://tiny.cc/111Z-ExpFunction">View this Desmos graph</url> to see an interactive example of an exponential function.
+                </p>
+            </example>
+
+        <definition>
+            <title>The Number <m>e</m></title>
+            <statement>
+                <p>
+                    The number <m>e</m> was discovered in the late 1600's by Jacob Bernoulli. Later in the 1700's, Leonard Euler discovered many of its interesting properties.
+                </p>
+                <p>
+                    <m>e</m> can be approximated by <m>2.718281828459</m>, though its decimal form does not end and does not repeat. It is an irrational number. 
+                </p>
+                <p>
+                    The graph of the function given by <m>f(x) = e^x</m> looks a lot like the graphs of the functions given by <m>g(x) = 1^x</m> and <m>h(x) = 3^x</m>, as shown in <xref ref="fig-definitions-exponentials-e"/>.
+                </p>
+                <figure xml:id="fig-definitions-exponentials-e">
+                    <caption><m>y=e^x</m></caption>
+                    <image>
+                        <description>
+                            <p>
+                                The graph of the curve <m>y = e^x</m> is drawn in between the graphs of <m>y = 2^x</m> and <m>y = 3^x</m>, 
+                                rising more sharply than the former but not as sharply as the latter.
+                            </p>
+                        </description>
+                        <latex-image>
+                            <![CDATA[
+                                \begin{tikzpicture}
+                                \begin{axis}[
+                                framedaxes,
+                                legend pos=north west,
+                                legend cell align=left,
+                                height=6.5cm,
+                                width=7cm,
+                                xlabel={$x$},
+                                ylabel={$y$},
+                                xmin=-4,xmax=4,
+                                ymin=-1,ymax=7,
+                                grid=both,
+                                xtick={-3,-2,...,3},
+                                ytick={0,1,...,6},
+                                ]
+                                \addplot+[third!35,dashed,domain=-4:2.807354,smooth]{2^x};
+                                \addplot+[first,domain=-4:1.945910,smooth]{2.718281828^x};
+                                \addplot+[second,dashed,domain=-4:1.771243,smooth]{3^x};
+                                \legend{$y=2^x$, $y=e^x$, $y=3^x$}
+                                \end{axis}
+                                \end{tikzpicture}
+                                ]]>
+                        </latex-image>
+                    </image>
+                </figure>
+            </statement>
+        </definition>
+    </subsection>
+
+    <exercises xml:id="exit-functions-exponential">
+        <title>Exit Exercises</title>
+        <exercise>
+            <statement>
+                <p>
+                    Given the formula for an exponential function, you should be able to look at the formula and identify if the function will represent exponential growth or exponential decay.  How can you do this? 
+                </p>
+                <p>
+                    Give an example of a symbolic function for each, one exponential growth and one exponential decay, as part of your explanation.
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <introduction>
+                <p>
+                    At the start of an experiment, a population of bacteria has 5 million bacteria and the population is decreasing by 13% every 6 hours. Find a formula for a function <m>B</m> that gives the number of bacteria (in millions) remaining after <m>n</m> 6-hour time intervals.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Evaluate <m>B(8)</m> and explain its meaning in context.
+                    </p>
+                </statement>
+            </task>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    Find an exponential function <m>f</m> that satisfies <m>f(2) = \dfrac{3}{8}</m> and <m> f(-1) = \dfrac{8}{9}</m>.
+                </p>
+            </statement>
+        </exercise>
+    </exercises>
+
+    <reading-questions>
+        <exercise>
+            <statement>
+                <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
+            </statement>
+        </exercise>
+    </reading-questions>
+    -->
+</section>

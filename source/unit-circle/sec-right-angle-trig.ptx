@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-right-angle-trig" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Right Angle Trigonometry</title>
+    <introduction>
+        <p>
+            In this section, we'll  
+        </p>
+    </introduction>
+    <!--
+    <subsection>
+        <title>Textbook Reference</title>
+        <p> 
+            This relates to content in <section-mark/>3.3 of 
+            <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e" visual="http://tiny.cc/111Z-Textbook">Algebra and Trigonometry 2e</url>.
+        </p>
+    </subsection>
+
+    <exercises xml:id="prep-average-rates-and-dq">
+		<title>Preparation Exercises</title>
+        <exercise>
+			<introduction>
+				<p>
+					Suppose you're driving south on I-5 in Oregon and you pass mile marker 294 in Portland at 1:35 PM. Later, you pass mile marker 194 in Eugene at 3:05 PM.
+				</p>
+			</introduction>
+            <task>
+				<statement>
+                    <p>
+                        What was your average speed (in miles per hour) of the trip from Portland to Eugene?
+                    </p>
+				</statement>
+            </task>
+            <task>
+				<statement>
+                    <p>
+                        What was your speed at any particular moment, say as you drove past mile marker 256 in Salem?
+                    </p>
+				</statement>
+            </task>
+		</exercise>
+
+		<exercise>
+			<introduction>
+                <p>
+				    Let <m>f(x) = x^2 - 2x</m>. Evaluate and simplify the following.
+                </p>
+			</introduction>
+            <task>
+				<statement>
+                    <p>
+					    <m>f(4)</m>
+                    </p>
+				</statement>
+            </task>
+            <task>
+				<statement>
+                    <p>
+					    <m>f(-6)</m>
+                    </p>
+				</statement>
+            </task>
+            <task>
+				<statement>
+                    <p>
+					    <m>f(a)</m>
+                    </p>
+				</statement>
+            </task>
+            <task>
+				<statement>
+                    <p>
+					    <m>f(a+b)</m>
+                    </p>
+				</statement>
+            </task>
+		</exercise>
+	</exercises>
+
+	<exercises xml:id="practice-average-rates-and-dq">
+		<title>Practice Exercises</title>
+        <exercise>
+            <introduction>
+                <p>
+                    The function in <xref ref="price-of-movies"/> below shows the cost of movie tickets in the U.S. in the year <m>t</m>.
+                </p>
+                    <aside><p>Costs obtained from <url href="https://www.natoonline.org/data/ticket-price"/></p></aside>
+                <table xml:id="price-of-movies">
+                    <title>
+                        Price of Movie Tickets in the U.S.
+                    </title>
+                    <tabular halign="right" top="major" left="major" right="major">
+                        <col right="minor"/>
+                        <col/>
+                        <row header="yes" bottom="minor">
+                            <cell>
+                                <line><m>t</m></line>
+                                <line>(year)</line>
+                            </cell>
+                            <cell>
+                                <line><m>m(t)</m></line>
+                                <line>(in dollars)</line>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell><m>1995</m></cell>
+                            <cell><m>4.35</m></cell>
+                        </row>
+                        <row>
+                            <cell><m>1999</m></cell>
+                            <cell><m>5.06</m></cell>
+                        </row>
+                        <row>
+                            <cell><m>2003</m></cell>
+                            <cell><m>6.03</m></cell>
+                        </row>
+                        <row>
+                            <cell><m>2009</m></cell>
+                            <cell><m>7.50</m></cell>
+                        </row>
+                        <row>
+                            <cell><m>2013</m></cell>
+                            <cell><m>8.13</m></cell>
+                        </row>
+                        <row>
+                            <cell><m>2017</m></cell>
+                            <cell><m>8.97</m></cell>
+                        </row>
+                        <row bottom="major">
+                            <cell><m>2021</m></cell>
+                            <cell><m>10.17</m></cell>
+                        </row>
+                    </tabular>
+                </table>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        What is the unit of the average rate of change in the price of a movie over any time period?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What is the average rate of change in the price of a movie ticket from 2003 to 2021?
+                    </p>
+                </statement>
+            </task>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    Given <m>f(n) = \frac{1}{3}n^2 - 1</m>, find the average rate of change of <m>f</m> on the interval <m>\left[3,9\right]</m>.
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <introduction>
+                <p>
+                    Find and simplify the difference quotient for each of the following functions.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>f(x) = -6x + 8</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>g(x) = -2x^2-5x</m>
+                    </p>
+                </statement>
+            </task>
+        </exercise>
+    </exercises>
+
+
+    <subsection xml:id="definitions-average-rates-and-dq">
+        <title>Definitions</title>
+        <definition>
+            <title>Rate of Change</title>
+            <statement>
+                <p>
+                    A <term>rate of change</term> describes how the output values change in relation
+                    to a change in the input values. The unit for the rate of change is <q>output 
+                    unit(s) per input unit.</q>
+                </p>
+            </statement>
+        </definition>
+
+        <definition>
+            <title>Average Rate of Change</title>
+            <statement>
+                <p>
+                    The <term>average rate of change</term> for a function <m>f</m> between two input values <m>x_1</m> and <m>x_2</m> is the difference in their output values divided by the difference in the two input values. The average rate of change is calculated using the formula
+                    <me>\text{average rate of change } = \dfrac{f(x_2) - f(x_1)}{x_2 - x_1}, x_1 \neq x_2</me>
+                    The average rate of change is the slope of the line between the two points <m>(x_1, f(x_1))</m> and <m>(x_2, f(x_2))</m>.
+                </p>
+            </statement>
+        </definition>
+            <example>
+                <p>
+                    The function <m>E(x)</m> gives the cost of a dozen eggs (in dollars) <m>x</m> years after 2010. If we know <m>E(19) = 1.362</m> and <m>E(23) = 2.666</m>, we can find the average rate of change as
+                    <md>
+                        <mrow>\dfrac{E(23)-E(19)}{23 \text{ years } - 19 \text{ years}} \amp = \dfrac{\$2.666 - \$1.362}{4 \text{ years}}</mrow>
+                        <mrow>\amp = \dfrac{\$1.304}{4 \text{ years}}</mrow>
+                        <mrow>\amp \approx \$0.33/\text{year}</mrow>
+                    </md>
+                    This shows that between 2019 and 2023, the cost of a dozen eggs increased on average by about $0.33/year.
+                </p>
+            </example>
+			
+        <definition>
+            <title>Difference Quotient</title>
+            <statement>
+                <p>
+                    The <term>difference quotient</term> for a function <m>f</m> is given by the formula
+                    <me>\dfrac{f(x+h)-f(x)}{h}, h \neq 0</me>
+                    The difference quotient is the average rate of change between the two points <m>(x, f(x))</m> and <m>(x+h, f(x+h))</m>. 
+                </p>
+            </statement>
+        </definition>
+            <example>
+                <p>
+                Given the function <m>f(x) = 3x^2 - 4x</m>, the difference quotient would be evaluated as
+                <md>
+                    <mrow>\dfrac{f(x+h) - f(x)}{h} \amp = \dfrac{(3(x+h)^2 - 4(x+h)) - (3x^2 - 4x)}{h}</mrow>
+                    <mrow>\amp = \dfrac{3x^2 + 6xh + 3h^2 - 4x - 4h - 3x^2 + 4x}{h}</mrow>
+                    <mrow>\amp = \dfrac{6xh + 3h^2 - 4h}{h}</mrow>
+                    <mrow>\amp = \dfrac{h(6x + 3h - 4)}{h}</mrow>
+                    <mrow>\amp = 6x + 3h - 4, h \neq 0</mrow>
+                </md>
+            </p>
+            </example>
+    </subsection>
+
+    <exercises xml:id="exit-average-rates-and-dq">
+        <title>Exit Exercises</title>
+        <exercise>
+            <task>
+                <statement>
+                    <p>
+                        What are two situations in your daily life that involve an average rate of change? What are the units for these rates of change?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What is the formula for the difference quotient for the function <m>k</m> that has an input variable <m>p</m>?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        If you have a function <m>m</m> that gives the price of a gallon of milk in the year <m>t</m>, what would be the unit for the average rate of change of <m>m</m>?
+                    </p>
+                </statement>
+            </task>
+        </exercise>
+        <exercise>
+			<statement>
+                <p>
+                    Find and simplify the difference quotient for the function <m>f(t) = \dfrac{3}{t-6}</m>.
+                </p>
+			</statement>
+        </exercise>
+    </exercises>
+    <reading-questions>
+        <exercise>
+            <statement>
+                <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
+            </statement>
+        </exercise>
+    </reading-questions>
+
+    -->
+</section>

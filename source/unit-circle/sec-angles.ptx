@@ -4,14 +4,15 @@
     <title>Angles</title>
     <introduction>
         <p>
-            In this section, we'll 
+            In this section, we'll draw angles in standard position, convert between degrees and 
+            radians and degrees-minutes-seconds, find coterminal angles, and find the length of a 
+            circular arc.
         </p>
     </introduction>
-    <!--
     <subsection>
         <title>Textbook Reference</title>
         <p>
-            This relates to content in <section-mark/>3.1 and <section-mark/>3.2 of
+            This relates to content in <section-mark/>7.1 of
             <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e" visual="http://tiny.cc/111Z-Textbook">Algebra and Trigonometry 2e</url>.
         </p>
     </subsection>
@@ -21,46 +22,40 @@
         <exercise>
             <introduction>
                 <p>
-                    Many of us have at least one restaurant we would love to go to for a meal. Go
-                    online and find a menu for a restaurant you'd choose to eat at.
+                    Answer the following without using a calculator. These questions are intended 
+                    to check the prerequisite skills needed to complete the rest of the lab.
                 </p>
             </introduction>
             <task>
                 <statement>
                     <p>
-                        What is the name of the restaurant and what type of food do they serve?
+                        Solve the equation <m>T = \dfrac{v}{w^2}</m> for <m>w</m>.
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
-                        What is a dish you would like to get and how much does it cost?
+                        Simplify the expression <m>80 \cdot \dfrac{\pi}{180}</m> without a 
+                        calculator. Reduce to simplest form.
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
-                        Are there any other dishes on the menu that cost the same as your dish? If
-                        so, what are they?
+                        In terms of time, how many minutes total are in 3 hours and 53 minutes?
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
-                        If I ask you the price of any specific dish from the menu, do you know how
-                        much it costs?
+                        Draw a line segment from the point <m>(5,-3)</m> to the point <m>(-1,2)</m>.
+                        Find the distance between those two points using the Pythagorean Theorem. 
+                        Leave your answer in exact form.
                     </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        If you know how much I paid for a dish, do you know exactly what I ordered
-                        based just on the price? Explain your answer.
-                    </p>
+                    <!-- INSERT BLANK GRAPH HERE -->
                 </statement>
             </task>
         </exercise>
@@ -69,412 +64,360 @@
     <exercises>
         <title>Practice Exercises</title>
         <exercise>
+            <statement>
+                <p>
+                    Find an angle that is coterminal to -40<degree/> and is between 360<degree/> and 
+                    720<degree/>
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    Match each angle in the first group with its coterminal angle in the second 
+                    group.
+                </p>
+                <sidebyside>
+                    <p>
+                        <ol>
+                            <li>30<degree/></li>
+                            <li>270<degree/></li>
+                            <li>-220<degree/></li>
+                            <li>-60<degree/></li>
+                            <li>0<degree/></li>
+                            <li>150<degree/></li>
+                        </ol>
+                    </p>
+                    <p>
+                        <ul>
+                            <li>720<degree/></li>
+                            <li>-90<degree/></li>
+                            <li>390<degree/></li>
+                            <li>510<degree/></li>
+                            <li>-420<degree/></li>
+                            <li>500<degree/></li>
+                        </ul>
+                    </p>
+                </sidebyside>
+            </statement>
+        </exercise>
+
+        <exercise>
             <introduction>
                 <p>
-                    Determine if each of the following relations show <m>y</m> as a function of
-                    <m>x</m>. Explain your reasoning by referencing the definition of a function. If
-                    a relation is not a function provide a specific example why the definition was
-                    not satisfied. Assume all ordered pairs are of the form <m>(x,y)</m>.
+                    Convert the angles.
                 </p>
             </introduction>
             <task>
                 <statement>
                     <p>
-                        <m>\left\{
-                            (\text{red},\text{pepper}),
-                            (\text{green},\text{pear}),
-                            (\text{purple},\text{grape}),\\
-                            (\text{orange},\text{orange}),
-                            (\text{yellow},\text{pepper}),
-                            (\text{red},\text{onion})
-                            \right\}</m>
+                        Convert 28<degree/> to radians. Leave your answer as a fraction in terms of 
+                        <m>\pi</m>.
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
-                    <tabular row-headers="yes" halign="right" top="major" left="major">
-                        <col right="medium"/>
-                        <col/>
-                        <col/>
-                        <col/>
-                        <col/>
-                        <col/>
-                        <col right="major"/>
-                        <row bottom="minor">
-                            <cell><m>x</m></cell>
-                            <cell><m>-5</m></cell>
-                            <cell><m>3</m></cell>
-                            <cell><m>-1</m></cell>
-                            <cell><m>2</m></cell>
-                            <cell><m>4</m></cell>
-                            <cell><m>6</m></cell>
-                        </row>
-                        <row bottom="major">
-                            <cell><m>y</m></cell>
-                            <cell><m>9</m></cell>
-                            <cell><m>-4</m></cell>
-                            <cell><m>2</m></cell>
-                            <cell><m>-4</m></cell>
-                            <cell><m>-5</m></cell>
-                            <cell><m>-6</m></cell>
-                        </row>
-                    </tabular>
+                    <p>
+                        Convert <m>\dfrac{7\pi}{9}</m> radians to degrees. Round to 6 digits behind the decimal place.
+                    </p>
                 </statement>
             </task>
             <task>
                 <statement>
-                    <image width="60%">
-                        <description>
-                            <p>
-                                Graph of a smooth curve, forming the shape of a capital letter W.
-                                From left to right, it curves down through the point <m>(-4,0)</m>,
-                                up through the point <m>(-2,0)</m>, down through the point
-                                <m>(1,0)</m>, and back up through the point <m>(4,0)</m>.
-                            </p>
-                        </description>
-                        <latex-image>
-                            \begin{tikzpicture}
-                                \begin{axis}[
-                                        xmin=-6,
-                                        xmax=6,
-                                        ymin=-6,
-                                        ymax=6,
-                                        xtick={-4,-2,...,4},
-                                        minor xtick={-5,...,5},
-                                        ytick={-4,-2,...,4},
-                                        minor ytick={-5,...,5}
-                                    ]
-                                    \addplot+[smooth, domain=-4.826:4.59036] {0.05*(x+4)*(x+2)*(x-1)*(x-4)};
-                                \end{axis}
-                            \end{tikzpicture}
-                        </latex-image>
-                    </image>
+                    <p>
+                        Convert 14<degree/>20<prime/>36<dblprime/> to a decimal
+                        measurement of degrees.
+                    </p>
                 </statement>
             </task>
             <task>
                 <statement>
-                    <image width="60%">
-                        <description>
-                            <p>
-                                Graph of a smooth curve, forming the shape of a capital letter E.
-                                From top to bottom, it curves smoothly through four points on the
-                                y-axis. There are arrows at the top and bottom, indicating that the
-                                ends of the line both extend to the right of the grid.
-                            </p>
-                        </description>
-                        <latex-image>
-                            \begin{tikzpicture}
-                                \begin{axis}[
-                                        xmin=-6,
-                                        xmax=6,
-                                        ymin=-6,
-                                        ymax=6,
-                                        xtick={-4,-2,...,4},
-                                        minor xtick={-5,...,5},
-                                        ytick={-4,-2,...,4},
-                                        minor ytick={-5,...,5}
-                                    ]
-                                    \addplot+[smooth,domain=-3.54:3.88] ({0.1*(x-3)*(x-1.5)*(x+0.2)*(x+3)}, x);
-                                \end{axis}
-                            \end{tikzpicture}
-                        </latex-image>
-                    </image>
+                    <p>
+                        Convert 76.85<degree/> to degrees-minutes-seconds.
+                    </p>
                 </statement>
             </task>
         </exercise>
         <exercise>
+            <introduction>
+                <p>
+                    Use the formula <m>s = r\theta</m> to find the missing values.
+                </p>
+            </introduction>
             <task>
-                <introduction>
+                <statement>
                     <p>
-                        Let <m>y=g(x)</m> be defined as the set of <m>(x,y)</m> ordered pairs:
-                        <me>\{(-60,5), (-23,4), (-4,3), (3,2), (4,1), (5,0), (12,-1)\}</me>
+                        Find the arc length of on a circle of radius 6 with an interior angle 
+                        of <m>\dfrac{4\pi}{7}</m>.
                     </p>
-                </introduction>
-                <task>
-                    <statement>
-                        <p>
-                            Find <m>g(5)</m>.
-                        </p>
-                    </statement>
-                </task>
-                <task>
-                    <statement>
-                        <p>
-                            Solve <m>g(x) = 3</m>.
-                        </p>
-                    </statement>
-                </task>
+                </statement>
             </task>
             <task>
-                <introduction>
+                <statement>
                     <p>
-                        Let <m>y = h(x)</m> be defined by the graph below.
+                        Find the interior angle of an arc length on a circle of radius 12 with 
+                        an arc length of <m>\dfrac{3\pi}{2}</m>.
                     </p>
-                    <image width="60%">
-                        <description>
-                            <p>
-                                Graph of a continuous, irregular curve. It travels through the
-                                points
-                                <m>(-7,-6)</m>;
-                                <m>(-6,-5)</m>;
-                                <m>(-4,-1)</m>;
-                                <m>(-3,0)</m>;
-                                <m>(-1,-1)</m>;
-                                <m>(0,-3)</m>;
-                                <m>(1,-4)</m>;
-                                <m>(2,-3)</m>;
-                                <m>(3,-1)</m>;
-                                <m>(4,0)</m>;
-                                <m>(5,3)</m>;
-                                <m>(6,3)</m>.
-                                At the point <m>(-7,-6)</m> there is an empty circle. At the point
-                                <m>(6,3)</m> there is a filled circle.
-                            </p>
-                        </description>
-                        <latex-image>
-                            <![CDATA[
-                            \begin{tikzpicture}[
-                                declare function={
-                                    func(\x)= (\x<=-6) * (\x + 1)   +
-                                    and(\x>-6, \x<=-4) * (2*\x + 7) +
-                                    and(\x>-4, \x<=-3) * (\x + 3) +
-                                    and(\x>-3, \x<=-1) * (-\x/2 - 1.5) +
-                                    and(\x>-1, \x<=0) * (2*(\x)^2 - 3) +
-                                    and(\x>0, \x<=1) * (-(\x)^2 - 3) +
-                                    and(\x>1, \x<=2) * (-(\x - 2)^2 - 3) +
-                                    and(\x>2, \x<=3) * (2*(\x - 2)^2 - 3) +
-                                    and(\x>3, \x<=5) * ((\x - 3)^2 - 1) +
-                                    (\x>5) * (3);
-                                }
-                                ]
-                                \begin{axis}
-                                    \addplot+[domain=-7:6, samples=66, openclosed] {func(x)};
-                                    \legend{\(y = h(x)\)};
-                                \end{axis}
-                            \end{tikzpicture}
-                            ]]>
-                        </latex-image>
-                    </image>
-                </introduction>
-                <task>
-                    <statement>
-                        <p>
-                            Find <m>h(-4)</m>.
-                        </p>
-                    </statement>
-                </task>
-                <task>
-                    <statement>
-                        <p>
-                            Solve <m>h(x)=-3</m>.
-                        </p>
-                    </statement>
-                </task>
+                </statement>
             </task>
             <task>
-                <introduction>
+                <statement>
                     <p>
-                        Let <m>f(x) = x^2 - 3</m>.
+                        Find the arc length of on a circle of radius <m>10\pi</m> with an 
+                        interior angle of 20<degree/>
                     </p>
-                </introduction>
-                <task>
-                    <statement>
-                        <p>
-                            Find <m>f(-4)</m>.
-                        </p>
-                    </statement>
-                </task>
-                <task>
-                    <statement>
-                        <p>
-                            Solve <m>f(x)=46</m>.
-                        </p>
-                    </statement>
-                </task>
+                </statement>
             </task>
         </exercise>
     </exercises>
 
-    <subsection xml:id="definitions-functions-and-function-notation">
+    <subsection xml:id="definitions-angles">
         <title>Definitions</title>
+
         <definition>
-            <title>Relation</title>
+            <title>Angle</title>
             <statement>
                 <p>
-                    A <term>relation</term> is a set of <m>(x,y)</m> ordered pairs.
-                </p>
-                <p>
-                    The variable of <m>x</m> is called the <term>independent variable</term> or
-                    <term>input variable</term>. Each individual <m>x</m>-value is referred to as a
-                    <term>input</term> or <term>input value</term>.
-                </p>
-                <p>
-                    The variable of <m>y</m> is called the <term>dependent variable</term> or
-                    <term>output variable</term>. Each individual <m>y</m>-value is referred to as a
-                    <term>output</term> or <term>output value</term>.
+                    An <term>angle</term> is formed when two lines intersect at a point. We can 
+                    measure the “size” of this angle in degrees or radians.
                 </p>
             </statement>
         </definition>
-        <example>
-            <title>Relation</title>
-            <p>
-                The set
-                <me>\{(0,-2), (1,-1), (2,0), (1,-3), (3,-4)\}</me>
-                is a relation.
-            </p>
-        </example>
+
         <definition>
-            <title>Function</title>
+            <title>Ray</title>
             <statement>
                 <p>
-                    A <term>function</term> is a relation where each possible input value is paired
-                    with <em>exactly one</em> output value. We say, <q>The output is a function of
-                    the input,</q> and often write this algebraically as <m>y = f(x)</m>.
+                    A <term>ray</term> is a portion of a line that starts at a point and extends 
+                    infinitely in one direction.
                 </p>
             </statement>
         </definition>
-        <example>
-            <title>Function</title>
-            <p>
-                The set
-                <me>
-                    \{(0,-2), (1,-1), (4,0), (9,1), (16,2)\}
-                </me>
-                is a function.
-            </p>
-        </example>
-        <example>
-            <title>Not a function</title>
-            <p>
-                The set
-                <me>
-                    \{(0,-2), (1,-1), (2,0), (1,-3), (3,-4)\}
-                </me>
-                is a relation, but <em>not</em> a function.
-            </p>
-        </example>
+
         <definition>
-            <title>Domain and Range</title>
+            <title>Degree</title>
             <statement>
                 <p>
-                    The <term>Domain</term> of a relation or function is the set of all possible
-                    input values. The <term>Range</term> of a relation or function is the set of all
-                    possible output values.
+                    A <term>degree</term> is an angle measurement equal to <m>\dfrac{1}{360}</m> of
+                    a full rotation.
                 </p>
             </statement>
         </definition>
-        <example>
-            <title>Domain and Range</title>
-            <p>
-                Given the function
-                <me>\{(0,-2), (1,-1), (4,0), (9,1), (16,2)\}</me>
-                the domain of the function is <m>\{0,4,1,9,16\}</m> and the range of the function is
-                <m>\{-2,0,-1,1,2\}</m>.
-            </p>
-        </example>
+
         <definition>
-            <title>Vertical Line Test</title>
+            <title>Right Angle</title>
             <statement>
                 <p>
-                    If a vertical line can be drawn that intersects the graph more than once, the
-                    graph is not the graph of a function with <m>x</m> as the independent variable
-                    and <m>y</m> as the dependent variable.
+                    A <term>right angle</term> is an angle of 90<degree/>.
                 </p>
             </statement>
         </definition>
-        <example>
-            <sidebyside widths="47% 47%" margins="0%">
-                <figure xml:id="fig-functions-example-does-not-pass">
-                    <caption>Does Not Pass</caption>
-                    <image>
-                        <description>
-                            <p>
-                                A graph of a parabola opening up to the right. A vertical line is
-                                drawn at <m>x=2</m>, intersecting the parabola at <m>(2,3)</m> and
-                                <m>(2,-1)</m>, demonstrating the vertical line test.
-                            </p>
-                        </description>
-                        <latex-image>
-                            \begin{tikzpicture}
-                                \begin{axis}[width=210pt]
-                                    \addplot+[smooth, domain=-2.16:4.16] ({(x-1)^2-2}, {x});
-                                    \addplot[verticallinetest] coordinates {(2,8) (2,-8)} node[rotate=90, above right]{\(x=2\)};
-                                    \addplot[soliddot, fifth] coordinates{(2,3) (2,-1)};
-                                \end{axis}
-                            \end{tikzpicture}
-                        </latex-image>
-                    </image>
-                </figure>
-                <figure xml:id="fig-functions-example-passes">
-                    <caption>Passes</caption>
-                    <image>
-                        <description>
-                            <p>
-                                A graph of a smooth curve that travels from left to right, passing
-                                through the points
-                                <m>(-6,-1)</m>;
-                                <m>(-3,0)</m>;
-                                <m>(-2,1)</m>;
-                                <m>(-1,2)</m>;
-                                <m>(2,3)</m>; and
-                                <m>(7,4)</m>.
-                                There are no <m>x</m>-values for which a vertical line can be drawn
-                                that passes through the graph more than once.
-                            </p>
-                        </description>
-                        <latex-image>
-                            \begin{tikzpicture}
-                                \begin{axis}[width=210pt]
-                                    \addplot+[domain=-0.817:3.15] ({(x-1)^3 - 2}, {x});
-                                \end{axis}
-                            \end{tikzpicture}
-                        </latex-image>
-                    </image>
-                </figure>
-            </sidebyside>
-        </example>
+
+        <definition>
+            <title>Radian</title>
+            <statement>
+                <p>
+                    A <term>radian</term> is a unit of measurement of angle size, and 1 radian is 
+                    defined to be the angle that is made when the arc length for that angle on a 
+                    circle of radius 1 is equal to 1. Check out 
+                    <url href="https://www.desmos.com/calculator/xlmuhdlvxc" visual="http://tiny.cc/radian-definition">this Desmos link</url>
+                    and click the "play" button on the slider for a visual representation of this 
+                    concept.
+                </p>
+            </statement>
+            <figure xml:id="fig-angles-radian">
+                <caption>Standard Angles</caption>
+                <image>
+                    <description>
+                        <p>
+                            A circle with common angles indicated in radians:
+                            <tabular row-headers="yes">
+                                <row>
+                                    <cell>0<degree/></cell>
+                                    <cell><m>\theta = 0</m></cell>
+                                </row>
+                                <row>
+                                    <cell>30<degree/></cell>
+                                    <cell><m>\theta = \dfrac{\pi}{6}</m></cell>
+                                </row>
+                                <row>
+                                    <cell>45<degree/></cell>
+                                    <cell><m>\theta = \dfrac{\pi}{4}</m></cell>
+                                </row>
+                                <row>
+                                    <cell>60<degree/></cell>
+                                    <cell><m>\theta = \dfrac{\pi}{3}</m></cell>
+                                </row>
+                                <row>
+                                    <cell>90<degree/></cell>
+                                    <cell><m>\theta = \dfrac{\pi}{2}</m></cell>
+                                </row>
+                                <row>
+                                    <cell>120<degree/></cell>
+                                    <cell><m>\theta = \dfrac{2\pi}{3}</m></cell>
+                                </row>
+                                <row>
+                                    <cell>135<degree/></cell>
+                                    <cell><m>\theta = \dfrac{3\pi}{4}</m></cell>
+                                </row>
+                                <row>
+                                    <cell>150<degree/></cell>
+                                    <cell><m>\theta = \dfrac{5\pi}{6}</m></cell>
+                                </row>
+                                <row>
+                                    <cell>180<degree/></cell>
+                                    <cell><m>\theta = \pi</m></cell>
+                                </row>
+                                <row>
+                                    <cell>210<degree/></cell>
+                                    <cell><m>\theta = \dfrac{7\pi}{6}</m></cell>
+                                </row>
+                                <row>
+                                    <cell>225<degree/></cell>
+                                    <cell><m>\theta = \dfrac{5\pi}{4}</m></cell>
+                                </row>
+                                <row>
+                                    <cell>240<degree/></cell>
+                                    <cell><m>\theta = \dfrac{4\pi}{3}</m></cell>
+                                </row>
+                                <row>
+                                    <cell>270<degree/></cell>
+                                    <cell><m>\theta = \dfrac{3\pi}{2}</m></cell>
+                                </row>
+                                <row>
+                                    <cell>300<degree/></cell>
+                                    <cell><m>\theta = \dfrac{5\pi}{3}</m></cell>
+                                </row>
+                                <row>
+                                    <cell>315<degree/></cell>
+                                    <cell><m>\theta = \dfrac{7\pi}{4}</m></cell>
+                                </row>
+                                <row>
+                                    <cell>330<degree/></cell>
+                                    <cell><m>\theta = \dfrac{11\pi}{6}</m></cell>
+                                </row>
+                            </tabular>
+                        </p>
+                    </description>
+                    <latex-image>
+                        \begin{tikzpicture}
+                            \begin{axis}
+                            \end{axis}
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+            </figure>
+        </definition>
+
+        <definition>
+            <title>Initial and Terminal sides</title>
+            <statement>
+                <p>
+                    An angle is created by imagining two rays originating from the same point: the 
+                    <term>initial</term> side of the angle is stationary and the <term>terminal</term>
+                    side is rotated around until the desired angle is created. Angles measured from 
+                    initial to terminal side in a counterclockwise direction are positive. Angles 
+                    measured from initial to terminal side clockwise are negative.
+                </p>
+            </statement>
+        </definition>
+
+        <definition>
+            <title>Standard Position</title>
+            <statement>
+                <p>
+                    An angle is said to be in <term>standard position</term> if the initial and 
+                    terminal sides of the angle meet at the origin and the initial side of the angle 
+                    is along the positive x-axis.
+                </p>
+            </statement>
+        </definition>
+
+        <definition>
+            <title>Coterminal</title>
+            <statement>
+                <p>
+                    Two angles are <term>coterminal</term> if their initial and terminal sides 
+                    align, but they differ by an integer number of full rotations. In standard 
+                    position, this means that the two angles are “in the same place” are different 
+                    by some integer multiple of 360<degree/> (or <m>2\pi</m> radians).
+                </p>
+            </statement>
+        </definition>
+
+        <definition>
+            <title>Arc length</title>
+            <statement>
+                <p>
+                    An <term>arc</term> length is a distance along a part of the circumference of a 
+                    circle. A formula for arc length is <m>s = rθ</m>, where <m>s</m> stands for arc 
+                    length along a circle of radius <m>r</m>, with an interior angle <m>\theta</m> 
+                    centered at the center of the circle.
+                </p>
+            </statement>
+            <figure xml:id="fig-arc-length">
+                <caption>Coterminal angles <m>\theta</m> and <m>\alpha</m></caption>
+                <image>
+                    <description>
+                        <p>
+                            An angle drawn in standard position is indicated in two ways. Beginning
+                            with an initial side along the positive <m>x</m>-axis and ending with
+                            a terminal side in the second quadrant, the angle in the counter-
+                            clockwise direction is labeled <m>theta</m> and the angle in the 
+                            clockwise direction is labeled <m>alpha</m>. The segment of the
+                            circumference of the circle between the initial and terminal sides of 
+                            <m>theta</m> is the arc subtended by <m>theta</m>, and the length 
+                            measure of that arc is the arc length for angle <m>theta</m>.
+                        </p>
+                    </description>
+                    <latex-image>
+                        \begin{tikzpicture}
+                            \begin{axis}
+                            \end{axis}
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+            </figure>
+        </definition>
     </subsection>
 
-    <exercises xml:id="exit-functions-and-function-notation">
+    <exercises xml:id="exit-angles">
         <title>Exit Exercises</title>
         <exercise>
-            <task>
-                <statement>
-                    <p>
-                        What is the definition of a function?
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        What are two examples of functions that you use in your daily life outside
-                        of school? Explain how these are functions, referencing the definition of a
-                        function.
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        What do you look for in the graph of a relation to determine if the graph is
-                        the graph of a function or not? Fully explain your answer.
-                    </p>
-                </statement>
-            </task>
+            <statement>
+                <p>
+                    Explain why -90<degree/> is not the same as 270<degree/>.
+                </p>
+            </statement>
         </exercise>
         <exercise>
-            <p>
-                If <m>f(x) = 2x^2 - 7x</m>, evaluate <m>f(-3)</m>.
-            </p>
+            <statement>
+                <p>
+                    Convert 34<degree/>29<prime/>24<dblprime/> to decimal degrees.
+                </p>
+            </statement>
         </exercise>
         <exercise>
-            <p>
-                If <m>g(x) = x^2 + 6x</m>, solve <m>g(x)=16</m>.
-            </p>
+            <statement>
+                <p>
+                    Convert the angle 144<degree/> to radians. Write your answer in exact form as a
+                    fraction with <m>\pi</m> in it.
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    How big of an arc length will an angle of <m>\dfrac{3\pi}{8}</m> radians create 
+                    on a circle of radius 6? Draw this angle and arc length on the circle of radius 
+                    6 provided.
+                </p>
+            </statement>
+            <!-- INSERT GRAPH HERE-->
         </exercise>
     </exercises>
+
     <reading-questions>
         <exercise>
             <statement>
@@ -485,5 +428,4 @@
             </statement>
         </exercise>
     </reading-questions>
-    -->
 </section>

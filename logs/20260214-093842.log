@@ -1,0 +1,19 @@
+INFO    : Building target web
+ERROR   : XInclude Error caused build to fail:
+ERROR   : /home/miranda/mth112/mth112-lab-manual/source/unit-circle/sec-angles.ptx:154:25:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: statement line 149 and p
+/home/miranda/mth112/mth112-lab-manual/source/unit-circle/sec-angles.ptx:155:29:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: task line 148 and statement
+/home/miranda/mth112/mth112-lab-manual/source/unit-circle/sec-angles.ptx:156:20:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: exercise line 142 and task
+/home/miranda/mth112/mth112-lab-manual/source/unit-circle/sec-angles.ptx:169:52:FATAL:PARSER:ERR_NAME_REQUIRED: error parsing attribute name
+/home/miranda/mth112/mth112-lab-manual/source/unit-circle/sec-angles.ptx:169:52:FATAL:PARSER:ERR_GT_REQUIRED: Couldn't find end of Start Tag degree line 169
+/home/miranda/mth112/mth112-lab-manual/source/unit-circle/sec-angles.ptx:173:20:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: exercises line 64 and exercise
+/home/miranda/mth112/mth112-lab-manual/source/unit-circle/sec-angles.ptx:174:17:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: section line 3 and exercises
+/home/miranda/mth112/mth112-lab-manual/source/main.ptx:18:0:ERROR:XINCLUDE:XINCLUDE_NO_FALLBACK: could not load /home/miranda/mth112/mth112-lab-manual/source/unit-circle/sec-angles.ptx, and no fallback was found
+CRITICAL: XML syntax for source file is invalid
+INFO    : ------------------------
+CRITICAL: Failed to build.  Exiting...
+INFO    : 
+----------------------------------------------------
+INFO    : While running pretext, the following errors occurred:
+
+INFO    : (see log messages above or in the 'logs' folder for more information)
+INFO    : ----------------------------------------------------

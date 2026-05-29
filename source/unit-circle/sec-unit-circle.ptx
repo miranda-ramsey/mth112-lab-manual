@@ -4,159 +4,136 @@
     <title>The Unit Circle</title>
     <introduction>
         <p>
-            In this section, we'll 
+            In this section, we will find function values for the sine and cosine of 30<degree/>,
+            45 <degree/>, and 60<degree/>, identify the domain and range of sine and cosine 
+            functions, find reference angles, and use reference angles to evaluate trigonometric
+            functions.
         </p>
     </introduction>
 
-    <!--
     <subsection>
         <title>Textbook Reference</title>
         <p> 
-            This relates to content in <section-mark/>3.4 of 
+            This relates to content in <section-mark/>7.3 of 
             <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e" visual="http://tiny.cc/111Z-Textbook">Algebra and Trigonometry 2e</url>.
         </p>
     </subsection>
 
-	<exercises xml:id="prep-combinations-and-composition">
+	<exercises xml:id="prep-unit-circle">
 		<title>Preparation Exercises</title>
+	    <introduction>
+			<p>
+                Answer the following without using a calculator. These questions are intended 
+                to check the prerequisite skills needed to complete the rest of the lab.
+			</p> 
+		</introduction> 
 		<exercise>
-			<introduction>
+		    <statement> 
 				<p>
-					Suppose it costs a bakery $3,000 for rent and utilities each month and each loaf of bread costs $2.15 to produce.  The bakery sells each loaf of bread for $6.49. 
-				</p> 
-			</introduction> 
-            <task>
-				<statement> 
-					<p>
-						Find a function <m>C</m> that calculates the total cost (in dollars) each month to produce <m>x</m> loaves of bread.
-					</p>
-				</statement> 
-            </task>
+                    For a right triangle with side <m>\alpha = \frac{1}{2}</m> and hypotenuse
+                    <m>c=1</m>, find the missing side <m>b</m> using the Pythagorean Theorem.
+				</p>
+			</statement> 
+        </exercise>
+        <exercise>
+            <introduction>
+                <p>
+                    Which quadrant are the following angles in?
+                </p>
+            </introduction>
             <task>
 				<statement>
 					<p>
-						Find a function <m>R</m> that calculates the total revenue (in dollars) each month from selling <m>x</m> loaves of bread.
+                        <m>\frac{3\pi}{4}</m>
 					</p>
 				</statement>
             </task>
             <task>
 				<statement>
 					<p>
-						Find a function <m>P</m> that calculates the profit (in dollars) from producing and selling <m>x</m> loaves of bread each month.  (Note: The profit is the difference between the revenue and costs.)
+                        <m>\frac{4\pi}{3}</m>
+					</p>
+				</statement>
+            </task>
+            <task>
+				<statement>
+					<p>
+                        <m>\frac{11\pi}{6}</m>
+					</p>
+				</statement>
+            </task>
+            <task>
+				<statement>
+					<p>
+                        <m>\frac{\pi}{3}</m>
+					</p>
+				</statement>
+            </task>
+            <task>
+				<statement>
+					<p>
+                        <m>\frac{-\pi}{6}</m>
+					</p>
+				</statement>
+            </task>
+            <task>
+				<statement>
+					<p>
+                        <m>\frac{-2\pi}{3}</m>
+					</p>
+				</statement>
+            </task>
+            <task>
+				<statement>
+					<p>
+                        <m>\frac{-7\pi}{6}</m>
+					</p>
+				</statement>
+            </task>
+            <task>
+				<statement>
+					<p>
+                        <m>\frac{5\pi}{6}</m>
 					</p>
 				</statement>
             </task>
 		</exercise>
 
 		<exercise>
-			<introduction>
+			<statement>
 				<p>
-					The function <m>r=f(t)=0.35t</m> gives the radius (in inches) of the circular pattern formed when a drop of water hits a pond <m>t</m> seconds after the drop of water hits the pond's surface.  The function <m>a = g(r) = \pi r^2</m> gives the area of a circle (in square inches) when the circle has a radius of <m>r</m> inches.
+                    Simplify <m>2\pi - \frac{2\pi}{3}</m> without a calculator.
 				</p>
-			</introduction>
-            <task>
-				<statement>
-					<p>
-						How would you determine the area of the circle 9 seconds after a water drop lands on the pond?
-					</p>
-				</statement>
-			</task>
+			</statement>
+		</exercise>
+
+		<exercise>
+			<statement>
+				<p>
+                    Count from <m>0</m> to <m>2\pi</m> by multiples of <m>\frac{\pi}{12}</m>, then
+                    reduce those fractions. Here's how to start out: 
+                    <m>\frac{0\pi}{12}, \frac{\pi}{12}, \frac{2\pi}{12}, \frac{3\pi}{12},...</m>
+				</p>
+			</statement>
 		</exercise>
 	</exercises>
 
-	<exercises xml:id="practice-combinations-and-composition">
+	<exercises xml:id="practice-unit-circle">
 		<title>Practice Exercises</title>
 		<exercise>
-			<introduction>
-				<p>
-                    Let <m>f(x) = x^2-4x</m>, <m>g(x) = \sqrt{3x+1}</m>, <m>h</m> be defined by <xref ref="table-practice-functions-algebra"/>, and <m>k</m> defined by <xref ref="fig-practice-functions-algebra"/>.
-                </p>
-                <sidebyside widths="35% 60%" valign="middle">
-                    <table xml:id="table-practice-functions-algebra">
-                        <title>
-                            <m>h(x)</m>
-                        </title>
-                        <tabular halign="right" top="major" left="major" right="major">
-                            <col right="minor"/>
-                            <col/>
-                            <row header="yes" bottom="minor">
-                                <cell>
-                                    <m>x</m>
-                                </cell>
-                                <cell>
-                                    <m>h(x)</m>
-                                </cell>
-                            </row>
-                            <row>
-                                <cell><m>{-4}</m></cell>
-                                <cell><m>{8}</m></cell>
-                            </row>
-                            <row>
-                                <cell><m>{-2}</m></cell>
-                                <cell><m>{1}</m></cell>
-                            </row>
-                            <row>
-                                <cell><m>{1}</m></cell>
-                                <cell><m>{3}</m></cell>
-                            </row>
-                            <row>
-                                <cell><m>{2}</m></cell>
-                                <cell><m>{6}</m></cell>
-                            </row>
-                            <row>
-                                <cell><m>{4}</m></cell>
-                                <cell><m>{-7}</m></cell>
-                            </row>
-                            <row bottom="major">
-                                <cell><m>{8}</m></cell>
-                                <cell><m>{-5}</m></cell>
-                            </row>
-                        </tabular>
-                    </table>
-
-                    <figure xml:id="fig-practice-functions-algebra">
-                        <caption><m>y=k(x)</m></caption>
-                        <image>
-                        <description>
-                            <p>
-                                Graph of a piecewise function consisting of three linear pieces.
-                                One line extends off the graph to the left, passes through the point <m>(-6,-1)</m>, and ends with a filled circle at <m>(-3,1)</m>.
-                                One line begins with an empty circle at <m>(-3, -4)</m> and ends with an empty circle at <m>(1,-4)</m>.
-                                One line begins with a filled circle at <m>(2,3)</m>, passes through the point <m>(3,1)</m>, and extends off the graph to the right.
-                            </p>
-                        </description>
-                            <latex-image>
-                                \begin{tikzpicture}
-                                \begin{axis}
-                                \addplot[first, smooth, arrowclosed]expression[domain=-8:-3]{2/3*(x+3)+1};
-                                \addplot[first, smooth, open]expression[domain=-3:1]{-4};
-                                \addplot[first, smooth, closedarrow]expression[domain=2:7.5]{-2*(x-2)+3};
-                                \end{axis}
-                                \end{tikzpicture}
-                            </latex-image>
-                        </image>
-                    </figure>
-                </sidebyside>
-            </introduction>
             <task>
                 <statement>
                     <p>
-                        Evaluate the following:
-                        <ol marker="i">
-                            <li><m>(f-k)(-3)</m></li>
-                            <li><m>(g \cdot h)(1)</m></li>
-                        </ol>
+                        If <m>\cos(\theta)=\frac{1}{5}</m> and <m>\sin(\theta) = -\frac{2\sqrt{5}}{5}</m>,
+                        which quadrant must <m>\theta</m> be in?
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
-                        Evaluate the following:
-                        <ol marker="i">
-                            <li><m>(k \circ g)(5)</m></li>
-                            <li><m>(f \circ h)(8)</m></li>
-                        </ol>
+                        If <m>\cos(\phi)=-\frac{2}{3}</m> and <m>\sin(\phi) = \frac{\sqrt{5}}{3}</m>,
+                        which quadrant must <m>\phi</m> be in?
                     </p>
                 </statement>
             </task>
@@ -164,137 +141,223 @@
 		<exercise>
 			<introduction>
 				<p>
-                    Let <m>F(x) = \dfrac{x+5}{x-3}</m>, <m>G(x) = x^2 - 4</m>, and <m>H(x) = \sqrt{2x+19}</m>.
-				</p>
-				<p>
-					State the domain of the following functions:
-				</p>
-			</introduction>
-            <task>
-                <p>
-                    <m>\dfrac{H}{G}</m>
+                    Find the reference angles for the given angles.
                 </p>
-			</task>
+            </introduction>
             <task>
-                <p>
-                    <m>F \circ H</m>
-                </p>
+                <statement>
+                    <p>
+                        340<degree/>
+                    </p>
+                </statement>
             </task>
-		</exercise>
+            <task>
+                <statement>
+                    <p>
+                        440<degree/>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\frac{8\pi}{3}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\frac{9\pi}{7}</m>
+                    </p>
+                </statement>
+            </task>
+        </exercise>
+		<exercise>
+			<introduction>
+				<p>
+                    Which of the standard angles between <m>0</m> and <m>2\pi</m> on the unit circle
+                    do the following <m>x</m> and <m>y</m> coordinates go with?
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>\left(\frac{1}{2},\frac{\sqrt{3}}{2}\right)</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\left(\frac{-\sqrt{2}}{2},\frac{\sqrt{2}}{2}\right)</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\left(\frac{\sqrt{3}}{2},-\frac{1}{2}\right)</m>
+                    </p>
+                </statement>
+            </task>
+        </exercise>
+		<exercise>
+            <task>
+                <statement>
+                    <p>
+                        If <m>\cos(\theta)=\frac{1}{5}</m> and <m>0 \leq \theta \leq \frac{\pi}{2}</m>,
+                        find the value of <m>\sin(\theta)</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        If <m>\sin(\alpha)=-\frac{3}{7}</m> and <m>\pi \leq \alpha\leq \frac{3\pi}{2}</m>,
+                        find the value of <m>\cos(\alpha)</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        If <m>\cos(\beta)=-\frac{3}{4}</m> and <m>\frac{\pi}{2} \leq \beta \leq \pi</m>,
+                        find the value of <m>\sin(\beta)</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\cos(\frac{15\pi}{6})</m>
+                    </p>
+                </statement>
+            </task>
+        </exercise>
+		<exercise>
+			<introduction>
+				<p>
+                    Evaluate the expressions without a calculator by first finding and using the 
+                    reference angles for the angles shown.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>\sin(\frac{3\pi}{2})</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\sin(\frac{7\pi}{3})</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\cos(\frac{11\pi}{4})</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\cos(\frac{15\pi}{6})</m>
+                    </p>
+                </statement>
+            </task>
+        </exercise>
     </exercises>
 
     
-    <subsection xml:id="def-functions-algebra">
+    <subsection xml:id="def-unit-circle">
         <title>Definitions</title>
         <definition>
-            <title>Algebraic Combinations of Functions</title>
+            <title>The Unit Circle</title>
             <statement>
                 <p>
-						Two functions <m>f</m> and <m>g</m> can be combined using the operations of addition, subtraction, multiplication, or division as follows:
-                <ul>
-                    <li>
-                        <p>
-                            <m>{f+g}</m> is defined for all values of <m>x</m> in the domain of both <m>f</m> and <m>g</m> as <m>(f+g)(x) = f(x) + g(x)</m>.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            <m>{f-g}</m> is defined for all values of <m>x</m> in the domain of both <m>f</m> and <m>g</m> as <m>(f-g)(x) = f(x) - g(x)</m>.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            <m>f \cdot g</m> is defined for all values of <m>x</m> in the domain of both <m>f</m> and <m>g</m> as <m>(f\cdot g)(x) = f(x) \cdot g(x)</m>.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            <m>\dfrac{f}{g}</m> is defined for all values of <m>x</m> in the domain of both <m>f</m> and <m>g</m> and where <m>g(x) \neq 0</m> as <m>\left(\dfrac{f}{g}\right)(x) = \dfrac{f(x)}{g(x)}</m>.
-                        </p>
-                    </li>
-                </ul>
+                    A <term>unit circle</term> is a circle with radius 1.
                 </p>
             </statement>
         </definition>
-
         <definition>
-            <title>Function Composition</title>
+            <title>Cosine of an Angle</title>
             <statement>
                 <p>
-                    The <term>composition of functions</term>, <m>f \circ g</m> occurs when the output of one function <m>g</m> is used as the input of another function <m>f</m> and is defined as <m>(f \circ g)(x) = f(g(x)</m>. 
+                    The <term>cosine of an angle</term>, <m>\theta</m>, is equal to the 
+                    <m>x</m>-value at that angle on a unit circle.
                 </p>
+            </statement>
+        </definition>
+        <definition>
+            <title>Sine of an Angle</title>
+            <statement>
                 <p>
-                    The domain of <m>f \circ g</m> is all values of <m>x</m> in the domain of <m>g</m> where the values of <m>g(x)</m> are in the domain of <m>f</m>.
+                    The <term>sine of an angle</term>, <m>\theta</m>, is equal to the <m>y</m>-value
+                    at that angle on a unit circle.
                 </p>
+            </statement>
+        </definition>
+        <definition>
+            <title>The Pythagorean Identity</title>
+            <statement>
                 <p>
-                    Note that <m>f \cdot g</m> is used for the product of two functions, while <m>f \circ g</m> is used for composition.
+                    The <term>Pythagorean Identity</term> is the relationship between sine and cosine
+                    values, <m>\sin^2(\theta) + \cos^2(\theta) = 1</m>, relating to the Pythagorean 
+                    Theorem in <xref provisional="Figure 5.14"/>.
+                </p>
+            </statement>
+        </definition>
+        <definition>
+            <title>Reference Angle</title>
+            <statement>
+                <p>
+                    A <term>reference angle</term>, <m>\alpha</m>, to an angle <m>\theta</m>, is the 
+                    acute (or right) positive angle between the <m>x</m>-axis to the angle <m>\theta</m>
+                    as shown in <xref provisional="Figure 5.15"/>.
                 </p>
             </statement>
         </definition>
 	</subsection>
         
-    <exercises xml:id="exit-function-algebra">
+    <exercises xml:id="exit-unit-circle">
         <title>Exit Exercises</title>
         <exercise>
-            <introduction>
+            <statement>
                 <p>
-                        Answer the following in general for two functions <m>f</m> and <m>g</m>.
+                    Which angle, <m>\theta</m>, between <m>0</m> and <m>2\pi</m> has a sine value of
+                    <m>-\frac{\sqrt{3}}{2}</m> and a cosine value of <m>\frac{1}{2}</m>?
                 </p>
-            </introduction>
-            <task>
-                <statement>
-                    <p>
-                        What is meant by <m>(f + g)(6)</m>?  Explain both algebraically, as well as in written words.
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        For two functions <m>f</m> and <m>g</m>, how do you find the domain of <m>f + g</m>, <m>f-g</m>, or <m>f\cdot g</m>? \\
-                    </p>
-                    <p>
-                        What else do you need to consider for <m>\dfrac{f}{g}</m>?
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        What is meant by <m>(f \circ g)(-4)</m>?  Explain both algebraically, as well as in written words.
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        In general, does the order of composition matter? Does <m>(f \circ g)(x)</m> yield the same thing as <m>(g \circ f)(x)</m>?
-                    </p>
-                </statement>
-            </task>
+            </statement>
         </exercise>
         <exercise>
-            <introduction>
+            <statement>
                 <p>
-                    Let <m>f(x) = x^2 + 7x</m>, <m>g(x) = \sqrt{5x-1}</m>, and <m>h(x) = \dfrac{x+1}{x-2} </m>.
+                    What is the reference angle for <m>\frac{7\pi}{6}</m>?
                 </p>
-            </introduction>
-            <task>
-                <statement>
-                    <p>
-                        Evaluate <m>(g-f)(10)</m>.
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        Evaluate <m>(h \circ f)(x)</m>
-                    </p>
-                </statement>
-            </task>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    Evaluate <m>\sin(\frac{11\pi}{3})</m> without a calculator.
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    If <m>\sin(\theta)=-\frac{1}{4}</m> and <m>\pi \leq \theta \leq \frac{3\pi}{2}</m>,
+                    find the value of <m>\cos(\theta)</m>.
+                </p>
+            </statement>
         </exercise>
     </exercises>
+
     <reading-questions>
         <exercise>
             <statement>

@@ -5,289 +5,237 @@
     <title>Trigonometric Identities Summary Sheet</title>
     <introduction>
         <p>
-            In this section, we'll 
+            Below is a reference sheet of all trigonometric identities in this chapter.
         </p>
     </introduction>
 
-    <!--
-    <subsection>
-        <title>Textbook Reference</title>
-        <p> 
-            This relates to content in <section-mark/>5.2 of 
-            <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e" visual="http://tiny.cc/111Z-Textbook">Algebra and Trigonometry 2e</url>.
-        </p>
-    </subsection>
-
-    <exercises xml:id="prep-polynomial-functions">
-		<title>Preparation Exercises</title>
-		<exercise>
-            <task>
-                <statement>
-                    <p>
-                        Completely factor <m>2x^2 + 2x - 12.</m>
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        Completely factor <m>2x^2 + 3x - 2.</m>
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        Algebraically find and state the <m>x</m>-intercepts of the graph of <m>f(x) = 2x^2 + 2x - 12</m>.
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        Algebraically find and state the <m>x</m>-intercepts of the graph of <m>f(x) = 2x^2 + 3x - 2</m>.
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        Algebraically find and state the <m>y</m>-intercept of the graph of <m>f(x) = 2x^2 + 3x - 2</m>.
-                    </p>
-                </statement>
-            </task>
-		</exercise>
-	</exercises>
-
-	<exercises xml:id="practice-polynomial-functions">
-		<title>Practice Exercises</title>
-		<exercise>
-            <introduction>
-                <p>
-                    Let <m>f(x) = \frac{1}{2} x^4 +3x^3 -16x</m>, which in factored form is <m>f(x) = \frac{1}{2}x(x-2)(x+4)^2</m>.
-                </p>
-            </introduction>
-            <task>
-                <statement>
-                    <p>
-                        Describe the end behavior of the graph of <m>y=f(x)</m>.
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        At most how many turning points does the graph of <m>y=f(x)</m> have?
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        What is the <m>y</m>-intercept of <m>y=f(x)</m>?
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        What are the <m>x</m>-intercept(s) of <m>y=f(x)</m>?
-                    </p>
-                </statement>
-            </task>
-		</exercise>
-		<exercise>
-            <introduction>
-                <p>
-                    Let <m>g(x) = 2x^3 - 5x^2 - 4x + 12</m>, which in factored form is <m>g(x) = (2x+3)(x-2)^2</m>.
-                </p>
-            </introduction>
-            <task>
-                <statement>
-                    <p>
-                        Describe the end behavior of the graph of <m>y=g(x)</m>.
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        At most how many turning points does the graph of <m>y=g(x)</m> have?
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        What is the <m>y</m>-intercept of <m>y=g(x)</m>?
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        What are the <m>x</m>-intercept(s) of <m>y=g(x)</m>?
-                    </p>
-                </statement>
-            </task>
-		</exercise>
-    </exercises>
-
-    
-    <subsection xml:id="definitions-polynomial-functions">
-        <title>Definitions</title>
-        <definition>
-            <title>Power Function</title>
-            <statement>
-                <p>
-                    A <term>power function</term> is a function that can be represented in the form
-                    <me>f(x) = kx^p</me>
-                    where <m>k</m> and <m>p</m> are real numbers. <m>k</m> is called the coefficient.
-                </p>
-            </statement>
-        </definition>
-        <definition>
-            <title>Polynomial Function</title>
-            <statement>
-                <p>
-                    A <term>polynomial function</term> is of the form
-                    <me>p(x) = a_n x^n y^m + a_{n-1} x^{n-1} + ... + a_0 x + a_0</me>
-                    where <m>a_n, ~a_{n-1}, ~\dots,~ a_1, ~a_0</m> are real numbers, <m>a_n\neq 0</m>, and <m>n</m> is a non-negative integer.
-                    <ul>
-                        <li>The <term>leading term</term> is the highest degree term, <m>a_n x^n</m>.</li>
-                        <li>The <term>degree</term> of the polynomial is <m>n</m>.</li>
-                        <li>The <term>leading coefficient</term> is the coefficient of the leading term, <m>a_n</m>.</li>
-                    </ul>
-                </p>
-            </statement>
-        </definition>
-        <example>
+    <definition>
+        <title>Definitions for tangent, cotangent, secant, and cosecant</title>
+        <statement>
+                <ul cols="2">
+                    <li>
+                        <p>
+                        <m>\tan{(x)} = \frac{\sin(x)}{\cos(x)}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                        <m>\cot{(x)} = \frac{\cos(x)}{\sin(x)}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                        <m>\sec{(x)} = \frac{1}{\cos(x)}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                        <m>\csc{(x)} = \frac{1}{\sin(x)}</m>
+                        </p>
+                    </li>
+                </ul>
+        </statement>
+    </definition>
+    <definition>
+        <title>Odd and even trigonometric functions</title>
+        <statement>
             <p>
-                The polynomial <m>5x^2-8x+4</m> has a leading term of <m>5x^2</m>, is second degree polynomial, and has a leading coefficient of <m>5</m>. 
+                Sine, tangent, cotangent, and cosecant are odd functions, while cosine and secant
+                are even functions.
             </p>
-        </example>
-        <definition>
-            <title><m>x</m>-intercept or Horizontal Intercept</title>
-            <statement>
-                <p>
-                    A <term>horizontal intercept</term> or <term><m>x</m>-intercept</term> of a graph is a point where the graph intersects the horizontal or <m>x</m>-axis.  This occurs when the function has an output value of 0.
-                </p>
-            </statement>
-        </definition>
-        <example>
-            <p>
-                We can find the horizontal intercepts of the graph of <m>f(x) = 5x^2-8x+4</m> by solving <m>f(x)=0</m>.
-            </p>
-        </example>
-        <definition>
-            <title><m>y</m>-intercept or Vertical Intercept</title>
-            <statement>
-                <p>
-                    A <term>vertical intercept</term> or <term><m>y</m>-intercept</term> of a graph is a point where the graph intersects the vertical or <m>y</m>-axis.  This occurs when the function has an input value of 0.
-                </p>
-            </statement>
-        </definition>
-        <example>
-            <p>
-                We can find the vertical intercepts of the graph of <m>f(x) = 5x^2-8x+4</m> by evaluating <m>f(0)</m>.
-            </p>
-        </example>
-        <definition>
-            <title>End Behavior or Long-Term Behavior</title>
-            <statement>
-                <p>
-                    The <term>end behavior</term> or <term>long-term behavior</term> of a polynomial function is determined by its leading term. The long-term behavior of the polynomial function will be consistent with the power function that is the leading term of the polynomial.
-                </p>
-            </statement>
-        </definition>
-        <example>
-            <p>
-                The end behavior of <m>f(x) = 5x^4-7x^2+8x-9</m> will be the same as the end behavior of <m>y=5x^4</m>.
-            </p>
-        </example>
-        <definition>
-            <title>Turning Point</title>
-            <statement>
-                <p>
-                    A <term>turning point</term> of a polynomial function is a point at which the graph changes from increasing to decreasing or from decreasing to increasing.
-                </p>
-            </statement>
-        </definition>
-        <example>
-            <p>
-                The graph of <m>f(x) = 5x^4 - 7x^2 + 8x - 9</m> has at most 3 turning points.
-            </p>
-        </example>
-        <definition>
-            <title>Root or Zero</title>
-            <statement>
-                <p>
-                    A <term>root</term> or <term>zero</term> of a polynomial function is a value <m>r</m> for which <m>f(r)=0</m>. <m>r</m> is a zero of a polynomial function <m>f</m> if and only if <m>(x-r)</m> is a factor of <m>f</m>.
-                </p>
-            </statement>
-        </definition>
-        <example>
-            <p>
-                If <m>7</m> is a zero of a polynomial, then <m>(x-7)</m> is a factor of the polynomial.
-            </p>
-        </example>
-        <example>
-            <p>
-                If <m>(x+3)</m> is a factor of a polynomial, then <m>-3</m> is a zero of the polynomial.
-            </p>
-        </example>
-	</subsection>
-        
-    <exercises xml:id="exit-polynomial-functions">
-        <title>Exit Exercises</title>
-        <exercise>
-            <task>
-                <statement>
+            <sidebyside>
+            <ul>
+                <li>
                     <p>
-                        What does the degree of a polynomial function tell you about the graph of the function?
+                    <m>\sin(-x) = -\sin(x)</m>
                     </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
+                </li>
+                <li>
                     <p>
-	                    What does the leading coefficient of a polynomial function tell you about the graph of the function?
+                    <m>\tan(-x) = -\tan(x)</m>
                     </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
+                </li>
+                <li>
                     <p>
-		                If you know the graph of a polynomial function has 7 turning points, what can you say about the degree of the function?
+                    <m>\cot(-x) = -\cot(x)</m>
                     </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
+                </li>
+                <li>
                     <p>
-		                What do we know about a polynomial function's formula if we know the function has the following behavior?
+                    <m>\csc(-x) = -\csc(x)</m>
                     </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
                     <p>
-                        As <m>x\rightarrow -\infty</m>, <m>f(x)\rightarrow \infty</m> and as <m>x\rightarrow \infty</m>, <m>f(x)\rightarrow -\infty</m>.
+                    <m>\cos(-x) = \cos(x)</m>
                     </p>
-                </statement>
-            </task>
-	    </exercise>
-        <exercise>
-		    <statement>
-                <p>
-                    State the degree, leading coefficient, long-term behavior, <m>y</m>-intercept, and the <m>x</m>-intercepts for function <m>f(x) = \frac{1}{3}(x-4)(x+5)^2(x+1)</m>.
-                </p>
-            </statement>
-	    </exercise>
-    </exercises>
-
-    <reading-questions>
-        <exercise>
-            <statement>
-                <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
-            </statement>
-        </exercise>
-    </reading-questions>
-    -->
+                </li>
+                <li>
+                    <p>
+                    <m>\sec(-x) = \sec(x)</m>
+                    </p>
+                </li>
+            </ul>
+        </sidebyside>
+        </statement>
+    </definition>
+    <definition>
+        <title>Pythagorean Identities</title>
+        <statement>
+            <ul> 
+                <li>
+                    <p>
+                    <m>\sin^2(x) + \cos^2(x) = 1</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                    <m>\tan^2(x) + 1 = \sec^2(x)</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                    <m>\cot^2(x) + 1 = \csc^2(x)</m>
+                    </p>
+                </li>
+            </ul>
+        </statement>
+    </definition>
+    <definition>
+        <title>Sum and Difference Identities</title>
+        <statement>
+            <ul>
+                <li>
+                    <p>
+                        <m>\cos(\alpha + \beta) = \cos(\alpha)\cos(\beta)-\sin(\alpha)\sin(\beta)</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>\cos(\alpha - \beta) = \cos(\alpha)\cos(\beta)+\sin(\alpha)\sin(\beta)</m>
+                    </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p>
+                        <m>\sin(\alpha + \beta) = \sin(\alpha)\cos(\beta)+\cos(\alpha)\sin(\beta)</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>\sin(\alpha - \beta) = \sin(\alpha)\cos(\beta)-\cos(\alpha)\sin(\beta)</m>
+                    </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p>
+                        <m>\tan(\alpha + \beta) = \frac{\tan(\alpha) + \tan(\beta)}{1 - \tan(\alpha)\tan(\beta)}</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>\tan(\alpha - \beta) = \frac{\tan(\alpha) - \tan(\beta)}{1 + \tan(\alpha)\tan(\beta)}</m>
+                    </p>
+                </li>
+            </ul>
+        </statement>
+    </definition>
+    <definition>
+        <title>Double-angle and half-angle identities</title>
+        <statement>
+            <sidebyside>
+                <ul>
+                    <li>
+                        <p>
+                            <md>
+                                <mrow>\cos(2\theta) \amp = \cos^2(\theta) - \sin^2(\theta)</mrow>
+                                <mrow>\amp = 1 - 2\sin^2(\theta)</mrow>
+                                <mrow>\amp = 2\cos^2(\theta) - 1</mrow>
+                            </md>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\tan(2\theta) = \frac{2\tan(\theta)}{1-\tan^2(\theta)}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\sin(2\theta) = 2\sin(\theta)\cos(\theta)</m>
+                        </p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p>
+                            <m>\sin(\frac{\theta}{2}) = \pm \sqrt{\frac{1 - \cos(\theta)}{2}}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\cos(\frac{\theta}{2}) = \pm \sqrt{\frac{1 + \cos(\theta)}{2}}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\tan(\frac{\theta}{2}) = \pm \sqrt{\frac{1 - \cos(\theta)}{1 + \cos(\theta)}}</m>
+                        </p>
+                    </li>
+                </ul>
+            </sidebyside>
+        </statement>
+    </definition>
+    <definition>
+        <title>Product-to-sum and Sum-to-product identities</title>
+        <statement>
+            <ul>
+                <li>
+                    <p>
+                        <m>\cos(\alpha)\cos(\beta) = \frac12 \left[\cos(\alpha - \beta) + \cos(\alpha+\beta)\right]</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>\sin(\alpha)\cos(\beta) = \frac12 \left[\sin(\alpha + \beta) + \sin(\alpha+\beta)\right]</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>\sin(\alpha)\sin(\beta) = \frac12 \left[\cos(\alpha - \beta) - \cos(\alpha+\beta)\right]</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>\cos(\alpha)\sin(\beta) = \frac12 \left[\sin(\alpha + \beta) - \sin(\alpha-\beta)\right]</m>
+                    </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p>
+                        <m>\sin(\alpha) + \sin(\beta) = 2\sin\left(\frac{\alpha + \beta}{2}\right)\cos\left(\frac{\alpha-\beta}{2}\right)</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>\sin(\alpha) - \sin(\beta) = 2\sin\left(\frac{\alpha - \beta}{2}\right)\cos\left(\frac{\alpha+\beta}{2}\right)</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>\cos(\alpha) - \cos(\beta) = -2\sin\left(\frac{\alpha + \beta}{2}\right)\sin\left(\frac{\alpha-\beta}{2}\right)</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>\cos(\alpha) + \cos(\beta) = 2\cos\left(\frac{\alpha + \beta}{2}\right)\cos\left(\frac{\alpha-\beta}{2}\right)</m>
+                    </p>
+                </li>
+            </ul>
+        </statement>
+    </definition>
 </section>

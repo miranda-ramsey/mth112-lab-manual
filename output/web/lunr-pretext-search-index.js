@@ -25,7 +25,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.1",
   "title": "Angles",
-  "body": " Angles   In this section, we'll draw angles in standard position, convert between degrees and radians and degrees-minutes-seconds, find coterminal angles, and find the length of a circular arc.    Textbook Reference  This relates to content in 7.1 of Algebra and Trigonometry 2e .    Preparation Exercises    Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.     Solve the equation for .      Simplify the expression without a calculator. Reduce to simplest form.      In terms of time, how many minutes total are in 3 hours and 53 minutes?      Draw a line segment from the point to the point . Find the distance between those two points using the Pythagorean Theorem. Leave your answer in exact form.        Practice Exercises    Find an angle that is coterminal to -40 and is between 360 and 720       Match each angle in the first group with its coterminal angle in the second group.     30  270  -220  -60  0  150      720  -90  390  510  -420  500         Convert the angles.     Convert 28 to radians. Leave your answer as a fraction in terms of .      Convert radians to degrees. Round to 6 digits behind the decimal place.      Convert 14 20 36 to a decimal measurement of degrees.      Convert 76.85 to degrees-minutes-seconds.       Use the formula to find the missing values.     Find the arc length of on a circle of radius 6 with an interior angle of .      Find the interior angle of an arc length on a circle of radius 12 with an arc length of .      Find the arc length of on a circle of radius with an interior angle of 20        Definitions   Angle   An angle is formed when two lines intersect at a point. We can measure the “size” of this angle in degrees or radians.     Ray   A ray is a portion of a line that starts at a point and extends infinitely in one direction.     Degree   A degree is an angle measurement equal to of a full rotation.     Right Angle   A right angle is an angle of 90 .     Radian   A radian is a unit of measurement of angle size, and 1 radian is defined to be the angle that is made when the arc length for that angle on a circle of radius 1 is equal to 1. Check out this Desmos link and click the \"play\" button on the slider for a visual representation of this concept.    Standard Angles    A circle with common angles indicated in radians:   0     30     45     60     90     120     135     150     180     210     225     240     270     300     315     330            Initial and Terminal sides   An angle is created by imagining two rays originating from the same point: the initial side of the angle is stationary and the terminal side is rotated around until the desired angle is created. Angles measured from initial to terminal side in a counterclockwise direction are positive. Angles measured from initial to terminal side clockwise are negative.     Standard Position   An angle is said to be in standard position if the initial and terminal sides of the angle meet at the origin and the initial side of the angle is along the positive x-axis.     Coterminal   Two angles are coterminal if their initial and terminal sides align, but they differ by an integer number of full rotations. In standard position, this means that the two angles are “in the same place” are different by some integer multiple of 360 (or radians).     Arc length   An arc length is a distance along a part of the circumference of a circle. A formula for arc length is , where stands for arc length along a circle of radius , with an interior angle centered at the center of the circle.    Coterminal angles and    An angle drawn in standard position is indicated in two ways. Beginning with an initial side along the positive -axis and ending with a terminal side in the second quadrant, the angle in the counter- clockwise direction is labeled and the angle in the clockwise direction is labeled . The segment of the circumference of the circle between the initial and terminal sides of is the arc subtended by , and the length measure of that arc is the arc length for angle .         Exit Exercises    Explain why -90 is not the same as 270 .      Convert 34 29 24 to decimal degrees.      Convert the angle 144 to radians. Write your answer in exact form as a fraction with in it.      How big of an arc length will an angle of radians create on a circle of radius 6? Draw this angle and arc length on the circle of radius 6 provided.         On a scale of 1 5, how are you feeling with the concepts related to the graphical behaviors of functions?    --> "
+  "body": " Angles   In this section, we'll draw angles in standard position, convert between degrees and radians and degrees-minutes-seconds, find coterminal angles, and find the length of a circular arc.    Textbook Reference  This relates to content in 7.1 of Algebra and Trigonometry 2e .    Preparation Exercises    Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.     Solve the equation for .      Simplify the expression without a calculator. Reduce to simplest form.      In terms of time, how many minutes total are in 3 hours and 53 minutes?      Draw a line segment from the point to the point . Find the distance between those two points using the Pythagorean Theorem. Leave your answer in exact form.        Practice Exercises    Find an angle that is coterminal to -40 and is between 360 and 720       Match each angle in the first group with its coterminal angle in the second group.     30  270  -220  -60  0  150      720  -90  390  510  -420  500         Convert the angles.     Convert 28 to radians. Leave your answer as a fraction in terms of .      Convert radians to degrees. Round to 6 digits behind the decimal place.      Convert 14 20 36 to a decimal measurement of degrees.      Convert 76.85 to degrees-minutes-seconds.       Use the formula to find the missing values.     Find the arc length of on a circle of radius 6 with an interior angle of .      Find the interior angle of an arc length on a circle of radius 12 with an arc length of .      Find the arc length of on a circle of radius with an interior angle of 20        Definitions   Angle   An angle is formed when two lines intersect at a point. We can measure the “size” of this angle in degrees or radians.     Ray   A ray is a portion of a line that starts at a point and extends infinitely in one direction.     Degree   A degree is an angle measurement equal to of a full rotation.     Right Angle   A right angle is an angle of 90 .     Radian   A radian is a unit of measurement of angle size, and 1 radian is defined to be the angle that is made when the arc length for that angle on a circle of radius 1 is equal to 1. Check out this Desmos link and click the \"play\" button on the slider for a visual representation of this concept.    Standard Angles    A circle with common angles indicated in radians:   0     30     45     60     90     120     135     150     180     210     225     240     270     300     315     330            Initial and Terminal sides   An angle is created by imagining two rays originating from the same point: the initial side of the angle is stationary and the terminal side is rotated around until the desired angle is created. Angles measured from initial to terminal side in a counterclockwise direction are positive. Angles measured from initial to terminal side clockwise are negative.     Standard Position   An angle is said to be in standard position if the initial and terminal sides of the angle meet at the origin and the initial side of the angle is along the positive x-axis.     Coterminal   Two angles are coterminal if their initial and terminal sides align, but they differ by an integer number of full rotations. In standard position, this means that the two angles are “in the same place” are different by some integer multiple of 360 (or radians).     Arc length   An arc length is a distance along a part of the circumference of a circle. A formula for arc length is , where stands for arc length along a circle of radius , with an interior angle centered at the center of the circle.    Coterminal angles and    An angle drawn in standard position is indicated in two ways. Beginning with an initial side along the positive -axis and ending with a terminal side in the second quadrant, the angle in the counter- clockwise direction is labeled and the angle in the clockwise direction is labeled . The segment of the circumference of the circle between the initial and terminal sides of is the arc subtended by , and the length measure of that arc is the arc length for angle .         Exit Exercises    Explain why -90 is not the same as 270 .      Convert 34 29 24 to decimal degrees.      Convert the angle 144 to radians. Write your answer in exact form as a fraction with in it.      How big of an arc length will an angle of radians create on a circle of radius 6? Draw this angle and arc length on the circle of radius 6 provided.         On a scale of 1 5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
 },
 {
   "id": "sec-angles-4-2",
@@ -205,7 +205,97 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.2",
   "title": "Right Angle Trigonometry",
-  "body": " Right Angle Trigonometry   In this section, we'll    "
+  "body": " Right Angle Trigonometry   In this section, we'll use right triangles to evaluate trigonometric functions, find function values for 30 , 45 , and 60 , use all six trigonometric functions to find lengths inside right triangles, and use right-triangle trigonometry to solve applied problems.    Textbook Reference  This relates to content in 7.2 of Algebra and Trigonometry 2e .    Preparation Exercises   Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.     What does the word \"adjacent\" mean?      Fill in the table with the missing angle measurements.             Angle (radians)                            Angle (degrees)     30   90         60      135         Practice Exercises    Decide which values math without a calculator using \"SOHCAHTOA\" and \"CHOSHACAO\". The triangles are not shown to scale.     Which of the values will be the same as sin(40 )?      Which of the values will be the same as tan(20 )?       For the triangle shown in , find , , and . You can use a calculator to help get an approximation, accurate to 4 digits behind the decimal place.      On a backpacking trip in the Wallowa Mountains of northeastern Oregon, Megan and Emily were marveling at the height of an enormous Ponderosa Pine. Ross said, \"we can calculate it’s height pretty easily just by knowing that 'a pace' is 3ft and the distance from the tip of my thumb to the tip of my pinkie is 9 inches\". Ross paced away from the tree on level ground 30 paces. Help the three hikers measure the height of the tree two different ways.     Ross finds a stick and measures it to be about 6ft tall. He lays down on the ground and asks Emily to hold the stick vertically on the ground at a certain point where the tip of the stick lines up with the tip of the tree from his point of view. That distance on the ground was 4ft from Ross's viewing position, as shown in Figure 5.9. Set up similar triangles to estimate the height of the tree. Drawing not to scale.      Ross then took out his phone and used the inclinometer app on to measure the angle to to top of the tree, to be about 55 . In this scenario, Ross still 30 paces away from the tree, and was standing to measure the height: the phone was 5ft above the ground, as shown in Figure 5.10. Use right-triangle trigonometry to estimate the height of the tree. Drawing not to scale.       Definitions   Consider the triangle shown in .    SOHCAHTOA        CHOSHACAO         Exit Exercises    Use the triangle in to answer the questions below.     Find the value of       Find the value of       Find the value of        Shown in is a triangle with side , angle , and angle . Find the length of the side .        On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
+},
+{
+  "id": "prep-average-rates-and-dq-3",
+  "level": "2",
+  "url": "sec-right-angle-trig.html#prep-average-rates-and-dq-3",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  What does the word \"adjacent\" mean?   "
+},
+{
+  "id": "prep-average-rates-and-dq-4",
+  "level": "2",
+  "url": "sec-right-angle-trig.html#prep-average-rates-and-dq-4",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Fill in the table with the missing angle measurements.             Angle (radians)                            Angle (degrees)     30   90         60      135      "
+},
+{
+  "id": "practice-right-angle-trig-2",
+  "level": "2",
+  "url": "sec-right-angle-trig.html#practice-right-angle-trig-2",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Decide which values math without a calculator using \"SOHCAHTOA\" and \"CHOSHACAO\". The triangles are not shown to scale.     Which of the values will be the same as sin(40 )?      Which of the values will be the same as tan(20 )?    "
+},
+{
+  "id": "practice-right-angle-trig-3",
+  "level": "2",
+  "url": "sec-right-angle-trig.html#practice-right-angle-trig-3",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  For the triangle shown in , find , , and . You can use a calculator to help get an approximation, accurate to 4 digits behind the decimal place.   "
+},
+{
+  "id": "practice-right-angle-trig-4",
+  "level": "2",
+  "url": "sec-right-angle-trig.html#practice-right-angle-trig-4",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  On a backpacking trip in the Wallowa Mountains of northeastern Oregon, Megan and Emily were marveling at the height of an enormous Ponderosa Pine. Ross said, \"we can calculate it’s height pretty easily just by knowing that 'a pace' is 3ft and the distance from the tip of my thumb to the tip of my pinkie is 9 inches\". Ross paced away from the tree on level ground 30 paces. Help the three hikers measure the height of the tree two different ways.     Ross finds a stick and measures it to be about 6ft tall. He lays down on the ground and asks Emily to hold the stick vertically on the ground at a certain point where the tip of the stick lines up with the tip of the tree from his point of view. That distance on the ground was 4ft from Ross's viewing position, as shown in Figure 5.9. Set up similar triangles to estimate the height of the tree. Drawing not to scale.      Ross then took out his phone and used the inclinometer app on to measure the angle to to top of the tree, to be about 55 . In this scenario, Ross still 30 paces away from the tree, and was standing to measure the height: the phone was 5ft above the ground, as shown in Figure 5.10. Use right-triangle trigonometry to estimate the height of the tree. Drawing not to scale.    "
+},
+{
+  "id": "definitions-right-angle-trig-3",
+  "level": "2",
+  "url": "sec-right-angle-trig.html#definitions-right-angle-trig-3",
+  "type": "Definition",
+  "number": "5.2.1",
+  "title": "SOHCAHTOA.",
+  "body": " SOHCAHTOA      "
+},
+{
+  "id": "definitions-right-angle-trig-4",
+  "level": "2",
+  "url": "sec-right-angle-trig.html#definitions-right-angle-trig-4",
+  "type": "Definition",
+  "number": "5.2.2",
+  "title": "CHOSHACAO.",
+  "body": " CHOSHACAO      "
+},
+{
+  "id": "exit-right-trig-2",
+  "level": "2",
+  "url": "sec-right-angle-trig.html#exit-right-trig-2",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Use the triangle in to answer the questions below.     Find the value of       Find the value of       Find the value of     "
+},
+{
+  "id": "exit-right-trig-3",
+  "level": "2",
+  "url": "sec-right-angle-trig.html#exit-right-trig-3",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Shown in is a triangle with side , angle , and angle . Find the length of the side .   "
+},
+{
+  "id": "sec-right-angle-trig-8-1",
+  "level": "2",
+  "url": "sec-right-angle-trig.html#sec-right-angle-trig-8-1",
+  "type": "Reading Question",
+  "number": "1",
+  "title": "",
+  "body": "  On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
 {
   "id": "sec-unit-circle",
@@ -214,7 +304,178 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.3",
   "title": "The Unit Circle",
-  "body": " The Unit Circle   In this section, we'll    "
+  "body": " The Unit Circle   In this section, we will find function values for the sine and cosine of 30 , 45 , and 60 , identify the domain and range of sine and cosine functions, find reference angles, and use reference angles to evaluate trigonometric functions.    Textbook Reference  This relates to content in 7.3 of Algebra and Trigonometry 2e .    Preparation Exercises   Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.     For a right triangle with side and hypotenuse , find the missing side using the Pythagorean Theorem.      Which quadrant are the following angles in?                                                              Simplify without a calculator.      Count from to by multiples of , then reduce those fractions. Here's how to start out:       Practice Exercises     If and , which quadrant must be in?      If and , which quadrant must be in?       Find the reference angles for the given angles.     340       440                      Which of the standard angles between and on the unit circle do the following and coordinates go with?                            If and , find the value of .      If and , find the value of .      If and , find the value of .              Evaluate the expressions without a calculator by first finding and using the reference angles for the angles shown.                                  Definitions   The Unit Circle   A unit circle is a circle with radius 1.     Cosine of an Angle   The cosine of an angle , , is equal to the -value at that angle on a unit circle.     Sine of an Angle   The sine of an angle , , is equal to the -value at that angle on a unit circle.     The Pythagorean Identity   The Pythagorean Identity is the relationship between sine and cosine values, , relating to the Pythagorean Theorem in .     Reference Angle   A reference angle , , to an angle , is the acute (or right) positive angle between the -axis to the angle as shown in .      Exit Exercises    Which angle, , between and has a sine value of and a cosine value of ?      What is the reference angle for ?      Evaluate without a calculator.      If and , find the value of .        On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    --> "
+},
+{
+  "id": "prep-unit-circle-3",
+  "level": "2",
+  "url": "sec-unit-circle.html#prep-unit-circle-3",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  For a right triangle with side and hypotenuse , find the missing side using the Pythagorean Theorem.   "
+},
+{
+  "id": "prep-unit-circle-4",
+  "level": "2",
+  "url": "sec-unit-circle.html#prep-unit-circle-4",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Which quadrant are the following angles in?                                                           "
+},
+{
+  "id": "prep-unit-circle-5",
+  "level": "2",
+  "url": "sec-unit-circle.html#prep-unit-circle-5",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Simplify without a calculator.   "
+},
+{
+  "id": "prep-unit-circle-6",
+  "level": "2",
+  "url": "sec-unit-circle.html#prep-unit-circle-6",
+  "type": "Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Count from to by multiples of , then reduce those fractions. Here's how to start out:    "
+},
+{
+  "id": "practice-unit-circle-2",
+  "level": "2",
+  "url": "sec-unit-circle.html#practice-unit-circle-2",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "   If and , which quadrant must be in?      If and , which quadrant must be in?    "
+},
+{
+  "id": "practice-unit-circle-3",
+  "level": "2",
+  "url": "sec-unit-circle.html#practice-unit-circle-3",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Find the reference angles for the given angles.     340       440                   "
+},
+{
+  "id": "practice-unit-circle-4",
+  "level": "2",
+  "url": "sec-unit-circle.html#practice-unit-circle-4",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Which of the standard angles between and on the unit circle do the following and coordinates go with?                        "
+},
+{
+  "id": "practice-unit-circle-5",
+  "level": "2",
+  "url": "sec-unit-circle.html#practice-unit-circle-5",
+  "type": "Exercise",
+  "number": "4",
+  "title": "",
+  "body": "   If and , find the value of .      If and , find the value of .      If and , find the value of .           "
+},
+{
+  "id": "practice-unit-circle-6",
+  "level": "2",
+  "url": "sec-unit-circle.html#practice-unit-circle-6",
+  "type": "Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Evaluate the expressions without a calculator by first finding and using the reference angles for the angles shown.                               "
+},
+{
+  "id": "def-unit-circle-2",
+  "level": "2",
+  "url": "sec-unit-circle.html#def-unit-circle-2",
+  "type": "Definition",
+  "number": "5.3.1",
+  "title": "The Unit Circle.",
+  "body": " The Unit Circle   A unit circle is a circle with radius 1.   "
+},
+{
+  "id": "def-unit-circle-3",
+  "level": "2",
+  "url": "sec-unit-circle.html#def-unit-circle-3",
+  "type": "Definition",
+  "number": "5.3.2",
+  "title": "Cosine of an Angle.",
+  "body": " Cosine of an Angle   The cosine of an angle , , is equal to the -value at that angle on a unit circle.   "
+},
+{
+  "id": "def-unit-circle-4",
+  "level": "2",
+  "url": "sec-unit-circle.html#def-unit-circle-4",
+  "type": "Definition",
+  "number": "5.3.3",
+  "title": "Sine of an Angle.",
+  "body": " Sine of an Angle   The sine of an angle , , is equal to the -value at that angle on a unit circle.   "
+},
+{
+  "id": "def-unit-circle-5",
+  "level": "2",
+  "url": "sec-unit-circle.html#def-unit-circle-5",
+  "type": "Definition",
+  "number": "5.3.4",
+  "title": "The Pythagorean Identity.",
+  "body": " The Pythagorean Identity   The Pythagorean Identity is the relationship between sine and cosine values, , relating to the Pythagorean Theorem in .   "
+},
+{
+  "id": "def-unit-circle-6",
+  "level": "2",
+  "url": "sec-unit-circle.html#def-unit-circle-6",
+  "type": "Definition",
+  "number": "5.3.5",
+  "title": "Reference Angle.",
+  "body": " Reference Angle   A reference angle , , to an angle , is the acute (or right) positive angle between the -axis to the angle as shown in .   "
+},
+{
+  "id": "exit-unit-circle-2",
+  "level": "2",
+  "url": "sec-unit-circle.html#exit-unit-circle-2",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Which angle, , between and has a sine value of and a cosine value of ?   "
+},
+{
+  "id": "exit-unit-circle-3",
+  "level": "2",
+  "url": "sec-unit-circle.html#exit-unit-circle-3",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  What is the reference angle for ?   "
+},
+{
+  "id": "exit-unit-circle-4",
+  "level": "2",
+  "url": "sec-unit-circle.html#exit-unit-circle-4",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Evaluate without a calculator.   "
+},
+{
+  "id": "exit-unit-circle-5",
+  "level": "2",
+  "url": "sec-unit-circle.html#exit-unit-circle-5",
+  "type": "Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  If and , find the value of .   "
+},
+{
+  "id": "sec-unit-circle-8-1",
+  "level": "2",
+  "url": "sec-unit-circle.html#sec-unit-circle-8-1",
+  "type": "Reading Question",
+  "number": "1",
+  "title": "",
+  "body": "  On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
 {
   "id": "sec-other-trig-functions",
@@ -223,7 +484,52 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.4",
   "title": "Other Trigonometric Functions",
-  "body": " Other Trigonometric Functions   In this section, we'll    "
+  "body": " Other Trigonometric Functions   In this section, we'll find exact values of the trigonometric functions secant, cosecant, tangent, and cotangent of , , and , use reference angles to evaluate the trigonometric functions secant, tangent, and cotangent, use properties of even and odd trigonometric functions, recognize and use fundamental identities, and evaluate trigonometric functions with a calculator.    Textbook Reference  This relates to content in 7.4 of Algebra and Trigonometry 2e .    Preparation Exercises   Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.     What does \"CHOSHACAO\" stand for? See Right Angle Trigonometry Definitions .                              "
+},
+{
+  "id": "sec-other-trig-functions-4-3",
+  "level": "2",
+  "url": "sec-other-trig-functions.html#sec-other-trig-functions-4-3",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  What does \"CHOSHACAO\" stand for? See Right Angle Trigonometry Definitions .   "
+},
+{
+  "id": "sec-other-trig-functions-4-4",
+  "level": "2",
+  "url": "sec-other-trig-functions.html#sec-other-trig-functions-4-4",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "sec-other-trig-functions-4-5",
+  "level": "2",
+  "url": "sec-other-trig-functions.html#sec-other-trig-functions-4-5",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "sec-other-trig-functions-4-6",
+  "level": "2",
+  "url": "sec-other-trig-functions.html#sec-other-trig-functions-4-6",
+  "type": "Exercise",
+  "number": "4",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "sec-other-trig-functions-4-7",
+  "level": "2",
+  "url": "sec-other-trig-functions.html#sec-other-trig-functions-4-7",
+  "type": "Exercise",
+  "number": "5",
+  "title": "",
+  "body": "     "
 },
 {
   "id": "sec-sine-cosine-graphs",
@@ -232,7 +538,169 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.1",
   "title": "Graphs of Sine and Cosine Functions",
-  "body": " Graphs of Sine and Cosine Functions   In this section, we'll    "
+  "body": " Graphs of Sine and Cosine Functions   In this section, we'll graph transformations of and and examine phase shifts of sine and cosine curves.    Textbook Reference  This relates to content in 8.1 of Algebra and Trigonometry 2e .    Preparation Exercises   Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.      What is the period of the sine function? Of the cosine function?      What is the range of the sine function? Of the cosine function?       Imagine a function , with some points given in the table below. Fill in the table to show how the points are transformed for the given function values.      Make the following graphs on given the graph of shown in .     Make a graph of .      Make a graph of .       Practice Exercises    Make a graph of by plotting the points that you know from the table. You need to know that and                                                                                                                                     Definitions   Even\/Odd Function Properties of Sine and Cosine        Period        Midline        Amplitude        Sinusoidal Function        Phase Shift        Horizontal Shift        Relationship between the B-value and the Period         Exit Exercises                                          On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
+},
+{
+  "id": "prep-sine-cosine-graphs-3",
+  "level": "2",
+  "url": "sec-sine-cosine-graphs.html#prep-sine-cosine-graphs-3",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "   What is the period of the sine function? Of the cosine function?      What is the range of the sine function? Of the cosine function?    "
+},
+{
+  "id": "prep-sine-cosine-graphs-4",
+  "level": "2",
+  "url": "sec-sine-cosine-graphs.html#prep-sine-cosine-graphs-4",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Imagine a function , with some points given in the table below. Fill in the table to show how the points are transformed for the given function values.   "
+},
+{
+  "id": "prep-sine-cosine-graphs-5",
+  "level": "2",
+  "url": "sec-sine-cosine-graphs.html#prep-sine-cosine-graphs-5",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Make the following graphs on given the graph of shown in .     Make a graph of .      Make a graph of .    "
+},
+{
+  "id": "practice-sine-cosine-graphs-2",
+  "level": "2",
+  "url": "sec-sine-cosine-graphs.html#practice-sine-cosine-graphs-2",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Make a graph of by plotting the points that you know from the table. You need to know that and    "
+},
+{
+  "id": "practice-sine-cosine-graphs-3",
+  "level": "2",
+  "url": "sec-sine-cosine-graphs.html#practice-sine-cosine-graphs-3",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "                 "
+},
+{
+  "id": "practice-sine-cosine-graphs-4",
+  "level": "2",
+  "url": "sec-sine-cosine-graphs.html#practice-sine-cosine-graphs-4",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "                                                           "
+},
+{
+  "id": "practice-sine-cosine-graphs-5",
+  "level": "2",
+  "url": "sec-sine-cosine-graphs.html#practice-sine-cosine-graphs-5",
+  "type": "Exercise",
+  "number": "4",
+  "title": "",
+  "body": "                                               "
+},
+{
+  "id": "definitions-sine-cosine-graphs-2",
+  "level": "2",
+  "url": "sec-sine-cosine-graphs.html#definitions-sine-cosine-graphs-2",
+  "type": "Definition",
+  "number": "6.1.1",
+  "title": "Even\/Odd Function Properties of Sine and Cosine.",
+  "body": " Even\/Odd Function Properties of Sine and Cosine      "
+},
+{
+  "id": "definitions-sine-cosine-graphs-3",
+  "level": "2",
+  "url": "sec-sine-cosine-graphs.html#definitions-sine-cosine-graphs-3",
+  "type": "Definition",
+  "number": "6.1.2",
+  "title": "Period.",
+  "body": " Period      "
+},
+{
+  "id": "definitions-sine-cosine-graphs-4",
+  "level": "2",
+  "url": "sec-sine-cosine-graphs.html#definitions-sine-cosine-graphs-4",
+  "type": "Definition",
+  "number": "6.1.3",
+  "title": "Midline.",
+  "body": " Midline      "
+},
+{
+  "id": "definitions-sine-cosine-graphs-5",
+  "level": "2",
+  "url": "sec-sine-cosine-graphs.html#definitions-sine-cosine-graphs-5",
+  "type": "Definition",
+  "number": "6.1.4",
+  "title": "Amplitude.",
+  "body": " Amplitude      "
+},
+{
+  "id": "definitions-sine-cosine-graphs-6",
+  "level": "2",
+  "url": "sec-sine-cosine-graphs.html#definitions-sine-cosine-graphs-6",
+  "type": "Definition",
+  "number": "6.1.5",
+  "title": "Sinusoidal Function.",
+  "body": " Sinusoidal Function      "
+},
+{
+  "id": "definitions-sine-cosine-graphs-7",
+  "level": "2",
+  "url": "sec-sine-cosine-graphs.html#definitions-sine-cosine-graphs-7",
+  "type": "Definition",
+  "number": "6.1.6",
+  "title": "Phase Shift.",
+  "body": " Phase Shift      "
+},
+{
+  "id": "definitions-sine-cosine-graphs-8",
+  "level": "2",
+  "url": "sec-sine-cosine-graphs.html#definitions-sine-cosine-graphs-8",
+  "type": "Definition",
+  "number": "6.1.7",
+  "title": "Horizontal Shift.",
+  "body": " Horizontal Shift      "
+},
+{
+  "id": "definitions-sine-cosine-graphs-9",
+  "level": "2",
+  "url": "sec-sine-cosine-graphs.html#definitions-sine-cosine-graphs-9",
+  "type": "Definition",
+  "number": "6.1.8",
+  "title": "Relationship between the B-value and the Period.",
+  "body": " Relationship between the B-value and the Period      "
+},
+{
+  "id": "exit-sine-cosine-graphs-2",
+  "level": "2",
+  "url": "sec-sine-cosine-graphs.html#exit-sine-cosine-graphs-2",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "                             "
+},
+{
+  "id": "exit-sine-cosine-graphs-3",
+  "level": "2",
+  "url": "sec-sine-cosine-graphs.html#exit-sine-cosine-graphs-3",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "sec-sine-cosine-graphs-8-1",
+  "level": "2",
+  "url": "sec-sine-cosine-graphs.html#sec-sine-cosine-graphs-8-1",
+  "type": "Reading Question",
+  "number": "1",
+  "title": "",
+  "body": "  On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
 {
   "id": "sec-other-graphs",
@@ -241,16 +709,313 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.2",
   "title": "Graphs of Other Trigonometric Functions",
-  "body": " Graphs of Other Trigonometric Functions   In this section, we'll    "
+  "body": " Graphs of Other Trigonometric Functions   In this section, we'll discuss the graphs of tangent, cosecant, and secant and their domains.    Textbook Reference  This relates to content in 8.2 of Algebra and Trigonometry 2e .    Preparation Exercises                                      Practice Exercises                                                                                                  Exit Exercises                              On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    --> "
 },
 {
-  "id": "sec-inverse-trigonometry",
+  "id": "prep-other-graphs-3",
+  "level": "2",
+  "url": "sec-other-graphs.html#prep-other-graphs-3",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "prep-other-graphs-4",
+  "level": "2",
+  "url": "sec-other-graphs.html#prep-other-graphs-4",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "prep-other-graphs-5",
+  "level": "2",
+  "url": "sec-other-graphs.html#prep-other-graphs-5",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "prep-other-graphs-6",
+  "level": "2",
+  "url": "sec-other-graphs.html#prep-other-graphs-6",
+  "type": "Exercise",
+  "number": "4",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "prep-other-graphs-7",
+  "level": "2",
+  "url": "sec-other-graphs.html#prep-other-graphs-7",
+  "type": "Exercise",
+  "number": "5",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "practice-other-graphs-3",
+  "level": "2",
+  "url": "sec-other-graphs.html#practice-other-graphs-3",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "                   "
+},
+{
+  "id": "practice-other-graphs-4",
+  "level": "2",
+  "url": "sec-other-graphs.html#practice-other-graphs-4",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "                   "
+},
+{
+  "id": "practice-other-graphs-5",
+  "level": "2",
+  "url": "sec-other-graphs.html#practice-other-graphs-5",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "practice-other-graphs-6",
+  "level": "2",
+  "url": "sec-other-graphs.html#practice-other-graphs-6",
+  "type": "Exercise",
+  "number": "4",
+  "title": "",
+  "body": "                             "
+},
+{
+  "id": "exit-other-graphs-2",
+  "level": "2",
+  "url": "sec-other-graphs.html#exit-other-graphs-2",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "exit-other-graphs-3",
+  "level": "2",
+  "url": "sec-other-graphs.html#exit-other-graphs-3",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "exit-other-graphs-4",
+  "level": "2",
+  "url": "sec-other-graphs.html#exit-other-graphs-4",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "exit-other-graphs-5",
+  "level": "2",
+  "url": "sec-other-graphs.html#exit-other-graphs-5",
+  "type": "Exercise",
+  "number": "4",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "sec-other-graphs-7-1",
+  "level": "2",
+  "url": "sec-other-graphs.html#sec-other-graphs-7-1",
+  "type": "Reading Question",
+  "number": "1",
+  "title": "",
+  "body": "  On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
+},
+{
+  "id": "sec-inverse-trig",
   "level": "1",
-  "url": "sec-inverse-trigonometry.html",
+  "url": "sec-inverse-trig.html",
   "type": "Section",
   "number": "6.3",
   "title": "Inverse Trigonometry",
-  "body": " Inverse Trigonometry   In this section, we'll    "
+  "body": " Inverse Trigonometry   In this section, we'll use the inverse sine, cosine, and tangent functions, find the exact value of expressions involving the inverse-trigonometric functions, use a calculator to evaluate inverse-trigonometric functions, and find the exact values of composite functions with inverse-trigonometric functions.    Textbook Reference  This relates to content in 8.3 of Algebra and Trigonometry 2e .    Preparation Exercises   Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.                                               Practice Exercises                                                                                                                                                                                                            Definitions   Invese Cosine        Inverse Sine        Inverse Tangent         Exit Exercises                                                      On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
+},
+{
+  "id": "prep-inverse-trig-3",
+  "level": "2",
+  "url": "sec-inverse-trig.html#prep-inverse-trig-3",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "                             "
+},
+{
+  "id": "prep-inverse-trig-4",
+  "level": "2",
+  "url": "sec-inverse-trig.html#prep-inverse-trig-4",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "prep-inverse-trig-5",
+  "level": "2",
+  "url": "sec-inverse-trig.html#prep-inverse-trig-5",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "practice-models-2",
+  "level": "2",
+  "url": "sec-inverse-trig.html#practice-models-2",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "                                   "
+},
+{
+  "id": "practice-models-3",
+  "level": "2",
+  "url": "sec-inverse-trig.html#practice-models-3",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "practice-models-4",
+  "level": "2",
+  "url": "sec-inverse-trig.html#practice-models-4",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "practice-models-5",
+  "level": "2",
+  "url": "sec-inverse-trig.html#practice-models-5",
+  "type": "Exercise",
+  "number": "4",
+  "title": "",
+  "body": "                                   "
+},
+{
+  "id": "practice-models-6",
+  "level": "2",
+  "url": "sec-inverse-trig.html#practice-models-6",
+  "type": "Exercise",
+  "number": "5",
+  "title": "",
+  "body": "                 "
+},
+{
+  "id": "practice-models-7",
+  "level": "2",
+  "url": "sec-inverse-trig.html#practice-models-7",
+  "type": "Exercise",
+  "number": "6",
+  "title": "",
+  "body": "                             "
+},
+{
+  "id": "practice-models-8",
+  "level": "2",
+  "url": "sec-inverse-trig.html#practice-models-8",
+  "type": "Exercise",
+  "number": "7",
+  "title": "",
+  "body": "                             "
+},
+{
+  "id": "practice-models-9",
+  "level": "2",
+  "url": "sec-inverse-trig.html#practice-models-9",
+  "type": "Exercise",
+  "number": "8",
+  "title": "",
+  "body": "                             "
+},
+{
+  "id": "definitions-models-2",
+  "level": "2",
+  "url": "sec-inverse-trig.html#definitions-models-2",
+  "type": "Definition",
+  "number": "6.3.1",
+  "title": "Invese Cosine.",
+  "body": " Invese Cosine      "
+},
+{
+  "id": "definitions-models-3",
+  "level": "2",
+  "url": "sec-inverse-trig.html#definitions-models-3",
+  "type": "Definition",
+  "number": "6.3.2",
+  "title": "Inverse Sine.",
+  "body": " Inverse Sine      "
+},
+{
+  "id": "definitions-models-4",
+  "level": "2",
+  "url": "sec-inverse-trig.html#definitions-models-4",
+  "type": "Definition",
+  "number": "6.3.3",
+  "title": "Inverse Tangent.",
+  "body": " Inverse Tangent      "
+},
+{
+  "id": "exit-models-2",
+  "level": "2",
+  "url": "sec-inverse-trig.html#exit-models-2",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "                             "
+},
+{
+  "id": "exit-models-3",
+  "level": "2",
+  "url": "sec-inverse-trig.html#exit-models-3",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "exit-models-4",
+  "level": "2",
+  "url": "sec-inverse-trig.html#exit-models-4",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "exit-models-5",
+  "level": "2",
+  "url": "sec-inverse-trig.html#exit-models-5",
+  "type": "Exercise",
+  "number": "4",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "sec-inverse-trig-8-1",
+  "level": "2",
+  "url": "sec-inverse-trig.html#sec-inverse-trig-8-1",
+  "type": "Reading Question",
+  "number": "1",
+  "title": "",
+  "body": "  On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
 {
   "id": "sec-summary",
@@ -259,7 +1024,61 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.1",
   "title": "Trigonometric Identities Summary Sheet",
-  "body": " Trigonometric Identities Summary Sheet   In this section, we'll    "
+  "body": " Trigonometric Identities Summary Sheet   Below is a reference sheet of all trigonometric identities in this chapter.    Definitions for tangent, cotangent, secant, and cosecant                            Odd and even trigonometric functions   Sine, tangent, cotangent, and cosecant are odd functions, while cosine and secant are even functions.                                         Pythagorean Identities                       Sum and Difference Identities                                          Double-angle and half-angle identities                                          Product-to-sum and Sum-to-product identities                                                 "
+},
+{
+  "id": "sec-summary-3",
+  "level": "2",
+  "url": "sec-summary.html#sec-summary-3",
+  "type": "Definition",
+  "number": "7.1.1",
+  "title": "Definitions for tangent, cotangent, secant, and cosecant.",
+  "body": " Definitions for tangent, cotangent, secant, and cosecant                          "
+},
+{
+  "id": "sec-summary-4",
+  "level": "2",
+  "url": "sec-summary.html#sec-summary-4",
+  "type": "Definition",
+  "number": "7.1.2",
+  "title": "Odd and even trigonometric functions.",
+  "body": " Odd and even trigonometric functions   Sine, tangent, cotangent, and cosecant are odd functions, while cosine and secant are even functions.                                       "
+},
+{
+  "id": "sec-summary-5",
+  "level": "2",
+  "url": "sec-summary.html#sec-summary-5",
+  "type": "Definition",
+  "number": "7.1.3",
+  "title": "Pythagorean Identities.",
+  "body": " Pythagorean Identities                     "
+},
+{
+  "id": "sec-summary-6",
+  "level": "2",
+  "url": "sec-summary.html#sec-summary-6",
+  "type": "Definition",
+  "number": "7.1.4",
+  "title": "Sum and Difference Identities.",
+  "body": " Sum and Difference Identities                                        "
+},
+{
+  "id": "sec-summary-7",
+  "level": "2",
+  "url": "sec-summary.html#sec-summary-7",
+  "type": "Definition",
+  "number": "7.1.5",
+  "title": "Double-angle and half-angle identities.",
+  "body": " Double-angle and half-angle identities                                        "
+},
+{
+  "id": "sec-summary-8",
+  "level": "2",
+  "url": "sec-summary.html#sec-summary-8",
+  "type": "Definition",
+  "number": "7.1.6",
+  "title": "Product-to-sum and Sum-to-product identities.",
+  "body": " Product-to-sum and Sum-to-product identities                                                "
 },
 {
   "id": "sec-trig-identities",

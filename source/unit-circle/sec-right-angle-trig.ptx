@@ -4,146 +4,134 @@
     <title>Right Angle Trigonometry</title>
     <introduction>
         <p>
-            In this section, we'll  
+            In this section, we'll use right triangles to evaluate trigonometric functions, find 
+            function values for 30<degree/>, 45<degree/>, and 60<degree/>, use all six trigonometric
+            functions to find lengths inside right triangles, and use right-triangle trigonometry to
+            solve applied problems.
         </p>
     </introduction>
-    <!--
     <subsection>
         <title>Textbook Reference</title>
         <p> 
-            This relates to content in <section-mark/>3.3 of 
+            This relates to content in <section-mark/>7.2 of 
             <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e" visual="http://tiny.cc/111Z-Textbook">Algebra and Trigonometry 2e</url>.
         </p>
     </subsection>
 
     <exercises xml:id="prep-average-rates-and-dq">
 		<title>Preparation Exercises</title>
+        <introduction>
+            <p>
+                Answer the following without using a calculator. These questions are intended to 
+                check the prerequisite skills needed to complete the rest of the lab.
+            </p>
+        </introduction>
         <exercise>
-			<introduction>
+			<statement>
 				<p>
-					Suppose you're driving south on I-5 in Oregon and you pass mile marker 294 in Portland at 1:35 PM. Later, you pass mile marker 194 in Eugene at 3:05 PM.
+                    What does the word "adjacent" mean?
 				</p>
-			</introduction>
-            <task>
-				<statement>
-                    <p>
-                        What was your average speed (in miles per hour) of the trip from Portland to Eugene?
-                    </p>
-				</statement>
-            </task>
-            <task>
-				<statement>
-                    <p>
-                        What was your speed at any particular moment, say as you drove past mile marker 256 in Salem?
-                    </p>
-				</statement>
-            </task>
+			</statement>
 		</exercise>
 
 		<exercise>
-			<introduction>
-                <p>
-				    Let <m>f(x) = x^2 - 2x</m>. Evaluate and simplify the following.
-                </p>
-			</introduction>
-            <task>
-				<statement>
-                    <p>
-					    <m>f(4)</m>
-                    </p>
-				</statement>
-            </task>
-            <task>
-				<statement>
-                    <p>
-					    <m>f(-6)</m>
-                    </p>
-				</statement>
-            </task>
-            <task>
-				<statement>
-                    <p>
-					    <m>f(a)</m>
-                    </p>
-				</statement>
-            </task>
-            <task>
-				<statement>
-                    <p>
-					    <m>f(a+b)</m>
-                    </p>
-				</statement>
-            </task>
+			<statement>
+				<p>
+                    Fill in the table with the missing angle measurements.
+				</p>
+                <tabular row-headers="yes" halign="right" top="major" left="major" right="major">
+                    <col right="minor"/>
+                    <col right="minor"/>
+                    <col right="minor"/>
+                    <col right="minor"/>
+                    <col right="minor"/>
+                    <col right="minor"/>
+                    <col right="minor"/>
+                    <col right="minor"/>
+                    <col/>
+                    <row bottom="minor">
+                        <cell halign="center">
+                            Angle (radians)
+                        </cell>
+                        <cell halign="center">
+                            <m>\frac{\pi}{4}</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\frac{2\pi}{3}</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\frac{5\pi}{6}</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\pi</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                    </row>
+                    <row bottom="major">
+                        <cell halign="center">
+                            Angle (degrees)
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            30<degree/>
+                        </cell>
+                        <cell halign="center">
+                            90<degree/>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            60<degree/>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            135<degree/>
+                        </cell>
+                    </row>
+                </tabular>
+			</statement>
 		</exercise>
 	</exercises>
 
-	<exercises xml:id="practice-average-rates-and-dq">
+	<exercises xml:id="practice-right-angle-trig">
 		<title>Practice Exercises</title>
         <exercise>
             <introduction>
                 <p>
-                    The function in <xref ref="price-of-movies"/> below shows the cost of movie tickets in the U.S. in the year <m>t</m>.
+                    Decide which values math without a calculator using "SOHCAHTOA" and "CHOSHACAO". 
+                    The triangles are not shown to scale.
                 </p>
-                    <aside><p>Costs obtained from <url href="https://www.natoonline.org/data/ticket-price"/></p></aside>
-                <table xml:id="price-of-movies">
-                    <title>
-                        Price of Movie Tickets in the U.S.
-                    </title>
-                    <tabular halign="right" top="major" left="major" right="major">
-                        <col right="minor"/>
-                        <col/>
-                        <row header="yes" bottom="minor">
-                            <cell>
-                                <line><m>t</m></line>
-                                <line>(year)</line>
-                            </cell>
-                            <cell>
-                                <line><m>m(t)</m></line>
-                                <line>(in dollars)</line>
-                            </cell>
-                        </row>
-                        <row>
-                            <cell><m>1995</m></cell>
-                            <cell><m>4.35</m></cell>
-                        </row>
-                        <row>
-                            <cell><m>1999</m></cell>
-                            <cell><m>5.06</m></cell>
-                        </row>
-                        <row>
-                            <cell><m>2003</m></cell>
-                            <cell><m>6.03</m></cell>
-                        </row>
-                        <row>
-                            <cell><m>2009</m></cell>
-                            <cell><m>7.50</m></cell>
-                        </row>
-                        <row>
-                            <cell><m>2013</m></cell>
-                            <cell><m>8.13</m></cell>
-                        </row>
-                        <row>
-                            <cell><m>2017</m></cell>
-                            <cell><m>8.97</m></cell>
-                        </row>
-                        <row bottom="major">
-                            <cell><m>2021</m></cell>
-                            <cell><m>10.17</m></cell>
-                        </row>
-                    </tabular>
-                </table>
             </introduction>
             <task>
                 <statement>
                     <p>
-                        What is the unit of the average rate of change in the price of a movie over any time period?
+                        Which of the values will be the same as sin(40<degree/>)?
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
-                        What is the average rate of change in the price of a movie ticket from 2003 to 2021?
+                        Which of the values will be the same as tan(20<degree/>)?
                     </p>
                 </statement>
             </task>
@@ -151,27 +139,44 @@
         <exercise>
             <statement>
                 <p>
-                    Given <m>f(n) = \frac{1}{3}n^2 - 1</m>, find the average rate of change of <m>f</m> on the interval <m>\left[3,9\right]</m>.
+                    For the triangle shown in <xref provisional="figure 5.8 in original"/>, find 
+                    <m>a</m>, <m>c</m>, and <m>/alpha</m>. You can use a calculator to help get an 
+                    approximation, accurate to 4 digits behind the decimal place.
                 </p>
             </statement>
         </exercise>
         <exercise>
             <introduction>
                 <p>
-                    Find and simplify the difference quotient for each of the following functions.
+                    On a backpacking trip in the Wallowa Mountains of northeastern Oregon, Megan and 
+                    Emily were marveling at the height of an enormous Ponderosa Pine. Ross said, "we
+                    can calculate it’s height pretty easily just by knowing that 'a pace' is 3ft and 
+                    the distance from the tip of my thumb to the tip of my pinkie is 9 inches". Ross 
+                    paced away from the tree on level ground 30 paces. Help the three hikers measure 
+                    the height of the tree two different ways.
                 </p>
             </introduction>
             <task>
                 <statement>
                     <p>
-                        <m>f(x) = -6x + 8</m>
+                        Ross finds a stick and measures it to be about 6ft tall. He lays down on the 
+                        ground and asks Emily to hold the stick vertically on the ground at a 
+                        certain point where the tip of the stick lines up with the tip of the tree 
+                        from his point of view. That distance on the ground was 4ft from Ross's 
+                        viewing position, as shown in Figure 5.9. Set up similar triangles to 
+                        estimate the height of the tree. Drawing not to scale.
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
-                        <m>g(x) = -2x^2-5x</m>
+                        Ross then took out his phone and used the inclinometer app on to measure the
+                        angle to to top of the tree, to be about 55<degree/>. In this scenario, Ross 
+                        still 30 paces away from the tree, and was standing to measure the height: 
+                        the phone was 5ft above the ground, as shown in Figure 5.10. Use 
+                        right-triangle trigonometry to estimate the height of the tree. Drawing not 
+                        to scale.
                     </p>
                 </statement>
             </task>
@@ -179,86 +184,60 @@
     </exercises>
 
 
-    <subsection xml:id="definitions-average-rates-and-dq">
+    <subsection xml:id="definitions-right-angle-trig">
         <title>Definitions</title>
+
+        <introduction>
+            <p>
+                Consider the triangle shown in <xref provisional="Right triangle for definitions"/>.
+            </p>
+        </introduction>
+
         <definition>
-            <title>Rate of Change</title>
+            <title>SOHCAHTOA</title>
             <statement>
                 <p>
-                    A <term>rate of change</term> describes how the output values change in relation
-                    to a change in the input values. The unit for the rate of change is <q>output 
-                    unit(s) per input unit.</q>
                 </p>
             </statement>
         </definition>
 
         <definition>
-            <title>Average Rate of Change</title>
+            <title>CHOSHACAO</title>
             <statement>
                 <p>
-                    The <term>average rate of change</term> for a function <m>f</m> between two input values <m>x_1</m> and <m>x_2</m> is the difference in their output values divided by the difference in the two input values. The average rate of change is calculated using the formula
-                    <me>\text{average rate of change } = \dfrac{f(x_2) - f(x_1)}{x_2 - x_1}, x_1 \neq x_2</me>
-                    The average rate of change is the slope of the line between the two points <m>(x_1, f(x_1))</m> and <m>(x_2, f(x_2))</m>.
                 </p>
             </statement>
         </definition>
-            <example>
-                <p>
-                    The function <m>E(x)</m> gives the cost of a dozen eggs (in dollars) <m>x</m> years after 2010. If we know <m>E(19) = 1.362</m> and <m>E(23) = 2.666</m>, we can find the average rate of change as
-                    <md>
-                        <mrow>\dfrac{E(23)-E(19)}{23 \text{ years } - 19 \text{ years}} \amp = \dfrac{\$2.666 - \$1.362}{4 \text{ years}}</mrow>
-                        <mrow>\amp = \dfrac{\$1.304}{4 \text{ years}}</mrow>
-                        <mrow>\amp \approx \$0.33/\text{year}</mrow>
-                    </md>
-                    This shows that between 2019 and 2023, the cost of a dozen eggs increased on average by about $0.33/year.
-                </p>
-            </example>
-			
-        <definition>
-            <title>Difference Quotient</title>
-            <statement>
-                <p>
-                    The <term>difference quotient</term> for a function <m>f</m> is given by the formula
-                    <me>\dfrac{f(x+h)-f(x)}{h}, h \neq 0</me>
-                    The difference quotient is the average rate of change between the two points <m>(x, f(x))</m> and <m>(x+h, f(x+h))</m>. 
-                </p>
-            </statement>
-        </definition>
-            <example>
-                <p>
-                Given the function <m>f(x) = 3x^2 - 4x</m>, the difference quotient would be evaluated as
-                <md>
-                    <mrow>\dfrac{f(x+h) - f(x)}{h} \amp = \dfrac{(3(x+h)^2 - 4(x+h)) - (3x^2 - 4x)}{h}</mrow>
-                    <mrow>\amp = \dfrac{3x^2 + 6xh + 3h^2 - 4x - 4h - 3x^2 + 4x}{h}</mrow>
-                    <mrow>\amp = \dfrac{6xh + 3h^2 - 4h}{h}</mrow>
-                    <mrow>\amp = \dfrac{h(6x + 3h - 4)}{h}</mrow>
-                    <mrow>\amp = 6x + 3h - 4, h \neq 0</mrow>
-                </md>
-            </p>
-            </example>
+
     </subsection>
 
-    <exercises xml:id="exit-average-rates-and-dq">
+    <exercises xml:id="exit-right-trig">
         <title>Exit Exercises</title>
         <exercise>
+            <introduction>
+                <p>
+                    Use the triangle in <xref provisional="Figure 5.12"/> to answer the questions 
+                    below.
+                </p>
+            </introduction>
             <task>
                 <statement>
                     <p>
-                        What are two situations in your daily life that involve an average rate of change? What are the units for these rates of change?
+                        Find the value of <m>\cos(\theta)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
-                        What is the formula for the difference quotient for the function <m>k</m> that has an input variable <m>p</m>?
+                        Find the value of <m>\tan(\theta)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
-                        If you have a function <m>m</m> that gives the price of a gallon of milk in the year <m>t</m>, what would be the unit for the average rate of change of <m>m</m>?
+                        Find the value of <m>\csc(\theta)</m>
                     </p>
                 </statement>
             </task>
@@ -266,7 +245,9 @@
         <exercise>
 			<statement>
                 <p>
-                    Find and simplify the difference quotient for the function <m>f(t) = \dfrac{3}{t-6}</m>.
+                    Shown in <xref provisional="Figure 5.13"/> is a triangle with side <m>b=11</m>, 
+                    angle <m>B = 22^/circ</m>, and angle <m>C = 90^\circ</m>. Find the length of 
+                    the side <m>a</m>.
                 </p>
 			</statement>
         </exercise>
@@ -279,5 +260,4 @@
         </exercise>
     </reading-questions>
 
-    -->
 </section>

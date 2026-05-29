@@ -4,67 +4,65 @@
     <title>Other Trigonometric Functions</title>
     <introduction>
         <p>
-            In this section, we'll  
+            In this section, we'll find exact values of the trigonometric functions secant, 
+            cosecant, tangent, and cotangent of <m>\frac{\pi}{3}</m>, <m>\frac{\pi}{4}</m>, and
+            <m>\frac{\pi}{3}</m>, use reference angles to evaluate the trigonometric functions 
+            secant, tangent, and cotangent, use properties of even and odd trigonometric functions,
+            recognize and use fundamental identities, and evaluate trigonometric functions with a 
+            calculator.
         </p>
     </introduction>
-    <!--
 
     <subsection>
         <title>Textbook Reference</title>
         <p> 
-            This relates to content in <section-mark/>3.2 and <section-mark/>3.3 of
+            This relates to content in <section-mark/>7.4 of
             <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e" visual="http://tiny.cc/111Z-Textbook">Algebra and Trigonometry 2e</url>.
         </p>
     </subsection>
 
     <exercises>
         <title>Preparation Exercises</title>
+        <introduction>
+            <p>
+                Answer the following without using a calculator. These questions are intended 
+                to check the prerequisite skills needed to complete the rest of the lab.
+            </p>
+        </introduction>
         <exercise>
-            <task>
-                <statement>
-                    <p>
-                        For any real number <m>k</m> other than <m>0</m>, what is <m>\dfrac{0}{k}</m> and why?
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        For any real number <m>k</m> other than <m>0</m>, what is <m>\dfrac{k}{0}</m> and why?
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        Given <m>f(x) = \sqrt{x+2}</m>, evaluate <m>f(23)</m> and <m>f(-18)</m>.
-                    </p>
-                </statement>
-            </task>
+            <statement>
+                <p>
+                        What does "CHOSHACAO" stand for? See <xref ref="definitions-right-angle-trig">Right Angle Trigonometry Definitions</xref>.
+                </p>
+            </statement>
         </exercise>
         <exercise>
-            <task>
-                <statement>
-                    <p>
-                        Draw <m>x \gt -2</m> on a number line and write the set of values in both interval and set-builder notations.
-                    </p>
-                </statement>
-                <hint>
-                    <p>
-                        <url href="https://www.youtube.com/watch?v=aLvRu8Int4M" visual="https://youtu.be/aLvRu8Int4M">Here is a review video</url> of these two notations.
-                    </p>
-                </hint>
-            </task>
-            <task>
-                <statement>
-                    <p> 
-                        Draw <m>x \leq 6</m> on a number line and write the set of values in both interval and set-builder notations.
-                    </p>
-                </statement>
-            </task>
+            <statement>
+                <p>
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                </p>
+            </statement>
         </exercise>
     </exercises>
 
+    <!--
     <exercises xml:id="practice-domain-and-range">
         <title>Practice Exercises</title>
 		<exercise>

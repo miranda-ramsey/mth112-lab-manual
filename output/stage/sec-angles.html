@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Angles</title>
+<link xmlns:xlink="http://www.w3.org/1999/xlink" rel="preconnect" href="https://fonts.googleapis.com">
+<link xmlns:xlink="http://www.w3.org/1999/xlink" rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link xmlns:xlink="http://www.w3.org/1999/xlink" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link xmlns:xlink="http://www.w3.org/1999/xlink" href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta xmlns:xlink="http://www.w3.org/1999/xlink" name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="og:type" content="book">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:title" content="Lab Manual for MTH 112">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:author" content="Mathematics Faculty">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.11.14';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.d892923478694492.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.1d6e4aba17c2c7f2.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.6ec5960970d8b364.css">
+<script xmlns:xlink="http://www.w3.org/1999/xlink" src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdn.geogebra.org/apps/deployggb.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="mth-112-workbook.html"><span class="title">Lab Manual for MTH 112:</span> <span class="subtitle">Precalculus II: Trigonometry</span></a></h1>
+<p class="byline">Mathematics Faculty</p>
+</div></div></header><nav xmlns:xlink="http://www.w3.org/1999/xlink" id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="calculator-toggle" class="calculator-toggle button" title="Show calculator" aria-expanded="false" aria-controls="calculator-container"><span class="icon material-symbols-outlined" aria-hidden="true">&#xea5f;</span><span class="name">Calc</span></button><div id="calculator-container" class="calculator-container" style="display: none; z-index:100;"><div id="geogebra-calculator"></div></div>
+<script>
+var ggbApp = new GGBApplet({"appName": "graphing",
+    "width": 330,
+    "height": 600,
+    "showToolBar": true,
+    "showAlgebraInput": true,
+    "perspective": "G/A",
+    "algebraInputPosition": "bottom",
+    "scaleContainerClass": "calculator-container",
+    "allowUpscale": true,
+    "autoHeight": true,
+    "disableAutoScale": false},
+true);
+</script><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="unit-circle.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="unit-circle.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-right-angle-trig.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div xmlns:xlink="http://www.w3.org/1999/xlink" id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div xmlns:xlink="http://www.w3.org/1999/xlink" id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="front-colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface.html" class="internal"><span class="title">Preface</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="unit-circle.html" class="internal"><span class="codenumber">5</span> <span class="title">The Unit Circle</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-angles.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Angles</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-angles.html#sec-angles-3" class="internal"><span class="title">Textbook Reference</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-angles.html#sec-angles-4" class="internal"><span class="title">Preparation Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-angles.html#sec-angles-5" class="internal"><span class="title">Practice Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-angles.html#definitions-angles" class="internal"><span class="title">Definitions</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-angles.html#exit-angles" class="internal"><span class="title">Exit Exercises</span></a></div></li>
+<li class="toc-item toc-reading-questions"><div class="toc-title-box"><a href="sec-angles.html#sec-angles-8" class="internal"><span class="title">Reflection</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-right-angle-trig.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Right Angle Trigonometry</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-unit-circle.html" class="internal"><span class="codenumber">5.3</span> <span class="title">The Unit Circle</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-other-trig-functions.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Other Trigonometric Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="periodic-functions.html" class="internal"><span class="codenumber">6</span> <span class="title">Periodic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-sine-cosine-graphs.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Graphs of Sine and Cosine Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-other-graphs.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Graphs of Other Trigonometric Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-inverse-trigonometry.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Inverse Trigonometry</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="trigonometric-identities.html" class="internal"><span class="codenumber">7</span> <span class="title">Trigonometric Identities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-summary.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Trigonometric Identities Summary Sheet</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-trig-identities.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Trigonometric Identities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-sum-and-difference.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Sum And Difference</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-double-angle.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Double Angle Identities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-sum-to-product.html" class="internal"><span class="codenumber">7.5</span> <span class="title">Sum-to-Product Identities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-solving-equations.html" class="internal"><span class="codenumber">7.6</span> <span class="title">Solving Trigonometric Equations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="further-applications.html" class="internal"><span class="codenumber">8</span> <span class="title">Further Applications of Trigonometry</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-polar-coordinates.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Polar Coordinates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-complex-numbers.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Complex Numbers</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-vectors.html" class="internal"><span class="codenumber">8.3</span> <span class="title">Vectors</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section xmlns:xlink="http://www.w3.org/1999/xlink" class="section" id="sec-angles"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">5.1</span><span class="space"> </span><span class="title">Angles</span>
+</h2>
+<section class="introduction" id="sec-angles-2"><div class="para" id="sec-angles-2-1">In this section, we’ll draw angles in standard position, convert between degrees and radians and degrees-minutes-seconds, find coterminal angles, and find the length of a circular arc.</div></section><section class="subsection" id="sec-angles-3"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Textbook Reference</span>
+</h3>
+<div class="para" id="sec-angles-3-2">This relates to content in §7.1 of <a class="external" href="https://openstax.org/details/books/algebra-and-trigonometry-2e" target="_blank">Algebra and Trigonometry 2e</a><details class="ptx-footnote" aria-live="polite" id="sec-angles-3-2-3"><summary class="ptx-footnote__number" title="Footnote 5.1.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="sec-angles-3-2-3"><code class="code-inline tex2jax_ignore">http://tiny.cc/111Z-Textbook</code></div></details>.</div></section><section class="exercises" id="sec-angles-4"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Preparation Exercises</span>
+</h3>
+<article class="exercise exercise-like" id="sec-angles-4-2"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="introduction" id="sec-angles-4-2-1"><div class="para" id="sec-angles-4-2-1-1">Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.</div></div>
+<article class="task exercise-like" id="sec-angles-4-2-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="sec-angles-4-2-2-1-1">Solve the equation <span class="process-math">\(T = \dfrac{v}{w^2}\)</span> for <span class="process-math">\(w\text{.}\)</span>
+</div></article><article class="task exercise-like" id="sec-angles-4-2-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="sec-angles-4-2-3-1-1">Simplify the expression <span class="process-math">\(80 \cdot \dfrac{\pi}{180}\)</span> without a calculator. Reduce to simplest form.</div></article><article class="task exercise-like" id="sec-angles-4-2-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="sec-angles-4-2-4-1-1">In terms of time, how many minutes total are in 3 hours and 53 minutes?</div></article><article class="task exercise-like" id="sec-angles-4-2-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="sec-angles-4-2-5-1-1">Draw a line segment from the point <span class="process-math">\((5,-3)\)</span> to the point <span class="process-math">\((-1,2)\text{.}\)</span> Find the distance between those two points using the Pythagorean Theorem. Leave your answer in exact form.</div> </article></article></section><section class="exercises" id="sec-angles-5"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Practice Exercises</span>
+</h3>
+<article class="exercise exercise-like" id="sec-angles-5-2"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="para" id="sec-angles-5-2-1-1">Find an angle that is coterminal to -40° and is between 360° and 720°</div></article><article class="exercise exercise-like" id="sec-angles-5-3"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="para" id="sec-angles-5-3-1-1">Match each angle in the first group with its coterminal angle in the second group.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:50%;"><div class="para logical" id="sec-angles-5-3-1-2-1"><ol class="lower-alpha lower-alpha-level-1" id="sec-angles-5-3-1-2-1-1">
+<li id="sec-angles-5-3-1-2-1-1-1"><div class="para" id="p-derived-sec-angles-5-3-1-2-1-1-1">30°</div></li>
+<li id="sec-angles-5-3-1-2-1-1-2"><div class="para" id="p-derived-sec-angles-5-3-1-2-1-1-2">270°</div></li>
+<li id="sec-angles-5-3-1-2-1-1-3"><div class="para" id="p-derived-sec-angles-5-3-1-2-1-1-3">-220°</div></li>
+<li id="sec-angles-5-3-1-2-1-1-4"><div class="para" id="p-derived-sec-angles-5-3-1-2-1-1-4">-60°</div></li>
+<li id="sec-angles-5-3-1-2-1-1-5"><div class="para" id="p-derived-sec-angles-5-3-1-2-1-1-5">0°</div></li>
+<li id="sec-angles-5-3-1-2-1-1-6"><div class="para" id="p-derived-sec-angles-5-3-1-2-1-1-6">150°</div></li>
+</ol></div></div>
+<div class="sbspanel top" style="width:50%;"><div class="para logical" id="sec-angles-5-3-1-2-2"><ul class="disc" id="sec-angles-5-3-1-2-2-1">
+<li id="sec-angles-5-3-1-2-2-1-1"><div class="para" id="p-derived-sec-angles-5-3-1-2-2-1-1">720°</div></li>
+<li id="sec-angles-5-3-1-2-2-1-2"><div class="para" id="p-derived-sec-angles-5-3-1-2-2-1-2">-90°</div></li>
+<li id="sec-angles-5-3-1-2-2-1-3"><div class="para" id="p-derived-sec-angles-5-3-1-2-2-1-3">390°</div></li>
+<li id="sec-angles-5-3-1-2-2-1-4"><div class="para" id="p-derived-sec-angles-5-3-1-2-2-1-4">510°</div></li>
+<li id="sec-angles-5-3-1-2-2-1-5"><div class="para" id="p-derived-sec-angles-5-3-1-2-2-1-5">-420°</div></li>
+<li id="sec-angles-5-3-1-2-2-1-6"><div class="para" id="p-derived-sec-angles-5-3-1-2-2-1-6">500°</div></li>
+</ul></div></div>
+</div></div></article><article class="exercise exercise-like" id="sec-angles-5-4"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="introduction" id="sec-angles-5-4-1"><div class="para" id="sec-angles-5-4-1-1">Convert the angles.</div></div>
+<article class="task exercise-like" id="sec-angles-5-4-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="sec-angles-5-4-2-1-1">Convert 28° to radians. Leave your answer as a fraction in terms of <span class="process-math">\(\pi\text{.}\)</span>
+</div></article><article class="task exercise-like" id="sec-angles-5-4-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="sec-angles-5-4-3-1-1">Convert <span class="process-math">\(\dfrac{7\pi}{9}\)</span> radians to degrees. Round to 6 digits behind the decimal place.</div></article><article class="task exercise-like" id="sec-angles-5-4-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="sec-angles-5-4-4-1-1">Convert 14°20′36″ to a decimal measurement of degrees.</div></article><article class="task exercise-like" id="sec-angles-5-4-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="sec-angles-5-4-5-1-1">Convert 76.85° to degrees-minutes-seconds.</div></article></article><article class="exercise exercise-like" id="sec-angles-5-5"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="introduction" id="sec-angles-5-5-1"><div class="para" id="sec-angles-5-5-1-1">Use the formula <span class="process-math">\(s = r\theta\)</span> to find the missing values.</div></div>
+<article class="task exercise-like" id="sec-angles-5-5-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="sec-angles-5-5-2-1-1">Find the arc length of on a circle of radius 6 with an interior angle of <span class="process-math">\(\dfrac{4\pi}{7}\text{.}\)</span>
+</div></article><article class="task exercise-like" id="sec-angles-5-5-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="sec-angles-5-5-3-1-1">Find the interior angle of an arc length on a circle of radius 12 with an arc length of <span class="process-math">\(\dfrac{3\pi}{2}\text{.}\)</span>
+</div></article><article class="task exercise-like" id="sec-angles-5-5-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="sec-angles-5-5-4-1-1">Find the arc length of on a circle of radius <span class="process-math">\(10\pi\)</span> with an interior angle of 20°</div></article></article></section><section class="subsection" id="definitions-angles"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Definitions</span>
+</h3>
+<article class="definition definition-like" id="definitions-angles-2"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.1.1</span><span class="period">.</span><span class="space"> </span><span class="title">Angle.</span>
+</h4>
+<div class="para" id="definitions-angles-2-2-1">An <dfn class="terminology">angle</dfn> is formed when two lines intersect at a point. We can measure the “size” of this angle in degrees or radians.</div></article><article class="definition definition-like" id="definitions-angles-3"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.1.2</span><span class="period">.</span><span class="space"> </span><span class="title">Ray.</span>
+</h4>
+<div class="para" id="definitions-angles-3-2-1">A <dfn class="terminology">ray</dfn> is a portion of a line that starts at a point and extends infinitely in one direction.</div></article><article class="definition definition-like" id="definitions-angles-4"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.1.3</span><span class="period">.</span><span class="space"> </span><span class="title">Degree.</span>
+</h4>
+<div class="para" id="definitions-angles-4-2-1">A <dfn class="terminology">degree</dfn> is an angle measurement equal to <span class="process-math">\(\dfrac{1}{360}\)</span> of a full rotation.</div></article><article class="definition definition-like" id="definitions-angles-5"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.1.4</span><span class="period">.</span><span class="space"> </span><span class="title">Right Angle.</span>
+</h4>
+<div class="para" id="definitions-angles-5-2-1">A <dfn class="terminology">right angle</dfn> is an angle of 90°.</div></article><article class="definition definition-like" id="definitions-angles-6"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.1.5</span><span class="period">.</span><span class="space"> </span><span class="title">Radian.</span>
+</h4>
+<div class="para" id="definitions-angles-6-2-1">A <dfn class="terminology">radian</dfn> is a unit of measurement of angle size, and 1 radian is defined to be the angle that is made when the arc length for that angle on a circle of radius 1 is equal to 1. Check out <a class="external" href="https://www.desmos.com/calculator/xlmuhdlvxc" target="_blank">this Desmos link</a><details class="ptx-footnote" aria-live="polite" id="definitions-angles-6-2-1-3"><summary class="ptx-footnote__number" title="Footnote 5.1.2"><sup> 2 </sup></summary><div class="ptx-footnote__contents" id="definitions-angles-6-2-1-3"><code class="code-inline tex2jax_ignore">http://tiny.cc/radian-definition</code></div></details> and click the "play" button on the slider for a visual representation of this concept.</div>
+<figure class="figure figure-like" id="fig-angles-radian"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;">
+<img src="generated/latex-image/fig-angles-radian-2.svg" role="img" class="contained" alt="described in detail following the image" aria-describedby="fig-angles-radian-2-description"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="fig-angles-radian-2-description"><div class="para" id="fig-angles-radian-2-1-1">A circle with common angles indicated in radians: <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<th scope="row" class="l m b0 r0 l0 t0 lines">0°</th>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\theta = 0\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="l m b0 r0 l0 t0 lines">30°</th>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\theta = \dfrac{\pi}{6}\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="l m b0 r0 l0 t0 lines">45°</th>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\theta = \dfrac{\pi}{4}\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="l m b0 r0 l0 t0 lines">60°</th>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\theta = \dfrac{\pi}{3}\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="l m b0 r0 l0 t0 lines">90°</th>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\theta = \dfrac{\pi}{2}\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="l m b0 r0 l0 t0 lines">120°</th>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\theta = \dfrac{2\pi}{3}\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="l m b0 r0 l0 t0 lines">135°</th>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\theta = \dfrac{3\pi}{4}\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="l m b0 r0 l0 t0 lines">150°</th>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\theta = \dfrac{5\pi}{6}\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="l m b0 r0 l0 t0 lines">180°</th>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\theta = \pi\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="l m b0 r0 l0 t0 lines">210°</th>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\theta = \dfrac{7\pi}{6}\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="l m b0 r0 l0 t0 lines">225°</th>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\theta = \dfrac{5\pi}{4}\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="l m b0 r0 l0 t0 lines">240°</th>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\theta = \dfrac{4\pi}{3}\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="l m b0 r0 l0 t0 lines">270°</th>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\theta = \dfrac{3\pi}{2}\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="l m b0 r0 l0 t0 lines">300°</th>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\theta = \dfrac{5\pi}{3}\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="l m b0 r0 l0 t0 lines">315°</th>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\theta = \dfrac{7\pi}{4}\)</span></td>
+</tr>
+<tr>
+<th scope="row" class="l m b0 r0 l0 t0 lines">330°</th>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\theta = \dfrac{11\pi}{6}\)</span></td>
+</tr>
+</table></div>
+</div></div></details>
+</div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.1.6<span class="period">.</span></span><span class="space"> </span>Standard Angles</figcaption></figure></article><article class="definition definition-like" id="definitions-angles-7"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.1.7</span><span class="period">.</span><span class="space"> </span><span class="title">Initial and Terminal sides.</span>
+</h4>
+<div class="para" id="definitions-angles-7-2-1">An angle is created by imagining two rays originating from the same point: the <dfn class="terminology">initial</dfn> side of the angle is stationary and the <dfn class="terminology">terminal</dfn> side is rotated around until the desired angle is created. Angles measured from initial to terminal side in a counterclockwise direction are positive. Angles measured from initial to terminal side clockwise are negative.</div></article><article class="definition definition-like" id="definitions-angles-8"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.1.8</span><span class="period">.</span><span class="space"> </span><span class="title">Standard Position.</span>
+</h4>
+<div class="para" id="definitions-angles-8-2-1">An angle is said to be in <dfn class="terminology">standard position</dfn> if the initial and terminal sides of the angle meet at the origin and the initial side of the angle is along the positive x-axis.</div></article><article class="definition definition-like" id="definitions-angles-9"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.1.9</span><span class="period">.</span><span class="space"> </span><span class="title">Coterminal.</span>
+</h4>
+<div class="para" id="definitions-angles-9-2-1">Two angles are <dfn class="terminology">coterminal</dfn> if their initial and terminal sides align, but they differ by an integer number of full rotations. In standard position, this means that the two angles are “in the same place” are different by some integer multiple of 360° (or <span class="process-math">\(2\pi\)</span> radians).</div></article><article class="definition definition-like" id="definitions-angles-10"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.1.10</span><span class="period">.</span><span class="space"> </span><span class="title">Arc length.</span>
+</h4>
+<div class="para" id="definitions-angles-10-2-1">An <dfn class="terminology">arc</dfn> length is a distance along a part of the circumference of a circle. A formula for arc length is <span class="process-math">\(s = rθ\text{,}\)</span> where <span class="process-math">\(s\)</span> stands for arc length along a circle of radius <span class="process-math">\(r\text{,}\)</span> with an interior angle <span class="process-math">\(\theta\)</span> centered at the center of the circle.</div>
+<figure class="figure figure-like" id="fig-arc-length"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;">
+<img src="generated/latex-image/fig-arc-length-2.svg" role="img" class="contained" alt="described in detail following the image" aria-describedby="fig-arc-length-2-description"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="fig-arc-length-2-description"><div class="para" id="fig-arc-length-2-1-1">An angle drawn in standard position is indicated in two ways. Beginning with an initial side along the positive <span class="process-math">\(x\)</span>-axis and ending with a terminal side in the second quadrant, the angle in the counter- clockwise direction is labeled <span class="process-math">\(theta\)</span> and the angle in the clockwise direction is labeled <span class="process-math">\(alpha\text{.}\)</span> The segment of the circumference of the circle between the initial and terminal sides of <span class="process-math">\(theta\)</span> is the arc subtended by <span class="process-math">\(theta\text{,}\)</span> and the length measure of that arc is the arc length for angle <span class="process-math">\(theta\text{.}\)</span>
+</div></div></details>
+</div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.1.11<span class="period">.</span></span><span class="space"> </span>Coterminal angles <span class="process-math">\(\theta\)</span> and <span class="process-math">\(\alpha\)</span></figcaption></figure></article></section><section class="exercises" id="exit-angles"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Exit Exercises</span>
+</h3>
+<article class="exercise exercise-like" id="exit-angles-2"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="para" id="exit-angles-2-1-1">Explain why -90° is not the same as 270°.</div></article><article class="exercise exercise-like" id="exit-angles-3"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="para" id="exit-angles-3-1-1">Convert 34°29′24″ to decimal degrees.</div></article><article class="exercise exercise-like" id="exit-angles-4"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="para" id="exit-angles-4-1-1">Convert the angle 144° to radians. Write your answer in exact form as a fraction with <span class="process-math">\(\pi\)</span> in it.</div></article><article class="exercise exercise-like" id="exit-angles-5"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="para" id="exit-angles-5-1-1">How big of an arc length will an angle of <span class="process-math">\(\dfrac{3\pi}{8}\)</span> radians create on a circle of radius 6? Draw this angle and arc length on the circle of radius 6 provided.</div></article></section><section class="reading-questions" id="sec-angles-8"><h3 class="heading hide-type">
+<span class="type">Reflection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Reflection</span>
+</h3>
+<article class="exercise exercise-like" id="sec-angles-8-1"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="para" id="sec-angles-8-1-1-1">On a scale of 1–5, how are you feeling with the concepts related to the graphical behaviors of functions?</div></article></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="unit-circle.html" title="Previous"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-right-angle-trig.html" title="Next"><span class="name">Next</span><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a xmlns:xlink="http://www.w3.org/1999/xlink" class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a xmlns:xlink="http://www.w3.org/1999/xlink" class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a xmlns:xlink="http://www.w3.org/1999/xlink" class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>

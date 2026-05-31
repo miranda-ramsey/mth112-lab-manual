@@ -1339,7 +1339,124 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.4",
   "title": "Double Angle Identities",
-  "body": " Double Angle Identities   In this section, we'll    "
+  "body": " Double Angle Identities   In this section, we will learn to use double-angle and half-angle formulas to find exact trigonometric values and verify identities, and use reduction identities to simplify an expression.    Textbook Reference  This relates to content in 9.3 of Algebra and Trigonometry 2e .    Preparation Exercises   Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.                                                     Practice Exercises                                                                                  Definitions   Double-Angle Identities             Half-Angle Identities              Exit Exercises                                          On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    --> "
+},
+{
+  "id": "prep-double-angle-3",
+  "level": "2",
+  "url": "sec-double-angle.html#prep-double-angle-3",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "prep-double-angle-4",
+  "level": "2",
+  "url": "sec-double-angle.html#prep-double-angle-4",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "                             "
+},
+{
+  "id": "prep-double-angle-5",
+  "level": "2",
+  "url": "sec-double-angle.html#prep-double-angle-5",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "prep-double-angle-6",
+  "level": "2",
+  "url": "sec-double-angle.html#prep-double-angle-6",
+  "type": "Exercise",
+  "number": "4",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "practice-double-angle-2",
+  "level": "2",
+  "url": "sec-double-angle.html#practice-double-angle-2",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "                 "
+},
+{
+  "id": "practice-double-angle-3",
+  "level": "2",
+  "url": "sec-double-angle.html#practice-double-angle-3",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "                                   "
+},
+{
+  "id": "practice-double-angle-4",
+  "level": "2",
+  "url": "sec-double-angle.html#practice-double-angle-4",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "                 "
+},
+{
+  "id": "practice-double-angle-5",
+  "level": "2",
+  "url": "sec-double-angle.html#practice-double-angle-5",
+  "type": "Exercise",
+  "number": "4",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "definitions-double-angle-2",
+  "level": "2",
+  "url": "sec-double-angle.html#definitions-double-angle-2",
+  "type": "Definition",
+  "number": "7.4.1",
+  "title": "Double-Angle Identities.",
+  "body": " Double-Angle Identities           "
+},
+{
+  "id": "definitions-double-angle-3",
+  "level": "2",
+  "url": "sec-double-angle.html#definitions-double-angle-3",
+  "type": "Definition",
+  "number": "7.4.2",
+  "title": "Half-Angle Identities.",
+  "body": " Half-Angle Identities           "
+},
+{
+  "id": "exit-double-angle-2",
+  "level": "2",
+  "url": "sec-double-angle.html#exit-double-angle-2",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "                             "
+},
+{
+  "id": "exit-double-angle-3",
+  "level": "2",
+  "url": "sec-double-angle.html#exit-double-angle-3",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "sec-double-angle-8-1",
+  "level": "2",
+  "url": "sec-double-angle.html#sec-double-angle-8-1",
+  "type": "Reading Question",
+  "number": "1",
+  "title": "",
+  "body": "  On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
 {
   "id": "sec-sum-to-product",
@@ -1348,7 +1465,25 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.5",
   "title": "Sum-to-Product Identities",
-  "body": " Sum-to-Product Identities   In this section, we'll    "
+  "body": " Sum-to-Product Identities   In this section, we will be made aware of the identities to express products of trigonometric functions as sums and sums of trigonometric functions as products. This is only intended to be a reference section since PCC doesn't formally cover these topics in the course. You should know that the sum-to-product and product-to-sum identities exist when you might need to use them.    Textbook Reference  This relates to content in 9.4 of Algebra and Trigonometry 2e .    Definitions   Product-to-Sum Identities              Sum-to-Product Identities             An example of when one of these identities might be useful is if you were trying to solve the equation by converting it into the form . Try to finish solving this equation in .   "
+},
+{
+  "id": "definitions-sum-to-product-2",
+  "level": "2",
+  "url": "sec-sum-to-product.html#definitions-sum-to-product-2",
+  "type": "Definition",
+  "number": "7.5.1",
+  "title": "Product-to-Sum Identities.",
+  "body": " Product-to-Sum Identities            "
+},
+{
+  "id": "definitions-sum-to-product-3",
+  "level": "2",
+  "url": "sec-sum-to-product.html#definitions-sum-to-product-3",
+  "type": "Definition",
+  "number": "7.5.2",
+  "title": "Sum-to-Product Identities.",
+  "body": " Sum-to-Product Identities            "
 },
 {
   "id": "sec-solving-equations",
@@ -1357,7 +1492,133 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.6",
   "title": "Solving Trigonometric Equations",
-  "body": " Solving Trigonometric Equations   In this section, we'll    "
+  "body": " Solving Trigonometric Equations   In this section, we will learn to solve trigonometric equations by hand and with a calculator.    Textbook Reference  This relates to content in 9.5 of Algebra and Trigonometry 2e .    Preparation Exercises   Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.     Solve the equation by hand.      Carlos and Reba were having a discussion about the equation . The answers below are either \"both Reba and Carlos are right\", \"only Reba is right\", \"only Carlos is right\" or \"neither Reba nor Carlos are right\".     Reba said that made the equation true. Carlos said that made the equation true. Who was right?      Reba said that made the equation true. Carlos said that made the equation true. Who was right?      Reba said that was the same as . Carlos said that is not the same as . Who was right?      Reba said that made the equation true. Carlos said that made the equation true. Who was right?      Reba said that the value of was . Carlos said that the value of was . Who was right?      Reba said that thinking about the equation is the same as thinking about angles that have a -value of . Carlos said that thinking about the equation is the same as thinking about angles that have an -value of . Who was right?      Reba said there are two solutions to the equation . Carlos said that there are infinitely many solutions to the equation . Who was right?       Practice Exercises    Practice solving the equations, on the given intervals, with your memorized unit circle values.      on the interval .       on the interval .                               Solve the trigonometric equations by hand without a calculator.      on the interval .       on the interval .                               Solve the trigonometric equations by hand, and then use a calculator to approximate the solutions.      on the interval .       on the interval .       Definitions   Holes or Removable Discontinuities   A hole or removable discontinuity for a rational function occurs at an -value that is a root of both the numerator and denominator and whose multiplicity in the numerator is greater than or equal to its multiplicity in the denominator. Note: If the multiplicity of the root is greater in the denominator, then the root will create a vertical asymptote.      There is a removable discontinuity at for and , but is a vertical asymptote for .    Horizontal Asymptotes of Rational Functions   Whether a rational function has is a horizontal asymptote can be determined by comparing the degrees of the numerator and denominator.  If the degree of the denominator is greater than that of the numerator, the function will have a horizontal asymptote of .  If the degree of the denominator is equal to that of the numerator, the function will have a horizontal asymptote. The equation of the horizontal asymptote will be based on the ratio of the leading coefficients.  If the degree of the denominator is lessre than that of the numerator, the function will not have a horizontal asymptote.        has a horizontal asymptote of .     has a horizontal asymptote of .     has no horizontal asymptote.     Exit Exercises    Let .     What is the domain of ? Answer using both interval and set-builder notations.      What are the -intercepts of the graph of ?      What are the vertical asymptotes of the graph of ?      Does the graph of have any holes? Why or why not?      Does the graph of have a horizontal asymptote? If it does, what is the horizontal asymptote?               On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    --> "
+},
+{
+  "id": "prep-solving-equations-3",
+  "level": "2",
+  "url": "sec-solving-equations.html#prep-solving-equations-3",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Solve the equation by hand.   "
+},
+{
+  "id": "prep-solving-equations-4",
+  "level": "2",
+  "url": "sec-solving-equations.html#prep-solving-equations-4",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Carlos and Reba were having a discussion about the equation . The answers below are either \"both Reba and Carlos are right\", \"only Reba is right\", \"only Carlos is right\" or \"neither Reba nor Carlos are right\".     Reba said that made the equation true. Carlos said that made the equation true. Who was right?      Reba said that made the equation true. Carlos said that made the equation true. Who was right?      Reba said that was the same as . Carlos said that is not the same as . Who was right?      Reba said that made the equation true. Carlos said that made the equation true. Who was right?      Reba said that the value of was . Carlos said that the value of was . Who was right?      Reba said that thinking about the equation is the same as thinking about angles that have a -value of . Carlos said that thinking about the equation is the same as thinking about angles that have an -value of . Who was right?      Reba said there are two solutions to the equation . Carlos said that there are infinitely many solutions to the equation . Who was right?    "
+},
+{
+  "id": "practice-solving-equations-2",
+  "level": "2",
+  "url": "sec-solving-equations.html#practice-solving-equations-2",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Practice solving the equations, on the given intervals, with your memorized unit circle values.      on the interval .       on the interval .                            "
+},
+{
+  "id": "practice-solving-equations-3",
+  "level": "2",
+  "url": "sec-solving-equations.html#practice-solving-equations-3",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Solve the trigonometric equations by hand without a calculator.      on the interval .       on the interval .                            "
+},
+{
+  "id": "practice-solving-equations-4",
+  "level": "2",
+  "url": "sec-solving-equations.html#practice-solving-equations-4",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Solve the trigonometric equations by hand, and then use a calculator to approximate the solutions.      on the interval .       on the interval .    "
+},
+{
+  "id": "definitions-solving-equations-2",
+  "level": "2",
+  "url": "sec-solving-equations.html#definitions-solving-equations-2",
+  "type": "Definition",
+  "number": "7.6.1",
+  "title": "Holes or Removable Discontinuities.",
+  "body": " Holes or Removable Discontinuities   A hole or removable discontinuity for a rational function occurs at an -value that is a root of both the numerator and denominator and whose multiplicity in the numerator is greater than or equal to its multiplicity in the denominator. Note: If the multiplicity of the root is greater in the denominator, then the root will create a vertical asymptote.    "
+},
+{
+  "id": "definitions-solving-equations-3",
+  "level": "2",
+  "url": "sec-solving-equations.html#definitions-solving-equations-3",
+  "type": "Example",
+  "number": "7.6.2",
+  "title": "",
+  "body": " There is a removable discontinuity at for and , but is a vertical asymptote for .  "
+},
+{
+  "id": "definitions-solving-equations-4",
+  "level": "2",
+  "url": "sec-solving-equations.html#definitions-solving-equations-4",
+  "type": "Definition",
+  "number": "7.6.3",
+  "title": "Horizontal Asymptotes of Rational Functions.",
+  "body": " Horizontal Asymptotes of Rational Functions   Whether a rational function has is a horizontal asymptote can be determined by comparing the degrees of the numerator and denominator.  If the degree of the denominator is greater than that of the numerator, the function will have a horizontal asymptote of .  If the degree of the denominator is equal to that of the numerator, the function will have a horizontal asymptote. The equation of the horizontal asymptote will be based on the ratio of the leading coefficients.  If the degree of the denominator is lessre than that of the numerator, the function will not have a horizontal asymptote.     "
+},
+{
+  "id": "definitions-solving-equations-5",
+  "level": "2",
+  "url": "sec-solving-equations.html#definitions-solving-equations-5",
+  "type": "Example",
+  "number": "7.6.4",
+  "title": "",
+  "body": "  has a horizontal asymptote of .  "
+},
+{
+  "id": "definitions-solving-equations-6",
+  "level": "2",
+  "url": "sec-solving-equations.html#definitions-solving-equations-6",
+  "type": "Example",
+  "number": "7.6.5",
+  "title": "",
+  "body": "  has a horizontal asymptote of .  "
+},
+{
+  "id": "definitions-solving-equations-7",
+  "level": "2",
+  "url": "sec-solving-equations.html#definitions-solving-equations-7",
+  "type": "Example",
+  "number": "7.6.6",
+  "title": "",
+  "body": "  has no horizontal asymptote.  "
+},
+{
+  "id": "exit-solving-equations-2",
+  "level": "2",
+  "url": "sec-solving-equations.html#exit-solving-equations-2",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Let .     What is the domain of ? Answer using both interval and set-builder notations.      What are the -intercepts of the graph of ?      What are the vertical asymptotes of the graph of ?      Does the graph of have any holes? Why or why not?      Does the graph of have a horizontal asymptote? If it does, what is the horizontal asymptote?    "
+},
+{
+  "id": "exit-solving-equations-3",
+  "level": "2",
+  "url": "sec-solving-equations.html#exit-solving-equations-3",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "sec-solving-equations-8-1",
+  "level": "2",
+  "url": "sec-solving-equations.html#sec-solving-equations-8-1",
+  "type": "Reading Question",
+  "number": "1",
+  "title": "",
+  "body": "  On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
 {
   "id": "sec-polar-coordinates",

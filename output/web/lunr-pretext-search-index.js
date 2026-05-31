@@ -1087,7 +1087,169 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.2",
   "title": "Trigonometric Identities",
-  "body": " Trigonometric Identities   In this section, we'll    "
+  "body": " Trigonometric Identities   In this section, we will learn to verify the fundamental trigonometric identities and to simplify trigonometric expressions using algebra and the identities.    Textbook Reference  This relates to content in 9.1 of Algebra and Trigonometry 2e .    Preparation Exercises  Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.                                  Practice Exercises                                                                                     Definitions   Identity        Identities for tangent, cotangent, secant, and cosecant              Odd and even trigonometric functions                    Pythagorean identities                Exit Exercises                              On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
+},
+{
+  "id": "prep-trig-identities-3",
+  "level": "2",
+  "url": "sec-trig-identities.html#prep-trig-identities-3",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "prep-trig-identities-4",
+  "level": "2",
+  "url": "sec-trig-identities.html#prep-trig-identities-4",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "prep-trig-identities-5",
+  "level": "2",
+  "url": "sec-trig-identities.html#prep-trig-identities-5",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "prep-trig-identities-6",
+  "level": "2",
+  "url": "sec-trig-identities.html#prep-trig-identities-6",
+  "type": "Exercise",
+  "number": "4",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "prep-trig-identities-7",
+  "level": "2",
+  "url": "sec-trig-identities.html#prep-trig-identities-7",
+  "type": "Exercise",
+  "number": "5",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "practice-trig-identities-2",
+  "level": "2",
+  "url": "sec-trig-identities.html#practice-trig-identities-2",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "              "
+},
+{
+  "id": "practice-trig-identities-3",
+  "level": "2",
+  "url": "sec-trig-identities.html#practice-trig-identities-3",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "practice-trig-identities-4",
+  "level": "2",
+  "url": "sec-trig-identities.html#practice-trig-identities-4",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "                                         "
+},
+{
+  "id": "practice-trig-identities-5",
+  "level": "2",
+  "url": "sec-trig-identities.html#practice-trig-identities-5",
+  "type": "Exercise",
+  "number": "4",
+  "title": "",
+  "body": "                 "
+},
+{
+  "id": "definitions-trig-identities-2",
+  "level": "2",
+  "url": "sec-trig-identities.html#definitions-trig-identities-2",
+  "type": "Definition",
+  "number": "7.2.1",
+  "title": "Identity.",
+  "body": " Identity      "
+},
+{
+  "id": "definitions-trig-identities-3",
+  "level": "2",
+  "url": "sec-trig-identities.html#definitions-trig-identities-3",
+  "type": "Definition",
+  "number": "7.2.2",
+  "title": "Identities for tangent, cotangent, secant, and cosecant.",
+  "body": " Identities for tangent, cotangent, secant, and cosecant            "
+},
+{
+  "id": "definitions-trig-identities-4",
+  "level": "2",
+  "url": "sec-trig-identities.html#definitions-trig-identities-4",
+  "type": "Definition",
+  "number": "7.2.3",
+  "title": "Odd and even trigonometric functions.",
+  "body": " Odd and even trigonometric functions                  "
+},
+{
+  "id": "definitions-trig-identities-5",
+  "level": "2",
+  "url": "sec-trig-identities.html#definitions-trig-identities-5",
+  "type": "Definition",
+  "number": "7.2.4",
+  "title": "Pythagorean identities.",
+  "body": " Pythagorean identities             "
+},
+{
+  "id": "exit-trig-identities-2",
+  "level": "2",
+  "url": "sec-trig-identities.html#exit-trig-identities-2",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "exit-trig-identities-3",
+  "level": "2",
+  "url": "sec-trig-identities.html#exit-trig-identities-3",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "exit-trig-identities-4",
+  "level": "2",
+  "url": "sec-trig-identities.html#exit-trig-identities-4",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "exit-trig-identities-5",
+  "level": "2",
+  "url": "sec-trig-identities.html#exit-trig-identities-5",
+  "type": "Exercise",
+  "number": "4",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "sec-trig-identities-8-1",
+  "level": "2",
+  "url": "sec-trig-identities.html#sec-trig-identities-8-1",
+  "type": "Reading Question",
+  "number": "1",
+  "title": "",
+  "body": "  On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
 {
   "id": "sec-sum-and-difference",
@@ -1096,7 +1258,79 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.3",
   "title": "Sum And Difference",
-  "body": " Sum And Difference   In this section, we'll    "
+  "body": " Sum And Difference   In this section, we will learn to use sum and difference formulas for sine, cosine, and tangent, and to use sum and difference formulas to verify identities.    Textbook Reference  This relates to content in 9.2 of Algebra and Trigonometry 2e .   > Preparation Exercises                                                      Practice Exercises                                                                                              Definitions   Sum And Difference Identities                 Exit Exercises    What is the difference between a zero and an -intercept of a polynomial function?                                On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?      "
+},
+{
+  "id": "prep-sum-and-difference-2",
+  "level": "2",
+  "url": "sec-sum-and-difference.html#prep-sum-and-difference-2",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "                                                 "
+},
+{
+  "id": "practice-sum-and-difference-2",
+  "level": "2",
+  "url": "sec-sum-and-difference.html#practice-sum-and-difference-2",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "                                         "
+},
+{
+  "id": "practice-sum-and-difference-3",
+  "level": "2",
+  "url": "sec-sum-and-difference.html#practice-sum-and-difference-3",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "                             "
+},
+{
+  "id": "practice-sum-and-difference-4",
+  "level": "2",
+  "url": "sec-sum-and-difference.html#practice-sum-and-difference-4",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "                 "
+},
+{
+  "id": "definitions-sum-and-difference-2",
+  "level": "2",
+  "url": "sec-sum-and-difference.html#definitions-sum-and-difference-2",
+  "type": "Definition",
+  "number": "7.3.1",
+  "title": "Sum And Difference Identities.",
+  "body": " Sum And Difference Identities              "
+},
+{
+  "id": "exit-sum-and-difference-2",
+  "level": "2",
+  "url": "sec-sum-and-difference.html#exit-sum-and-difference-2",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  What is the difference between a zero and an -intercept of a polynomial function?   "
+},
+{
+  "id": "exit-sum-and-difference-3",
+  "level": "2",
+  "url": "sec-sum-and-difference.html#exit-sum-and-difference-3",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "                       "
+},
+{
+  "id": "sec-sum-and-difference-8-1",
+  "level": "2",
+  "url": "sec-sum-and-difference.html#sec-sum-and-difference-8-1",
+  "type": "Reading Question",
+  "number": "1",
+  "title": "",
+  "body": "  On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
 {
   "id": "sec-double-angle",

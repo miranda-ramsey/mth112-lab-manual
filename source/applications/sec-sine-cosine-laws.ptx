@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-sine-cosine-laws" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <title>Laws of Sines and Cosines</title>
+    <introduction>
+        <p>
+            In this section, we will learn how to use the laws of sines and cosines to find missing
+            sides and angles in non-right triangles. Then we can use these laws to solve applications.
+        </p>
+    </introduction>
+
+    <subsection>
+        <title>Textbook Reference</title>
+        <p> 
+            This relates to content in <section-mark/>10.1 and <section-mark/>10.2 of
+            <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e" visual="http://tiny.cc/111Z-Textbook">Algebra and Trigonometry 2e</url>.
+        </p>
+    </subsection>
+
+    <exercises xml:id="prep-sine-cosine-laws">
+		<title>Preparation Exercises</title>
+        <introduction>
+            <p>
+                Answer the following. These questions are intended to 
+                check the prerequisite skills needed to complete the rest of the lab.
+            </p>
+        </introduction>
+		<exercise>
+            <statement>
+                <p>
+                    What needs to be true about a triangle in order to use the Pythagorean Theorem 
+                    on it?
+                </p>
+            </statement>
+        </exercise>
+		<exercise>
+            <statement>
+                <p>
+                    What needs to be true about a triangle to use SOHCAHTOA on it?
+                </p>
+            </statement>
+        </exercise>
+		<exercise>
+            <statement>
+                <p>
+                    Find solutions to the equation <m>56\sin(\theta) = 21</m> on the interval 
+                    <m>\left[-180^\circ,180^\circ\right]</m>. Use your calculator and write your 
+                    answer(s) rounded to four digits behind the decimal place.
+                </p>
+            </statement>
+        </exercise>
+		<exercise>
+            <statement>
+                <p>
+                    For the right triangle shown in <xref provisional="prep-laws-right-triangle"/>,
+                    find the missing lengths of <m>G</m>, <m>H</m>, and the angle <m>\iota</m>. You
+                    can use a calculator to hep get an approximation, accurate to four digits behind
+                    the decimal place.
+                </p>
+            </statement>
+        </exercise>
+	</exercises>
+
+	<exercises xml:id="practice-sine-cosine-laws">
+		<title>Practice Exercises</title>
+        <exercise>
+            <statement>
+                Find the missing angle, <m>C</m>, and then use the law of sines to find the missing 
+                lengths <m>a</m> and <m>c</m>, in the triangle in <xref provisional="practice-laws-AAS"/>. 
+                Round your answers to two digits behind the decimal place.
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                Use the law of sines to find the missing angles, <m>A</m> and <m>C</m>, and the 
+                length, <m>a</m>, in the triangle in Figure <xref provisional="practice-laws-SSA"/>. 
+                Round your answers to two digits behind the decimal place.
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                Use the law of cosines to find the missing angles, <m>A</m> and <m>C</m>, and the 
+                length, <m>b</m>, in the triangle in Figure <xref provisional="practice-laws-SAS"/>. 
+                Round your answers to two digits behind the decimal place.
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                Use the law of cosines to find the missing angles, <m>A</m>, <m>B</m>, and <m>C</m>,
+                in the triangle in Figure <xref provisional="practice-laws-SSS"/>. 
+                Round your answers to two digits behind the decimal place.
+            </statement>
+        </exercise>
+    </exercises>
+
+    <subsection xml:id="definitions-sine-cosine-laws">
+        <title>Definitions</title>
+        <definition>
+            <title>Law of Sines</title>
+            <statement>
+                <p>
+                    The <term>law of sines</term> says that the ratios of sines of angles in a triangle
+                    and the opposite sides are all constant. That's a bit of a mouthful, maybe a 
+                    math-ful will help. Consider the triangle in Figure <xref provisional="def-law-of-sines"/>.
+                    The law of sines says that...
+                    <md>\frac{\sin(A)}{a} = \frac{\sin(B)}{b} = \frac{\sin(C)}{c}</md>
+                    or alternately,
+                    <md>\frac{a}{\sin(A)} = \frac{b}{\sin(B)} = \frac{c}{\sin(C)}</md>
+                </p>
+            </statement>
+        </definition>
+        <note>
+            <p>
+                When using the law of sines, you almost never need all three parts of the equation
+                at the same time, so you will end up using one of these at a time:
+                <md>
+                    <mrow>\frac{\sin(A)}{a} \amp= \frac{\sin(B)}{b}</mrow>
+                    <mrow>\frac{\sin(B)}{b} \amp= \frac{\sin(C)}{c}</mrow>
+                    <mrow>\frac{\sin(C)}{c} \amp= \frac{\sin(A)}{a}</mrow>
+                </md>
+            </p>
+        </note>
+        <definition>
+            <title>Law of Cosines</title>
+            <statement>
+                <p>
+                    The <term>law of cosines</term> is really the natural extension of the
+                    Pythagorean Theorem for triangles without a right angle. Consider the triangle
+                    in Figure <xref provisional="def-law-of-cosines"/>. 
+                    The law of cosines says that...
+                    <md>a^2 = b^2 + c^2 - 2bc\cos(A)</md>
+                    or 
+                    <md>b^2 = a^2 + c^2 - 2bc\cos(B)</md>
+                    or 
+                    <md>c^2 = a^2 + b^2 - 2bc\cos(C)</md>
+                </p>
+            </statement>
+        </definition>
+        <note>
+            <p>
+                Unlike the Pythagorean Theorem, you <em>don't</em> have to put the longest length alone
+                on one side. It can be inputted for <m>a</m>, <m>b</m>, or <m>c</m>.
+            </p>
+        </note>
+    </subsection>
+
+    <exercises xml:id="exit-sine-cosine-laws">
+        <title>Exit Exercises</title>
+        <exercise>
+            <task>
+                <statement>
+                    <p>
+                        Michelé correctly wrote down thees two equations about a triangle from a 
+                        homework question.
+                        <md>b^2 = 74+16^2 - 2\cdot\sqrt{74}\cdot 16\cos(54.5^\circ)</md>
+                        and
+                        <md>\frac{\sin(C)}{16} = \frac{\sin(32.5^\circ)}{\sqrt{74}}</md>
+                        Draw the triangle from the question that these equations would have been based
+                        on.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        On a steep hillside somewhre in the Cascades of Oregon stands a tall Douglas
+                        Fir. The slope is from point <m>B</m>, at the base o the tree, to the point
+                        <m>P</m>. The top of the tree is at point T. Some hikers wanted to get an 
+                        extimate of its height, so they took a few measurements. They measured an
+                        angle of 52<degree/> from the vertically growing tree to the hillside slope
+                        using their inclinometer on their phones. Then they measured out 115ft up
+                        the hillside to point <m>P</m> and measured the angle from there to be 
+                        83<degree/> from the base of the tree to the top of the tree, as shown in 
+                        Figure <xref provisional="exit-laws-tree"/>. Use the laws of sines or cosines
+                        to find an estimate for the height of the tree and round your answer to the
+                        nearest foot.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <introduction>
+                    <p>
+                    Imagine a triangle with sides <m>a=15</m>, <m>c=8</m>, and the angle <m>C=20^\circ</m>. 
+                    Length <m>b</m> and angles <m>A</m> and <m>B</m> are unknown.
+                    </p>
+                </introduction>
+                <task label="i">>
+                    <statement>
+                        <p>
+                            There are actually two such triangles that exist. Draw pictures of both triangles. 
+                        </p>
+                    </statement>
+                    <hint>
+                        <p>
+                            One is obtuse and the other is acute.
+                        </p>
+                    </hint>
+                </task>
+                <task label="ii">>
+                    <statement>
+                        <p>
+                            Write down the law of sines to solve for angle <m>A</m> for each triangle,
+                            and compare the two equations.
+                        </p>
+                    </statement>
+                </task>
+                <task label="iii">>
+                    <statement>
+                        <p>
+                            Solve for the angles and missing lengths in both triangles. Round your
+                            final answers for the angles and lengths to two digits behind the 
+                            decimal place.
+                        </p>
+                    </statement>
+                </task>
+                <conclusion>
+                    <p>
+                        <url href="https://www.desmos.com/calculator/lfhs1mcq1c">Check out this
+                        Desmos link</url> for a visual on these "ambiguous triangles".
+                    </p>
+                </conclusion>
+            </task>
+	    </exercise>
+    </exercises>
+
+    <reading-questions>
+        <exercise>
+            <statement>
+                <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
+            </statement>
+        </exercise>
+    </reading-questions>
+</section>

@@ -131,24 +131,28 @@
             <task>
                 <statement>
                     <p>
+                        <m>\cos(\theta) = \frac{\sqrt{2}}{2}</m> on the interval <m>\left(-\infty,\infty\right)</m>.
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\sin(\theta) = \frac{\sqrt{3}}{2}</m> on the interval <m>\left[\pi,4\pi\right]</m>.
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\sin(\theta) = \frac{\sqrt{3}}{2}</m> on the interval <m>\left[-\pi,\pi\right]</m>.
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\sin(\theta) = \frac{\sqrt{3}}{2}</m> on the interval <m>\left(-\infty,\infty\right)</m>.
                     </p>
                 </statement>
             </task>
@@ -162,38 +166,42 @@
             <task>
                 <statement>
                     <p>
-                        <m>\cos(\theta) = \frac{\sqrt{2}}{2}</m> on the interval <m>\left[0,3\pi\right]</m>.
+                        <m>1 - 2 \sin(\chi) = 0</m> on the interval <m>\left[0,2\pi\right]</m>.
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
-                        <m>\cos(\theta) = \frac{\sqrt{2}}{2}</m> on the interval <m>\left[-\pi,\pi\right]</m>.
+                        <m>2 \cos^2(\tau) + \cos(\tau) = 1</m> on the interval <m>\left[-\pi,\pi\right]</m>.
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\sqrt{3}\tan(\kappa)+3=0</m> on the interval <m>\left[0,2\pi\right]</m>.
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>4 \cos^2(\alpha) = 1</m> on the interval <m>\left[-2\pi,2\pi\right]</m>.
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>2 \sin(3\psi) = -\sqrt{3}</m> on the interval <m>\left[0,\pi\right]</m>.
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>2\cos(5\omega)+\sqrt{2}=0</m> on the interval<m>\left[0,\pi\right]</m>.
                     </p>
                 </statement>
             </task>
@@ -220,102 +228,75 @@
                 </statement>
             </task>
         </exercise>
-    </exercises>
-
-    
-    <subsection xml:id="definitions-solving-equations">
-        <title>Definitions</title>
-        <definition>
-            <title>Holes or Removable Discontinuities</title>
+        <exercise>
             <statement>
-                <p>
-                        A <term>hole</term> or <term>removable discontinuity</term> for a rational function <m>r</m> occurs at an <m>x</m>-value that is a root of both the numerator and denominator and whose multiplicity in the numerator is greater than or equal to its multiplicity in the denominator.
-                        <alert>Note: If the multiplicity of the root is greater in the denominator, then the root will create a vertical asymptote.</alert>
-                </p>
             </statement>
-        </definition>
-        <example>
-            <p>
-                    There is a removable discontinuity at <m>x=1</m> for <m>f(x)=\dfrac{(x-1)(x-5)}{(x-1)(x+3)}</m> and <m>g(x)=\dfrac{(x-1)^2(x-5)}{(x-1)(x+3)}</m>, but <m>x=1</m> is a vertical asymptote for <m>h(x)=\dfrac{(x-1)(x-5)}{(x-1)^2(x+3)}</m>.
-            </p>
-        </example>
-        <definition>
-            <title>Horizontal Asymptotes of Rational Functions</title>
-            <statement>
-                <p>
-                    Whether a rational function has is a horizontal asymptote can be determined by comparing the degrees of the numerator and denominator.
-                    <ul>
-                        <li>If the degree of the denominator is greater than that of the numerator, the function will have a horizontal asymptote of <m>y=0</m>.</li>
-                        <li>If the degree of the denominator is equal to that of the numerator, the function will have a horizontal asymptote. The equation of the horizontal asymptote will be based on the ratio of the leading coefficients.</li>
-                        <li>If the degree of the denominator is lessre than that of the numerator, the function will not have a horizontal asymptote.</li>
-                    </ul>
-                </p>
-            </statement>
-        </definition>
-        <example>
-            <p>
-                <m>f(x)=\dfrac{6x^5-8x^3+2}{3x^6-9x+5}</m> has a horizontal asymptote of <m>y=0</m>.
-            </p>
-        </example>
-        <example>
-            <p>
-                <m>g(x)=\dfrac{6x^6-8x^3+2}{3x^6-9x+5}</m> has a horizontal asymptote of <m>y=2</m>.
-            </p>
-        </example>
-        <example>
-            <p>
-                <m>h(x)=\dfrac{6x^7-8x^3+2}{3x^6-9x+5}</m> has no horizontal asymptote.
-            </p>
-        </example>
-	</subsection>
-        
-    <exercises xml:id="exit-solving-equations">
-        <title>Exit Exercises</title>
+        </exercise>
         <exercise>
             <introduction>
                 <p>
-                    Let <m>R(x)=\dfrac{5(x+4)^2(x-2)}{2(x+4)(x+1)^2}</m>.
+                    Solve the trigonometric equations using identities by hand.
                 </p>
             </introduction>
             <task>
                 <statement>
                     <p>
-                        What is the domain of <m>R</m>?  Answer using both interval and set-builder notations.
+                        <m>\sin(\sigma) = -cos(\sigma)</m> on the interval <m>\left(-\infty,\infty\right)</m>.
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
-                    <p>
-                        What are the <m>x</m>-intercepts of the graph of <m>R</m>?
-                    </p>
+                        <m>\sin(2x) = cos(2x)</m> on the interval <m>\left[-\pi,\pi\right]</m>.
                 </statement>
             </task>
             <task>
                 <statement>
-                    <p>
-                        What are the vertical asymptotes of the graph of <m>R</m>?
-                    </p>
+                        <m>\sin(x) = cos(2x)</m> on the interval <m>\left[-\pi,\pi\right]</m>.
                 </statement>
             </task>
             <task>
                 <statement>
-                    <p>
-                        Does the graph of <m>R</m> have any holes? Why or why not?
-                    </p>
+                    <m>\sin(4\theta) - \sin(2\theta) = 0</m> on the interval <m>\left[-\pi,\pi\right]</m>
+                    by first using the difference-to-product identity <m>\sin(\alpha) - \sin(\beta) = 2\sin\left(\frac{\alpha - \beta}{2}\right) \cos\left(\frac{\alpha + \beta}{2}\right)</m>.
                 </statement>
             </task>
-            <task>
-                <statement>
-                    <p>
-                        Does the graph of <m>R</m> have a horizontal asymptote? If it does, what is the horizontal asymptote?
-                    </p>
-                </statement>
-            </task>
+        </exercise>
+    </exercises>
+
+    <exercises xml:id="exit-solving-equations">
+        <title>Exit Exercises</title>
+        <exercise>
+		    <statement>
+                <p>
+                    Explain why you know that the equation <m>\cos(x) = 3</m> couldn't possibly
+                    have any real solutions.
+                </p>
+            </statement>
 	    </exercise>
         <exercise>
 		    <statement>
                 <p>
+                    Solve the equation <m>2\sin^2(\beta)-\sin(\beta)=1</m> on the interval 
+                    <m>\left[-\pi,\pi\right]</m> without a calculator.
+                </p>
+            </statement>
+	    </exercise>
+        <exercise>
+		    <statement>
+                <p>
+                    Solve the equation <m>\sin^2(\phi) = 1</m> on the interval 
+                    <m>\left(-\infty,\infty\right)</m> without a calculator.
+                </p>
+            </statement>
+	    </exercise>
+        <exercise>
+		    <statement>
+                <p>
+                    Explain the solving process, in English, for the equation <m>\cos(\theta) = \frac{1}{2}</m> 
+                    on the interval <m>\left[-2\pi,2\pi\right]</m> step by step as if you were 
+                    explaining it to someone in your class who wanted to understand today's lesson 
+                    more deeply. Actually solving the equation isn't necessary.
                 </p>
             </statement>
 	    </exercise>
@@ -328,5 +309,4 @@
             </statement>
         </exercise>
     </reading-questions>
-    -->
 </section>

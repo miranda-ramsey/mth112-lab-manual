@@ -1492,7 +1492,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.6",
   "title": "Solving Trigonometric Equations",
-  "body": " Solving Trigonometric Equations   In this section, we will learn to solve trigonometric equations by hand and with a calculator.    Textbook Reference  This relates to content in 9.5 of Algebra and Trigonometry 2e .    Preparation Exercises   Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.     Solve the equation by hand.      Carlos and Reba were having a discussion about the equation . The answers below are either \"both Reba and Carlos are right\", \"only Reba is right\", \"only Carlos is right\" or \"neither Reba nor Carlos are right\".     Reba said that made the equation true. Carlos said that made the equation true. Who was right?      Reba said that made the equation true. Carlos said that made the equation true. Who was right?      Reba said that was the same as . Carlos said that is not the same as . Who was right?      Reba said that made the equation true. Carlos said that made the equation true. Who was right?      Reba said that the value of was . Carlos said that the value of was . Who was right?      Reba said that thinking about the equation is the same as thinking about angles that have a -value of . Carlos said that thinking about the equation is the same as thinking about angles that have an -value of . Who was right?      Reba said there are two solutions to the equation . Carlos said that there are infinitely many solutions to the equation . Who was right?       Practice Exercises    Practice solving the equations, on the given intervals, with your memorized unit circle values.      on the interval .       on the interval .                               Solve the trigonometric equations by hand without a calculator.      on the interval .       on the interval .                               Solve the trigonometric equations by hand, and then use a calculator to approximate the solutions.      on the interval .       on the interval .       Definitions   Holes or Removable Discontinuities   A hole or removable discontinuity for a rational function occurs at an -value that is a root of both the numerator and denominator and whose multiplicity in the numerator is greater than or equal to its multiplicity in the denominator. Note: If the multiplicity of the root is greater in the denominator, then the root will create a vertical asymptote.      There is a removable discontinuity at for and , but is a vertical asymptote for .    Horizontal Asymptotes of Rational Functions   Whether a rational function has is a horizontal asymptote can be determined by comparing the degrees of the numerator and denominator.  If the degree of the denominator is greater than that of the numerator, the function will have a horizontal asymptote of .  If the degree of the denominator is equal to that of the numerator, the function will have a horizontal asymptote. The equation of the horizontal asymptote will be based on the ratio of the leading coefficients.  If the degree of the denominator is lessre than that of the numerator, the function will not have a horizontal asymptote.        has a horizontal asymptote of .     has a horizontal asymptote of .     has no horizontal asymptote.     Exit Exercises    Let .     What is the domain of ? Answer using both interval and set-builder notations.      What are the -intercepts of the graph of ?      What are the vertical asymptotes of the graph of ?      Does the graph of have any holes? Why or why not?      Does the graph of have a horizontal asymptote? If it does, what is the horizontal asymptote?               On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    --> "
+  "body": " Solving Trigonometric Equations   In this section, we will learn to solve trigonometric equations by hand and with a calculator.    Textbook Reference  This relates to content in 9.5 of Algebra and Trigonometry 2e .    Preparation Exercises   Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.     Solve the equation by hand.      Carlos and Reba were having a discussion about the equation . The answers below are either \"both Reba and Carlos are right\", \"only Reba is right\", \"only Carlos is right\" or \"neither Reba nor Carlos are right\".     Reba said that made the equation true. Carlos said that made the equation true. Who was right?      Reba said that made the equation true. Carlos said that made the equation true. Who was right?      Reba said that was the same as . Carlos said that is not the same as . Who was right?      Reba said that made the equation true. Carlos said that made the equation true. Who was right?      Reba said that the value of was . Carlos said that the value of was . Who was right?      Reba said that thinking about the equation is the same as thinking about angles that have a -value of . Carlos said that thinking about the equation is the same as thinking about angles that have an -value of . Who was right?      Reba said there are two solutions to the equation . Carlos said that there are infinitely many solutions to the equation . Who was right?       Practice Exercises    Practice solving the equations, on the given intervals, with your memorized unit circle values.      on the interval .       on the interval .       on the interval .       on the interval .       on the interval .       on the interval .       Solve the trigonometric equations by hand without a calculator.      on the interval .       on the interval .       on the interval .       on the interval .       on the interval .       on the interval .       Solve the trigonometric equations by hand, and then use a calculator to approximate the solutions.      on the interval .       on the interval .           Solve the trigonometric equations using identities by hand.      on the interval .      on the interval .     on the interval .     on the interval by first using the difference-to-product identity .      Exit Exercises    Explain why you know that the equation couldn't possibly have any real solutions.      Solve the equation on the interval without a calculator.      Solve the equation on the interval without a calculator.      Explain the solving process, in English, for the equation on the interval step by step as if you were explaining it to someone in your class who wanted to understand today's lesson more deeply. Actually solving the equation isn't necessary.        On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
 },
 {
   "id": "prep-solving-equations-3",
@@ -1519,7 +1519,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1",
   "title": "",
-  "body": "  Practice solving the equations, on the given intervals, with your memorized unit circle values.      on the interval .       on the interval .                            "
+  "body": "  Practice solving the equations, on the given intervals, with your memorized unit circle values.      on the interval .       on the interval .       on the interval .       on the interval .       on the interval .       on the interval .    "
 },
 {
   "id": "practice-solving-equations-3",
@@ -1528,7 +1528,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2",
   "title": "",
-  "body": "  Solve the trigonometric equations by hand without a calculator.      on the interval .       on the interval .                            "
+  "body": "  Solve the trigonometric equations by hand without a calculator.      on the interval .       on the interval .       on the interval .       on the interval .       on the interval .       on the interval .    "
 },
 {
   "id": "practice-solving-equations-4",
@@ -1540,58 +1540,22 @@ var ptx_lunr_docs = [
   "body": "  Solve the trigonometric equations by hand, and then use a calculator to approximate the solutions.      on the interval .       on the interval .    "
 },
 {
-  "id": "definitions-solving-equations-2",
+  "id": "practice-solving-equations-5",
   "level": "2",
-  "url": "sec-solving-equations.html#definitions-solving-equations-2",
-  "type": "Definition",
-  "number": "7.6.1",
-  "title": "Holes or Removable Discontinuities.",
-  "body": " Holes or Removable Discontinuities   A hole or removable discontinuity for a rational function occurs at an -value that is a root of both the numerator and denominator and whose multiplicity in the numerator is greater than or equal to its multiplicity in the denominator. Note: If the multiplicity of the root is greater in the denominator, then the root will create a vertical asymptote.    "
-},
-{
-  "id": "definitions-solving-equations-3",
-  "level": "2",
-  "url": "sec-solving-equations.html#definitions-solving-equations-3",
-  "type": "Example",
-  "number": "7.6.2",
+  "url": "sec-solving-equations.html#practice-solving-equations-5",
+  "type": "Exercise",
+  "number": "4",
   "title": "",
-  "body": " There is a removable discontinuity at for and , but is a vertical asymptote for .  "
+  "body": "   "
 },
 {
-  "id": "definitions-solving-equations-4",
+  "id": "practice-solving-equations-6",
   "level": "2",
-  "url": "sec-solving-equations.html#definitions-solving-equations-4",
-  "type": "Definition",
-  "number": "7.6.3",
-  "title": "Horizontal Asymptotes of Rational Functions.",
-  "body": " Horizontal Asymptotes of Rational Functions   Whether a rational function has is a horizontal asymptote can be determined by comparing the degrees of the numerator and denominator.  If the degree of the denominator is greater than that of the numerator, the function will have a horizontal asymptote of .  If the degree of the denominator is equal to that of the numerator, the function will have a horizontal asymptote. The equation of the horizontal asymptote will be based on the ratio of the leading coefficients.  If the degree of the denominator is lessre than that of the numerator, the function will not have a horizontal asymptote.     "
-},
-{
-  "id": "definitions-solving-equations-5",
-  "level": "2",
-  "url": "sec-solving-equations.html#definitions-solving-equations-5",
-  "type": "Example",
-  "number": "7.6.4",
+  "url": "sec-solving-equations.html#practice-solving-equations-6",
+  "type": "Exercise",
+  "number": "5",
   "title": "",
-  "body": "  has a horizontal asymptote of .  "
-},
-{
-  "id": "definitions-solving-equations-6",
-  "level": "2",
-  "url": "sec-solving-equations.html#definitions-solving-equations-6",
-  "type": "Example",
-  "number": "7.6.5",
-  "title": "",
-  "body": "  has a horizontal asymptote of .  "
-},
-{
-  "id": "definitions-solving-equations-7",
-  "level": "2",
-  "url": "sec-solving-equations.html#definitions-solving-equations-7",
-  "type": "Example",
-  "number": "7.6.6",
-  "title": "",
-  "body": "  has no horizontal asymptote.  "
+  "body": "  Solve the trigonometric equations using identities by hand.      on the interval .      on the interval .     on the interval .     on the interval by first using the difference-to-product identity .   "
 },
 {
   "id": "exit-solving-equations-2",
@@ -1600,7 +1564,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1",
   "title": "",
-  "body": "  Let .     What is the domain of ? Answer using both interval and set-builder notations.      What are the -intercepts of the graph of ?      What are the vertical asymptotes of the graph of ?      Does the graph of have any holes? Why or why not?      Does the graph of have a horizontal asymptote? If it does, what is the horizontal asymptote?    "
+  "body": "  Explain why you know that the equation couldn't possibly have any real solutions.   "
 },
 {
   "id": "exit-solving-equations-3",
@@ -1609,12 +1573,165 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2",
   "title": "",
-  "body": "     "
+  "body": "  Solve the equation on the interval without a calculator.   "
 },
 {
-  "id": "sec-solving-equations-8-1",
+  "id": "exit-solving-equations-4",
   "level": "2",
-  "url": "sec-solving-equations.html#sec-solving-equations-8-1",
+  "url": "sec-solving-equations.html#exit-solving-equations-4",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Solve the equation on the interval without a calculator.   "
+},
+{
+  "id": "exit-solving-equations-5",
+  "level": "2",
+  "url": "sec-solving-equations.html#exit-solving-equations-5",
+  "type": "Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Explain the solving process, in English, for the equation on the interval step by step as if you were explaining it to someone in your class who wanted to understand today's lesson more deeply. Actually solving the equation isn't necessary.   "
+},
+{
+  "id": "sec-solving-equations-7-1",
+  "level": "2",
+  "url": "sec-solving-equations.html#sec-solving-equations-7-1",
+  "type": "Reading Question",
+  "number": "1",
+  "title": "",
+  "body": "  On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
+},
+{
+  "id": "sec-sine-cosine-laws",
+  "level": "1",
+  "url": "sec-sine-cosine-laws.html",
+  "type": "Section",
+  "number": "8.1",
+  "title": "Laws of Sines and Cosines",
+  "body": " Laws of Sines and Cosines   In this section, we will learn how to use the laws of sines and cosines to find missing sides and angles in non-right triangles. Then we can use these laws to solve applications.    Textbook Reference  This relates to content in 10.1 and 10.2 of Algebra and Trigonometry 2e .    Preparation Exercises   Answer the following. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.     What needs to be true about a triangle in order to use the Pythagorean Theorem on it?      What needs to be true about a triangle to use SOHCAHTOA on it?      Find solutions to the equation on the interval . Use your calculator and write your answer(s) rounded to four digits behind the decimal place.      For the right triangle shown in , find the missing lengths of , , and the angle . You can use a calculator to hep get an approximation, accurate to four digits behind the decimal place.      Practice Exercises   Find the missing angle, , and then use the law of sines to find the missing lengths and , in the triangle in . Round your answers to two digits behind the decimal place.    Use the law of sines to find the missing angles, and , and the length, , in the triangle in Figure . Round your answers to two digits behind the decimal place.    Use the law of cosines to find the missing angles, and , and the length, , in the triangle in Figure . Round your answers to two digits behind the decimal place.    Use the law of cosines to find the missing angles, , , and , in the triangle in Figure . Round your answers to two digits behind the decimal place.     Definitions   Law of Sines   The law of sines says that the ratios of sines of angles in a triangle and the opposite sides are all constant. That's a bit of a mouthful, maybe a math-ful will help. Consider the triangle in Figure . The law of sines says that... or alternately,      When using the law of sines, you almost never need all three parts of the equation at the same time, so you will end up using one of these at a time:     Law of Cosines   The law of cosines is really the natural extension of the Pythagorean Theorem for triangles without a right angle. Consider the triangle in Figure . The law of cosines says that... or or      Unlike the Pythagorean Theorem, you don't have to put the longest length alone on one side. It can be inputted for , , or .     Exit Exercises     Michelé correctly wrote down thees two equations about a triangle from a homework question. and Draw the triangle from the question that these equations would have been based on.      On a steep hillside somewhre in the Cascades of Oregon stands a tall Douglas Fir. The slope is from point , at the base o the tree, to the point . The top of the tree is at point T. Some hikers wanted to get an extimate of its height, so they took a few measurements. They measured an angle of 52 from the vertically growing tree to the hillside slope using their inclinometer on their phones. Then they measured out 115ft up the hillside to point and measured the angle from there to be 83 from the base of the tree to the top of the tree, as shown in Figure . Use the laws of sines or cosines to find an estimate for the height of the tree and round your answer to the nearest foot.      Imagine a triangle with sides , , and the angle . Length and angles and are unknown.   >  There are actually two such triangles that exist. Draw pictures of both triangles.    One is obtuse and the other is acute.    >  Write down the law of sines to solve for angle for each triangle, and compare the two equations.    >  Solve for the angles and missing lengths in both triangles. Round your final answers for the angles and lengths to two digits behind the decimal place.      Check out this Desmos link for a visual on these \"ambiguous triangles\".         On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
+},
+{
+  "id": "prep-sine-cosine-laws-3",
+  "level": "2",
+  "url": "sec-sine-cosine-laws.html#prep-sine-cosine-laws-3",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  What needs to be true about a triangle in order to use the Pythagorean Theorem on it?   "
+},
+{
+  "id": "prep-sine-cosine-laws-4",
+  "level": "2",
+  "url": "sec-sine-cosine-laws.html#prep-sine-cosine-laws-4",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  What needs to be true about a triangle to use SOHCAHTOA on it?   "
+},
+{
+  "id": "prep-sine-cosine-laws-5",
+  "level": "2",
+  "url": "sec-sine-cosine-laws.html#prep-sine-cosine-laws-5",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Find solutions to the equation on the interval . Use your calculator and write your answer(s) rounded to four digits behind the decimal place.   "
+},
+{
+  "id": "prep-sine-cosine-laws-6",
+  "level": "2",
+  "url": "sec-sine-cosine-laws.html#prep-sine-cosine-laws-6",
+  "type": "Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  For the right triangle shown in , find the missing lengths of , , and the angle . You can use a calculator to hep get an approximation, accurate to four digits behind the decimal place.   "
+},
+{
+  "id": "practice-sine-cosine-laws-2",
+  "level": "2",
+  "url": "sec-sine-cosine-laws.html#practice-sine-cosine-laws-2",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": " Find the missing angle, , and then use the law of sines to find the missing lengths and , in the triangle in . Round your answers to two digits behind the decimal place.  "
+},
+{
+  "id": "practice-sine-cosine-laws-3",
+  "level": "2",
+  "url": "sec-sine-cosine-laws.html#practice-sine-cosine-laws-3",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": " Use the law of sines to find the missing angles, and , and the length, , in the triangle in Figure . Round your answers to two digits behind the decimal place.  "
+},
+{
+  "id": "practice-sine-cosine-laws-4",
+  "level": "2",
+  "url": "sec-sine-cosine-laws.html#practice-sine-cosine-laws-4",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": " Use the law of cosines to find the missing angles, and , and the length, , in the triangle in Figure . Round your answers to two digits behind the decimal place.  "
+},
+{
+  "id": "practice-sine-cosine-laws-5",
+  "level": "2",
+  "url": "sec-sine-cosine-laws.html#practice-sine-cosine-laws-5",
+  "type": "Exercise",
+  "number": "4",
+  "title": "",
+  "body": " Use the law of cosines to find the missing angles, , , and , in the triangle in Figure . Round your answers to two digits behind the decimal place.  "
+},
+{
+  "id": "definitions-sine-cosine-laws-2",
+  "level": "2",
+  "url": "sec-sine-cosine-laws.html#definitions-sine-cosine-laws-2",
+  "type": "Definition",
+  "number": "8.1.1",
+  "title": "Law of Sines.",
+  "body": " Law of Sines   The law of sines says that the ratios of sines of angles in a triangle and the opposite sides are all constant. That's a bit of a mouthful, maybe a math-ful will help. Consider the triangle in Figure . The law of sines says that... or alternately,    "
+},
+{
+  "id": "definitions-sine-cosine-laws-3",
+  "level": "2",
+  "url": "sec-sine-cosine-laws.html#definitions-sine-cosine-laws-3",
+  "type": "Note",
+  "number": "8.1.2",
+  "title": "",
+  "body": " When using the law of sines, you almost never need all three parts of the equation at the same time, so you will end up using one of these at a time:   "
+},
+{
+  "id": "definitions-sine-cosine-laws-4",
+  "level": "2",
+  "url": "sec-sine-cosine-laws.html#definitions-sine-cosine-laws-4",
+  "type": "Definition",
+  "number": "8.1.3",
+  "title": "Law of Cosines.",
+  "body": " Law of Cosines   The law of cosines is really the natural extension of the Pythagorean Theorem for triangles without a right angle. Consider the triangle in Figure . The law of cosines says that... or or    "
+},
+{
+  "id": "definitions-sine-cosine-laws-5",
+  "level": "2",
+  "url": "sec-sine-cosine-laws.html#definitions-sine-cosine-laws-5",
+  "type": "Note",
+  "number": "8.1.4",
+  "title": "",
+  "body": " Unlike the Pythagorean Theorem, you don't have to put the longest length alone on one side. It can be inputted for , , or .  "
+},
+{
+  "id": "exit-sine-cosine-laws-2",
+  "level": "2",
+  "url": "sec-sine-cosine-laws.html#exit-sine-cosine-laws-2",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "   Michelé correctly wrote down thees two equations about a triangle from a homework question. and Draw the triangle from the question that these equations would have been based on.      On a steep hillside somewhre in the Cascades of Oregon stands a tall Douglas Fir. The slope is from point , at the base o the tree, to the point . The top of the tree is at point T. Some hikers wanted to get an extimate of its height, so they took a few measurements. They measured an angle of 52 from the vertically growing tree to the hillside slope using their inclinometer on their phones. Then they measured out 115ft up the hillside to point and measured the angle from there to be 83 from the base of the tree to the top of the tree, as shown in Figure . Use the laws of sines or cosines to find an estimate for the height of the tree and round your answer to the nearest foot.      Imagine a triangle with sides , , and the angle . Length and angles and are unknown.   >  There are actually two such triangles that exist. Draw pictures of both triangles.    One is obtuse and the other is acute.    >  Write down the law of sines to solve for angle for each triangle, and compare the two equations.    >  Solve for the angles and missing lengths in both triangles. Round your final answers for the angles and lengths to two digits behind the decimal place.      Check out this Desmos link for a visual on these \"ambiguous triangles\".    "
+},
+{
+  "id": "sec-sine-cosine-laws-8-1",
+  "level": "2",
+  "url": "sec-sine-cosine-laws.html#sec-sine-cosine-laws-8-1",
   "type": "Reading Question",
   "number": "1",
   "title": "",
@@ -1625,27 +1742,585 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-polar-coordinates.html",
   "type": "Section",
-  "number": "8.1",
+  "number": "8.2",
   "title": "Polar Coordinates",
-  "body": " Polar Coordinates   In this section, we'll    "
+  "body": " Polar Coordinates   In this section, we will learn a completely different way of organizing the coordinate plane: polar coordinates, where a polar point, , has a radius from the origin and the angle from standard position, . We will practice plotting points using polar coordinates, converting between polar coordinates and rectangular coordinates, transforming equations between polar and rectangular forms, and graphing polar equations.    Textbook Reference  This relates to content in 10.3 and 10.4 of Algebra and Trigonometry 2e .    Preparation Exercises    Completely factor                                                                                           Practice Exercises                                                                                                                                                                            Definitions   Polar Function   A polar function is usually given in the form where is the angle measured from the standard position along the positive -axis, and is the radius measured from the origin.     Conversion formulas              Exit Exercises                                                                        On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
+},
+{
+  "id": "prep-polar-coordinates-2",
+  "level": "2",
+  "url": "sec-polar-coordinates.html#prep-polar-coordinates-2",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Completely factor                      "
+},
+{
+  "id": "prep-polar-coordinates-3",
+  "level": "2",
+  "url": "sec-polar-coordinates.html#prep-polar-coordinates-3",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "prep-polar-coordinates-4",
+  "level": "2",
+  "url": "sec-polar-coordinates.html#prep-polar-coordinates-4",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "                             "
+},
+{
+  "id": "prep-polar-coordinates-5",
+  "level": "2",
+  "url": "sec-polar-coordinates.html#prep-polar-coordinates-5",
+  "type": "Exercise",
+  "number": "4",
+  "title": "",
+  "body": "                             "
+},
+{
+  "id": "practice-polar-coordinates-2",
+  "level": "2",
+  "url": "sec-polar-coordinates.html#practice-polar-coordinates-2",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "                                         "
+},
+{
+  "id": "practice-polar-coordinates-3",
+  "level": "2",
+  "url": "sec-polar-coordinates.html#practice-polar-coordinates-3",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "                                               "
+},
+{
+  "id": "practice-polar-coordinates-4",
+  "level": "2",
+  "url": "sec-polar-coordinates.html#practice-polar-coordinates-4",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "                                                     "
+},
+{
+  "id": "practice-polar-coordinates-5",
+  "level": "2",
+  "url": "sec-polar-coordinates.html#practice-polar-coordinates-5",
+  "type": "Exercise",
+  "number": "4",
+  "title": "",
+  "body": "                       "
+},
+{
+  "id": "definitions-polar-coordinates-2",
+  "level": "2",
+  "url": "sec-polar-coordinates.html#definitions-polar-coordinates-2",
+  "type": "Definition",
+  "number": "8.2.1",
+  "title": "Polar Function.",
+  "body": " Polar Function   A polar function is usually given in the form where is the angle measured from the standard position along the positive -axis, and is the radius measured from the origin.   "
+},
+{
+  "id": "definitions-polar-coordinates-3",
+  "level": "2",
+  "url": "sec-polar-coordinates.html#definitions-polar-coordinates-3",
+  "type": "Definition",
+  "number": "8.2.2",
+  "title": "Conversion formulas.",
+  "body": " Conversion formulas           "
+},
+{
+  "id": "exit-polar-coordinates-2",
+  "level": "2",
+  "url": "sec-polar-coordinates.html#exit-polar-coordinates-2",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "exit-polar-coordinates-3",
+  "level": "2",
+  "url": "sec-polar-coordinates.html#exit-polar-coordinates-3",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "exit-polar-coordinates-4",
+  "level": "2",
+  "url": "sec-polar-coordinates.html#exit-polar-coordinates-4",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "                                                     "
+},
+{
+  "id": "sec-polar-coordinates-8-1",
+  "level": "2",
+  "url": "sec-polar-coordinates.html#sec-polar-coordinates-8-1",
+  "type": "Reading Question",
+  "number": "1",
+  "title": "",
+  "body": "  On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
 {
   "id": "sec-complex-numbers",
   "level": "1",
   "url": "sec-complex-numbers.html",
   "type": "Section",
-  "number": "8.2",
+  "number": "8.3",
   "title": "Complex Numbers",
-  "body": " Complex Numbers   In this section, we'll    "
+  "body": " Complex Numbers   In this section, we will learn about complex numbers. We will learn how to plot complex numbers in the complex plane, convert complex numbers between polar, rectangular, and Euler forms, and how to arithmetic with complex numbers.    Textbook Reference  This relates to content in 10.5 and 2.4 of Algebra and Trigonometry 2e .    Preparation Exercises                      Practice Exercises                                                                                                  Definitions   The Imaginary Unit              Standard Form of a Complex Number              The Complex Plane              Absolute Value of a Complex Number                    Argument of a Complex Number                    Polar Form of a Complex Number                    Euler's Form of a Complex Number               Exit Exercises                                            On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    --> "
+},
+{
+  "id": "prep-complex-numbers-2",
+  "level": "2",
+  "url": "sec-complex-numbers.html#prep-complex-numbers-2",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "prep-complex-numbers-3",
+  "level": "2",
+  "url": "sec-complex-numbers.html#prep-complex-numbers-3",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "prep-complex-numbers-4",
+  "level": "2",
+  "url": "sec-complex-numbers.html#prep-complex-numbers-4",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "practice-complex-numbers-2",
+  "level": "2",
+  "url": "sec-complex-numbers.html#practice-complex-numbers-2",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "                       "
+},
+{
+  "id": "practice-complex-numbers-3",
+  "level": "2",
+  "url": "sec-complex-numbers.html#practice-complex-numbers-3",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "                 "
+},
+{
+  "id": "practice-complex-numbers-4",
+  "level": "2",
+  "url": "sec-complex-numbers.html#practice-complex-numbers-4",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "practice-complex-numbers-5",
+  "level": "2",
+  "url": "sec-complex-numbers.html#practice-complex-numbers-5",
+  "type": "Exercise",
+  "number": "4",
+  "title": "",
+  "body": "                       "
+},
+{
+  "id": "practice-complex-numbers-6",
+  "level": "2",
+  "url": "sec-complex-numbers.html#practice-complex-numbers-6",
+  "type": "Exercise",
+  "number": "5",
+  "title": "",
+  "body": "             "
+},
+{
+  "id": "definitions-complex-numbers-2",
+  "level": "2",
+  "url": "sec-complex-numbers.html#definitions-complex-numbers-2",
+  "type": "Definition",
+  "number": "8.3.1",
+  "title": "The Imaginary Unit <span class=\"process-math\">\\(i\\)<\/span>.",
+  "body": " The Imaginary Unit      "
+},
+{
+  "id": "definitions-complex-numbers-3",
+  "level": "2",
+  "url": "sec-complex-numbers.html#definitions-complex-numbers-3",
+  "type": "Example",
+  "number": "8.3.2",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "definitions-complex-numbers-4",
+  "level": "2",
+  "url": "sec-complex-numbers.html#definitions-complex-numbers-4",
+  "type": "Definition",
+  "number": "8.3.3",
+  "title": "Standard Form of a Complex Number.",
+  "body": " Standard Form of a Complex Number      "
+},
+{
+  "id": "definitions-complex-numbers-5",
+  "level": "2",
+  "url": "sec-complex-numbers.html#definitions-complex-numbers-5",
+  "type": "Example",
+  "number": "8.3.4",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "definitions-complex-numbers-6",
+  "level": "2",
+  "url": "sec-complex-numbers.html#definitions-complex-numbers-6",
+  "type": "Definition",
+  "number": "8.3.5",
+  "title": "The Complex Plane.",
+  "body": " The Complex Plane      "
+},
+{
+  "id": "definitions-complex-numbers-7",
+  "level": "2",
+  "url": "sec-complex-numbers.html#definitions-complex-numbers-7",
+  "type": "Example",
+  "number": "8.3.6",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "definitions-complex-numbers-8",
+  "level": "2",
+  "url": "sec-complex-numbers.html#definitions-complex-numbers-8",
+  "type": "Definition",
+  "number": "8.3.7",
+  "title": "Absolute Value of a Complex Number.",
+  "body": " Absolute Value of a Complex Number      "
+},
+{
+  "id": "definitions-complex-numbers-9",
+  "level": "2",
+  "url": "sec-complex-numbers.html#definitions-complex-numbers-9",
+  "type": "Note",
+  "number": "8.3.8",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "definitions-complex-numbers-10",
+  "level": "2",
+  "url": "sec-complex-numbers.html#definitions-complex-numbers-10",
+  "type": "Example",
+  "number": "8.3.9",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "definitions-complex-numbers-11",
+  "level": "2",
+  "url": "sec-complex-numbers.html#definitions-complex-numbers-11",
+  "type": "Definition",
+  "number": "8.3.10",
+  "title": "Argument of a Complex Number.",
+  "body": " Argument of a Complex Number      "
+},
+{
+  "id": "definitions-complex-numbers-12",
+  "level": "2",
+  "url": "sec-complex-numbers.html#definitions-complex-numbers-12",
+  "type": "Note",
+  "number": "8.3.11",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "definitions-complex-numbers-13",
+  "level": "2",
+  "url": "sec-complex-numbers.html#definitions-complex-numbers-13",
+  "type": "Example",
+  "number": "8.3.12",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "definitions-complex-numbers-14",
+  "level": "2",
+  "url": "sec-complex-numbers.html#definitions-complex-numbers-14",
+  "type": "Definition",
+  "number": "8.3.13",
+  "title": "Polar Form of a Complex Number.",
+  "body": " Polar Form of a Complex Number      "
+},
+{
+  "id": "definitions-complex-numbers-15",
+  "level": "2",
+  "url": "sec-complex-numbers.html#definitions-complex-numbers-15",
+  "type": "Note",
+  "number": "8.3.14",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "definitions-complex-numbers-16",
+  "level": "2",
+  "url": "sec-complex-numbers.html#definitions-complex-numbers-16",
+  "type": "Example",
+  "number": "8.3.15",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "definitions-complex-numbers-17",
+  "level": "2",
+  "url": "sec-complex-numbers.html#definitions-complex-numbers-17",
+  "type": "Definition",
+  "number": "8.3.16",
+  "title": "Euler’s Form of a Complex Number.",
+  "body": " Euler's Form of a Complex Number      "
+},
+{
+  "id": "definitions-complex-numbers-18",
+  "level": "2",
+  "url": "sec-complex-numbers.html#definitions-complex-numbers-18",
+  "type": "Example",
+  "number": "8.3.17",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "exit-complex-numbers-2",
+  "level": "2",
+  "url": "sec-complex-numbers.html#exit-complex-numbers-2",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "exit-complex-numbers-3",
+  "level": "2",
+  "url": "sec-complex-numbers.html#exit-complex-numbers-3",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "                               "
+},
+{
+  "id": "sec-complex-numbers-8-1",
+  "level": "2",
+  "url": "sec-complex-numbers.html#sec-complex-numbers-8-1",
+  "type": "Reading Question",
+  "number": "1",
+  "title": "",
+  "body": "  On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
 {
   "id": "sec-vectors",
   "level": "1",
   "url": "sec-vectors.html",
   "type": "Section",
-  "number": "8.3",
+  "number": "8.4",
   "title": "Vectors",
-  "body": " Vectors   In this section, we'll    "
+  "body": " Vectors   In this section, we will learn about vectors, which are essentially a line segment with a specific length and that points in a particular direction. We will view vectors geometrically, find the magnitude and direction of vectors, find the component form of a vector, and do arithmetic with vectors. Then we will find the dot product of two vectors and work through some applications of vectors.    Textbook Reference  This relates to content in 10.8 of Algebra and Trigonometry 2e .    Preparation Exercises                              Practice Exercises                                                                                                                                                            Definitions   Vector        The vectors and        Components of a Vector        Magnitude of a Vector        Direction of a Vector        Graphically adding two vectors        Graphically subtracting two vectors        Unit Vector        Dot Product         Exit Exercises                                                      On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    --> "
+},
+{
+  "id": "prep-vectors-2",
+  "level": "2",
+  "url": "sec-vectors.html#prep-vectors-2",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "prep-vectors-3",
+  "level": "2",
+  "url": "sec-vectors.html#prep-vectors-3",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "                   "
+},
+{
+  "id": "practice-vectors-2",
+  "level": "2",
+  "url": "sec-vectors.html#practice-vectors-2",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "                                     "
+},
+{
+  "id": "practice-vectors-3",
+  "level": "2",
+  "url": "sec-vectors.html#practice-vectors-3",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "                                         "
+},
+{
+  "id": "practice-vectors-4",
+  "level": "2",
+  "url": "sec-vectors.html#practice-vectors-4",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "                             "
+},
+{
+  "id": "practice-vectors-5",
+  "level": "2",
+  "url": "sec-vectors.html#practice-vectors-5",
+  "type": "Exercise",
+  "number": "4",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "practice-vectors-6",
+  "level": "2",
+  "url": "sec-vectors.html#practice-vectors-6",
+  "type": "Exercise",
+  "number": "5",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "practice-vectors-7",
+  "level": "2",
+  "url": "sec-vectors.html#practice-vectors-7",
+  "type": "Exercise",
+  "number": "6",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "practice-vectors-8",
+  "level": "2",
+  "url": "sec-vectors.html#practice-vectors-8",
+  "type": "Exercise",
+  "number": "7",
+  "title": "",
+  "body": "                       "
+},
+{
+  "id": "definitions-vectors-2",
+  "level": "2",
+  "url": "sec-vectors.html#definitions-vectors-2",
+  "type": "Definition",
+  "number": "8.4.1",
+  "title": "Vector.",
+  "body": " Vector      "
+},
+{
+  "id": "definitions-vectors-3",
+  "level": "2",
+  "url": "sec-vectors.html#definitions-vectors-3",
+  "type": "Definition",
+  "number": "8.4.2",
+  "title": "The vectors <span class=\"process-math\">\\(\\hat{i}\\)<\/span> and <span class=\"process-math\">\\(\\hat{j}\\)<\/span>.",
+  "body": " The vectors and      "
+},
+{
+  "id": "definitions-vectors-4",
+  "level": "2",
+  "url": "sec-vectors.html#definitions-vectors-4",
+  "type": "Definition",
+  "number": "8.4.3",
+  "title": "Components of a Vector.",
+  "body": " Components of a Vector      "
+},
+{
+  "id": "definitions-vectors-5",
+  "level": "2",
+  "url": "sec-vectors.html#definitions-vectors-5",
+  "type": "Definition",
+  "number": "8.4.4",
+  "title": "Magnitude of a Vector.",
+  "body": " Magnitude of a Vector      "
+},
+{
+  "id": "definitions-vectors-6",
+  "level": "2",
+  "url": "sec-vectors.html#definitions-vectors-6",
+  "type": "Definition",
+  "number": "8.4.5",
+  "title": "Direction of a Vector.",
+  "body": " Direction of a Vector      "
+},
+{
+  "id": "definitions-vectors-7",
+  "level": "2",
+  "url": "sec-vectors.html#definitions-vectors-7",
+  "type": "Definition",
+  "number": "8.4.6",
+  "title": "Graphically adding two vectors.",
+  "body": " Graphically adding two vectors      "
+},
+{
+  "id": "definitions-vectors-8",
+  "level": "2",
+  "url": "sec-vectors.html#definitions-vectors-8",
+  "type": "Definition",
+  "number": "8.4.7",
+  "title": "Graphically subtracting two vectors.",
+  "body": " Graphically subtracting two vectors      "
+},
+{
+  "id": "definitions-vectors-9",
+  "level": "2",
+  "url": "sec-vectors.html#definitions-vectors-9",
+  "type": "Definition",
+  "number": "8.4.8",
+  "title": "Unit Vector.",
+  "body": " Unit Vector      "
+},
+{
+  "id": "definitions-vectors-10",
+  "level": "2",
+  "url": "sec-vectors.html#definitions-vectors-10",
+  "type": "Definition",
+  "number": "8.4.9",
+  "title": "Dot Product.",
+  "body": " Dot Product      "
+},
+{
+  "id": "exit-vectors-2",
+  "level": "2",
+  "url": "sec-vectors.html#exit-vectors-2",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "                                               "
+},
+{
+  "id": "sec-vectors-8-1",
+  "level": "2",
+  "url": "sec-vectors.html#sec-vectors-8-1",
+  "type": "Reading Question",
+  "number": "1",
+  "title": "",
+  "body": "  On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
 {
   "id": "backmatter-2",

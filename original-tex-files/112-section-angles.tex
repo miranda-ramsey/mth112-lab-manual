@@ -1,0 +1,295 @@
+%============================================================
+% MTH 112 Project - Angles
+% Updated 202504
+%============================================================
+
+\section{Angles} \label{section-angles}
+In this section we will draw angles in standard position, convert between degrees and radians and degrees-minutes-seconds, find coterminal angles, and find the length of a circular arc.
+
+\textbook{\href{https://openstax.org/books/algebra-and-trigonometry-2e/pages/7-1-angles}{7.1}}
+
+\subsection*{Preparation Exercises} \label{preparation-exercises-section-angles}
+
+Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.
+
+\begin{multicols}{2}
+	\begin{myPrep}
+		Solve the equation $T=\frac{v}{w^2}$ for $w$.
+	\end{myPrep}
+	\vfill
+	
+	\begin{myPrep}
+		Simplify the expression $80\cdot\frac{\pi}{180}$ without a calculator. Reduce to simplest form.
+	\end{myPrep}
+	\vfill
+\end{multicols}
+\vfill
+
+\begin{myPrep}
+In terms of time, how many minutes total are in 3 hours and 53 minutes?
+\end{myPrep}
+\vfill
+
+\begin{myPrep}
+	\begin{minipage}[t]{0.5\linewidth}
+		Draw a line segment from the point $(5,-3)$ to the point $(-1,2)$. Find the distance between those two points using the Pythagorean Theorem. Leave your answer in exact form.
+		\vfill
+	\end{minipage}
+	\begin{minipage}[t]{0.5\linewidth}
+		\begin{center}\captionsetup{type=figure} \captionof{figure}{A grid to plot your points}
+			\begin{tikzpicture}
+				\begin{axis}[
+					framed,
+					xmin=-6,xmax=6,
+					ymin=-6,ymax=6,
+			       	xtick={-4,-2,2,4},
+			       	minor xtick={-5,-3,-1,1,3,5},
+			       	ytick={-4,-2,2,4},
+			       	minor ytick={-5,-3,-1,1,3,5},
+			       	grid=both
+					]
+				\end{axis}
+			\end{tikzpicture}\label{fig:section-angles-myprep1}
+		\end{center}
+	\end{minipage}
+\end{myPrep}
+\vfill
+
+%======================================================
+\newpage
+%======================================================
+
+\subsection*{Practice Exercises} \label{practice-exercises-section-angles}
+
+\begin{myPractice}
+	Find an angle that is coterminal to $\ang{-40}$ and is between $\ang{360}$ and $\ang{720}$.
+		% Solution: Since $\ang{-40}$ is in Quadrant IV, $\ang{40}$ below the $x$-axis, a coterminal angle would be $\ang{360}-\ang{40}=\ang{320}$. However, this isn't between $\ang{360}$ and $\ang{720}$, so we can add another $\ang{360}$ and we get $\ang{320}+\ang{360}=\ang{680}$. Another way to find this angle is just to subtract $\ang{40}$ from $\ang{720}$: $\ang{720}-\ang{40}=\ang{680}$.
+		\vfill
+\end{myPractice}
+
+\begin{myPractice}
+	Match the pairs of coterminal angles.
+			\begin{multicols}{2}
+				\begin{itemize}
+					\item \ang{30}
+					\item \ang{270}
+					\item \ang{-220}
+					\item \ang{-60}
+					\item \ang{0}
+					\item \ang{150}
+					\columnbreak
+					\item \ang{720}
+					\item \ang{-90}
+					\item \ang{390}
+					\item \ang{510}
+					\item \ang{-420}
+					\item \ang{500}
+				\end{itemize}
+			\end{multicols}
+\end{myPractice}
+
+\begin{myPractice}
+	Convert the angles.
+			\begin{enumerate}
+				\item Convert $\ang{28}$ to radians. Leave your answer as a fraction in terms of $\pi$.
+				\vfill
+				\item Convert $\frac{7\pi}{9}$ radians to degrees. Round to 6 digits behind the decimal place.
+				\vfill
+
+%======================================================
+\newpage
+%======================================================
+
+				\item Convert $\ang{14;20;36}$ to a decimal measurement of degrees. 
+				\vfill
+				\item Convert $\ang{76.85}$ to degrees-minutes-seconds.
+				\vfill
+			\end{enumerate}
+\end{myPractice}
+
+\begin{myPractice}
+	Use the formula $s=r\theta$ to find the missing values.
+			\begin{enumerate}
+				\item Find the arc length of on a circle of radius $6$ with an interior angle of $\frac{4\pi}{7}$.
+				\vfill
+				\item Find the interior angle of an arc length on a circle of radius $12$ with an arc length of $\frac{3\pi}{2}$.
+				\vfill
+				\item Find the arc length of on a circle of radius $10\pi$ with an interior angle of $\ang{20}$.
+				\vfill
+			\end{enumerate}
+		\vfill
+\end{myPractice}
+
+%======================================================
+\newpage
+%======================================================
+
+\subsection*{Definitions} \label{definitions-section-angles}
+\begin{multicols}{2}
+	\begin{myDefinition}[{Angle}]~\\[0.5mm]
+		An \textbf{angle} is formed when two lines intersect at a point. We can measure the \say{size} of this angle in degrees or radians.
+	\end{myDefinition}
+	\begin{myDefinition}[{Ray}]~\\[0.5mm]
+		A \textbf{ray} is a portion of a line that starts at a point and extends infinitely in one direction.
+	\end{myDefinition}
+	\begin{myDefinition}[{Degree}]~\\[0.5mm]
+		A \textbf{degree} is an angle measurement equal to $\frac{1}{360}$ of a full rotation.
+	\end{myDefinition}
+	\begin{myDefinition}[{Right Angle}]~\\[0.5mm]
+		 A \textbf{right angle} is an angle of $\ang{90}$.
+	\end{myDefinition}
+	\begin{myDefinition}[{Radian}]~\\[0.5mm]
+			A \textbf{radian} is a unit of measurement of angle size, and 1 radian is defined to be the angle that is made when the arc length for that angle on a circle of radius 1 is equal to 1. \href{http://tiny.cc/radian-definition}{Check out this Desmos link} and click the "play" button on the slider for a visual representation of this concept. \qrcode[height=1cm]{http://tiny.cc/radian-definition}
+	\end{myDefinition}
+
+	\begin{center}
+		\captionsetup{type=figure} \captionof{figure}{Standard Angles}
+		\begin{tikzpicture}
+			\begin{axis}[
+					xmin=-1,xmax=1,
+					ymin=-1,ymax=1,
+		       		xtick={-1,1},
+		       		ytick={-1,1},
+		       		clip=false,
+					]
+					\draw 	(axis cs:0,0) circle [radius=1];
+					\addplot[mark=*,color=first] coordinates{(1,0)} node[below left] {\footnotesize$\theta=0$};
+
+					\draw   [color=second,opacity=0.2](0,0)--(0.866,0.5);
+					\addplot[mark=*,color=second] coordinates{(0.866,0.5)} node[left,rotate=30] {\footnotesize$\theta=\frac{\pi}{6}$};
+					\draw   [color=third,opacity=0.2](0,0)--(0.707,0.707);
+					\addplot[mark=*,color=third] coordinates{(0.707,0.707)} node[left,rotate=45] {\footnotesize$\theta=\frac{\pi}{4}$};
+
+					\draw   [color=fourth,opacity=0.2](0,0)--(0.5,0.866);
+					\addplot[mark=*,color=fourth] coordinates{(0.5,0.866)} node[left,rotate=60] {\footnotesize$\theta=\frac{\pi}{3}$};
+
+					\addplot[mark=*,color=fifth] coordinates{(0,1)}node[below right,rotate=-90] {\footnotesize$\theta=\frac{\pi}{2}$};
+
+					\draw   [color=fourth,opacity=0.2](0,0)--(-0.5,0.866);
+					\addplot[mark=*,color=fourth] coordinates{(-0.5,0.866)}node[right,rotate=-60] {\footnotesize$\theta=\frac{2\pi}{3}$};
+
+					\draw   [color=third,opacity=0.2](0,0)--(-0.707,0.707);
+					\addplot[mark=*,color=third] coordinates{(-0.707,0.707)}node[right,rotate=-45] {\footnotesize$\theta=\frac{3\pi}{4}$};
+
+					\draw   [color=second,opacity=0.2](0,0)--(-0.866,0.5);
+					\addplot[mark=*,color=second] coordinates{(-0.866,0.5)}node[right,rotate=-30] {\footnotesize$\theta=\frac{5\pi}{6}$};
+
+					\addplot[mark=*,color=first] coordinates{(-1,0)} node[above right] {\footnotesize$\theta=\pi$};
+					\draw   [color=second,opacity=0.2](0,0)--(-0.866,-0.5);
+					\addplot[mark=*,color=second] coordinates{(-0.866,-0.5)} node[right,rotate=30] {\footnotesize$\theta=\frac{7\pi}{6}$};
+					\draw   [color=third,opacity=0.2](0,0)--(-0.707,-0.707);
+					\addplot[mark=*,color=third] coordinates{(-0.707,-0.707)} node[right,rotate=45] {\footnotesize$\theta=\frac{5\pi}{4}$};
+					\draw   [color=fourth,opacity=0.2](0,0)--(-0.5,-0.866);
+					\addplot[mark=*,color=fourth] coordinates{(-0.5,-0.866)} node[right,rotate=60] {\footnotesize$\theta=\frac{4\pi}{3}$};
+
+					\addplot[mark=*,color=fifth] coordinates{(0,-1)} node[above left,rotate=-90] {\footnotesize$\theta=\frac{3\pi}{2}$};
+					\draw   [color=second,opacity=0.2](0,0)--(0.866,-0.5);
+					\addplot[mark=*,color=second] coordinates{(0.866,-0.5)} node[left,rotate=-30] {\footnotesize$\theta=\frac{11\pi}{6}$};
+					\draw   [color=third,opacity=0.2](0,0)--(0.707,-0.707);
+					\addplot[mark=*,color=third] coordinates{(0.707,-0.707)} node[left,rotate=-45] {\footnotesize$\theta=\frac{7\pi}{4}$};
+					\draw   [color=fourth,opacity=0.2](0,0)--(0.5,-0.866);
+					\addplot[mark=*,color=fourth] coordinates{(0.5,-0.866)} node[left,rotate=-60] {\footnotesize$\theta=\frac{5\pi}{3}$};
+			\end{axis}
+		\end{tikzpicture}
+		\label{fig:Unit-circle-values-angles}
+	\end{center}
+% \end{multicols}
+
+% \begin{multicols}{2}
+	\begin{myDefinition}[{Initial and Terminal sides}]~\\[0.5mm]
+		An angle is created by imagining two rays originating from the same point: the \textbf{initial side} of the angle is stationary and the \textbf{terminal side} is rotated around until the desired angle is created. Angles measured from initial to terminal side in a counter-clockwise direction are positive. Angles measured from initial to terminal side clockwise are negative.
+	\end{myDefinition}
+	\begin{myDefinition}[{Standard Position}]~\\[0.5mm]
+		An angle is said to be in \textbf{standard position} if the initial and terminal sides of the angle meet at the origin and the initial side of the angle is along the positive $x$-axis.
+	\end{myDefinition}
+	\begin{myDefinition}[{Coterminal}]~\\[0.5mm]
+		Two angles are \textbf{coterminal} if their initial and terminal sides align, but they differ by an integer number of full rotations. In standard position, this means that the two angles are \say{in the same place} are different by some integer multiple of $\ang{360}$ (or $2\pi$ radians).
+	\end{myDefinition}
+	\begin{myDefinition}[{Arc length}]~\\[0.5mm]
+		An \textbf{arc length} is a distance along a part of the circumference of a circle. A formula for arc length is $s=r\theta$, where $s$ stands for arc length along a circle of radius $r$, with an interior angle $\theta$ centered at the center of the circle.
+	\end{myDefinition}
+	
+	\begin{center}
+		\captionsetup{type=figure} \captionof{figure}{Coterminal angles $\theta$ and $\alpha$}
+		\begin{tikzpicture}
+			\begin{axis}[
+				% framed,
+				xmin=-10,xmax=10,
+				ymin=-10,ymax=10,
+		       	xtick=\empty,
+		       	% minor xtick={-5,5},
+		       	ytick=\empty,
+		       	% minor ytick={-5,5},
+		       	% grid=both,
+		       	clip=false
+				]
+				\draw 	(axis cs:0,0) circle [radius=10];
+				
+				\draw   [color=first, very thick](10,0)--(5,0)coordinate[label=below:\tiny{initial side}]--(0,0)--(-6,8) coordinate[label=above left:{$\theta$ and $\alpha$ are coterminal}];
+
+				\draw 	(-3,4) node[below,color=third,rotate=-atan(4/3)] {\tiny{terminal side}};
+				
+				\addplot[variable=\t, domain=0:(atan(-4/3)+180), samples=50, color=first, very thick,-{latex}]({2*cos(t)}, {2*sin(t)});
+				
+				\draw 	(2,1) node[right,color=first] {$\theta$};
+				
+				% \addplot[variable=\t, domain=0:(atan(-4/3)+180), samples=50, color=second,very thick]({10*cos(t)}, {10*sin(t)});
+				
+				\draw[postaction={decorate},very thick,color=second,decoration={text along path,raise=5pt,text color=second,text={arc length for angle {$\theta$}},text align=center}] (-6,8) arc [start angle=atan(-4/3)+180,end angle=0,radius=10];
+				
+				\addplot[variable=\t, domain=(atan(-4/3)+180):360, samples=50, color=fourth,{latex}-]({2*cos(t)}, {2*sin(t)});
+				
+				\draw 	(-2,-1) node[left,color=fourth] {$\alpha$};
+				\end{axis}
+		\end{tikzpicture}
+		\label{fig:angle-defs}
+	\end{center}
+\end{multicols}
+
+%======================================================
+\newpage
+%======================================================
+
+\subsection*{Exit Exercises} \label{exit-exercises-section-angles}
+
+\begin{myExit} 
+Explain why $\ang{-90}$ is not {\it the same} as $\ang{270}$.
+\end{myExit}
+\vfill
+
+\begin{myExit} 
+Convert $\ang{34;29;24}$ to decimal degrees.
+\end{myExit}
+\vfill
+\vfill
+
+\begin{myExit} 
+	Convert the angle $\ang{144}$ to radians. Write you answer in exact form as a fraction with $\pi$ in it.
+\end{myExit}
+\vfill
+
+\begin{myExit} 
+	\begin{minipage}[t]{0.6\linewidth}
+		How big of an arc length will an angle of $\frac{3\pi}{8}$ radians create on a circle of radius 6? Draw this angle and arc length on the circle of radius 6 provided.
+	\end{minipage}
+	\begin{minipage}[t]{0.4\linewidth}
+		\begin{center}
+			\captionsetup{type=figure} \captionof{figure}{A circle of radius 6}
+			\begin{tikzpicture}
+				\begin{axis}[
+					framed,
+					xmin=-8,xmax=8,
+					ymin=-8,ymax=8,
+	        		xtick={-6,-4,-2,2,4,6},
+	        		ytick={-6,-4,-2,2,4,6},
+	        		grid=both
+					]
+					\draw[thick,color=first] (0,0) circle (6);
+				\end{axis}
+			\end{tikzpicture}
+		\end{center}
+		\label{fig:section-angles-myexit-circle}
+	\end{minipage}
+\end{myExit}
+\vfill
+\exitlikert{angles}

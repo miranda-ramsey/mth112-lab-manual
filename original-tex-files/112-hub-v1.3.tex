@@ -1,0 +1,500 @@
+%============================================================
+% MTH 112 Project - Hub File
+% Updated 202504
+%============================================================
+
+\documentclass[11pt,twoside]{report}
+\usepackage{tabularx}
+\usepackage{tkz-euclide}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{tasks}
+\usepackage[standard,framed,thmmarks]{ntheorem}	% needed for theorems, examples
+\usepackage{enumerate}
+\usepackage{pstricks} % needed for many things, including fancy shading in theorems, examples
+\usepackage{enumitem}
+\usepackage{placeins} % enables \FloatBarrier, useful for positioning figures/tables more precisely.
+\usepackage{calc} % calculations such as dividing textwidth/2
+\usepackage{multicol}
+\usepackage{framed}	% needed for putting boxes round theorems, examples	
+\usepackage{needspace} % needed to keep examples looking good (with \hrule above and below)
+\usepackage{fancyhdr} % headers and footersd
+%\usepackage{nonfloat} % needed for putting figures in boxes- they don't float!
+%\usepackage{refcheck} % useful for checking references
+\usepackage{array}
+\usepackage{tocloft}
+\renewcommand\cftsecafterpnum{\vskip3pt}
+\renewcommand\cftchapafterpnum{\vskip5pt}
+\setlength{\cftbeforetoctitleskip}{0mm}
+\setlength\cftaftertoctitleskip{20pt}
+\setlength{\cftbeforechapskip}{4pt}
+\usepackage{latexsym}
+\usepackage{amscd}
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{textcomp} % for cents symbol
+\usepackage{lastpage}
+\usepackage{setspace}
+\usepackage{caption}
+\usepackage{wasysym}
+\pagestyle{fancy}
+\setlength{\textwidth}{7.25in}			%for =>PDF, use 6.5in
+\setlength{\textheight}{9.10in}		%for =>PDF, use 9.5in
+\setlength{\oddsidemargin}{-0.375in}
+\setlength{\evensidemargin}{-0.375in}
+\setlength{\voffset}{-.75in}			%for=>PDF, use -0.75in
+\setlength{\footskip}{15pt}
+\usepackage[per-mode=symbol]{siunitx}
+\usepackage[super]{nth} %nth added when appropriate
+\usepackage{qrcode}
+\usepackage{dirtytalk} %for quotations
+\settasks{after-item-skip=2cm,after-skip=2cm} %for tasks instead of items
+\setlength\columnsep{30pt} %space between columns
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}} %center content in cells of table
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{url}
+\usepackage{mathtools}
+\DeclarePairedDelimiter\abs{\lvert}{\rvert}%
+\DeclarePairedDelimiter\norm{\lVert}{\rVert}%
+\usepackage{harpoon}
+% \usepackage{draftwatermark} %Turn on or off for Watermark DRAFT
+% \SetWatermarkText{{\color{red!7}{DRAFT}}}
+% \SetWatermarkScale{1}
+
+% \ifpdf
+  \usepackage{pdfcolmk}
+% \fi
+% % check if using xelatex rather than pdflatex
+% \ifxetex
+%   \usepackage{fontspec}
+% \fi
+
+\usepackage{pifont} % for dingbats
+\providecommand{\HUGE}{\Huge} % if not using memoir
+\newlength{\drop} % for my convenience
+% specify the Webomints family
+\newcommand*{\wb}[2]{\fontsize{#1}{#2}\usefont{U}{webo}{xl}{n}}
+% select a (FontSite) font by its font family ID
+\newcommand*{\FSfont}[1]{\fontencoding{T1}\fontfamily{#1}\selectfont}
+% if you don?t have the FontSite fonts either \renewcommand*{\FSfont}[1]{}
+% or use your own choice of family.
+% select a (TeX Font) font by its font family ID
+\newcommand*{\TXfont}[1]{\fontencoding{T1}\fontfamily{#1}\selectfont}
+% Generic publisher?s logo
+\newcommand*{\plogo}{\fbox{$\mathcal{PL}$}}
+% Some shades
+\definecolor{Dark}{gray}{0.2}
+\definecolor{MedDark}{gray}{0.4}
+\definecolor{Medium}{gray}{0.6}
+\definecolor{Light}{gray}{0.8}
+% Additional font series macros
+\makeatletter
+% light series
+% e.g., kernel doc, section s: line 12 or thereabouts
+\DeclareRobustCommand\ltseries
+  {\not@math@alphabet\ltseries\relax
+   \fontseries\ltdefault\selectfont}
+% e.g., kernel doc, section t: line 32 or thereabouts
+\newcommand{\ltdefault}{l}
+% e.g., kernel doc, section v: line 19 or thereabouts
+\DeclareTextFontCommand{\textlt}{\ltseries}
+% heavy(bold) series
+\DeclareRobustCommand\hbseries
+  {\not@math@alphabet\hbseries\relax
+   \fontseries\hbdefault\selectfont}
+\newcommand{\hbdefault}{hb}
+\DeclareTextFontCommand{\texthb}{\hbseries}
+\makeatother
+
+%==================================================
+%  TITLE PAGE STUFF
+%==================================================
+% enumerate settings
+\setlist{itemsep=6pt} %topsep=0.1em
+
+%==================================================
+%  PGF/TikZ + PGFPlots setup (consolidated)
+%==================================================
+
+% TikZ libraries (PGF already loaded earlier via \usepackage{tikz})
+\usepackage{tikz}
+\usetikzlibrary{
+  backgrounds,
+  arrows,
+  arrows.meta,
+  calc,
+  calligraphy,
+  decorations.fractals,
+  decorations.footprints,
+  decorations.pathreplacing,
+  decorations.text,
+  fadings,
+  patterns,
+  positioning,
+  shadows,
+  shapes,
+  shapes.symbols
+}
+
+
+\tikzset{>=stealth}
+\tikzset{tight background}
+
+% PGFPlots
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.14}
+\usepgfplotslibrary{fillbetween}
+\usepgfplotslibrary{polar}
+
+\pgfplotsset{
+  every axis/.append style={
+    draw=black!75,
+    width=7cm,
+    height=7cm,
+    xlabel={$x$},
+    ylabel={$y$},
+    axis x line=middle,
+    axis y line=middle,
+    line width=0.75pt,
+    tick label style={font=\tiny},
+    label style={font=\small},
+    legend style={font=\tiny}
+  }}
+
+\pgfplotsset{framed/.style={axis background/.style={draw=black!75}}}
+
+\usepackage{hyperref}
+% \hypersetup{colorlinks=true,urlcolor=blue,linkcolor=black,breaklinks=true}%for color printing
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,breaklinks=true} %for B&W printing
+\usepackage{minitoc}
+\usepackage{xcolor}
+\usepackage[raggedrightboxes]{ragged2e}
+%   My colors for screen/color printing
+% \definecolor{first}{rgb}{0.08,0.08,0.8}     %blue
+% \definecolor{second}{rgb}{0,.55,0.05}       %green
+% \definecolor{third}{rgb}{0.54,0.27,0}       %orange
+% \definecolor{fourth}{rgb}{0.9,0.1,0.9}      %pink
+% \definecolor{fifth}{rgb}{0.6,0.08,.8}       %purple
+
+%   My colors for BW printing
+\definecolor{first}{rgb}{0,0,0}
+\definecolor{second}{rgb}{0.125,0.125,0.125}
+\definecolor{third}{rgb}{0.25,0.25,0.25}
+\definecolor{fourth}{rgb}{0.375,0.375,0.375}
+\definecolor{fifth}{rgb}{0.5,0.5,0.5}
+
+% \newcommand{\cred}[0]{\color{red}}
+% \newcommand{\corange}[0]{\color{orange}}
+% \newcommand{\cgreen}[0]{\color{green}}
+% \newcommand{\cblue}[0]{\color{blue}}
+% \newcommand{\cpurple}[0]{\color{purple}}
+% \newcommand{\cbrown}[0]{\color{brown}}
+% \newcommand{\cgray}[0]{\color{gray}}
+
+\setlength{\parindent}{0pt}
+\date{}
+
+% Prevent bold wasysym warnings in small sizes
+\DeclareRobustCommand{\wasybf}{\mdseries}
+
+% Common defaults
+\theoremsymbol{}
+\theoremseparator{:}
+\shadecolor{blue}
+
+% BREAK style: Prep / Exit / Activity / Exercise / Practice
+\theoremstyle{break}
+\theoremheaderfont{\bfseries}
+\theorembodyfont{\normalfont\mdseries\upshape}
+\theoremprework{\vspace{1mm}}
+
+\newtheorem{myPrep}{Preparation}
+\newtheorem{myExit}{Exit}
+\newtheorem{myActivity}{Activity}
+\newtheorem{myExercise}{Exercise}
+\newtheorem{myPractice}{Practice}
+
+% Definition
+\theoremstyle{empty}
+\theoremsymbol{}
+\newtheorem{myDefinition}{Definition}
+
+% NONUMBERBREAK style: Framed / Properties / Important Note
+\theoremstyle{nonumberbreak}
+\theoremheaderfont{\bfseries}
+\theorembodyfont{\normalfont\mdseries\upshape}
+
+% Framed thing (no separator)
+\theoremseparator{}
+\newframedtheorem{myFramed}{}
+
+% Properties (tight spacing)
+\theoremseparator{:}
+\theoremprework{\vspace{-3mm}}
+\theorempostwork{\vspace{-4mm}}
+\newtheorem{myProperties}{Properties}
+
+% Important Note (keep your tighter prework)
+\theoremprework{\vspace{-0.1cm}}
+\theorempostwork{}
+\newtheorem{myNote}{Important Note}
+
+% Shaded definition box
+\def\theoremframecommand{%
+  \psshadowbox[fillstyle=solid,fillcolor=yellow!30,linecolor=black]}
+\newshadedtheorem{myshadedDefinition}{}
+
+% Utility macros
+\newcommand{\ph}{\phantom}
+\newcommand{\ds}{\displaystyle}
+\newcommand{\resetCounters}{
+  \setcounter{myPrep}{0}
+  \setcounter{myPractice}{0}
+  \setcounter{myActivity}{0}
+  \setcounter{myExit}{0}
+  \setcounter{myExercise}{0}
+}
+
+\newcommand{\fakesubsection}[1]{%
+  \par\refstepcounter{subsection} % Increase section counter
+  \subsectionmark{#1} % Add section mark (header)
+}
+
+\newcommand{\fakesection}[1]{%
+  \par\refstepcounter{section} % Increase section counter
+  \sectionmark{#1} % Add section mark (header)
+  \addcontentsline{toc}{section}{\protect\numberline{\thesection}#1}
+}
+
+\newcommand{\fakechapter}[1]{%
+  \par\refstepcounter{chapter} % Increase section counter
+  \chaptermark{#1} % Add section mark (header)
+  \addcontentsline{toc}{chapter}{\protect\numberline{}#1}
+}
+
+\newcommand{\exitlikert}[1]{%
+On a scale of 1 -- 5, how are you feeling with the concepts related to #1?\\
+Place a mark on the scale below to indicate your overall comfort with the topics we saw in this section.
+\begin{center}
+ \includegraphics[scale=0.05]{worried} \begin{tabular}{ccccc}
+ &  &  &  & \\
+\hline
+\hspace{1mm}1\hspace{4mm}  & \hspace{4mm}2\hspace{4mm} & \hspace{4mm}3\hspace{4mm} & \hspace{4mm}4\hspace{4mm} & \hspace{4mm}5\hspace{1mm}
+\end{tabular} \includegraphics[scale=0.05]{grin}
+\end{center}
+}
+
+\newcommand{\defexample}{{\textit{Example}}:}
+
+\newcommand{\textbook}[1]{ %
+\vspace{0.5em}
+{\bf Textbook Reference:} This relates to content in \S#1 of {\it Algebra and Trigonometry 2e}.\\[-4mm]}
+
+\newcommand{\textbooks}[2]{ %
+\vspace{0.5em}
+{\bf Textbook Reference:} This relates to content in \S#1 and \S#2 of {\it Algebra and Trigonometry 2e}.\\[-4mm]}
+
+\makeatletter
+\renewcommand{\theHmyPractice}{\thechapter.\thesection.\arabic{myPractice}}
+\renewcommand{\theHmyPrep}{\thechapter.\thesection.\arabic{myPrep}}
+\renewcommand{\theHmyExit}{\thechapter.\thesection.\arabic{myExit}}
+\renewcommand{\theHmyExercise}{\thechapter.\thesection.\arabic{myExercise}}
+\renewcommand{\theHmyActivity}{\thechapter.\thesection.\arabic{myActivity}}
+\makeatother
+
+\newcommand{\vect}[2]{\left\langle #1,#2 \right\rangle}
+\newcommand{\vectr}[1]{\vec{\textbf{#1}}}
+\newcommand{\unitv}[1]{\hat{\textbf{#1}}}
+
+\newcommand*{\titleRF}{\begingroup% Robert Frost, T&H p 149
+\fontfamily{ptm}\selectfont 
+%\setmainfont{Asana-Math} % FontSite Bergamo (Bembo)
+\drop = 0.2\textheight
+\centering
+~
+\vfill
+\rule{0.7\textwidth}{0.8pt}\\[\baselineskip]
+{\HUGE \bf MTH 112 Lab Manual \small v1.3 12/18/2025}\\[0.04\drop]
+\rule{0.7\textwidth}{0.8pt}\\[\baselineskip]
+%{\Large \plogo}\\[0.5\baselineskip]
+%{\large\scshape year}\par
+\vfill
+\vfill
+\vfill
+{\large Prepared by \\
+Portland Community College\\
+Mathematics Department\\ }
+\endgroup}
+
+%==================================================
+
+\begin{document}
+\pagenumbering{roman}
+\setlist[enumerate]{noitemsep,topsep=-10pt,itemsep=-5pt}
+
+\fancyhf{}
+\fancyfoot[LE,RO]{\scriptsize{ Page \thepage} }
+\fancyfoot[RE,LO]{\scriptsize{ \leftmark }}
+\fancyhead[LE,RO]{\scriptsize{ \rightmark }}
+\fancyhead[RE,LO]{\scriptsize{ MTH 112 Lab Manual}}
+\renewcommand{\headrulewidth}{0.4pt}
+\fancyfootoffset[LE,LO]{0in}
+\renewcommand{\footrulewidth}{0.4pt}
+
+% ==================================================
+
+\thispagestyle{empty}
+\titleRF
+
+\newpage
+
+\dominitoc
+\tableofcontents
+\singlespacing
+\thispagestyle{empty}
+
+\newpage
+
+\cleardoublepage
+\pagenumbering{arabic}
+
+\renewcommand{\labelenumi}{\alph{enumi})}
+\renewcommand{\labelenumii}{\roman{enumii})}
+
+% Front Matter
+\include{112-chapter-0-preface}
+
+% Ch7 in book
+\setcounter{chapter}{4}
+\chapter{The Unit Circle} \label{the-unit-circle}
+\minitoc
+
+\begin{center}
+    \captionsetup{type=figure} \captionof{figure}{Unit Circle with Standard Values}
+    \begin{tikzpicture}
+      \begin{axis}[
+          xmin=-1,xmax=1,
+          ymin=-1,ymax=1,
+              xtick={-1,1},
+              ytick={-1,1},
+              clip=false,
+          ]
+          \draw   (axis cs:0,0) circle [radius=1];
+          \addplot[mark=*,color=first] coordinates{(1,0)} node[right] {\footnotesize$(1,0)$} node[below left] {\footnotesize$\theta=0$};
+
+          \draw   [color=second,opacity=0.2](0,0)--(0.866,0.5);
+          \addplot[mark=*,color=second] coordinates{(0.866,0.5)} node[right,rotate=30] {\footnotesize$\left(\frac{\sqrt3}{2},\frac{1}{2}\right)$} node[left,rotate=30] {\footnotesize$\theta=\frac{\pi}{6}$};
+          \draw   [color=third,opacity=0.2](0,0)--(0.707,0.707);
+          \addplot[mark=*,color=third] coordinates{(0.707,0.707)} node[left,rotate=45] {\footnotesize$\theta=\frac{\pi}{4}$} node[right,rotate=45] {\footnotesize$\left(\frac{\sqrt2}{2},\frac{\sqrt2}{2}\right)$};
+          \draw   [color=fourth,opacity=0.2](0,0)--(0.5,0.866);
+          \addplot[mark=*,color=fourth] coordinates{(0.5,0.866)} node[left,rotate=60] {\footnotesize$\theta=\frac{\pi}{3}$} node[right,rotate=60] {\footnotesize$\left(\frac{1}{2},\frac{\sqrt3}{2}\right)$};
+          
+          \draw   [color=fifth](0,0)--(0,1);
+          \addplot[mark=*,color=fifth] coordinates{(0,1)} node[below right,rotate=-90] {\footnotesize$\theta=\frac{\pi}{2}$} node[left,rotate=-90] {\footnotesize$(0,1)$};
+
+          \draw   [color=fourth,opacity=0.2](0,0)--(-0.5,0.866);
+          \addplot[mark=*,color=fourth] coordinates{(-0.5,0.866)} node[right,rotate=-60] {\footnotesize$\theta=\frac{2\pi}{3}$} node[left,rotate=-60] {\footnotesize$\left(-\frac{1}{2},\frac{\sqrt3}{2}\right)$};
+          \draw   [color=third,opacity=0.2](0,0)--(-0.707,0.707);
+          \addplot[mark=*,color=third] coordinates{(-0.707,0.707)} node[right,rotate=-45] {\footnotesize$\theta=\frac{3\pi}{4}$} node[left,rotate=-45] {\footnotesize$\left(-\frac{\sqrt2}{2},\frac{\sqrt2}{2}\right)$};
+          \draw   [color=second,opacity=0.2](0,0)--(-0.866,0.5);
+          \addplot[mark=*,color=second] coordinates{(-0.866,0.5)} node[right,rotate=-30] {\footnotesize$\theta=\frac{5\pi}{6}$} node[left,rotate=-30] {\footnotesize$\left(-\frac{\sqrt3}{2},\frac{1}{2}\right)$};
+
+          \addplot[mark=*,color=first] coordinates{(-1,0)} node[above right] {\footnotesize$\theta=\pi$} node[left] {\footnotesize$(-1,0)$};
+          
+          \draw   [color=second,opacity=0.2](0,0)--(-0.866,-0.5);
+          \addplot[mark=*,color=second] coordinates{(-0.866,-0.5)} node[right,rotate=30] {\footnotesize$\theta=\frac{7\pi}{6}$} node[left,rotate=30] {\footnotesize$\left(-\frac{\sqrt3}{2},-\frac{1}{2}\right)$};
+          \draw   [color=third,opacity=0.2](0,0)--(-0.707,-0.707);
+          \addplot[mark=*,color=third] coordinates{(-0.707,-0.707)} node[right,rotate=45] {\footnotesize$\theta=\frac{5\pi}{4}$} node[left,rotate=45] {\footnotesize$\left(-\frac{\sqrt2}{2},-\frac{\sqrt2}{2}\right)$};
+          \draw   [color=fourth,opacity=0.2](0,0)--(-0.5,-0.866);
+          \addplot[mark=*,color=fourth] coordinates{(-0.5,-0.866)} node[right,rotate=60] {\footnotesize$\theta=\frac{4\pi}{3}$} node[left,rotate=60] {\footnotesize$\left(-\frac{1}{2},-\frac{\sqrt3}{2}\right)$};
+
+          \addplot[mark=*,color=fifth] coordinates{(0,-1)} node[above left,rotate=-90] {\footnotesize$\theta=\frac{3\pi}{2}$} node[right,rotate=-90] {\footnotesize$\left(0,-1\right)$};
+          
+          \draw   [color=second,opacity=0.2](0,0)--(0.866,-0.5);
+          \addplot[mark=*,color=second] coordinates{(0.866,-0.5)} node[left,rotate=-30] {\footnotesize$\theta=\frac{11\pi}{6}$} node[right,rotate=-30] {\footnotesize$\left(\frac{\sqrt3}{2},-\frac{1}{2}\right)$};
+          \draw   [color=third,opacity=0.2](0,0)--(0.707,-0.707);
+          \addplot[mark=*,color=third] coordinates{(0.707,-0.707)} node[left,rotate=-45] {\footnotesize$\theta=\frac{7\pi}{4}$} node[right,rotate=-45] {\footnotesize$\left(\frac{\sqrt2}{2},-\frac{\sqrt2}{2}\right)$};
+          \draw   [color=fourth,opacity=0.2](0,0)--(0.5,-0.866);
+          \addplot[mark=*,color=fourth] coordinates{(0.5,-0.866)} node[left,rotate=-60] {\footnotesize$\theta=\frac{5\pi}{3}$} node[right,rotate=-60] {\footnotesize$\left(\frac{1}{2},-\frac{\sqrt3}{2}\right)$};
+      \end{axis}
+    \end{tikzpicture}
+  \end{center}
+
+\resetCounters
+\include{112-section-angles}
+\resetCounters
+\newpage
+~
+\include{112-section-right-triangle-trig}
+\resetCounters
+\newpage
+~
+\include{112-section-unit-circle}
+\newpage
+~
+\resetCounters
+\include{112-section-other-trig-functions}
+% \resetCounters
+% \include{112-chapter-supplement-unit-circle}
+
+
+% Ch8 in book
+\chapter{Periodic Functions} \label{periodic-functions}
+\minitoc
+\resetCounters
+\include{112-section-graphs-of-sine-and-cos}
+\resetCounters
+\newpage
+~
+\include{112-section-graphs-of-other-trig}
+\resetCounters
+\include{112-section-inverse-trig}
+% % \resetCounters
+% % \include{112-chapter-supplement-periodic-functions}
+
+
+% Ch9 in book
+\chapter{Trigonometric Identities} \label{trigonometric-identities}
+\minitoc
+\resetCounters
+\include{112-section-trig-identities-summary-sheet}
+\resetCounters
+\newpage
+~
+\include{112-section-trig-identities}
+\resetCounters
+\newpage
+~
+\include{112-section-sum-and-difference-identities}
+\resetCounters
+\newpage
+~
+\include{112-section-double-angle-identities}
+\resetCounters
+\include{112-section-sum-to-product-identities}
+\resetCounters
+\include{112-section-solving-trig-equations}
+% % \resetCounters
+% % \include{112-chapter-supplement-trig-identities}
+
+
+% Ch10 in book
+\chapter{Further Applications of Trigonometry} \label{further-applications-of-trigonometry}
+\minitoc
+\resetCounters
+\include{112-section-law-of-sin-and-cos}
+\resetCounters
+\include{112-section-polar-coordinates}
+\resetCounters
+\include{112-section-complex-numbers}
+\resetCounters
+\include{112-section-vectors}
+% \resetCounters
+% \include{112-chapter-supplement-applications-of-trig}
+
+\end{document}
+
+% Optional Topics
+% \resetCounters
+% \include{112-section-parametric-equations}

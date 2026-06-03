@@ -1,0 +1,325 @@
+%============================================================
+% MTH 112 Project - Graphs of sin and cos
+% Updated 202504
+%============================================================
+
+\section{Graphs of Sine and Cosine Functions} \label{section-graphs-of-sin-and-cos}
+In this section, we will graph transformations of $y=\sin(x)$ and $y=\cos(x)$ and examine phase shifts of sine and cosine curves.
+
+\textbook{\href{https://openstax.org/books/algebra-and-trigonometry-2e/pages/8-1-graphs-of-the-sine-and-cosine-functions}{8.1}}
+
+\subsection*{Preparation Exercises} \label{preparation-exercises-section-graphs-of-sin-and-cos}
+
+Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.
+
+\begin{myPrep}
+	\begin{enumerate}
+		\item What is the period of the sine function? Of the cosine function?
+		\vspace{1cm}
+		\item What is the range of the sine function? Of the cosine function?
+		\vspace{1cm}
+	\end{enumerate}
+\end{myPrep}
+
+% \begin{myPrep}
+% 	How would you describe in words the order of transformations applied to the graph of $y=g(x)$ to get a graph of $y=5g(2(x-3))+4$?
+% \end{myPrep}
+% \vfill
+
+\begin{myPrep}
+	Imagine a function $y=h(x)$, with some points given in the table below. Fill in the table to show how the points are transformed for the given function values.
+		\begin{center}
+			\renewcommand{\arraystretch}{1.5} 
+			\begin{tabular}{|| c | P{1.5cm} | P{1.5cm} | P{1.5cm} | P{1.5cm} | P{1.5cm} ||}
+				\hline
+				Points on $y=h(x)$ & $(0,0)$ & $(1,1)$ & $(-1,-1)$ & $(-3,2)$ & $(2,-3)$\\
+				\hline\hline
+				Points on $y=3h(x)$ & & & & &\\ 
+				\hline
+				Points on $y=3h(2x)$ & & & & &\\ 
+				\hline
+				Points on $y=3h(2(x-1))$ & & & & &\\ 
+				\hline
+				Points on $y=3h(2(x-1))+4$ & & & & &\\ 
+				\hline
+			\end{tabular}
+		\end{center}
+\end{myPrep}
+\vfill
+
+\begin{myPrep}
+\raggedcolumns
+	\begin{multicols}{2}
+		Make the following graphs on Figure \ref{fig:transformation-sin-cos-prep} given the graph of $f$ shown in Figure \ref{fig:transformation-sin-cos-prep}.
+		\begin{enumerate}
+			\item Make a graph of $y=-2f(x)-3$.
+			\vspace{1cm}
+			\item Make a graph of $y=-3f(2(x+1))-1$.
+			\vspace{1cm}
+		\end{enumerate}
+\vfill
+		\columnbreak
+		\begin{center}\captionsetup{type=figure}\captionof{figure}{$y=f(x)$}
+			\begin{tikzpicture}
+				\begin{axis}[
+					framed,
+					grid=both,
+					xmin=-8,xmax=8,
+					ymin=-8,ymax=8,
+					xtick={-6,-4,...,6},
+					minor xtick={-7,-6,...,7},
+					ytick={-6,-4,...,6},
+					minor ytick={-7,-6,...,7},
+					]
+					\addplot[first,line width=1.5pt,samples=4]expression[domain=-4:-2]{-1};
+					\addplot[first,line width=1.5pt,samples=4]expression[domain=-2:0]{1.5*x+2};
+					\addplot[first,line width=1.5pt,samples=4]expression[domain=0:2]{2};
+					\addplot[first,line width=1.5pt,samples=4]expression[domain=2:4]{-x+4};
+					\addplot[first,smooth,mark=*,line width=1pt,fill=first,only marks]coordinates{(-4,-1) (-2,-1) (0,2) (2,2) (4,0)};
+				\end{axis}
+				\end{tikzpicture}
+				\label{fig:transformation-sin-cos-prep}
+			\end{center}
+	\end{multicols}
+\end{myPrep}
+\vfill
+
+%======================================================
+\newpage
+%======================================================
+
+\subsection*{Practice Exercises} \label{practice-exercises-section-graphs-of-sin-and-cos}
+
+
+\begin{myPractice}
+	Make a graph of $y=\sin(x)$ by plotting the points that you know from the table. You need to know that $\frac{\sqrt{2}}{2}\approx0.71$ and $\frac{\sqrt{3}}{2}\approx0.87$.
+	\begin{center}
+		\renewcommand{\arraystretch}{1.5} 
+		\begin{tabular}{|| c | c | c | c | c | c | c | c | c | c | c | c | c | c | c | c | c | c ||}
+			\hline
+			$\theta$ & $0$ & $\frac{\pi}{6}$ & $\frac{\pi}{4}$ & $\frac{\pi}{3}$ & $\frac{\pi}{2}$ & $\frac{2\pi}{3}$ & $\frac{3\pi}{4}$ & $\frac{5\pi}{6}$ & $\pi$ & $\frac{7\pi}{6}$ & $\frac{5\pi}{4}$ & $\frac{4\pi}{3}$ & $\frac{3\pi}{2}$ & $\frac{5\pi}{3}$ & $\frac{7\pi}{4}$ & $\frac{11\pi}{6}$ & $2\pi$\\
+			\hline
+			$\sin(\theta)$ & $0$ & $\frac{1}{2}$ & $\frac{\sqrt{2}}{2}$ & $\frac{\sqrt{3}}{2}$ & $1$ & $\frac{\sqrt{3}}{2}$ & $\frac{\sqrt{2}}{2}$ & $\frac{1}{2}$ & $0$ & $-\frac{1}{2}$ & $-\frac{\sqrt{2}}{2}$ & $-\frac{\sqrt{3}}{2}$ & $-1$ & $-\frac{\sqrt{3}}{2}$ & $-\frac{\sqrt{2}}{2}$ & $-\frac{1}{2}$ & $0$\\ 
+			\hline
+		\end{tabular}
+		\captionsetup{type=figure}\captionof{figure}{$y=\sin(\theta)$}
+		\begin{tikzpicture}
+			\begin{axis}[
+				framed,
+				grid=both,
+				width=19cm,
+				height=5cm,
+				xlabel={$\theta$},
+				xmin=-0.785398,xmax=7.06858,
+				ymin=-1.2,ymax=1.2,
+				xtick={0.5235987756,0.785398,1.047197551,1.570796,2.094395102,2.3561945,2.617993878,3.1415927,3.665191429,3.9269908,4.188790205,4.712389,5.235987756,5.4977871,5.759586532,6.28318},
+				xticklabels={$\frac{\pi}{6}$,$\frac{\pi}{4}$,$\frac{\pi}{3}$,$\frac{\pi}{2}$,$\frac{2\pi}{3}$,$\frac{3\pi}{4}$,$\frac{5\pi}{6}$,$\pi$,$\frac{7\pi}{6}$,$\frac{5\pi}{4}$,$\frac{4\pi}{3}$,$\frac{3\pi}{2}$,$\frac{5\pi}{3}$,$\frac{7\pi}{4}$,$\frac{11\pi}{6}$,$2\pi$},
+				ytick={-1,-0.87,-0.71,-0.5,0.5,0.71,0.87,1},
+				]
+				% \addplot[first,line width=1.5pt,samples=100,<->]expression[domain=-0.785398:7.06858]{sin(180*x/pi)};
+			\end{axis}
+		\end{tikzpicture}\label{fig:graph-sin-points}
+	\end{center}
+\end{myPractice}
+
+\begin{myPractice}
+	Comparing to $y=\sin(x)$...
+	\begin{enumerate}
+		\item What is the phase shift for the function $2\sin\left(3x-\pi\right)+4$? Interpret this as a fraction of a period shift.
+		\vspace{1cm}
+		\item What is the horizontal shift for the function $2\sin\left(3x-\pi\right)+4$?
+		\vspace{1cm}
+		% \item What is the phase shift for the function $3\cos\left(5x+\frac{3\pi}{5}\right)-1$? Interpret this as a fraction of a period shift.
+		% \vfill
+		% \item What is the horizontal shift for the function $3\cos\left(5x+\frac{3\pi}{5}\right)-1$? 
+		% \vfill
+	\end{enumerate}
+\end{myPractice}
+
+\begin{myPractice}
+	\begin{multicols}{2}
+		For the graph of $G$ shown in Figure \ref{fig:period-midline-amplitude-exercise}, answer the following questions.
+		\begin{center}\captionsetup{type=figure}\captionof{figure}{$y=G(x)$}
+			\begin{tikzpicture}
+				\begin{axis}[
+					framed,
+					xmin=-7,xmax=7,
+					ymin=-7,ymax=7,
+					xtick={-6,-5,...,6},
+					ytick={-6,-5,...,6},
+					grid=both,
+					]
+					\addplot[first,line width=1.5pt,samples=100,<->]expression[domain=-7:7]{5*cos(180*2/5*(x-2))+1};
+				\end{axis}
+			\end{tikzpicture}\label{fig:period-midline-amplitude-exercise}
+		\end{center}
+		\columnbreak
+		\begin{enumerate}
+			\item What is the range of $G$?
+			\vfill
+			\item What is the midline, $y=D$, of $G$?
+			\vfill
+			\item What is the amplitude, $A$ of $G$?
+			\vfill
+			\item What is the period, $P$, of $G$?
+			\vfill
+			\item What is the value of $B$ for $G$?
+			\vfill
+
+%======================================================
+\newpage
+%======================================================
+
+		Still considering the graph of $G$ shown in Figure \ref{fig:period-midline-amplitude-exercise}...
+			\vspace{0.5cm}
+			\item If we think of $G$ as a transformation of $\sin(x)$, how much of a horizontal shift would have happened to create $G$?
+			\vspace{1cm}
+			\item Write a formula for $G$ as a transformation of $\sin(x)$, $G(x)=A\sin(B(x-C))+D$.
+			\vspace{1cm}
+			\item If we think of $G$ as a transformation of $\cos(x)$, how much of a horizontal shift would have happened to create $G$?
+			\vspace{1cm}
+			\item Write a formula for $G$ as a transformation of $\cos(x)$, $G(x)=A\cos(B(x-C))+D$.
+			\vspace{1cm}
+		\end{enumerate}
+	\end{multicols}
+\end{myPractice}
+\vfill
+
+\begin{myPractice}
+	Answer the questions about the function $T(x)=3\sin\left(\frac{\pi}{3}(x+1)\right)-5$.
+	\begin{enumerate}
+		\begin{multicols}{2}
+			\item What is the midline of the function $T$?
+			\vspace{1cm}
+			\item What is the amplitude, $A$, of the function $T$?
+			\vspace{1cm}
+			\item What is the range of the function $T$?
+			\vspace{1cm}
+			\item What is the value of $B$ for the function $T$?
+			\vspace{1cm}
+			\item What is the period, $P$, of the function $T$?
+			\vspace{1cm}
+			\item What does the \say{$x+1$} portion of the function do as a transformation of $\sin(x)$?
+			\vspace{1cm}
+			\item Make a graph of $T$ onto Figure \ref{fig:graph-sin-transformation} with the what you know about the shape of $\sin(x)$ and the information that you gained in the above parts. Check your result on a calculator {\it after} you've tried everything by hand.
+			\vfill
+			\begin{center}\captionsetup{type=figure}\captionof{figure}{Sketch a graph of $y=T(x)$}
+				\begin{tikzpicture}
+					\begin{axis}[
+						framed,
+						xmin=-7,xmax=7,
+						ymin=-9,ymax=5,
+						xtick={-6,-5,...,6},
+						ytick={-8,-7,...,4},
+						grid=both,
+						]
+						% \addplot[first,line width=1.5pt,samples=100]expression[domain=-7:7]{3*sin(60*(x+1))-5};
+					\end{axis}
+				\end{tikzpicture}\label{fig:graph-sin-transformation}
+			\end{center}
+		\end{multicols}
+	\end{enumerate}
+\end{myPractice}
+\vfill
+
+%======================================================
+\newpage
+%======================================================
+
+\subsection*{Definitions}\label{definitions-section-graphs-of-sin-and-cos}
+
+\begin{myDefinition}[{Even/Odd Function Properties of Sine and Cosine}]~\\[0.5mm]
+Sine is an odd function, which means that it is symmetrical over the origin. Cosine is an even function, which means that it is symmetrical over the $y$-axis. %ISSUE: ref this.
+\end{myDefinition}
+
+\begin{myDefinition}[{Period}]~\\[0.5mm]
+	\begin{minipage}{0.9\textwidth}
+		The \textbf{period} of a function is the smallest number, $P$, such that a horizontal shift of $P$ units results in a graph that perfectly overlaps the graph of the original function. Try \href{http://tiny.cc/period-definition}{this Desmos link} to see a visual on the topic. 
+	\end{minipage}
+	\begin{minipage}{0.1\textwidth}
+		\hfill \qrcode[height=1cm]{http://tiny.cc/period-definition}
+	\end{minipage}
+\end{myDefinition}
+
+\begin{myDefinition}[{Midline}]~\\[0.5mm]
+The \textbf{midline} of a periodic function is the horizontal line, $y=D$, that is exactly halfway between the highest and lowest $y$-values on the graph. You can find this equation by averaging the highest and lowest $y$-values on the graph with the formula $y=\frac{\text{highest $y$-value }+\text{ lowest $y$-value}}{2}$.
+\end{myDefinition}
+
+\begin{myDefinition}[{Amplitude}]~\\[0.5mm]
+The \textbf{amplitude} of a periodic function is the vertical distance from the midline to the highest $y$-value on the graph or the vertical distance from the midline to the lowest $y$-value on the graph. You can find this distance with the formula $|A|=\frac{\text{highest $y$-value }-\text{ lowest $y$-value}}{2}$.
+\end{myDefinition}
+
+\begin{myDefinition}[{Sinusoidal Function}]~\\[0.5mm]
+A \textbf{sinusoidal function} is a transformation of a sine or cosine function. Sinusoidal functions have the form $f(x)=A\sin(B(x-C))+D$ or $f(x)=A\cos(B(x-C))+D$.
+\end{myDefinition}
+
+\begin{myDefinition}[{Phase Shift}]~\\[0.5mm]
+The \textbf{phase shift} of a periodic function represents the fraction of a period that the graph has been shifted from the base function. You can find the phase shift of a sinusoidal function ($f(x)=A\sin(B(x-C))+D$ or $f(x)=A\cos(B(x-C))+D$) by evaluating $\frac{BC}{2\pi}$. Please note that this definition is different from the one that the book gives, but is consistent with most other physics, engineering, and technical mathematics texts. The book defines the \textbf{phase shift} to be the same as the horizontal shift, for which we already have a name.
+\end{myDefinition}
+
+\begin{myDefinition}[{Horizontal Shift}]~\\[0.5mm]
+A sinusoidal function, $f(x)=A\sin(B(x-C))+D$ or $f(x)=A\cos(B(x-C))+D$, is \textbf{horizontally shifted} $C$ units from the base function position.
+\end{myDefinition}
+
+\begin{myDefinition}[Relationship between the B-value and the Period]~\\[0.5mm]
+The B value of a sinusoidal function, $f(x)=A\sin(B(x-C))+D$ or $f(x)=A\cos(B(x-C))+D$, has a relationship with the period, $P$, of the function. Since the period is a positive number, we will use absolute values on $B$, since $B$ might be negative. That relationship is that $|B|=\frac{2\pi}{P}$, which is the same as saying $P=\frac{2\pi}{|B|}$. 
+\end{myDefinition}
+
+%======================================================
+\newpage
+%======================================================
+
+\subsection*{Exit Exercises} \label{exit-exercises-section-graphs-of-sin-and-cos}
+\begin{myExit}
+Consider the function $W(x)=5\sin\left(\frac{4\pi}{5}(x-1)\right)+3$.
+	\begin{enumerate}
+		\begin{multicols}{2}
+			\item What is the period of the function $W(x)$?
+			\vfill
+			\item What is the midline of the function $W(x)$?
+			\vfill
+			\item What is the amplitude of the function $W(x)$?
+			\vfill
+			\item By hand, make a graph of the function $W(x)$ using the information above onto Figure \ref{fig:sketch-exit}.
+			\columnbreak
+			\begin{center}\captionsetup{type=figure}\captionof{figure}{Sketch a graph of $y=W(x)$}
+				\begin{tikzpicture}
+					\begin{axis}[
+						framed,
+						xmin=-2,xmax=6,
+						ymin=-5,ymax=10,
+						xtick={-1,0,...,5},
+						ytick={-4,-3,...,9},
+						grid=both,
+						]
+						% \addplot[first,line width=1.5pt,samples=100]expression[domain=-2:6,<->]{5*sin(144*(x-1))+3};
+					\end{axis}
+				\end{tikzpicture}\label{fig:sketch-exit}
+			\end{center}
+		\end{multicols}
+		\vfill
+	\end{enumerate}
+\end{myExit}
+\begin{myExit}
+	Find two possible formulas, one using sine and the other using cosine, for the graph shown in Figure \ref{fig:sinusoidal-exit}.
+			\begin{center}\captionsetup{type=figure}\captionof{figure}{A Graph of $y=H(\theta)$}
+				\begin{tikzpicture}
+					\begin{axis}[
+						framed,
+						width=10cm,
+						height=5cm,
+						xlabel={$\theta$},
+						xmin=-1,xmax=20,
+						ymin=-8,ymax=2,
+						xtick={1,2,...,19},
+						ytick={-7,-6,...,1},
+						grid=both,
+						]
+						\addplot[first,line width=1pt,samples=100]expression[domain=-1:20,<->]{4*sin(18*(x-2))-3};
+						\addplot [first,only marks] coordinates {(7,1)(17,-7)};
+					\end{axis}
+				\end{tikzpicture}\label{fig:sinusoidal-exit}
+			\end{center}
+			\vfill
+\end{myExit}
+\exitlikert{the graphs of sine and cosine}

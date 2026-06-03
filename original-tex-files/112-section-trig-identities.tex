@@ -1,0 +1,219 @@
+%============================================================
+% MTH 112 Project - Trigonometric Identities
+% Updated 202504
+%============================================================
+
+\section{Trigonometric Identities} \label{section-trig-identities}
+In this section, we will learn to verify the fundamental trigonometric identities and to simplify trigonometric expressions using algebra and the identities.
+
+\textbook{\href{https://openstax.org/books/algebra-and-trigonometry-2e/pages/9-1-verifying-trigonometric-identities-and-using-trigonometric-identities-to-simplify-trigonometric-expressions}{9.1}}
+
+\subsection*{Preparation Exercises} \label{preparation-exercises-section-trig-identities}
+
+Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.
+
+\begin{multicols}{2}
+	\begin{myPrep}
+		Using a calculator, accurately sketch a graph of $f(x)=4\sin\left(\frac{\pi}{3}(x-2)\right)+x$ on the axes shown in Figure \ref{fig:section-trig-identities-intro-graph} .
+		\begin{center}\captionsetup{type=figure}\captionof{figure}{Sketch a graph of $f$ here}
+			\begin{tikzpicture}\label{fig:section-trig-identities-intro-graph}
+ 				\begin{axis}[
+ 					framed,
+					xmin=-8,xmax=8,
+ 					ymin=-10,ymax=8,
+				    xtick={-6,-4,...,6},
+				    minor xtick={-7,-6,...,7},
+				    ytick={-8,-6,...,6},
+			        minor ytick={-9,-8,...,7},
+				    grid=both,
+ 					]
+					% \addplot[first,line width=1.5pt,samples=100,<->]expression[domain=-8:8]{4*sin(60*(x-2))+x};
+ 				\end{axis}
+			\end{tikzpicture}
+		\end{center}
+	\end{myPrep}
+	\columnbreak
+	\begin{myPrep}
+		If $g(x)=\frac{x-4}{x-1}$, evaluate $g\left(\frac{x-2}{x-3}\right)$ and simplify to lowest form.
+	\end{myPrep}
+\end{multicols}
+
+
+\begin{myPrep}
+	Which of the six fundamental trigonometric functions are odd functions?
+\end{myPrep}
+\vfill
+\begin{myPrep}
+	True or False: Since we know that $\sin^2(x)+\cos^2(x)=1$, then if we take the square root on both sides, it must be true that $\sin(x)+\cos(x)=1$. Explain your reasoning.
+\end{myPrep}
+\vfill
+\begin{myPrep}
+	Factor the expression $1-S^2$.
+\end{myPrep}
+\vfill
+
+%======================================================
+\newpage
+%======================================================
+
+\subsection*{Practice Exercises} \label{practice-exercises-section-trig-identities}
+
+
+\begin{myPractice}
+	Use technology to verify the identity $\sec(x)-\cos(x)=\sin(x)\tan(x)$ by following the steps below.
+	\begin{multicols}{2}
+		\begin{itemize}
+			\item Make a graph of the left-hand side of the equation onto Figure \ref{fig:section-trig-identities-sec-cos}, $y=\sec(x)-\cos(x)$, using technology.
+			\vfill
+			\item Make a graph of the right-hand side of the equation onto Figure \ref{fig:section-trig-identities-sec-cos}, $y=\sin(x)\tan(x)$, using technology.
+			\vfill
+			\item Describe what you see on your graph. If the two graphs above overlap, then that verifies that both sides of the equation are \emph{identical}.
+			\vfill
+		\end{itemize}
+		\columnbreak
+		\begin{center}\captionsetup{type=figure}\captionof{figure}{Sketch a graph here}
+			\begin{tikzpicture}\label{fig:section-trig-identities-sec-cos}
+ 				\begin{axis}[
+ 					framed,
+					xmin=-9.424778,xmax=9.424778,
+ 					ymin=-10,ymax=10,
+				    xtick={-6.2831853,-3.1415927,0,3.1415927,6.2831853},
+				    xticklabels={$-2\pi$,$-\pi$,$0$,$\pi$,$2\pi$},
+				    ytick={-8,-6,...,8},
+				    grid=both,
+ 					]
+					% \addplot[first,line width=1.5pt,samples=100,<->]expression[domain=-12.566371:12.566371]{sec(180/pi*x)-cos(180/pi*x)};
+ 				\end{axis}
+			\end{tikzpicture}
+		\end{center}
+	\end{multicols}
+\end{myPractice}
+
+\begin{myPractice}
+	Show that $\sin(x)-\cos(x)=\left(\tan(x)-1\right)\sec^2(x)$ is \emph{not} an identity by creating a graph in Desmos. Discuss with your neighbor what the graph shows that makes it \emph{not} an identity.
+\end{myPractice}
+
+\begin{myPractice}
+	Verify the trigonometric identities.
+	\begin{enumerate}
+		\begin{multicols}{2}
+			\item $\tan(\theta)\csc(\theta)=\sec(\theta)$
+			\columnbreak
+			\item $\sec(-\beta)+\tan(-\beta)=(1-\sin(\beta))\sec(\beta)$
+
+%======================================================
+\newpage
+%======================================================
+
+			\item $\frac{\sec(\alpha)}{\csc(\alpha)}=\tan(\alpha)$
+			\vspace{6cm}
+			\item $\tan(\phi)\sin(\phi)+\cos(\phi)=\sec(\phi)$
+			\columnbreak
+			\item $\frac{\tan^2(\gamma)}{\tan^2(\gamma)+1}=\sin^2(\gamma)$
+			\vspace{6cm}
+			\item $\frac{\csc(\eta)\cos(\eta)}{\tan(\eta)+\cot(\eta)}=\cos^2(\eta)$
+		\end{multicols}
+	\end{enumerate}
+\end{myPractice}
+\vspace{6cm}
+
+
+\begin{myPractice}
+	Factor the trigonometric expressions.
+	\begin{enumerate}
+		\begin{multicols}{2}
+			% \item $1-\sin^2(x)$
+			% \vfill
+			\item $4-9\sin^2(x)$
+			\vfill
+			\item $2\sin^2(x)-\sin(x)-1$
+			\vfill
+		\end{multicols}
+	\end{enumerate}
+\end{myPractice}
+\vfill
+
+%======================================================
+\newpage
+%======================================================
+
+\subsection*{Definitions} \label{definitions-section-trig-identities}
+
+\begin{myDefinition}[{Identity}]~\\[0.5mm]
+	An \textbf{identity} is an equation that is always true, regardless of the value inputted.
+\end{myDefinition}
+
+\begin{myDefinition}[{Identities for tangent, cotangent, secant, and cosecant}]~\\[0.5mm]
+	Recall that the functions \textbf{tangent}, \textbf{cotangent}, \textbf{secant}, and \textbf{cosecant} can all be written in terms of sine and/or cosine.
+	\begin{itemize}
+		\begin{multicols}{2}
+			\item $\tan(x)=\frac{\sin(x)}{\cos(x)}$
+			\item $\cot(x)=\frac{\cos(x)}{\sin(x)}$
+			\item $\sec(x)=\frac{1}{\cos(x)}$
+			\item $\csc(x)=\frac{1}{\sin(x)}$
+		\end{multicols}
+	\end{itemize}
+\end{myDefinition}
+
+\begin{myDefinition}[{Odd and even trigonometric functions}]~\\[0.5mm]
+	Recall that sine, tangent, cotangent, and cosecant are all \textbf{odd functions}. 
+	\begin{itemize}
+		\begin{multicols}{2}
+			\item $\sin(-x)=-\sin(x)$
+			\item $\tan(-x)=-\tan(x)$
+			\item $\cot(-x)=-\cot(x)$
+			\item $\csc(-x)=-\csc(x)$
+		\end{multicols}
+	\end{itemize}
+	Cosine and secant are \textbf{even functions}.
+	\begin{itemize}
+		\begin{multicols}{2}
+			\item $\cos(-x)=\cos(x)$
+			\item $\sec(-x)=\sec(x)$
+		\end{multicols}
+	\end{itemize}
+\end{myDefinition}
+
+\begin{myDefinition}[{Pythagorean identities}]~\\[0.5mm]
+	Recall the three \textbf{Pythagorean Identities}.
+	\begin{itemize}
+		\begin{multicols}{3}
+			\item $\sin^2(\theta)+\cos^2(\theta)=1$
+			\item $\tan^2(\theta)+1=\sec^2(\theta)$
+			\item $\cot^2(\theta)+1=\csc^2(\theta)$
+		\end{multicols}
+	\end{itemize}
+	Note that the first relationship is often written as either $\sin^2(\theta)=1-\cos^2(\theta)$ or $\cos^2(\theta)=1-\sin^2(\theta)$
+\end{myDefinition}
+
+%======================================================
+\newpage
+%======================================================
+
+\subsection*{Exit Exercises} \label{exit-exercises-section-trig-identities}
+
+\begin{myExit}
+	What makes an equation \say{an identity}?
+	\vfill
+\end{myExit}
+
+\begin{myExit}
+	How would you decide if the equation $\sin(\theta)+\cos(\theta)=\frac{1}{\csc{\theta}+\sec(\theta)}$ is an identity or not? 
+	\vfill
+\end{myExit}
+
+\begin{myExit}
+	Verify the identity $-\frac{\cos(-\kappa)}{\sec(-\kappa)}=\sin^2(\kappa)-1$
+	\vfill
+	\vfill
+	\vfill
+\end{myExit}
+
+\begin{myExit}
+	Verify the identity $\frac{\cos(x)}{1-\sin(x)}=\frac{1+\sin(x)}{\cos(x)}$.
+	\vfill
+	\vfill
+	\vfill
+\end{myExit}
+
+\exitlikert{trigonometric identities}

@@ -1,0 +1,442 @@
+%============================================================
+% MTH 112Z Project - Law of Cosines
+% Updated 202302
+%============================================================
+
+\section{Complex Numbers and Polar Coordinates} \label{supplement-complex-numbers-and-polar-coordinates}
+In this Section, we will learn some things.
+
+\subsection*{Forms of Complex Numbers}
+      
+        Recall that a complex number has the form $a+bi$ where $a,b \in \mathbb{R}$ and $i=\sqrt{-1}$. Complex numbers have two parts: a real part and an imaginary part. For the number $a+bi$, the real part is $a$ and the imaginary part is $b$. Because they have two parts, we can use the two dimensional rectangular coordinate plane to represent complex numbers. We use the horizontal axis to represent the real part and the vertical axis to represent the complex part. Thus, the complex number $a+bi$ can be represented by the point $ \left( a,b \right)$ on the rectangular coordinate plane; seeFigure \ref{fig:complex-number-rect-form}.
+      
+      \begin{center}
+     \label{fig:complex-number-rect-form}
+      \captionsetup{type=figure} \captionof{figure}{}
+        
+          %<description>Graph showing the point a+bi.</description>
+          
+            \begin{tikzpicture}
+              \begin{axis}[
+                  width=6cm,
+                  grid=none,
+                  xmin=-1, xmax=5,
+                  ymin=-1, ymax=5,
+                  xtick={3},
+                  xticklabels={$a$},
+                  ytick={2},
+                  yticklabels={$b$},
+                  axis equal image,
+                ]
+                \addplot[soliddot] coordinates {(3,2)} node[above right] {$a+bi$};
+              \end{axis}
+            \end{tikzpicture}
+          
+        
+      \end{center}
+
+    
+      As we've studied in this course, the rectangular ordered pair $\left( a,b\right)$ can be represented in polar coordinates $\left( r,\theta \right)$ where $r$ represents the distance the point is from the origin and $\theta$ represents the angle between the positive $x$-axis and the segment connecting the origin and the point; seeFigure \ref{fig:complex-number-polar-form}.
+    
+
+    \begin{center}
+     \label{fig:complex-number-polar-form}
+      \captionsetup{type=figure} \captionof{figure}{}
+      
+        %<description>Graph showing a + bi with r and theta as its polar coordinates labeled.</description>
+          
+            \begin{tikzpicture}
+              \begin{axis}[
+                  width=6cm,
+                  grid=none,
+                  xmin=-1, xmax=5,
+                  ymin=-1, ymax=5,
+                  xtick={3},
+                  xticklabels={$a$},
+                  ytick={2},
+                  yticklabels={$b$},
+                  axis equal image,
+                ]
+                \addplot[soliddot] coordinates {(3,2)} node[above right] {$a+bi$};
+                \addplot[ray, -, black] coordinates {(0,0) (3,2)} node[pos=0.5, above left] {$r$};
+                \addplot[angle, domain=0:180*0.588/pi] ({cos(x)}, {sin(x)}) node[pos=0.67, right] {$\theta$};
+              \end{axis}
+            \end{tikzpicture}
+          
+        
+      \end{center}
+    
+      We know that if the rectangular pair $\left( a,b\right)$ represents the same point as the polar pair $ \left( r,\theta \right)$, then $a=r\cos(\theta)$ and $b=r\sin(\theta)$.  Thus,
+      \begin{align*}
+        a+bi &=r\cos(\theta)+r\sin(\theta) \cdot i\\
+         &=r \left( \cos \left( \theta \right)+i\cdot\sin \left( \theta \right)\right)\\
+      \end{align*}
+      i.e., we can express a complex number using the "polar information" $r$ and $\theta$.
+    
+    
+      The expression $r \left( \cos \left( \theta \right)+i\cdot\sin \left( \theta \right)\right)$ is what a textbook might describe as the polar form of a complex number.  But a more appropriate expression to label as the polar form of a complex number involves Euler's Formula. Euler's Formula is an identity that establishes a surprising connection between the exponential function $e^x$ and complex numbers.
+    
+    
+      This is Euler's Formula. For reference purposes, we state this in a theorem.
+    
+    <theorem xml:id="thm_eulers_formula">
+      \subsection*{Euler's Formula}
+        <statement>
+          
+            <me>
+              e^{i\theta}=\cos(\theta)+i \cdot \sin(\theta)
+            </me>
+          
+        </statement>
+    </theorem>
+    
+      Notice that if we multiply both sides of Euler's formula by $r$, we obtain a formula that allows us to write any complex number in polar form:
+      \begin{align*}
+        e^{i\theta} &=\cos(\theta)+i \cdot \sin(\theta)\\
+        \implies r \cdot e^{i\theta} &= r \cdot \left( \cos \left( \theta \right)+i\cdot\sin \left( \theta \right)\right)\\
+        \implies r(e^{i\theta}) &=r\cos(\theta)+r\sin(\theta) \cdot i\\
+      \end{align*}
+    
+    \begin{myDefinition}
+      <statement>
+        
+          The \textbf{polar form} of the complex number $z=r\cos(\theta)+r\sin(\theta)\cdot i$ is $z=re^{i\theta}$.
+        
+      </statement>
+    \end{myDefinition}
+    
+      Let's review what we've established: First, we observed that we can write a complex number of the form $a+bi$ in the form $r \cdot \left( \cos \left( \theta \right)+i\cdot\sin \left( \theta \right)\right)$. Then we noticed that we can write an expression of the form $r \cdot \left( \cos \left( \theta \right)+i\cdot\sin \left( \theta \right)\right)$ in the form $re^{i\theta}$. Finally, we realized that we can write a complex number $a+bi$ in the form $re^{i\theta}$ so we defined $re^{i\theta}$ as being the polar form of the complex number $a+bi$.
+    
+    <example>
+      <statement>
+        
+          Express in "rectangular form" (i.e. in the form $z=a+bi$) the complex number $z=6e^{\frac{5\pi}{6}\cdot i}$, given in polar form.
+        
+      </statement>
+      <solution>
+        
+            \begin{align*}
+              z &=6e^{\frac{5\pi}{6}\cdot i} \\
+               &=6\cos\left( \frac{5\pi}{6} \right)+6\sin \left( \frac{5\pi}{6} \right)\cdot i \\
+               &=6 \left(-\frac{\sqrt{3}}{2} \right)+6 \left( \frac{1}{2} \right)\cdot i \\
+               &=-3\sqrt{3}+3i \\
+            \end{align*}
+        
+        
+          Thus, the complex number $z=6e^{\frac{5\pi}{6}\cdot i}$ can be expressed in "rectangular form" as $z=-3\sqrt{3}+3i$.
+        
+      </solution>
+    </example>
+    <example>
+      <statement>
+        
+          Express in polar form (i.e. in the form $z=re^{i\theta}$) the complex number $z=3-3i$, given in "rectangular form."
+        
+      </statement>
+      <solution>
+        
+          We can associate the complex number $z=3-3i$ with the rectangular ordered pair $(3,-3)$, and then translate this ordered pair into polar coordinates $(r,\theta)$, and finally use the polar ordered pair to obtain the polar form $z=re^{i\theta}$. First, let's find $r$:
+            \begin{align*}
+              r &= \sqrt{(3)^2+(-3)^2} \\
+               &= \sqrt{9+9} \\
+               &=3\sqrt{2} \\
+            \end{align*}.
+        
+        
+          Now, let's find $\theta$:
+            \begin{align*}
+              \tan(\theta) &=\frac{-3}{3} \\
+               \implies \theta &=\tan^{-1}(-1) \\
+               \implies \theta &=-\frac{\pi}{4} \\
+            \end{align*}
+        
+        
+          Thus, the complex number $z=3-3i$ can be expressed in polar form as $z=3\sqrt{2}e^{-\frac{\pi}{4} \cdot i}$.
+        
+      </solution>
+    </example>
+  
+  
+    \subsection*{Using the Polar Form to Find Complex Roots}
+    <example>
+      <statement>
+        
+          Find the two square roots of $-1+\sqrt{3}i$ using the polar form of $-1+\sqrt{3}i$.
+        
+      </statement>
+      <solution>
+        
+          Recall that there are two distinct square roots of any positive real number (e.g., the two square roots of $4$ are $2$ and $-2$). The same is true for any complex number. We can find two different square roots of a complex number by using two difference polar forms of the number.
+        
+        
+          To find polar forms of $-1+\sqrt{3}i$, we first associate the number with the rectangular ordered pair $\left( -1,\sqrt{3}\right)$, and then translate it into polar coordinates $\left( r,\theta\right)$. First let's find $r$:
+            \begin{align*}
+              r &= \sqrt{ \left( -1\right) ^2+ \left( \sqrt{3}\right) ^2} \\
+               &= \sqrt{1+3} \\
+               &=2 \\
+            \end{align*}.
+        
+        
+          Now, let's find $\theta$. $\tan(\theta)=-\sqrt{3}$ with $\theta$ in Quadrant II.
+        
+        
+          Both $\theta=\frac{2\pi}{3}$ and $\theta=-\frac{4\pi}{3}$ satisfy the condition, so we'll use these two angles to obtain two polar forms of $-1+\sqrt{3}i$:
+          <me>
+            -1+\sqrt{3}i=2e^{\frac{2\pi}{3} \cdot i} \text{and} -1+\sqrt{3}i=2e^{-\frac{4\pi}{3} \cdot i}
+          </me>
+        
+        
+          Therefore,
+          \begin{align*}
+            \left( -1+\sqrt{3}i \right) ^{1/2} &= (2e^{\frac{2\pi}{3}\cdot i})^{1/2} \\
+             &=2^{\frac{1}{2}}e^{\frac{2\pi}{3} \cdot \frac{1}{2}i} \\
+             &=\sqrt{2}e^{\frac{\pi}{3} \cdot i} \\
+             &=\sqrt{2} \left( \cos \left( \frac{\pi}{3} \right)+i\cdot \sin \left( \frac{\pi}{3} \right)\right)\\
+             &=\sqrt{2} \left( \frac{1}{2}+\frac{\sqrt{3}}{2}i \right)\\
+             &=\frac{\sqrt{2}}{2}+\frac{\sqrt{6}}{2}i \\
+          \end{align*}
+          and
+          \begin{align*}
+            \left( -1+\sqrt{3}i \right) ^{1/2} &= \left( 2e^{-\frac{4\pi}{3} \cdot i} \right) ^{1/2} \\
+             &=2^{\frac{1}{2}}e^{-\frac{4\pi}{3} \cdot \frac{1}{2}i} \\
+             &=\sqrt{2}e^{-\frac{2\pi}{3} \cdot i} \\
+             &=\sqrt{2}\left( \cos \left( -\frac{2\pi}{3} \right)+i\cdot \sin \left( -\frac{2\pi}{3} \right)\right)\\
+             &=\sqrt{2} \left( -\frac{1}{2}-\frac{\sqrt{3}}{2}i \right)\\
+             &=-\frac{\sqrt{2}}{2}-\frac{\sqrt{6}}{2}i. \\
+          \end{align*}
+        
+        
+          So both $\frac{\sqrt{2}}{2}+\frac{\sqrt{6}}{2}i$ and $-\frac{\sqrt{2}}{2}-\frac{\sqrt{6}}{2}i$ are square roots of $-1+\sqrt{3}i$. But just as $2$, not $-2$, is called the principal square root of $4$, only one of thes two square roots that we found is the principal square root of $-1+\sqrt{3}i$. The principal square root of a complex number, is the one found by using an angle in the interval $(-\pi,\pi]$ to represent the complex number in polar form, so the first root we found (i.e., the one we found using $\theta=\frac{2\pi}{3}$) is the principal square root of $-1+\sqrt{3}i$. The princial square root is the one represented by the radical symbol, so we can write
+          <me>
+            \sqrt{-1+\sqrt{3}i}=\frac{\sqrt{2}}{2}+\frac{\sqrt{6}}{2}i.
+          </me>
+        
+      </solution>
+    </example>
+    <example>
+      <statement>
+        
+          Find $\sqrt[3]{-4\sqrt{2}+4\sqrt{2}i}$ using the polar form of $-4\sqrt{2}+4\sqrt{2}i$.
+        
+      </statement>
+      <solution>
+        
+          To find polar forms of $-4\sqrt{2}+4\sqrt{2}i$, we first associate the number with the rectangular ordered pair $\left( -4\sqrt{2},4\sqrt{2} \right)$, and then translate it into polar coordinates $\left( r,\theta \right)$. First let's find $r$:
+            \begin{align*}
+              r &= \sqrt{\left( -4\sqrt{2} \right) ^2+ \left( 4\sqrt{2} \right) ^2} \\
+               &= \sqrt{4^2 \cdot 2 + 4^2 \cdot 2} \\
+               &=4 \sqrt{2+2} \\
+               &=8 \\
+            \end{align*}
+        
+        
+          Now, let's find $\theta$:
+          \begin{align*}
+            \tan(\theta) &= \frac{4\sqrt{2}}{-4\sqrt{2}} \\
+             \implies \theta &= \tan^{-1}(-1)+\pi \amp\amp \text{(add } \pi \text{ since} \left( -4\sqrt{2},4\sqrt{2} \right) \text{is in Quadrant II)}\\
+             \implies \theta &= -\frac{\pi}{4}+\pi \\
+             \implies \theta &= \frac{3\pi}{4} \\
+          \end{align*}
+          Note: we add $\pi$ since $\left( -4\sqrt{2},4\sqrt{2} \right)$ is in Quadrant II, outside the range of arctangent.
+        
+        
+          So the polar form of $-4\sqrt{2}+4\sqrt{2}i$ is $z=8e^{\frac{3\pi}{4} \cdot i}$. Therefore,
+          \begin{align*}
+            \sqrt[3]{-4\sqrt{2}+4\sqrt{2}i} &= \left( 8e^{\frac{3\pi}{4} \cdot i} \right) ^{1/3} \\
+             &=8^{\frac{1}{3}}e^{\frac{3\pi}{4} \cdot \frac{1}{3}i} \\
+             &=2e^{\frac{\pi}{4} \cdot i} \\
+             &=2 \left( \cos \left( \frac{\pi}{4} \right)+i \cdot \sin \left( \frac{\pi}{4} \right)\right)\\
+             &=2 \left( \frac{\sqrt{2}}{2}+\frac{\sqrt{2}}{2}i \right)\\
+             &=\sqrt{2}+\sqrt{2}i \\
+          \end{align*}
+        
+      </solution>
+    </example>
+  
+  <exercises xml:id="exercises-complex-numbers-and-polar-coordinates">
+  <!-- #1 from Word Version - Part 3 -->
+      <exercisegroup xml:id="exercisegroup-polar-form" cols="2">
+        \subsection*{Polar Form}
+          
+              In <xref ref="exercisegroup-polar-form" text="local">Exercises</xref>, find the polar form $z=re^{i\theta}$ of the following complex numbers given in rectangular form.
+              
+          
+          <exercise>
+              <statement>
+                  
+                    $z=6+6\sqrt{3} \cdot i$
+                  
+              </statement>
+              <answer>
+                
+                  $z=12e^{\frac{\pi}{3} \cdot i}$
+                
+              </answer>
+          </exercise>
+          <exercise>
+              <statement>
+                  
+                    $z=-2\sqrt{3}+2i$
+                  
+              </statement>
+              <answer>
+                
+                  $z=4e^{\frac{5\pi}{6} \cdot i}$
+                 
+              </answer>
+          </exercise>
+          <exercise>
+              <statement>
+                  
+                    $z=5\sqrt{2}-5 \sqrt{2} \cdot i$
+                  
+              </statement>
+              <answer>
+                
+                  $z=10e^{-\frac{\pi}{4} \cdot i}$
+                 
+              </answer>
+          </exercise>
+      </exercisegroup>
+  <!-- #2 from Word Version - Part 3 -->
+      <exercisegroup xml:id="exercisegroup-rectangular-form" cols="2">
+        \subsection*{Rectangular Form}
+          
+              In <xref ref="exercisegroup-rectangular-form" text="local">Exercises</xref>, find the rectangular form $z=a+bi$ of the following complex numbers given in polar form.
+              
+          
+          <exercise>
+              <statement>
+                  
+                    $z=8e^{\frac{\pi}{6} \cdot i}$
+                  
+              </statement>
+              <answer>
+                
+                  $z=4\sqrt{3}+4i$
+                
+              </answer>
+          </exercise>
+          <exercise>
+              <statement>
+                  
+                    $z=4e^{\pi \cdot i}$
+                  
+              </statement>
+              <answer>
+                
+                  $z=-4$
+                
+              </answer>
+          </exercise>
+          <exercise>
+              <statement>
+                  
+                    $z=5e^{\frac{4\pi}{3} \cdot i}$
+                  
+              </statement>
+              <answer>
+                
+                  $z=-\frac{5}{2}-\frac{5\sqrt{3}}{2} \cdot i$
+                
+              </answer>
+          </exercise>
+      </exercisegroup>
+  <!-- #3 from Word Version - Part 3 -->
+      <exercisegroup xml:id="exercisegroup-principal-roots" cols="2">
+        \subsection*{Principal Roots}
+          
+              
+                In <xref ref="exercisegroup-principal-roots" text="local">Exercises</xref>, find the following principal roots by first converting to the polar form of each complex number.
+              
+          
+          <exercise>
+              <statement>
+                  
+                    $\sqrt{18-18\sqrt{3}\cdot i}$
+                  
+              </statement>
+              <answer>
+                
+                  $\sqrt{18-18\sqrt{3}\cdot i}=3\sqrt{3}-3i$
+                
+              </answer>
+          </exercise>
+          <exercise>
+              <statement>
+                  
+                    $\sqrt[3]{-16+16i}$
+                  
+              </statement>
+              <answer>
+                
+                  $\sqrt[3]{-16+16i}=2+2i$
+                
+              </answer>
+          </exercise>
+          <exercise>
+              <statement>
+                  
+                    $\sqrt{-i}$
+                  
+              </statement>
+              <answer>
+                
+                  $\sqrt{-i} = \frac{\sqrt{2}}{2}-\frac{\sqrt{2}}{2}i$
+                
+              </answer>
+          </exercise>
+          <exercise>
+              <statement>
+                  
+                    $\sqrt[5]{-16\sqrt{3}-16i}$
+                  
+              </statement>
+              <answer>
+                
+                  $\sqrt[5]{-16\sqrt{3}-16i}=\sqrt{3}-i$
+                
+              </answer>
+          </exercise>
+      </exercisegroup>
+  <!-- #4 from Word Version - Part 3 -->
+      <exercise>
+          <statement>
+              
+                Find all three cube roots of $27i$.
+              
+          </statement>
+          <answer>
+            
+              $\frac{3\sqrt{3}}{2}+\frac{3}{2}i$, $-3i$, and $-\frac{3\sqrt{3}}{2}+\frac{3}{2}i$
+            
+          </answer>
+      </exercise>
+  <!-- #5 from Word Version - Part 3 -->
+      <exercise>
+          <statement>
+              
+                Find both of the square roots of $-\frac{1}{2}+\frac{\sqrt{3}}{2}i$.
+              
+          </statement>
+          <answer>
+            
+              $\frac{1}{2}+\frac{\sqrt{3}}{2}i $ and $ -\frac{1}{2}-\frac{\sqrt{3}}{2}i $
+            
+          </answer>
+      </exercise>
+  <!-- #6 from Word Version - Part 3 -->
+      <exercise>
+          <statement>
+              
+                Find all three solutions to the equation of $z^3+1=0$.
+              
+          </statement>
+          <answer>
+            
+              $\left\{ -1, \frac{1}{2}+\frac{\sqrt{3}}{2}i, \frac{1}{2}-\frac{\sqrt{3}}{2}i \right\} $
+            
+          </answer>
+      </exercise>
+  </exercises>
+</section>

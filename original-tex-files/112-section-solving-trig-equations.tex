@@ -1,0 +1,213 @@
+%============================================================
+% MTH 112 Project - Solving Trig Equations
+% Updated 202504
+%============================================================
+
+\section{Solving Trigonometric Equations} \label{section-solving-trig-equations}
+In this section, we will learn to solve trigonometric equations by hand and with a calculator.
+
+\textbook{\href{https://openstax.org/books/algebra-and-trigonometry-2e/pages/9-5-solving-trigonometric-equations}{9.5}}
+
+\subsection*{Preparation Exercises} \label{preparation-exercises-section-solving-trig-equations}
+Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.
+
+\begin{myPrep}
+	Solve the equation $2x^2+5x-6=0$ by hand.
+\end{myPrep}
+\vfill
+
+\begin{myPrep}
+	Carlos and Reba were having a discussion about the equation $\sin(\theta)=\frac{1}{2}$. The answers below are either \say{both Reba and Carlos are right}, \say{only Reba is right}, \say{only Carlos is right}, or \say{neither Reba or Carlos are right}.
+		\begin{enumerate}[itemsep=0.5cm]
+			\begin{multicols}{2}
+			\item Reba said that $\frac{5\pi}{6}$ made the equation true. Carlos said that $\frac{\pi}{6}$ made the equation true. Who was right?
+			\item Reba said that $-\frac{5\pi}{6}$ made the equation true. Carlos said that $-\frac{\pi}{6}$ made the equation true. Who was right?
+			\item Reba said that $-\frac{\pi}{6}$ was the same as $\frac{11\pi}{6}$. Carlos said that $-\frac{\pi}{6}$ is \emph{not} the same as $\frac{11\pi}{6}$. Who was right? 
+			\item Reba said that $-\frac{7\pi}{6}$ made the equation true. Carlos said that $-\frac{11\pi}{6}$ made the equation true. Who was right?
+			\item Reba said that the value of $\sin^{-1}\left(\frac{1}{2}\right)$ was $\frac{5\pi}{6}$. Carlos said that the value of $\sin^{-1}\left(\frac{1}{2}\right)$ was $\frac{\pi}{6}$. Who was right?
+			\item Reba said that thinking about the equation $\sin(\theta)=\frac{1}{2}$ is the same as thinking about angles that have a $y$-value of $\frac{1}{2}$. Carlos said that thinking about the equation $\sin(\theta)=\frac{1}{2}$ is the same as thinking about angles that have a $x$-value of $\frac{1}{2}$. Who was right?
+			\item Reba said that there are two solutions to the equation $\sin(\theta)=\frac{1}{2}$. Carlos said that there are infinitely many solutions to the equation $\sin(\theta)=\frac{1}{2}$. Who was right?
+			\end{multicols}
+		\end{enumerate}
+\end{myPrep}
+
+% \begin{myPrep}
+% 	In Section \ref{section-graphs-of-other-trig-functions}, we learned to write the domain of the various trigonometric functions. What is the domain of the cosecant function? Write your answer in set builder notation.
+% \end{myPrep}
+% \vfill
+
+%======================================================
+\newpage
+%======================================================
+
+\subsection*{Practice Exercises} \label{practice-exercises-section-solving-trig-equations}
+
+\begin{myPractice}
+	Practice solving the equations, on the given intervals, with your memorized unit circle values.
+	\begin{enumerate}[itemsep=1cm]
+		\begin{multicols}{2}
+			\item $\cos(\theta)=\frac{\sqrt{2}}{2}$ on the interval $[0,3\pi]$.
+			\item $\cos(\theta)=\frac{\sqrt{2}}{2}$ on the interval $[-\pi,\pi]$.
+			\item $\cos(\theta)=\frac{\sqrt{2}}{2}$ on the interval $(-\infty,\infty)$.
+			\vfill
+			\begin{center}
+				\captionsetup{type=figure} \captionof{figure}{Unit Circle with $x$-values of $\frac{\sqrt{2}}{2}$}
+				\begin{tikzpicture}
+					\begin{axis}[
+							height=5cm,
+							width=5cm,
+							xmin=-1,xmax=1,
+							ymin=-1,ymax=1,
+				       		xtick={-1,1},
+				       		ytick={-1,1},
+				       		clip=false,
+							]
+							\draw 	(axis cs:0,0) circle [radius=1];
+							\draw   [color=third,opacity=0.2](0,0)--(0.707,0.707);
+							\addplot[mark=*,color=third] coordinates{(0.707,0.707)} node[above right] {\footnotesize$\left(\frac{\sqrt2}{2},\frac{\sqrt2}{2}\right)$};
+							\draw   [color=third,opacity=0.2](0,0)--(0.707,-0.707);
+							\addplot[mark=*,color=third] coordinates{(0.707,-0.707)} node[below right] {\footnotesize$\left(\frac{\sqrt2}{2},-\frac{\sqrt2}{2}\right)$};
+					\end{axis}
+				\end{tikzpicture} \label{fig:Unit-circle-values-for-x-sqrt2/2}
+			\end{center}
+			\item $\sin(\theta)=-\frac{\sqrt{3}}{2}$ on the interval $[\pi,4\pi]$.
+			\item $\sin(\theta)=-\frac{\sqrt{3}}{2}$ on the interval $[-\pi,\pi]$.
+			\item $\sin(\theta)=-\frac{\sqrt{3}}{2}$ on the interval $(-\infty,\infty)$.
+			\vfill
+			\begin{center}
+				\captionsetup{type=figure} \captionof{figure}{Unit Circle with $y$-values of $-\frac{\sqrt{3}}{2}$}
+				\begin{tikzpicture}
+					\begin{axis}[
+							height=5cm,
+							width=5cm,
+							xmin=-1,xmax=1,
+							ymin=-1,ymax=1,
+				       		xtick={-1,1},
+				       		ytick={-1,1},
+				       		clip=false,
+							]
+							\draw 	(axis cs:0,0) circle [radius=1];
+							\draw   [color=fourth,opacity=0.2](0,0)--(-0.5,-0.866);
+							\addplot[mark=*,color=fourth] coordinates{(-0.5,-0.866)} node[below left] {\footnotesize$\left(-\frac{1}{2},-\frac{\sqrt3}{2}\right)$};
+							\draw   [color=fourth,opacity=0.2](0,0)--(0.5,-0.866);
+							\addplot[mark=*,color=fourth] coordinates{(0.5,-0.866)} node[below right] {\footnotesize$\left(\frac{1}{2},-\frac{\sqrt3}{2}\right)$};
+					\end{axis}
+				\end{tikzpicture} \label{fig:Unit-circle-values-for-y-sqrt3/2}
+			\end{center}
+		\end{multicols}
+	\end{enumerate}
+\end{myPractice}
+\vfill
+\vfill
+
+\begin{myPractice}
+	Solve the trigonometric equations by hand without a calculator.
+	\begin{enumerate}[itemsep=5cm]
+		\begin{multicols}{2}\raggedcolumns
+			\item $1-2\sin(\chi)=0$ on the interval $[0,2\pi]$.
+			% \item $2\sqrt{3}\cos(\nu)=3$ on the interval $(-\infty,\infty)$.
+			\columnbreak
+			\item $4\cos^2(\alpha)=1$ on the interval $[-2\pi,2\pi]$.
+
+%======================================================
+\newpage
+%======================================================
+
+			\item $2\cos^2(\tau)+\cos(\tau)=1$ on the interval $[-\pi,\pi]$.
+			\item $\sqrt{3}\tan(\kappa)+3=0$ on the interval $[0,2\pi]$.
+			\item $2\sin(3\psi)=-\sqrt{3}$ on the interval $[0,\pi]$.
+			\item $2\cos(5\omega)+\sqrt{2}=0$ on the interval $[0,\pi]$.
+		\end{multicols}
+	\end{enumerate}
+\end{myPractice}
+\vspace{5cm}
+
+\begin{myPractice}
+	Solve the trigonometric equations by hand, and then use a calculator to approximate the solutions.
+	\begin{enumerate}[itemsep=4cm]
+		\begin{multicols}{2}\raggedcolumns
+			\item $1-3\sin(\chi)=0$ on the interval $[0,2\pi]$.
+			\vfill
+			% \item $3\cos(\nu)=2$ on the interval $(-\infty,\infty)$.
+			% \vfill
+			% \item $2\cos(\nu)=3$ on the interval $(-\infty,\infty)$.
+			% \vfill
+			% \item $\cos^2(\alpha)-3\cos(\alpha)=1$ on the interval $[0,2\pi]$.
+			% \vfill
+			\item $\sin^2(\phi)=0.6$ on the interval $[0,2\pi]$.
+			\vfill
+		\end{multicols}
+	\end{enumerate}
+\end{myPractice}
+
+% ISSUE: Fix this. Do we include some that don't line up to the nice unit circle values where the answer might just be arcsin(3/5) or something?
+
+%======================================================
+\newpage
+%======================================================
+
+\begin{myPractice}
+	If you were trying to solve the equation $2\sin^2(x)=\sin(x)+1$ on the interval $[-\pi,\pi]$, and you had a graph of $y=2\sin^2(x)$ and $y=\sin(x)+1$, what would you look for on the graph to solve the equation? Create that graph and copy it down on the axes below, then write out the solution set based on your work.
+		\begin{center}
+			\captionsetup{type=figure} \captionof{figure}{Axes to solve the equation $2\sin^2(x)=\sin(x)+1$ graphically}
+			\begin{tikzpicture}
+				\begin{axis}[
+						width=12cm,
+						framed,
+						xmin=-7/6*pi,
+						xmax=7/6*pi,
+						ymin=-2,
+						ymax=3,
+			       		xtick={-3.1416, -2.6180, -2.0944, -1.5708, -1.0472, -0.5236, 0.5236, 1.0472, 1.5708, 2.0944, 2.6180, 3.1416},
+			       		xticklabels={$-\pi$,$-\frac{5\pi}{6}$,$-\frac{2\pi}{3}$,$-\frac{\pi}{2}$,$-\frac{\pi}{3}$,$-\frac{\pi}{6}$,$\frac{\pi}{6}$,$\frac{\pi}{3}$,$\frac{\pi}{2}$,$\frac{2\pi}{3}$,$\frac{5\pi}{6}$,$\pi$},
+			       		grid=both,
+			       		ytick={-1,1,2},
+			       		clip=false,
+						]
+						% \addplot[first,line width=1.5pt,samples=100,<->]expression[domain=-7/6*pi:7/6*pi]{2*(sin(180/pi*x))^2};
+						% \addplot[second,line width=1.5pt,samples=100,<->]expression[domain=-7/6*pi:7/6*pi]{sin(180/pi*x)+1};
+				\end{axis}
+			\end{tikzpicture} \label{fig:graphical-solving-equation}
+		\end{center}
+\end{myPractice}
+
+\begin{myPractice} \label{practice-diff-to-product-solving}
+	Solve the trigonometric equations using identities by hand.
+	\begin{enumerate}[itemsep=4cm]
+		\begin{multicols}{2}\raggedcolumns
+			\item $\sin(\sigma)=-\cos(\sigma)$ on the interval $(-\infty,\infty)$.
+			\item $\sin(2x)=\cos(2x)$ on the interval $[-\pi,\pi]$.
+			\item $\sin(x)=\cos(2x)$ on the interval $[-\pi,\pi]$.
+			\item $\sin(4\theta)-\sin(2\theta)=0$ on the interval $[-\pi,\pi]$ by first using the difference-to-product identity $\sin(\alpha)-\sin(\beta)=2\sin\left(\frac{\alpha-\beta}{2}\right)\cos\left(\frac{\alpha+\beta}{2}\right)$. 
+		\end{multicols}
+	\end{enumerate}
+\end{myPractice}
+\vfill
+% \subsection*{Definitions} \label{definitions-section-solving-trig-equations}
+%======================================================
+\newpage
+%======================================================
+
+\subsection*{Exit Exercises} \label{exit-exercises-section-solving-trig-equations}
+
+\begin{myExit}
+	Explain why you know that the equation $\cos(x)=3$ couldn't possibly have any real solutions.
+	\vfill
+\end{myExit}
+
+\begin{myExit}
+	% Solve the equation $\tan(\gamma)-1=0$ on the interval $(-\infty,\infty)$ without a calculator.
+	Solve the equation $2\sin^2(\beta)-\sin(\beta)=1$ on the interval $[-\pi,\pi]$ without a calculator.
+	\vfill
+\end{myExit}
+
+\begin{myExit}
+	Solve the equation $\sin^2(\phi)=1$ on the interval $(-\infty,\infty)$ without a calculator.
+	\vfill
+\end{myExit}
+
+\begin{myExit}
+	Explain the solving process, in English, for the equation $\cos(\theta)=\frac{1}{2}$ on the interval $[-2\pi,2\pi]$ step by step as if you were explaining it to someone in your class who wanted to understand today's lesson more deeply. Actually solving the equation isn't necessary.
+	\vfill
+\end{myExit}
+\exitlikert{solving trigonometric equations}	

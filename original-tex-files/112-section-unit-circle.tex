@@ -1,0 +1,316 @@
+%============================================================
+% MTH 112 Project - Unit Circle
+% Updated 202504
+%============================================================
+
+\section{The Unit Circle} \label{section-unit-circle}
+In this section we will find function values for the sine and cosine of $\ang{30}$, $\ang{45}$, and $\ang{60}$, identify the domain and range of sine and cosine functions, find reference angles, and use reference angles to evaluate trigonometric functions.
+
+\textbook{\href{https://openstax.org/books/algebra-and-trigonometry-2e/pages/7-3-unit-circle}{7.3}}
+
+\subsection*{Preparation Exercises} \label{preparation-exercises-section-unit-circle}
+Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.
+%28, 45, 53
+
+\begin{myPrep}
+	For a right triangle with side $a=\frac{1}{2}$ and hypotenuse $c=1$, find the missing side, $b$, using the Pythagorean Theorem.
+\end{myPrep}
+\vfill
+
+\begin{myPrep}
+	Which quadrant are the following angles in?
+		\begin{enumerate}[label=(\roman*)]
+			\begin{multicols}{4}
+				\item $\frac{3\pi}{4}$
+				\vspace{1cm}
+				\item $\frac{4\pi}{3}$
+				\item $\frac{11\pi}{6}$
+				\vspace{1cm}
+				\item $\frac{\pi}{3}$
+				\item $-\frac{\pi}{6}$
+				\vspace{1cm}
+				\item $-\frac{2\pi}{3}$
+				\item $-\frac{7\pi}{6}$
+				\vspace{1cm}
+				\item $\frac{5\pi}{6}$
+			\end{multicols}
+		\end{enumerate}
+\end{myPrep}
+\vfill
+
+\begin{myPrep}
+	Simplify $2\pi-\frac{2\pi}{3}$ without a calculator.
+\end{myPrep}
+\vfill
+
+\begin{myPrep}
+	Count from $0$ to $2\pi$ by multiples of $\frac{\pi}{12}$, and then reduce those fractions. Here's how to start out: $\frac{0\pi}{12}$, $\frac{\pi}{12}$, $\frac{2\pi}{12}$, $\frac{3\pi}{12}$, \ldots
+\end{myPrep}
+\vfill
+
+%======================================================
+\newpage
+%======================================================
+
+\subsection*{Practice Exercises} \label{practice-exercises-section-unit-circle}
+
+\begin{myPractice}
+	\begin{enumerate}
+		\item If $\cos(\theta)=\frac{1}{5}$ and $\sin(\theta)=-\frac{2\sqrt{5}}{5}$, which quadrant must $\theta$ be in?
+		\vfill
+		\item If $\cos(\phi)=-\frac{2}{3}$ and $\sin(\phi)=\frac{\sqrt{5}}{3}$, which quadrant must $\phi$ be in?
+		\vfill
+	\end{enumerate}
+\end{myPractice}
+
+\begin{myPractice}
+	Which of the standard angles between $0$ and $2\pi$ on the unit circle do the following $x$ and $y$ coordinates go with?
+	\begin{enumerate}
+		\begin{multicols}{3}
+		\item $\left(\frac{1}{2},\frac{\sqrt3}{2}\right)$
+		\vfill
+		\item $\left(-\frac{\sqrt2}{2},\frac{\sqrt2}{2}\right)$
+		\vfill
+		\item $\left(\frac{\sqrt3}{2},-\frac{1}{2}\right)$
+		\vfill
+		\end{multicols}
+	\end{enumerate}
+\end{myPractice}
+\vfill
+
+\begin{myPractice}
+	Find the reference angles for the given angles.
+	\begin{multicols}{4}
+		\begin{enumerate}
+			\item $\ang{340}$
+			\vfill
+			\item $\ang{440}$
+			\vfill
+			\item $\frac{8\pi}{3}$
+			\vfill
+			\item $\frac{9\pi}{7}$
+			\vfill
+		\end{enumerate}
+	\end{multicols}
+\end{myPractice}
+\vfill
+
+%======================================================
+\newpage
+%======================================================
+
+\begin{myPractice}
+	\begin{enumerate}
+		\item If $\cos(\theta)=\frac{1}{5}$ and $0\le\theta\le\frac{\pi}{2}$, find the value of $\sin(\theta)$.
+		\vfill
+		\item If $\sin(\alpha)=-\frac{3}{7}$ and $\pi\le\alpha\le\frac{3\pi}{2}$, find the value of $\cos(\alpha)$.
+		\vfill
+		\item If $\cos(\beta)=-\frac{3}{4}$ and $\frac{\pi}{2}\le\beta\le\pi$, find the value of $\sin(\beta)$.
+		\vfill
+	\end{enumerate}
+\end{myPractice}
+
+\begin{myPractice}
+	Evaluate the expressions without a calculator by first finding and using the reference angles for the angles shown. 
+	\begin{multicols}{2}
+		\begin{enumerate}
+			\item $\sin(\frac{3\pi}{2})$
+			\vspace{2cm}
+			\item $\sin(\frac{7\pi}{3})$
+			\vfill
+			\item $\cos(\frac{11\pi}{4})$
+			\vspace{2cm}
+			\item $\cos(\frac{15\pi}{6})$
+			\vfill
+		\end{enumerate}
+	\end{multicols}
+\end{myPractice}
+\vfill
+
+%======================================================
+\newpage
+%======================================================
+\subsection*{Definitions} \label{definitions-section-unit-circle}
+
+\begin{multicols}{2}
+	\begin{myDefinition}[{The Unit Circle}]~\\[0.5mm]
+		A \textbf{unit circle} is a circle with radius 1.
+	\end{myDefinition}
+	\begin{myDefinition}[{Cosine of an Angle}]~\\[0.5mm]
+		The \textbf{cosine of an angle}, $\theta$, is equal to the $x$-value at that angle on a unit circle.
+	\end{myDefinition}
+	\begin{myDefinition}[{Sine of and Angle}]~\\[0.5mm]
+		The \textbf{sine of an angle}, $\theta$, is equal to the $y$-value at that angle on a unit circle.
+	\end{myDefinition}
+	\columnbreak
+	\begin{center}
+		\captionsetup{type=figure} \captionof{figure}{Unit Circle}
+		\begin{tikzpicture}
+				\begin{axis}[
+						framed,
+						xmin=-1.2,xmax=1.2,
+						ymin=-1.2,ymax=1.2,
+		        		xtick={-1,1},
+		        		% minor xtick={-0.8,-0.6,...,0.8},
+		        		ytick={-1,1},
+		        		% minor ytick={-0.8,-0.6,...,0.8},
+		        		% grid=both
+						]
+						\draw 	(axis cs:0,0) circle [radius=1];
+						\addplot[mark=*,color=second] coordinates{(0.6,0.8)};
+						\draw   [color=second](0,0)--(0.3,0.4) coordinate[label=above left:{$1$}]--(0.6,0.8) coordinate[label=above right:{$(x,y)$}];
+						\addplot[variable=\t, domain=0:atan(4/3), samples=50,very thin, color=third]({.2*cos(t)}, {.2*sin(t)});
+						\draw 	(0.2,0.1) node[right,color=third] {$\theta$};
+						\draw   [color=fourth,very thick](0,0)--(0.3,0) coordinate[label=below:{\footnotesize$\cos(\theta)$}]--(0.6,0);
+						\draw   [color=first,very thick](0.6,0)--(0.6,0.8);
+						\draw 	(0.6,0.3) node[above,color=first,rotate=-90] {\footnotesize$\sin(\theta)$};
+				\end{axis}
+				\end{tikzpicture}\label{fig:unit-circle}
+		\end{center}
+\end{multicols}
+
+\begin{myDefinition}[{The Pythagorean Identity}]~\\[0.5mm]
+	The \textbf{Pythagorean Identity} is the relationship between sine and cosine values, $\sin^2(\theta)+\cos^2(\theta)=1$, relating to the Pythagorean Theorem on Figure \ref{fig:unit-circle}.
+\end{myDefinition}
+
+\begin{multicols}{2}
+	\begin{myDefinition}[{Reference Angle}]~\\[0.5mm]
+		A \textbf{reference angle}, $\alpha$, to an angle $\theta$, is the acute (or right) positive angle between the $x$-axis to the angle $\theta$, as shown in Figure \ref{fig:reference-angles}.
+	\end{myDefinition}
+	\columnbreak
+
+	\begin{center}
+		\captionsetup{type=figure} \captionof{figure}{Reference Angles}
+		\begin{tikzpicture}
+			\begin{axis}[
+				framed,
+				xmin=-1.2,xmax=1.2,
+				ymin=-1.2,ymax=1.2,
+		        xtick={-2,2},
+		        % minor xtick={-0.8,-0.6,...,0.8},
+		        ytick={-2,2},
+		        % minor ytick={-0.8,-0.6,...,0.8},
+		        grid=both
+				]
+				\draw 	(axis cs:0,0) circle [radius=1];
+				\draw   [color=first](0,0)--(-0.6,0.8);
+				\addplot[variable=\t, domain=0:(atan(-4/3)+180), samples=50, color=second,->,thin]({.2*cos(t)}, {.2*sin(t)});
+				\draw 	(0.1,0.3) node[right,color=second] {$\theta$};
+				\addplot[variable=\t, domain=(atan(-4/3)+180):180, samples=50, color=fourth,->,thin]({.2*cos(t)}, {.2*sin(t)});
+				\draw 	(-0.2,0.1) node[left,color=fourth] {$\alpha$};
+			\end{axis}
+		\end{tikzpicture}
+		\label{fig:reference-angles}
+	\end{center}
+\end{multicols}
+
+% %======================================================
+% \newpage
+% %======================================================
+
+% \subsection*{Activities} \label{activities-section-unit-circle}
+
+% Below are some activities relating to this section. Your instructor can tell you which they would like you to try
+
+
+% \begin{myActivity}
+% In this Activity, we will look at this type of thing. Build the unit circle.
+% 	\begin{enumerate}
+% 		\item Start with a 45/45/90 triangle and find the values.
+% 		\item Do an equilateral triangle.
+% 		\item Now fill in the values for QI.
+% 		\item Now fill in the symmetrical values.
+% 	\vfill
+% 	\end{enumerate}
+% \end{myActivity}
+
+% \begin{myActivity}
+% Memorizing the unit circle
+% 	\begin{enumerate}
+% 		\item Fingers method
+% 		\item 4 3 2 1 method
+% 	\vfill
+% 	\end{enumerate}
+% \end{myActivity}
+
+%======================================================
+\newpage
+%======================================================
+
+	\begin{center}
+		\captionsetup{type=figure} \captionof{figure}{Unit Circle with Standard Values}
+		\begin{tikzpicture}
+			\begin{axis}[
+					xmin=-1,xmax=1,
+					ymin=-1,ymax=1,
+		       		xtick={-1,1},
+		       		ytick={-1,1},
+		       		clip=false,
+					]
+					\draw 	(axis cs:0,0) circle [radius=1];
+					\addplot[mark=*,color=first] coordinates{(1,0)} node[right] {\footnotesize$(1,0)$} node[below left] {\footnotesize$\theta=0$};
+
+					\draw   [color=second,opacity=0.2](0,0)--(0.866,0.5);
+					\addplot[mark=*,color=second] coordinates{(0.866,0.5)} node[right,rotate=30] {\footnotesize$\left(\frac{\sqrt3}{2},\frac{1}{2}\right)$} node[left,rotate=30] {\footnotesize$\theta=\frac{\pi}{6}$};
+					\draw   [color=third,opacity=0.2](0,0)--(0.707,0.707);
+					\addplot[mark=*,color=third] coordinates{(0.707,0.707)} node[left,rotate=45] {\footnotesize$\theta=\frac{\pi}{4}$} node[right,rotate=45] {\footnotesize$\left(\frac{\sqrt2}{2},\frac{\sqrt2}{2}\right)$};
+					\draw   [color=fourth,opacity=0.2](0,0)--(0.5,0.866);
+					\addplot[mark=*,color=fourth] coordinates{(0.5,0.866)} node[left,rotate=60] {\footnotesize$\theta=\frac{\pi}{3}$} node[right,rotate=60] {\footnotesize$\left(\frac{1}{2},\frac{\sqrt3}{2}\right)$};
+
+					% \draw   [color=fifth](0,0)--(0,1);
+					\addplot[mark=*,color=fifth] coordinates{(0,1)} node[below right,rotate=-90] {\footnotesize$\theta=\frac{\pi}{2}$} node[left,rotate=-90] {\footnotesize$(0,1)$};
+
+					\draw   [color=fourth,opacity=0.2](0,0)--(-0.5,0.866);
+					\addplot[mark=*,color=fourth] coordinates{(-0.5,0.866)} node[right,rotate=-60] {\footnotesize$\theta=\frac{2\pi}{3}$} node[left,rotate=-60] {\footnotesize$\left(-\frac{1}{2},\frac{\sqrt3}{2}\right)$};
+					\draw   [color=third,opacity=0.2](0,0)--(-0.707,0.707);
+					\addplot[mark=*,color=third] coordinates{(-0.707,0.707)} node[right,rotate=-45] {\footnotesize$\theta=\frac{3\pi}{4}$} node[left,rotate=-45] {\footnotesize$\left(-\frac{\sqrt2}{2},\frac{\sqrt2}{2}\right)$};
+					\draw   [color=second,opacity=0.2](0,0)--(-0.866,0.5);
+					\addplot[mark=*,color=second] coordinates{(-0.866,0.5)} node[right,rotate=-30] {\footnotesize$\theta=\frac{5\pi}{6}$} node[left,rotate=-30] {\footnotesize$\left(-\frac{\sqrt3}{2},\frac{1}{2}\right)$};
+
+					% \draw   [color=first](0,0)--(-1,0);
+					\addplot[mark=*,color=first] coordinates{(-1,0)} node[above right] {\footnotesize$\theta=\pi$} node[left] {\footnotesize$(-1,0)$};
+
+					\draw   [color=second,opacity=0.2](0,0)--(-0.866,-0.5);
+					\addplot[mark=*,color=second] coordinates{(-0.866,-0.5)} node[right,rotate=30] {\footnotesize$\theta=\frac{7\pi}{6}$} node[left,rotate=30] {\footnotesize$\left(-\frac{\sqrt3}{2},-\frac{1}{2}\right)$};
+					\draw   [color=third,opacity=0.2](0,0)--(-0.707,-0.707);
+					\addplot[mark=*,color=third] coordinates{(-0.707,-0.707)} node[right,rotate=45] {\footnotesize$\theta=\frac{5\pi}{4}$} node[left,rotate=45] {\footnotesize$\left(-\frac{\sqrt2}{2},-\frac{\sqrt2}{2}\right)$};
+					\draw   [color=fourth,opacity=0.2](0,0)--(-0.5,-0.866);
+					\addplot[mark=*,color=fourth] coordinates{(-0.5,-0.866)} node[right,rotate=60] {\footnotesize$\theta=\frac{4\pi}{3}$} node[left,rotate=60] {\footnotesize$\left(-\frac{1}{2},-\frac{\sqrt3}{2}\right)$};
+
+					% \draw   [color=second,opacity=0.2](0,0)--(0,-1);
+					\addplot[mark=*,color=fifth] coordinates{(0,-1)} node[above left,rotate=-90] {\footnotesize$\theta=\frac{3\pi}{2}$} node[right,rotate=-90] {\footnotesize$\left(0,-1\right)$};
+
+					\draw   [color=second,opacity=0.2](0,0)--(0.866,-0.5);
+					\addplot[mark=*,color=second] coordinates{(0.866,-0.5)} node[left,rotate=-30] {\footnotesize$\theta=\frac{11\pi}{6}$} node[right,rotate=-30] {\footnotesize$\left(\frac{\sqrt3}{2},-\frac{1}{2}\right)$};
+					\draw   [color=third,opacity=0.2](0,0)--(0.707,-0.707);
+					\addplot[mark=*,color=third] coordinates{(0.707,-0.707)} node[left,rotate=-45] {\footnotesize$\theta=\frac{7\pi}{4}$} node[right,rotate=-45] {\footnotesize$\left(\frac{\sqrt2}{2},-\frac{\sqrt2}{2}\right)$};
+					\draw   [color=fourth,opacity=0.2](0,0)--(0.5,-0.866);
+					\addplot[mark=*,color=fourth] coordinates{(0.5,-0.866)} node[left,rotate=-60] {\footnotesize$\theta=\frac{5\pi}{3}$} node[right,rotate=-60] {\footnotesize$\left(\frac{1}{2},-\frac{\sqrt3}{2}\right)$};
+			\end{axis}
+		\end{tikzpicture}
+		\label{fig:Unit-circle-values}
+	\end{center}
+
+\subsection*{Exit Exercises} \label{exit-exercises-section-unit-circle}
+
+\begin{myExit}
+		Which angle, $\theta$, between $0$ and $2\pi$ has a sine value of $-\frac{\sqrt3}{2}$ and a cosine value of $\frac{1}{2}$?
+\end{myExit}
+\vfill
+
+\begin{myExit}
+		What is the reference angle for $\frac{7\pi}{6}$?
+\end{myExit}
+\vfill
+
+\begin{myExit}
+		Evaluate $\sin(\frac{11\pi}{3})$ without a calculator.
+\end{myExit}
+\vfill
+
+\begin{myExit}
+		If $\sin(\theta)=-\frac{1}{4}$ and $\pi\le\theta\le\frac{3\pi}{2}$, find the value of $\cos(\theta)$.
+\end{myExit}
+\vfill
+\vfill
+\exitlikert{the unit circle}

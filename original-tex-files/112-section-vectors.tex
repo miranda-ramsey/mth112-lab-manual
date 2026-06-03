@@ -1,0 +1,345 @@
+%============================================================
+% MTH 112 Project - Vectors
+% Updated 202504
+%============================================================
+
+\section{Vectors} \label{section-vectors}
+In this section, we will learn about vectors, which are essentially a line segment with a specific length and that points in a particular direction. We will view vectors geometrically, find the magnitude and direction of vectors, find the component form of a vector, and do arithmetic with vectors. Then we will find the dot product of two vectors and work through some applications of vectors.
+
+\textbook{\href{https://openstax.org/books/algebra-and-trigonometry-2e/pages/10-8-vectors}{10.8}}
+
+\subsection*{Preparation Exercises} \label{preparation-exercises-section-vectors}
+
+Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.
+
+\begin{myPrep}
+	\begin{multicols}{2}
+		For the right triangle shown in Figure \ref{section-vectors-triangle-solving}, find the missing lengths of $x$ and $y$ using SOHCAHTOA. You can use a calculator to help get an approximation, accurate to 4 digits behind the decimal place.
+		\columnbreak
+		\begin{center}\captionsetup{type=figure} \captionof{figure}{A right triangle}
+			\begin{tikzpicture}[thin] \label{section-vectors-triangle-solving}
+				\coordinate (O) at (0,0);
+				\coordinate (A) at (3,0);
+				\coordinate (B) at (3,2);
+				\draw (O)--(A)--(B)--cycle;
+				\footnotesize
+				\tkzLabelSegment[below=2pt](O,A){$x$}
+				\tkzLabelSegment[above=2pt,rotate=atan(2/3)](O,B){$10\text{cm}$}
+				\tkzLabelSegment[right=2pt](A,B){$y$}
+				\tkzMarkRightAngle[size=0.5](B,A,O)
+				\tkzMarkAngle[size=0.7cm](A,O,B)
+				\tkzLabelAngle[pos = 1.1](A,O,B){$\ang{32}$}
+			\end{tikzpicture}
+		\end{center}
+	\end{multicols}
+\end{myPrep}
+\vfill
+
+\begin{myPrep}
+	\begin{enumerate}
+		\item Convert the polar point $\left(8,\frac{2\pi}{3}\right)_p$ to rectangular coordinates. Leave your coordinates in exact form using memorized values from the unit circle.
+		\vfill
+		\item Write the complex number $3+4i$ in Euler's form, $re^{i\theta}$. Write your angle in radians and round it to 2 digits behind the decimal place.
+		\vfill
+		\item Convert the rectangular point $(3,4)_r$ to polar form. Write your angle in radians and round it to 2 digits behind the decimal place.
+		\vfill
+	\end{enumerate}
+\end{myPrep}
+\vfill
+
+%======================================================
+\newpage
+%======================================================
+
+\subsection*{Practice Exercises} \label{practice-exercises-section-vectors}
+
+\begin{myPractice}
+	\begin{multicols}{2}
+		\begin{enumerate}
+			\item Draw a vector, $\vectr{g}$, onto Figure \ref{section-vectors-practice-plotting} that goes from point $(-3,2)$ to point $(2,-1)$.
+			\vfill
+			\item Draw another copy of $\vectr{g}$ onto Figure \ref{section-vectors-practice-plotting}, this one starting from the origin.
+			\vfill
+			\item Write $\vectr{g}$ in component form using the angled-bracket notation, $\vect{\ph{m}}{\ph{m}}$.
+			\vfill
+		\end{enumerate}
+		\begin{center}\captionsetup{type=figure} \captionof{figure}{A grid to plot a vector}
+			\begin{tikzpicture}[thin] \label{section-vectors-practice-plotting}
+ 				\begin{axis}[
+ 					framed,
+					xmin=-5,xmax=5,
+ 					ymin=-5,ymax=5,
+				    xtick={-4,-3,...,4},
+				    ytick={-4,-3,...,4},
+				    grid=both,
+ 					]
+ 				\end{axis}
+			\end{tikzpicture}
+		\end{center}
+	\end{multicols}
+	\begin{enumerate}\setcounter{enumi}{3}
+		\item Write $\vectr{g}$ in component form using the $a\unitv{i}+b\unitv{j}$ notation.
+		\vspace{1cm}
+		\item Find $\norm{\vectr{g}}$, the magnitude of $\vectr{g}$.
+		\vspace{1cm}
+		\item Find $\theta$, the direction of $\vectr{g}$, measured in degrees from the standard position. Round your answer to two digits behind the decimal place.
+		\vspace{2cm}
+	\end{enumerate}
+\end{myPractice}
+
+\begin{myPractice}
+	Perform the vector arithmetic.
+	\begin{enumerate}
+		\begin{multicols}{2}
+			\item $\vect{-2}{6}+\vect{4}{-3}$
+			\vspace{0.9cm}
+			\item $\left(-5\unitv{i}-2\unitv{j}\right)-\left(6\unitv{i}-4\unitv{j}\right)$
+			\vspace{0.9cm}
+			\item $3\vect{4}{-7}$
+			\item $5\left(2\unitv{i}-1\unitv{j}\right)-4\left(-4\unitv{i}+3\unitv{j}\right)$
+			\vspace{0.9cm}
+			\item $\left(-3\unitv{i}+5\unitv{j}\right)\cdot\left(4\unitv{i}+2\unitv{j}\right)$
+			\vspace{0.9cm}
+			\item $\vect{-6}{3}\cdot\vect{2}{9}$
+		\end{multicols}
+	\end{enumerate}
+\end{myPractice}
+\vfill
+\newpage
+\begin{myPractice}
+	Are the vectors in the same direction, perpendicular, or skew? Consider using the dot product to show that vectors are perpendicular since two vectors are perpendicular if and only if their dot product is $0$.
+	\begin{multicols}{2}
+		\begin{enumerate}[itemsep=1cm]
+			\item $\vect{6}{-6}$ and $\vect{1}{-1}$?
+			\item $\vect{5}{-6}$ and $\vect{-5}{6}$?
+			\item $\vect{-6}{2}$ and $\vect{3}{9}$?
+			\item $\vect{6}{-1}$ and $\vect{1}{-4}$?
+		\end{enumerate}
+	\end{multicols}
+\end{myPractice}
+\vspace{1cm}
+\begin{myPractice}
+	% \begin{enumerate}
+	% 	\item 
+		Find a unit vector, $\unitv{u}_1$, in direction of $\vectr{v}=3\unitv{i}+4\unitv{j}$.
+	% 	\vfill
+	% 	\item Find a unit vector, $\unitv{u}_2$, in direction of $\vectr{w}=\vect{-2}{6}$. Simplify and rationalize the denominator of your answer.
+		\vfill
+	% \end{enumerate}
+\end{myPractice}
+
+\begin{myPractice}
+	If a vector, $\vectr{p}$, has a magnitude $\norm{\vectr{p}}=16$ and a direction angle of $\theta=\ang{260}$, use a calculator to find the approximate components of $\vectr{p}$, rounded to two digits behind the decimal place.
+\end{myPractice}
+\vfill
+
+%======================================================
+\newpage
+%======================================================
+
+\begin{myPractice}
+	Find the angle between the two vectors $\vectr{m}=\vect{-1}{4}$ and $\vectr{n}=\vect{2}{1}$ using the formula $\vectr{m}\cdot\vectr{n}=\norm{\vectr{m}}\norm{\vectr{n}}\cos(\theta)$
+	\vfill
+\end{myPractice}
+
+\begin{myPractice}
+	Jamal and Jenna did a dive in the Columbia River while taking an advanced SCUBA class. It was cold, dark, and muddy. They dove to the deepest part of the river, enjoyed a fast-paced drift dive, and started toward shore well below the surface to avoid boat traffic. They swam at a pace of $2\frac{ft}{s}$ (relative to the water around them) toward shore at a bearing of $\ang{310}$ on his compass. The river was pushing them at a pace of $8\frac{ft}{s}$ at a bearing of $\ang{230}$. They felt like they were spinning in circles, but managed to get to shore safely.
+	\begin{enumerate}
+		\item Find the component form of $\vectr{s}$, the vector that represents their swimming velocity, ignoring that the water around them is moving, assuming that the positive $x$-axis aligns with East.
+		\vfill
+		\item Find the component form of $\vectr{r}$, the vector that represents the river's velocity.
+		\vfill
+		\item Find the sum $\vectr{s}+\vectr{r}$, and interpret its meaning in terms of the divers and the river.
+		\vfill
+	\end{enumerate}
+\end{myPractice}
+%======================================================
+\newpage
+%======================================================
+
+\subsection*{Definitions} \label{definitions-section-vectors}
+
+\begin{multicols}{2}
+	\begin{myDefinition}[{Vector}]~\\[0.5mm]
+	A \textbf{vector} is a quantity drawn as a line segment with an arrowhead at one end. It has an initial point, where it begins, and a terminal point, where it ends. It is a line segment with a direction. Vectors are placement-independent in that two vectors that are the same length and parallel are considered the same vector, as shown in Figure \ref{section-vectors-definition-vector}. Vector notation is usually either \say{the vector $\overrightharp{\textbf{v}}$} or \say{the vector $\vectr{v}$}
+	\end{myDefinition}
+
+	\columnbreak
+
+	\begin{center}\captionsetup{type=figure} \captionof{figure}{Two copies of the vector $\vectr{v}$}
+		\begin{tikzpicture}[thin] \label{section-vectors-definition-vector}
+	 		\begin{axis}[
+	 			framed,
+	 			height=5cm,
+	 			width=5cm,
+	 			xmin=-2,xmax=3,
+	 			ymin=-2,ymax=3,
+			    xtick=\empty,
+			    ytick=\empty,
+			    grid=both,
+	 			]
+				\addplot[ultra thick,->,color=first] coordinates{(0,0)(1,2)};
+				\node[color=first] at (.8, 1) {$\vectr{v}$};
+				\addplot[ultra thick,->,color=first] coordinates{(1,-1.5)(2,.5)};
+				\node[color=first] at (1.8, -.5) {$\vectr{v}$};
+	 		\end{axis}
+		\end{tikzpicture}
+	\end{center}
+\end{multicols}
+
+\begin{multicols}{2}
+	\begin{myDefinition}[{The vectors $\unitv{i}$ and $\unitv{j}$}]~\\[0.5mm]
+	The \textbf{vector $\unitv{i}$} (read \say{i hat}) is defined to be a vector of length $1$ pointed to the right (parallel to the positive $x$-axis) \textbf{and $\unitv{j}$} (read \say{j hat}) is defined to be a vector of length $1$ pointed up (parallel to the positive $y$-axis), as shown in Figure \ref{section-vectors-definition-ij}. We always use a \say{hat} on unit vectors instead of an arrow.
+	\end{myDefinition}
+
+	\columnbreak
+
+	\begin{center}\captionsetup{type=figure} \captionof{figure}{The vectors $\unitv{i}$ and $\unitv{j}$}
+		\begin{tikzpicture}[thin] \label{section-vectors-definition-ij}
+	 		\begin{axis}[
+	 			framed,
+	 			height=5cm,
+	 			width=5cm,
+	 			xmin=-1,xmax=2,
+	 			ymin=-1,ymax=2,
+			    xtick={1},
+			    ytick={1},
+			    grid=both,
+	 			]
+				\addplot[ultra thick,->,color=first] coordinates{(0,0)(1,0)};
+				\node[color=first] at (.5, -.25) {$\unitv{i}$};
+				\addplot[ultra thick,->,color=second] coordinates{(0,0)(0,1)};
+				\node[color=second] at (-.25, .5) {$\unitv{j}$};
+	 		\end{axis}
+		\end{tikzpicture}
+	\end{center}
+\end{multicols}
+
+\begin{multicols}{2}
+	\begin{myDefinition}[{The components of a vector}]~\\[0.5mm]
+	If you take a vector, $\vectr{v}$, and create a right triangle where the vector is the hypotenuse and the legs of the triangle are horizontal and vertical, then \textbf{the components vector} $\vectr{v}$ are the vertical and horizontal vectors that add together to form $\vectr{v}$, as shown in Figure \ref{section-vectors-definition-components}. Since the components are horizontal and vertical, we measure them with $\unitv{i}$'s and $\unitv{j}$'s.
+	\end{myDefinition}
+
+	\begin{myDefinition}[{The magnitude of a vector}]~\\[0.5mm]
+	The \textbf{magnitude of a vector}, $\vectr{v}=\vect{v_1}{v_2}$, is the length of the vector and is written $\norm{\vectr{v}}$ We use the Pythagorean theorem on the components of the vector to find a formula for the magnitude:
+	\[\norm{\vectr{v}}=\sqrt{v_1^2+v_2^2}\]
+	\end{myDefinition}
+
+	\columnbreak
+
+	\begin{center}\captionsetup{type=figure} \captionof{figure}{The vector $\vectr{v}=4\unitv{i}+3\unitv{j}$, its components, magnitude, and direction shown}
+		\begin{tikzpicture}[thin] \label{section-vectors-definition-components}
+	 		\begin{axis}[
+	 			framed,
+	 			xmin=-1,xmax=5,
+	 			ymin=-1,ymax=5,
+			    xtick={1,2,3,4},
+			    ytick={1,2,3,4},
+			    grid=both,
+	 			]
+	 			\addplot[ultra thick,->,color=third] coordinates{(0,0)(4,3)};
+				\node[color=third] at (3.8, 3.3) {$\vectr{v}$};
+				\node[color=third,rotate=atan(3/4)] at (2, 2) {$\norm{\vectr{v}}=5$};
+				\addplot[very thick,->,color=first] coordinates{(0,0)(1,0)};
+				\addplot[very thick,->,color=first] coordinates{(1,0)(2,0)};
+				\addplot[very thick,->,color=first] coordinates{(2,0)(3,0)};
+				\addplot[very thick,->,color=first] coordinates{(3,0)(4,0)};
+				\node[color=first] at (0.5, -.25) {$\unitv{i}$};
+				\node[color=first] at (1.5, -.25) {$\unitv{i}$};
+				\node[color=first] at (2.5, -.25) {$\unitv{i}$};
+				\node[color=first] at (3.5, -.25) {$\unitv{i}$};
+				\addplot[very thick,->,color=second] coordinates{(4,0)(4,1)};
+				\addplot[very thick,->,color=second] coordinates{(4,1)(4,2)};
+				\addplot[very thick,->,color=second] coordinates{(4,2)(4,3)};
+				\node[color=second] at (4.25, 0.5) {$\unitv{j}$};
+				\node[color=second] at (4.25, 1.5) {$\unitv{j}$};
+				\node[color=second] at (4.25, 2.5) {$\unitv{j}$};
+				\addplot[thin,domain= 0:atan(3/4),color=fourth] ({cos(x)},{sin(x)});
+				\node[color=fourth] at (1.2,0.4) {$\theta$};
+	 		\end{axis}
+		\end{tikzpicture}
+	\end{center}
+\end{multicols}
+
+%======================================================
+\newpage
+%======================================================
+
+\begin{myDefinition}[{The direction of a vector}]~\\[0.5mm]
+	The \textbf{direction of a vector} is defined by an angle, $\theta$, relative to the standard position (unless otherwise specified), positioned at the initial point of the vector.
+\end{myDefinition}
+
+\begin{myDefinition}[{Graphically adding two vectors}]~\\[0.5mm]
+	\begin{minipage}{0.9\textwidth}
+        To graphically add two vectors, $\vectr{v}+\vectr{w}$, put the tail of vector $\vectr{w}$ at the head of $\vectr{v}$. The sum, $\vectr{v}+\vectr{w}$, is the vector from the tail of $\vectr{v}$ to the head of $\vectr{w}$. Check out \href{http://tiny.cc/vector-addition}{this Desmos link} for a visual on graphical vector addition.
+    \end{minipage}
+	\begin{minipage}{2cm}
+        \qrcode[height=1cm]{http://tiny.cc/vector-addition}
+    \end{minipage}
+\end{myDefinition}
+
+\begin{myDefinition}[{Graphically subtracting two vectors}]~\\[0.5mm]
+	\begin{minipage}{0.9\textwidth}
+    	To graphically subtract two vectors, $\vectr{v}-\vectr{w}$, first draw the opposite vector of $\vectr{w}$, which would be $-\vectr{w}$ drawn with the same length as $\vectr{w}$ but exactly $\ang{180}$ from $\vectr{w}$. Then put the tail of vector $-\vectr{w}$ at the head of $\vectr{v}$. The difference, $\vectr{v}-\vectr{w}$, is the vector from the tail of $\vectr{v}$ to the head of $-\vectr{w}$. This process really creates $\vectr{v}+(-\vectr{w})$. Check out \href{http://tiny.cc/vector-subtraction}{this Desmos link} for a visual on graphical vector subtraction.
+	\end{minipage}
+	\begin{minipage}{2cm}
+    	\qrcode[height=1cm]{http://tiny.cc/vector-subtraction}
+	\end{minipage}
+\end{myDefinition}
+
+\begin{myDefinition}[{A unit vector}]~\\[0.5mm]
+	A \textbf{unit vector} is a vector of magnitude $1$. There is a formula that takes any vector, $\vectr{v}$, and will find a unit vector, $\unitv{u}$, in the same direction as $\vectr{v}$:
+\[\unitv{u}=\frac{\vectr{v}}{\norm{\vectr{v}}}\]
+\end{myDefinition}
+
+\begin{myDefinition}[{The dot product of two vectors}]~\\[0.5mm]
+	The \textbf{dot product} of two vectors, $\vectr{v}=\vect{v_1}{v_2}$ and $\vectr{w}=\vect{w_1}{w_2}$, is the sum of the product of the corresponding components of the vectors: 
+		\[\vectr{v}\cdot\vectr{w}=v_1w_1+v_2w_2\] 
+	This happens to tell you something about how far apart the vectors are, angle-wise. There is a relationship between the dot product and the angle, $\theta$, between the vectors: 
+		\[\vectr{v}\cdot\vectr{w}=\norm{\vectr{v}}\norm{\vectr{w}}\cos(\theta)\]
+	Note that this implies that two vectors are perpendicular if and only if their dot product is $0$ since cosine is only $0$ when the angle is a right angle. To be more specific, cosine is only $0$ when the angle is an odd multiple of $\frac{\pi}{2}$.
+\end{myDefinition}
+
+%======================================================
+\newpage
+%======================================================
+
+\subsection*{Exit Exercises} \label{exit-exercises-section-vectors}
+
+\begin{myExit}
+	Answer the following where $\vectr{t}=\vect{-1}{-3}$ and $\vectr{s}=\vect{3}{2}$.
+	\begin{enumerate}[itemsep=5mm]
+		\begin{multicols}{2}\raggedcolumns
+		\item Draw $\vectr{t}$ and $\vectr{s}$ onto Figure \ref{section-vectors-exit}.
+		\item Draw $\vectr{t}+\vectr{s}$ onto Figure \ref{section-vectors-exit}.
+		\item Evaluate $3\vectr{t}-2\vectr{s}$.
+		\vspace{2cm}
+		\item Evaluate $\vectr{t}\cdot\vectr{s}$.
+		\columnbreak
+		\begin{center}\captionsetup{type=figure} \captionof{figure}{A grid to draw $\vectr{t}$ and $\vectr{s}$}\label{section-vectors-exit}
+			\begin{tikzpicture}[thin]
+		 		\begin{axis}[
+		 			framed,
+		 			xmin=-5,xmax=5,
+		 			ymin=-5,ymax=5,
+				    xtick={-4,-3,...,4},
+				    ytick={-4,-3,...,4},
+				    grid=both,
+		 			]
+	 				% \addplot[ultra thick,->,color=first] coordinates{(0,0)(3,2)}; %solutions
+	 				% \addplot[ultra thick,->,color=second] coordinates{(0,0)(-1,-3)}; %solutions
+	 				% \addplot[ultra thick,->,color=second] coordinates{(3,2)(2,-1)}; %solutions
+	 				% \addplot[ultra thick,->,color=third] coordinates{(0,0)(2,-1)}; %solutions
+		 		\end{axis}
+			\end{tikzpicture}
+		\end{center}
+	\end{multicols}
+		\item Evaluate $\norm{\vectr{t}}$.
+		\vfill
+		\item What is the direction of $\vectr{t}$? Use degrees and round your answer to two digits behind the decimal place.
+		\vfill
+		\item Find the angle between $\vectr{t}$ and $\vectr{s}$ using the dot product.
+		\vfill
+	\end{enumerate}
+\end{myExit}
+\exitlikert{vectors}

@@ -185,7 +185,7 @@
                     Length <m>b</m> and angles <m>A</m> and <m>B</m> are unknown.
                     </p>
                 </introduction>
-                <task label="i">>
+                <task>
                     <statement>
                         <p>
                             There are actually two such triangles that exist. Draw pictures of both triangles. 
@@ -197,7 +197,7 @@
                         </p>
                     </hint>
                 </task>
-                <task label="ii">>
+                <task>
                     <statement>
                         <p>
                             Write down the law of sines to solve for angle <m>A</m> for each triangle,
@@ -205,7 +205,7 @@
                         </p>
                     </statement>
                 </task>
-                <task label="iii">>
+                <task>
                     <statement>
                         <p>
                             Solve for the angles and missing lengths in both triangles. Round your

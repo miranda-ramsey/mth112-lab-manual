@@ -1,0 +1,27 @@
+WARNING : Using CLI version 2.40.0 but project's `requirements.txt`
+WARNING : is configured to use 2.17.1. Consider either installing
+WARNING : CLI version 2.17.1 or running `pretext update-project`
+WARNING : to update `requirements.txt` and other managed files to match 2.40.0.
+INFO    : Since no target was supplied, we will use "web".
+
+INFO    : Generating any needed assets.
+INFO    : XSL conversion of /Users/miranda/mth112-lab-manual/source/main.ptx by /Users/miranda/.ptx/2.40.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /Users/miranda/.ptx/2.40.0/core/xsl/utilities/pretext-enhanced-source.xsl
+WARNING : Now generating latex images
+INFO    : converting latex-image pictures from /Users/miranda/mth112-lab-manual/source/main.ptx to svg graphics for placement in /Users/miranda/mth112-lab-manual/generated-assets/latex-image
+INFO    : extracting latex-image pictures from /Users/miranda/mth112-lab-manual/source/main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'publisher': '/Users/miranda/mth112-lab-manual/publication/publication.ptx'}
+INFO    : discovering source file's directory name: /Users/miranda/mth112-lab-manual/source
+INFO    : verifying and expanding input directory: /Users/miranda/mth112-lab-manual/source/../generated-assets
+INFO    : input directory expanded to absolute path: /Users/miranda/mth112-lab-manual/generated-assets
+INFO    : verifying and expanding input directory: /Users/miranda/mth112-lab-manual/source/../assets
+INFO    : input directory expanded to absolute path: /Users/miranda/mth112-lab-manual/assets
+INFO    : discovering source file's directory name: /Users/miranda/mth112-lab-manual/source
+INFO    : XSL conversion of /Users/miranda/mth112-lab-manual/source/main.ptx by /Users/miranda/.ptx/2.40.0/core/xsl/extract-latex-image.xsl
+INFO    : successful application of /Users/miranda/.ptx/2.40.0/core/xsl/extract-latex-image.xsl
+INFO    : Removing temporary directory /var/folders/mw/tp4q2ws96fgg22wjbq083kp80000gn/T/ptx-fiedr__y
+INFO    : Finished generating assets.
+
+INFO    : Finished generating assets successfully.
+
+INFO    : 

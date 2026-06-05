@@ -30,11 +30,17 @@
   <latex-image-preamble> 
       <!-- Packages -->
       \usepackage{tikz, pgfplots}
+      \pgfplotsset{compat=1.14}
       \usetikzlibrary{positioning,matrix,arrows}
       \usetikzlibrary{shapes,decorations,shadows,fadings,patterns}
-      \usetikzlibrary{decorations.markings}
+      \usetikzlibrary{decorations.markings,decorations.fractals,decorations.footprints,decorations.pathreplacing,decorations.text}
       \usetikzlibrary{arrows,arrows.meta}
+\usepgfplotslibrary{fillbetween}
+\usepgfplotslibrary{polar}
+
+
       \pgfplotsset{framedaxes/.style={axis background/.style ={draw=black!75},axis x line=middle,axis y line=middle}}
+\pgfplotsset{framed/.style={axis background/.style={draw=black!75}}}
       <!-- Colors -->
       \definecolor{first}{rgb}{0.08,0.08,0.8}
       \definecolor{second}{rgb}{0,.55,0.05}
@@ -60,24 +66,20 @@
       \pgfplotsset{soliddot/.style   = {color=first, mark=*, only marks}}
       \pgfplotsset{hollowdot/.style  = {color=first, mark=*, only marks, fill=white}}
       <!-- Default Graph Style -->
-      \pgfplotsset{every axis/.append style={
-        framedaxes,
-        xlabel = {\(x\)},
-        ylabel = {\(y\)},
-        xmin = -8,
-        xmax = 8,
-        ymin = -8,
-        ymax = 8,
-        domain = -8:8,
-        xtick = {-6,-4,...,6},
-        ytick = {-6,-4,...,6},
-        minor xtick = {-7,...,7},
-        minor ytick = {-7,...,7},
-        cycle list name = curvestylelist,
-        grid = both,
-        grid style = {solid,gray!40},
-        width = 270pt
-    }}
+\pgfplotsset{
+  every axis/.append style={
+    draw=black!75,
+    width=7cm,
+    height=7cm,
+    xlabel={$x$},
+    ylabel={$y$},
+    axis x line=middle,
+    axis y line=middle,
+    line width=0.75pt,
+    tick label style={font=\tiny},
+    label style={font=\small},
+    legend style={font=\tiny}
+  }}
   </latex-image-preamble>
 
   <!-- It is possible to rename elements: -->

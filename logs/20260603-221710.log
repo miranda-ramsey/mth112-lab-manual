@@ -1,0 +1,68 @@
+WARNING : Using CLI version 2.40.0 but project's `requirements.txt`
+WARNING : is configured to use 2.17.1. Consider either installing
+WARNING : CLI version 2.17.1 or running `pretext update-project`
+WARNING : to update `requirements.txt` and other managed files to match 2.40.0.
+WARNING : Could not find a target 'pdf', but found a target 'print' with format='pdf'; using this target.
+INFO    : Building target print
+INFO    : XSL conversion of /Users/miranda/mth112-lab-manual/source/main.ptx by /Users/miranda/.ptx/2.40.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /Users/miranda/.ptx/2.40.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : Generating any needed assets.
+INFO    : Finished generating assets.
+
+INFO    : Preparing to build into /Users/miranda/mth112-lab-manual/output/print.
+INFO    : discovering source file's directory name: /Users/miranda/mth112-lab-manual/source
+INFO    : verifying and expanding input directory: /Users/miranda/mth112-lab-manual/source/../generated-assets
+INFO    : input directory expanded to absolute path: /Users/miranda/mth112-lab-manual/generated-assets
+INFO    : verifying and expanding input directory: /Users/miranda/mth112-lab-manual/source/../assets
+INFO    : input directory expanded to absolute path: /Users/miranda/mth112-lab-manual/assets
+INFO    : discovering source file's directory name: /Users/miranda/mth112-lab-manual/source
+INFO    : XSL conversion of /Users/miranda/mth112-lab-manual/source/main.ptx by /Users/miranda/.ptx/2.40.0/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : successful application of /Users/miranda/.ptx/2.40.0/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : converting /Users/miranda/mth112-lab-manual/source/main.ptx to LaTeX as /var/folders/mw/tp4q2ws96fgg22wjbq083kp80000gn/T/ptx-gvpnibls/main.tex
+INFO    : XSL conversion of /Users/miranda/mth112-lab-manual/source/main.ptx by /Users/miranda/.ptx/2.40.0/core/xsl/pretext-latex.xsl
+INFO    : messages from the log for XSL processing:
+INFO    : * PTX:INFO:   checking all deprecated elements.
+WARNING : * PTX:WARNING: there appears to be an "xref" by number to an item (of type "subsection") without a number (or there is a bug).  The "xref" is
+INFO    : *              located at: pretext/book/chapter/section/exercises/exercise/statement/p/xref
+INFO    : *              located within: "Preparation Exercises" (title)
+INFO    : *              The target is
+INFO    : *              located at: pretext/book/chapter/section/subsection
+INFO    : *              located within: "definitions-right-angle-trig" (xml:id), "Definitions" (title)
+WARNING : * PTX:WARNING:    An <xref> wants to build text using a number to identify the target, but the target (which has @xml:id "definitions-right-angle-trig") does not have a number. You could try 'text="title"' or 'text="custom"' on the "xref".
+INFO    : *              located at: pretext/book/chapter/section/exercises/exercise/statement/p/xref
+INFO    : *              located within: "Preparation Exercises" (title)
+WARNING : * PTX:WARNING: there appears to be an "xref" by number to an item (of type "subsection") without a number (or there is a bug).  The "xref" is
+INFO    : *              located at: pretext/book/chapter/section/exercises/exercise/statement/p/xref
+INFO    : *              located within: "Preparation Exercises" (title)
+INFO    : *              The target is
+INFO    : *              located at: pretext/book/chapter/section/subsection
+INFO    : *              located within: "definitions-right-angle-trig" (xml:id), "Definitions" (title)
+WARNING : * PTX:WARNING: there appears to be an "xref" by number to an item (of type "exercises") without a number (or there is a bug).  The "xref" is
+INFO    : *              located at: pretext/book/chapter/section/subsection/p/xref
+INFO    : *              located within: "definitions-sum-to-product" (xml:id), "Definitions" (title)
+INFO    : *              The target is
+INFO    : *              located at: pretext/book/chapter/section/exercises
+INFO    : *              located within: "practice-solving-equations" (xml:id), "Practice Exercises" (title)
+WARNING : * PTX:WARNING:    An <xref> wants to build text using a number to identify the target, but the target (which has @xml:id "practice-solving-equations") does not have a number. You could try 'text="title"' or 'text="custom"' on the "xref".
+INFO    : *              located at: pretext/book/chapter/section/subsection/p/xref
+INFO    : *              located within: "definitions-sum-to-product" (xml:id), "Definitions" (title)
+WARNING : * PTX:WARNING: there appears to be an "xref" by number to an item (of type "exercises") without a number (or there is a bug).  The "xref" is
+INFO    : *              located at: pretext/book/chapter/section/subsection/p/xref
+INFO    : *              located within: "definitions-sum-to-product" (xml:id), "Definitions" (title)
+INFO    : *              The target is
+INFO    : *              located at: pretext/book/chapter/section/exercises
+INFO    : *              located within: "practice-solving-equations" (xml:id), "Practice Exercises" (title)
+INFO    : successful application of /Users/miranda/.ptx/2.40.0/core/xsl/pretext-latex.xsl
+INFO    : XSL conversion of /Users/miranda/mth112-lab-manual/source/main.ptx by /Users/miranda/.ptx/2.40.0/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : successful application of /Users/miranda/.ptx/2.40.0/core/xsl/utilities/report-publisher-variables.xsl
+CRITICAL: PTX:ERROR: cannot locate executable with configuration name `LatexEngine.XELATEX` as command `xelatex`
+***  Edit the configuration file  ("pretext.cfg" or "project.ptx") and/or install  ***
+***  the necessary program and/or make sure the executable is on your PATH         ***
+INFO    : ------------------------
+CRITICAL: Failed to build without errors.  Exiting...
+INFO    : 
+----------------------------------------------------
+INFO    : While running pretext, the following errors occurred:
+
+INFO    : (see log messages above or in the 'logs' folder for more information)
+INFO    : ----------------------------------------------------

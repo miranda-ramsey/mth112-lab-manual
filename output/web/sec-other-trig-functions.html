@@ -6,75 +6,32 @@
 <!--*                                          *-->
 <!--********************************************-->
 <html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Other Trigonometric Functions</title>
-<link xmlns:xlink="http://www.w3.org/1999/xlink" rel="preconnect" href="https://fonts.googleapis.com">
-<link xmlns:xlink="http://www.w3.org/1999/xlink" rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link xmlns:xlink="http://www.w3.org/1999/xlink" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
 <link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
-<link xmlns:xlink="http://www.w3.org/1999/xlink" href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
-<script>
-var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
-window.MathJax = {
-  "tex": {
-    "inlineMath": [
-      [
-        "\\(",
-        "\\)"
-      ]
-    ],
-    "tags": "none",
-    "tagSide": "right",
-    "tagIndent": ".8em",
-    "packages": {
-      "[+]": [
-        "base",
-        "extpfeil",
-        "ams",
-        "amscd",
-        "color",
-        "newcommand",
-        "knowl"
-      ]
-    }
-  },
-  "options": {
-    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
-    "processHtmlClass": "process-math"
-  },
-  "chtml": {
-    "scale": 0.98,
-    "mtextInheritFont": true
-  },
-  "loader": {
-    "load": [
-      "input/asciimath",
-      "[tex]/extpfeil",
-      "[tex]/amscd",
-      "[tex]/color",
-      "[tex]/newcommand",
-      "[pretext]/mathjaxknowl3.js"
-    ],
-    "paths": {
-      "pretext": "_static/pretext/js/lib"
-    }
-  },
-  "startup": {
-    pageReady() {
-      return MathJax.startup.defaultPageReady().then(function () {
-      console.log("in ready function");
-      rsMathReady();
-      }
-    )}
-  }
-};
-</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta xmlns:xlink="http://www.w3.org/1999/xlink" name="Keywords" content="Authored in PreTeXt">
+<script type="module">import { startMathJax } from './_static/pretext/js/mathjax_startup.js';
+startMathJax({
+hasWebworkReps: false,
+hasSage: false,
+isReact: false,
+htmlPresentation: false,
+});
+</script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="og:type" content="book">
-<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:title" content="Lab Manual for MTH 112">
-<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:author" content="Mathematics Faculty">
-<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<meta property="og:type" content="book">
+<meta property="book:title" content="Lab Manual for MTH 112">
+<meta property="book:author" content="Mathematics Faculty">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><!--** eBookCongig is necessary to configure interactive       **-->
 <!--** Runestone components to run locally in reader's browser **-->
 <!--** No external communication:                              **-->
 <!--**     log level is 0, Runestone Services are disabled     **-->
@@ -105,14 +62,14 @@ eBookConfig.enable_chatcodes =  false;
 <!--*** Runestone Services ***-->
 <script src="_static/prefix-runtime.dcab57465a404e85.bundle.js"></script><script src="_static/prefix-713.de0ab26248766350.bundle.js"></script><script src="_static/prefix-runestone.79fbb790b185d712.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-713.f43ced6a6134ea74.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.87414d180ebeebd6.css">
-<script xmlns:xlink="http://www.w3.org/1999/xlink" src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdn.geogebra.org/apps/deployggb.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdn.geogebra.org/apps/deployggb.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
 <body class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
-<h1 class="heading"><a href="mth-112-workbook.html"><span class="title">Lab Manual for MTH 112:</span> <span class="subtitle">Precalculus II: Trigonometry</span></a></h1>
+<h1 class="heading"><a href="mth-112-workbook.html"><span class="title">Lab Manual for MTH 112</span> <span class="subtitle">Precalculus II: Trigonometry</span></a></h1>
 <p class="byline">Mathematics Faculty</p>
-</div></div></header><nav xmlns:xlink="http://www.w3.org/1999/xlink" id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
 <button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
 <div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
 <div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
@@ -139,7 +96,7 @@ var ggbApp = new GGBApplet({"appName": "graphing",
     "disableAutoScale": false},
 true);
 </script><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-unit-circle.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="unit-circle.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="periodic-functions.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
-</div></nav><div xmlns:xlink="http://www.w3.org/1999/xlink" id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
 \newcommand{\Q}{\mathbb Q}
 \newcommand{\R}{\mathbb R}
@@ -150,7 +107,7 @@ true);
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
 <div class="ptx-page">
-<div xmlns:xlink="http://www.w3.org/1999/xlink" id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-frontmatter">
 <div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
 <ul class="structural toc-item-list">
@@ -351,61 +308,191 @@ true);
 </li>
 <li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
 </ul></nav></div>
-<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section xmlns:xlink="http://www.w3.org/1999/xlink" class="section" id="sec-other-trig-functions"><h2 class="heading hide-type">
-<span class="type">Section</span><span class="space"> </span><span class="codenumber">5.4</span><span class="space"> </span><span class="title">Other Trigonometric Functions</span>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<section class="section" id="sec-other-trig-functions">
+<h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.4</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Other Trigonometric Functions</span>
 </h2>
-<section class="introduction" id="sec-other-trig-functions-2"><div class="para" id="sec-other-trig-functions-2-1">In this section, we’ll find exact values of the trigonometric functions secant, cosecant, tangent, and cotangent of <span class="process-math">\(\frac{\pi}{3}\text{,}\)</span> <span class="process-math">\(\frac{\pi}{4}\text{,}\)</span> and <span class="process-math">\(\frac{\pi}{3}\text{,}\)</span> use reference angles to evaluate the trigonometric functions secant, tangent, and cotangent, use properties of even and odd trigonometric functions, recognize and use fundamental identities, and evaluate trigonometric functions with a calculator.</div></section><section class="subsection" id="sec-other-trig-functions-3"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Textbook Reference</span>
+<section class="introduction" id="sec-other-trig-functions-2">
+<div class="para" id="sec-other-trig-functions-2-1">In this section, we’ll find exact values of the trigonometric functions secant, cosecant, tangent, and cotangent of <span class="process-math">\(\frac{\pi}{3}\text{,}\)</span> <span class="process-math">\(\frac{\pi}{4}\text{,}\)</span> and <span class="process-math">\(\frac{\pi}{3}\text{,}\)</span> use reference angles to evaluate the trigonometric functions secant, tangent, and cotangent, use properties of even and odd trigonometric functions, recognize and use fundamental identities, and evaluate trigonometric functions with a calculator.<div class="autopermalink" data-description="Paragraph"><a href="#sec-other-trig-functions-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section>
+<section class="subsection" id="sec-other-trig-functions-3">
+<h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Textbook Reference</span>
 </h3>
-<div class="para" id="sec-other-trig-functions-3-2">This relates to content in §7.4 of <a class="external" href="https://openstax.org/details/books/algebra-and-trigonometry-2e" target="_blank">Algebra and Trigonometry 2e</a><details class="ptx-footnote" aria-live="polite" id="sec-other-trig-functions-3-2-3"><summary class="ptx-footnote__number" title="Footnote 5.4.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="sec-other-trig-functions-3-2-3"><code class="code-inline tex2jax_ignore">http://tiny.cc/111Z-Textbook</code></div></details>.</div></section><section class="exercises" id="sec-other-trig-functions-4"><h3 class="heading hide-type">
-<span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Preparation Exercises</span>
-</h3>
-<section class="introduction" id="sec-other-trig-functions-4-2"><div class="para" id="sec-other-trig-functions-4-2-1">Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.</div></section><article class="exercise exercise-like" id="sec-other-trig-functions-4-3"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
-<div class="para" id="sec-other-trig-functions-4-3-1-1">What does "CHOSHACAO" stand for? See <a href="sec-right-angle-trig.html#definitions-right-angle-trig" class="internal" title="Subsection: Definitions">Right Angle Trigonometry Definitions </a>.</div></article><article class="exercise exercise-like" id="sec-other-trig-functions-4-4"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
-<div class="para" id="sec-other-trig-functions-4-4-1-1">What is the value of <span class="process-math">\(\sin(\frac{\pi}{3])\text{?}\)</span>
-</div></article><article class="exercise exercise-like" id="sec-other-trig-functions-4-5"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
-<div class="para" id="sec-other-trig-functions-4-5-1-1">Find the value of <span class="process-math">\(\cos(\frac{11\pi}{4])\)</span> using your memorized unit circle values and a reference angle.</div></article><article class="exercise exercise-like" id="sec-other-trig-functions-4-6"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
-<div class="para" id="sec-other-trig-functions-4-6-1-1">Find the value of <span class="process-math">\(\sin(-\frac{2\pi}{3])\)</span> using your memorized unit circle values and a reference angle.</div></article><article class="exercise exercise-like" id="sec-other-trig-functions-4-7"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
-<div class="para" id="sec-other-trig-functions-4-7-1-1">Explain what makes a function an "odd function"?</div></article></section><section class="exercises" id="practice-other-trig-functions"><h3 class="heading hide-type">
-<span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Practice Exercises</span>
-</h3>
-<article class="exercise exercise-like" id="practice-other-trig-functions-2"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
-<div class="introduction" id="practice-other-trig-functions-2-1">
-<div class="para" id="practice-other-trig-functions-2-1-1">Find all six trigonometric function values given the coordinates at an angle <span class="process-math">\(\gamma\)</span> on a unit circle.</div>
-<figure class="figure figure-like" id="practice-other-trig-functions-2-1-2"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;">
-<img src="generated/latex-image/practice-other-trig-functions-2-1-2-2.svg" role="img" class="contained" alt="described in detail following the image" aria-describedby="practice-other-trig-functions-2-1-2-2-description"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="practice-other-trig-functions-2-1-2-2-description"><div class="para" id="practice-other-trig-functions-2-1-2-2-1-1">A unit circle with an angle <span class="process-math">\(\gamma\)</span> in standard position, beginning on the positive <span class="process-math">\(x\)</span>-axis and rotating counter-clockwise to the coordinates <span class="process-math">\((-\frac{\sqrt{3}}{2},\frac12)\)</span> in the second quadrant.</div></div></details>
+<div class="para" id="sec-other-trig-functions-3-2">This relates to content in §7.4 of <a class="external" href="https://openstax.org/details/books/algebra-and-trigonometry-2e" target="_blank">Algebra and Trigonometry 2e</a>.<div class="autopermalink" data-description="Paragraph"><a href="#sec-other-trig-functions-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.4.1<span class="period">.</span></span><span class="space"> </span>A point on a unit circle at an angle <span class="process-math">\(\gamma\)</span></figcaption></figure>
+<div class="autopermalink" data-description="Subsection: Textbook Reference"><a href="#sec-other-trig-functions-3" title="Copy heading and permalink for Subsection: Textbook Reference" aria-label="Copy heading and permalink for Subsection: Textbook Reference">🔗</a></div>
+</section>
+<section class="exercises" id="sec-other-trig-functions-4">
+<h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Preparation Exercises</span>
+</h3>
+<section class="introduction" id="sec-other-trig-functions-4-2">
+<div class="para" id="sec-other-trig-functions-4-2-1">Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.<div class="autopermalink" data-description="Paragraph"><a href="#sec-other-trig-functions-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section>
+<article class="exercise exercise-like" id="sec-other-trig-functions-4-3"><h4 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="sec-other-trig-functions-4-3-1-1">What does "CHOSHACAO" stand for? See <a href="sec-right-angle-trig.html#definitions-right-angle-trig" class="internal" title="Subsection: Definitions">Right Angle Trigonometry Definitions </a>.<div class="autopermalink" data-description="Paragraph"><a href="#sec-other-trig-functions-4-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 1"><a href="#sec-other-trig-functions-4-3" title="Copy heading and permalink for Exercise 1" aria-label="Copy heading and permalink for Exercise 1">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="sec-other-trig-functions-4-4"><h4 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="sec-other-trig-functions-4-4-1-1">What is the value of <span class="process-math">\(\sin(\frac{\pi}{3])\text{?}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-other-trig-functions-4-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 2"><a href="#sec-other-trig-functions-4-4" title="Copy heading and permalink for Exercise 2" aria-label="Copy heading and permalink for Exercise 2">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="sec-other-trig-functions-4-5"><h4 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="sec-other-trig-functions-4-5-1-1">Find the value of <span class="process-math">\(\cos(\frac{11\pi}{4])\)</span> using your memorized unit circle values and a reference angle.<div class="autopermalink" data-description="Paragraph"><a href="#sec-other-trig-functions-4-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 3"><a href="#sec-other-trig-functions-4-5" title="Copy heading and permalink for Exercise 3" aria-label="Copy heading and permalink for Exercise 3">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="sec-other-trig-functions-4-6"><h4 class="heading"><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="sec-other-trig-functions-4-6-1-1">Find the value of <span class="process-math">\(\sin(-\frac{2\pi}{3])\)</span> using your memorized unit circle values and a reference angle.<div class="autopermalink" data-description="Paragraph"><a href="#sec-other-trig-functions-4-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 4"><a href="#sec-other-trig-functions-4-6" title="Copy heading and permalink for Exercise 4" aria-label="Copy heading and permalink for Exercise 4">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="sec-other-trig-functions-4-7"><h4 class="heading"><span class="codenumber">5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="sec-other-trig-functions-4-7-1-1">Explain what makes a function an "odd function"?<div class="autopermalink" data-description="Paragraph"><a href="#sec-other-trig-functions-4-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 5"><a href="#sec-other-trig-functions-4-7" title="Copy heading and permalink for Exercise 5" aria-label="Copy heading and permalink for Exercise 5">🔗</a></div>
+</article><div class="autopermalink" data-description="Exercises: Preparation Exercises"><a href="#sec-other-trig-functions-4" title="Copy heading and permalink for Exercises: Preparation Exercises" aria-label="Copy heading and permalink for Exercises: Preparation Exercises">🔗</a></div>
+</section>
+<section class="exercises" id="practice-other-trig-functions">
+<h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Practice Exercises</span>
+</h3>
+<article class="exercise exercise-like" id="practice-other-trig-functions-2"><h4 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="introduction" id="practice-other-trig-functions-2-1">
+<div class="para" id="practice-other-trig-functions-2-1-1">Find all six trigonometric function values given the coordinates at an angle <span class="process-math">\(\gamma\)</span> on a unit circle.<div class="autopermalink" data-description="Paragraph"><a href="#practice-other-trig-functions-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="practice-other-trig-functions-2-1-2"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;">
+<img src="generated/latex-image/practice-other-trig-functions-2-1-2-2.svg" role="img" class="contained" alt="described in detail following the image" aria-describedby="practice-other-trig-functions-2-1-2-2-description"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="practice-other-trig-functions-2-1-2-2-description">
+<div class="para" id="practice-other-trig-functions-2-1-2-2-1-1">A unit circle with an angle <span class="process-math">\(\gamma\)</span> in standard position, beginning on the positive <span class="process-math">\(x\)</span>-axis and rotating counter-clockwise to the coordinates <span class="process-math">\((-\frac{\sqrt{3}}{2},\frac12)\)</span> in the second quadrant.<div class="autopermalink" data-description="Paragraph"><a href="#practice-other-trig-functions-2-1-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div></details>
+</div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.4.1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A point on a unit circle at an angle <span class="process-math">\(\gamma\)</span><div class="autopermalink" data-description="Figure 5.4.1"><a href="#practice-other-trig-functions-2-1-2" title="Copy heading and permalink for Figure 5.4.1" aria-label="Copy heading and permalink for Figure 5.4.1">🔗</a></div></figcaption>
+</figure>
 </div>
 <article class="task exercise-like" id="practice-other-trig-functions-2-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="practice-other-trig-functions-2-2-1-1"><span class="process-math">\(\sin(\gamma)\)</span></div></article><article class="task exercise-like" id="practice-other-trig-functions-2-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="practice-other-trig-functions-2-3-1-1"><span class="process-math">\(\cos(\gamma)\)</span></div></article><article class="task exercise-like" id="practice-other-trig-functions-2-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="practice-other-trig-functions-2-4-1-1"><span class="process-math">\(\csc(\gamma)\)</span></div></article><article class="task exercise-like" id="practice-other-trig-functions-2-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="practice-other-trig-functions-2-5-1-1"><span class="process-math">\(\sec(\gamma)\)</span></div></article><article class="task exercise-like" id="practice-other-trig-functions-2-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
-<div class="para" id="practice-other-trig-functions-2-6-1-1"><span class="process-math">\(\tan(\gamma)\)</span></div></article><article class="task exercise-like" id="practice-other-trig-functions-2-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
-<div class="para" id="practice-other-trig-functions-2-7-1-1"><span class="process-math">\(\cot(\gamma)\)</span></div></article></article><article class="exercise exercise-like" id="practice-other-trig-functions-3"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
-<div class="introduction" id="practice-other-trig-functions-3-1"><div class="para" id="practice-other-trig-functions-3-1-1">Find all six trigonometric function values at the angle <span class="process-math">\(\frac{\pi}{3}\)</span> using your memorized values for <span class="process-math">\(\sin(\frac{\pi}{3})\)</span> and <span class="process-math">\(\cos(\frac{\pi}{3}\right)\text{.}\)</span>
-</div></div>
-<article class="task exercise-like" id="practice-other-trig-functions-3-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="practice-other-trig-functions-3-2-1-1"><span class="process-math">\(\sin(\frac{\pi}{3})\)</span></div></article><article class="task exercise-like" id="practice-other-trig-functions-3-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="practice-other-trig-functions-3-3-1-1"><span class="process-math">\(\cos(\frac{\pi}{3})\)</span></div></article><article class="task exercise-like" id="practice-other-trig-functions-3-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="practice-other-trig-functions-3-4-1-1"><span class="process-math">\(\csc(\frac{\pi}{3})\)</span></div></article><article class="task exercise-like" id="practice-other-trig-functions-3-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="practice-other-trig-functions-3-5-1-1"><span class="process-math">\(\sec(\frac{\pi}{3})\)</span></div></article><article class="task exercise-like" id="practice-other-trig-functions-3-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
-<div class="para" id="practice-other-trig-functions-3-6-1-1"><span class="process-math">\(\tan(\frac{\pi}{3})\)</span></div></article><article class="task exercise-like" id="practice-other-trig-functions-3-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
-<div class="para" id="practice-other-trig-functions-3-7-1-1"><span class="process-math">\(\cot(\frac{\pi}{3})\)</span></div></article></article><article class="exercise exercise-like" id="practice-other-trig-functions-4"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
-<div class="introduction" id="practice-other-trig-functions-4-1">
-<div class="para" id="practice-other-trig-functions-4-1-1">Find the trigonometric function values given the right triangle with lengths shown in <a href="sec-other-trig-functions.html#figure-other-trig-practice-2" class="xref" data-knowl="./knowl/xref/figure-other-trig-practice-2.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 5.4.2">Figure 5.4.2</a>.</div>
-<figure class="figure figure-like" id="figure-other-trig-practice-2"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;">
-<img src="generated/latex-image/figure-other-trig-practice-2-2.svg" role="img" class="contained" alt="described in detail following the image" aria-describedby="figure-other-trig-practice-2-2-description"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="figure-other-trig-practice-2-2-description"><div class="para" id="figure-other-trig-practice-2-2-1-1"></div></div></details>
+<div class="para" id="practice-other-trig-functions-2-2-1-1">
+<span class="process-math">\(\sin(\gamma)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#practice-other-trig-functions-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.4.2<span class="period">.</span></span><span class="space"> </span></figcaption></figure>
+<div class="autopermalink" data-description="Task 1.a"><a href="#practice-other-trig-functions-2-2" title="Copy heading and permalink for Task 1.a" aria-label="Copy heading and permalink for Task 1.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="practice-other-trig-functions-2-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="practice-other-trig-functions-2-3-1-1">
+<span class="process-math">\(\cos(\gamma)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#practice-other-trig-functions-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.b"><a href="#practice-other-trig-functions-2-3" title="Copy heading and permalink for Task 1.b" aria-label="Copy heading and permalink for Task 1.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="practice-other-trig-functions-2-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="practice-other-trig-functions-2-4-1-1">
+<span class="process-math">\(\csc(\gamma)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#practice-other-trig-functions-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.c"><a href="#practice-other-trig-functions-2-4" title="Copy heading and permalink for Task 1.c" aria-label="Copy heading and permalink for Task 1.c">🔗</a></div>
+</article>
+<article class="task exercise-like" id="practice-other-trig-functions-2-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="practice-other-trig-functions-2-5-1-1">
+<span class="process-math">\(\sec(\gamma)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#practice-other-trig-functions-2-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.d"><a href="#practice-other-trig-functions-2-5" title="Copy heading and permalink for Task 1.d" aria-label="Copy heading and permalink for Task 1.d">🔗</a></div>
+</article>
+<article class="task exercise-like" id="practice-other-trig-functions-2-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="practice-other-trig-functions-2-6-1-1">
+<span class="process-math">\(\tan(\gamma)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#practice-other-trig-functions-2-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.e"><a href="#practice-other-trig-functions-2-6" title="Copy heading and permalink for Task 1.e" aria-label="Copy heading and permalink for Task 1.e">🔗</a></div>
+</article>
+<article class="task exercise-like" id="practice-other-trig-functions-2-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="practice-other-trig-functions-2-7-1-1">
+<span class="process-math">\(\cot(\gamma)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#practice-other-trig-functions-2-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.f"><a href="#practice-other-trig-functions-2-7" title="Copy heading and permalink for Task 1.f" aria-label="Copy heading and permalink for Task 1.f">🔗</a></div>
+</article><div class="autopermalink" data-description="Exercise 1"><a href="#practice-other-trig-functions-2" title="Copy heading and permalink for Exercise 1" aria-label="Copy heading and permalink for Exercise 1">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="practice-other-trig-functions-3"><h4 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="introduction" id="practice-other-trig-functions-3-1">
+<div class="para" id="practice-other-trig-functions-3-1-1">Find all six trigonometric function values at the angle <span class="process-math">\(\frac{\pi}{3}\)</span> using your memorized values for <span class="process-math">\(\sin\left(\frac{\pi}{3}\right)\)</span> and <span class="process-math">\(\cos\left(\frac{\pi}{3}\right)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#practice-other-trig-functions-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="practice-other-trig-functions-3-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="practice-other-trig-functions-3-2-1-1">
+<span class="process-math">\(\sin(\frac{\pi}{3})\)</span><div class="autopermalink" data-description="Paragraph"><a href="#practice-other-trig-functions-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.a"><a href="#practice-other-trig-functions-3-2" title="Copy heading and permalink for Task 2.a" aria-label="Copy heading and permalink for Task 2.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="practice-other-trig-functions-3-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="practice-other-trig-functions-3-3-1-1">
+<span class="process-math">\(\cos(\frac{\pi}{3})\)</span><div class="autopermalink" data-description="Paragraph"><a href="#practice-other-trig-functions-3-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.b"><a href="#practice-other-trig-functions-3-3" title="Copy heading and permalink for Task 2.b" aria-label="Copy heading and permalink for Task 2.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="practice-other-trig-functions-3-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="practice-other-trig-functions-3-4-1-1">
+<span class="process-math">\(\csc(\frac{\pi}{3})\)</span><div class="autopermalink" data-description="Paragraph"><a href="#practice-other-trig-functions-3-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.c"><a href="#practice-other-trig-functions-3-4" title="Copy heading and permalink for Task 2.c" aria-label="Copy heading and permalink for Task 2.c">🔗</a></div>
+</article>
+<article class="task exercise-like" id="practice-other-trig-functions-3-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="practice-other-trig-functions-3-5-1-1">
+<span class="process-math">\(\sec(\frac{\pi}{3})\)</span><div class="autopermalink" data-description="Paragraph"><a href="#practice-other-trig-functions-3-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.d"><a href="#practice-other-trig-functions-3-5" title="Copy heading and permalink for Task 2.d" aria-label="Copy heading and permalink for Task 2.d">🔗</a></div>
+</article>
+<article class="task exercise-like" id="practice-other-trig-functions-3-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="practice-other-trig-functions-3-6-1-1">
+<span class="process-math">\(\tan(\frac{\pi}{3})\)</span><div class="autopermalink" data-description="Paragraph"><a href="#practice-other-trig-functions-3-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.e"><a href="#practice-other-trig-functions-3-6" title="Copy heading and permalink for Task 2.e" aria-label="Copy heading and permalink for Task 2.e">🔗</a></div>
+</article>
+<article class="task exercise-like" id="practice-other-trig-functions-3-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="practice-other-trig-functions-3-7-1-1">
+<span class="process-math">\(\cot(\frac{\pi}{3})\)</span><div class="autopermalink" data-description="Paragraph"><a href="#practice-other-trig-functions-3-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 2.f"><a href="#practice-other-trig-functions-3-7" title="Copy heading and permalink for Task 2.f" aria-label="Copy heading and permalink for Task 2.f">🔗</a></div>
+</article><div class="autopermalink" data-description="Exercise 2"><a href="#practice-other-trig-functions-3" title="Copy heading and permalink for Exercise 2" aria-label="Copy heading and permalink for Exercise 2">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="practice-other-trig-functions-4"><h4 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="introduction" id="practice-other-trig-functions-4-1">
+<div class="para" id="practice-other-trig-functions-4-1-1">Find the trigonometric function values given the right triangle with lengths shown in <a href="sec-other-trig-functions.html#figure-other-trig-practice-2" class="xref" data-knowl="./knowl/xref/figure-other-trig-practice-2.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 5.4.2">Figure 5.4.2</a>.<div class="autopermalink" data-description="Paragraph"><a href="#practice-other-trig-functions-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="figure-other-trig-practice-2"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;">
+<img src="generated/latex-image/figure-other-trig-practice-2-2.svg" role="img" class="contained" alt="described in detail following the image" aria-describedby="figure-other-trig-practice-2-2-description"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="figure-other-trig-practice-2-2-description">
+<div class="para" id="figure-other-trig-practice-2-2-1-1"><div class="autopermalink" data-description="Paragraph"><a href="#figure-other-trig-practice-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+</div></details>
+</div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.4.2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" data-description="Figure 5.4.2"><a href="#figure-other-trig-practice-2" title="Copy heading and permalink for Figure 5.4.2" aria-label="Copy heading and permalink for Figure 5.4.2">🔗</a></div></figcaption>
+</figure>
 </div>
 <article class="task exercise-like" id="practice-other-trig-functions-4-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="practice-other-trig-functions-4-2-1-1"><span class="process-math">\(\sin(\theta)\)</span></div></article><article class="task exercise-like" id="practice-other-trig-functions-4-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="practice-other-trig-functions-4-3-1-1"><span class="process-math">\(\csc(\theta)\)</span></div></article><article class="task exercise-like" id="practice-other-trig-functions-4-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="practice-other-trig-functions-4-4-1-1"><span class="process-math">\(\sec(\theta)\)</span></div></article><article class="task exercise-like" id="practice-other-trig-functions-4-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="practice-other-trig-functions-4-5-1-1"><span class="process-math">\(\cot(\theta)\)</span></div></article></article><article class="exercise exercise-like" id="practice-other-trig-functions-5"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
-<div class="para" id="practice-other-trig-functions-5-1-1">Fill in a table of all 6 trig values for the standard angles on the unit circle.</div> <div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="practice-other-trig-functions-4-2-1-1">
+<span class="process-math">\(\sin(\theta)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#practice-other-trig-functions-4-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.a"><a href="#practice-other-trig-functions-4-2" title="Copy heading and permalink for Task 3.a" aria-label="Copy heading and permalink for Task 3.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="practice-other-trig-functions-4-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="practice-other-trig-functions-4-3-1-1">
+<span class="process-math">\(\csc(\theta)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#practice-other-trig-functions-4-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.b"><a href="#practice-other-trig-functions-4-3" title="Copy heading and permalink for Task 3.b" aria-label="Copy heading and permalink for Task 3.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="practice-other-trig-functions-4-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="practice-other-trig-functions-4-4-1-1">
+<span class="process-math">\(\sec(\theta)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#practice-other-trig-functions-4-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.c"><a href="#practice-other-trig-functions-4-4" title="Copy heading and permalink for Task 3.c" aria-label="Copy heading and permalink for Task 3.c">🔗</a></div>
+</article>
+<article class="task exercise-like" id="practice-other-trig-functions-4-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="practice-other-trig-functions-4-5-1-1">
+<span class="process-math">\(\cot(\theta)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#practice-other-trig-functions-4-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.d"><a href="#practice-other-trig-functions-4-5" title="Copy heading and permalink for Task 3.d" aria-label="Copy heading and permalink for Task 3.d">🔗</a></div>
+</article><div class="autopermalink" data-description="Exercise 3"><a href="#practice-other-trig-functions-4" title="Copy heading and permalink for Exercise 3" aria-label="Copy heading and permalink for Exercise 3">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="practice-other-trig-functions-5"><h4 class="heading"><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="practice-other-trig-functions-5-1-1">Fill in a table of all 6 trig values for the standard angles on the unit circle.<div class="autopermalink" data-description="Paragraph"><a href="#practice-other-trig-functions-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <th scope="row" class="c m b1 r1 l3 t3 lines"><span class="process-math">\(\theta\)</span></th>
 <td class="c m b1 r1 l0 t3 lines"><span class="process-math">\(\quad 0 \quad\)</span></td>
@@ -462,95 +549,292 @@ true);
 <td class="c m b3 r1 l0 t0 lines"><span class="process-math">\(\qquad\)</span></td>
 <td class="c m b3 r3 l0 t0 lines"><span class="process-math">\(\qquad\)</span></td>
 </tr>
-</table></div></article><article class="exercise exercise-like" id="practice-other-trig-functions-6"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
-<div class="introduction" id="practice-other-trig-functions-6-1"><div class="para" id="practice-other-trig-functions-6-1-1"></div></div>
+</table></div>
+<div class="autopermalink" data-description="Exercise 4"><a href="#practice-other-trig-functions-5" title="Copy heading and permalink for Exercise 4" aria-label="Copy heading and permalink for Exercise 4">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="practice-other-trig-functions-6"><h4 class="heading"><span class="codenumber">5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="introduction" id="practice-other-trig-functions-6-1">
+<div class="para" id="practice-other-trig-functions-6-1-1">Use the fact that <span class="process-math">\(\sin(x)\text{,}\)</span> <span class="process-math">\(\tan(x)\text{,}\)</span> <span class="process-math">\(\cot(x)\text{,}\)</span> and <span class="process-math">\(\csc(x)\)</span> are all odd, and <span class="process-math">\(\cos(x)\)</span> and <span class="process-math">\(\sec(x)\)</span> are even to find the following values.<div class="autopermalink" data-description="Paragraph"><a href="#practice-other-trig-functions-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
 <article class="task exercise-like" id="practice-other-trig-functions-6-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="practice-other-trig-functions-6-2-1-1"></div></article><article class="task exercise-like" id="practice-other-trig-functions-6-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="practice-other-trig-functions-6-3-1-1"></div></article><article class="task exercise-like" id="practice-other-trig-functions-6-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="practice-other-trig-functions-6-4-1-1"></div></article><article class="task exercise-like" id="practice-other-trig-functions-6-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="practice-other-trig-functions-6-5-1-1"></div></article><article class="task exercise-like" id="practice-other-trig-functions-6-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
-<div class="para" id="practice-other-trig-functions-6-6-1-1"></div></article><article class="task exercise-like" id="practice-other-trig-functions-6-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
-<div class="para" id="practice-other-trig-functions-6-7-1-1"></div></article></article><article class="exercise exercise-like" id="practice-other-trig-functions-7"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
-<div class="introduction" id="practice-other-trig-functions-7-1"><div class="para" id="practice-other-trig-functions-7-1-1"></div></div>
+<div class="para" id="practice-other-trig-functions-6-2-1-1">
+<span class="process-math">\(\sin\left(-\frac{2\pi}{3}\right)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#practice-other-trig-functions-6-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.a"><a href="#practice-other-trig-functions-6-2" title="Copy heading and permalink for Task 5.a" aria-label="Copy heading and permalink for Task 5.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="practice-other-trig-functions-6-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="practice-other-trig-functions-6-3-1-1">
+<span class="process-math">\(\tan\left(-\frac{2\pi}{3}\right)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#practice-other-trig-functions-6-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.b"><a href="#practice-other-trig-functions-6-3" title="Copy heading and permalink for Task 5.b" aria-label="Copy heading and permalink for Task 5.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="practice-other-trig-functions-6-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="practice-other-trig-functions-6-4-1-1">
+<span class="process-math">\(\cot\left(-\frac{2\pi}{3}\right)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#practice-other-trig-functions-6-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.c"><a href="#practice-other-trig-functions-6-4" title="Copy heading and permalink for Task 5.c" aria-label="Copy heading and permalink for Task 5.c">🔗</a></div>
+</article>
+<article class="task exercise-like" id="practice-other-trig-functions-6-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="practice-other-trig-functions-6-5-1-1">
+<span class="process-math">\(\csc\left(-\frac{2\pi}{3}\right)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#practice-other-trig-functions-6-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.d"><a href="#practice-other-trig-functions-6-5" title="Copy heading and permalink for Task 5.d" aria-label="Copy heading and permalink for Task 5.d">🔗</a></div>
+</article>
+<article class="task exercise-like" id="practice-other-trig-functions-6-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="practice-other-trig-functions-6-6-1-1">
+<span class="process-math">\(\cos\left(-\frac{2\pi}{3}\right)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#practice-other-trig-functions-6-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.e"><a href="#practice-other-trig-functions-6-6" title="Copy heading and permalink for Task 5.e" aria-label="Copy heading and permalink for Task 5.e">🔗</a></div>
+</article>
+<article class="task exercise-like" id="practice-other-trig-functions-6-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="practice-other-trig-functions-6-7-1-1">
+<span class="process-math">\(\sec\left(-\frac{2\pi}{3}\right)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#practice-other-trig-functions-6-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 5.f"><a href="#practice-other-trig-functions-6-7" title="Copy heading and permalink for Task 5.f" aria-label="Copy heading and permalink for Task 5.f">🔗</a></div>
+</article><div class="autopermalink" data-description="Exercise 5"><a href="#practice-other-trig-functions-6" title="Copy heading and permalink for Exercise 5" aria-label="Copy heading and permalink for Exercise 5">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="practice-other-trig-functions-7"><h4 class="heading"><span class="codenumber">6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="introduction" id="practice-other-trig-functions-7-1">
+<div class="para" id="practice-other-trig-functions-7-1-1">Find the other five trigonometric values for the angle shown in each part.<div class="autopermalink" data-description="Paragraph"><a href="#practice-other-trig-functions-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
 <article class="task exercise-like" id="practice-other-trig-functions-7-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="practice-other-trig-functions-7-2-1-1"></div></article><article class="task exercise-like" id="practice-other-trig-functions-7-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="practice-other-trig-functions-7-3-1-1"></div></article></article></section><section class="subsection" id="definitions-other-trig-functions"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Definitions</span>
+<div class="para" id="practice-other-trig-functions-7-2-1-1">
+<span class="process-math">\(\sec(\psi) = -\frac{7}{2}\)</span> and <span class="process-math">\(\frac{\pi}{2} \leq \psi \leq \pi\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#practice-other-trig-functions-7-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 6.a"><a href="#practice-other-trig-functions-7-2" title="Copy heading and permalink for Task 6.a" aria-label="Copy heading and permalink for Task 6.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="practice-other-trig-functions-7-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="practice-other-trig-functions-7-3-1-1">
+<span class="process-math">\(\cot(\zeta) = -\frac{6}{5}\)</span> and <span class="process-math">\(\frac{3\pi}{2} \leq \zeta \leq 2\pi\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#practice-other-trig-functions-7-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 6.b"><a href="#practice-other-trig-functions-7-3" title="Copy heading and permalink for Task 6.b" aria-label="Copy heading and permalink for Task 6.b">🔗</a></div>
+</article><div class="autopermalink" data-description="Exercise 6"><a href="#practice-other-trig-functions-7" title="Copy heading and permalink for Exercise 6" aria-label="Copy heading and permalink for Exercise 6">🔗</a></div>
+</article><div class="autopermalink" data-description="Exercises: Practice Exercises"><a href="#practice-other-trig-functions" title="Copy heading and permalink for Exercises: Practice Exercises" aria-label="Copy heading and permalink for Exercises: Practice Exercises">🔗</a></div>
+</section>
+<section class="subsection" id="definitions-other-trig-functions">
+<h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Definitions</span>
 </h3>
 <article class="definition definition-like" id="definitions-other-trig-functions-2"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.4.3</span><span class="period">.</span><span class="space"> </span><span class="title">The "Other" Trigonometric Functions.</span>
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.4.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">The "Other" Trigonometric Functions.</span>
 </h4>
-<div class="para logical" id="definitions-other-trig-functions-2-2-1"><div class="displaymath process-math" id="definitions-other-trig-functions-2-2-1-1">
+<div class="sidebyside">
+<div class="sbsrow" style="margin-left:1.25%;margin-right:1.25%;grid-template-columns:61.5384615384615% 35.8974358974359%;column-gap:2.5%;">
+<div class="sbspanel sbspanel--top top" style="">
+<div class="para logical" id="definitions-other-trig-functions-2-2-1-1">
+<div class="para">For a right triangle with angle <span class="process-math">\(\theta\text{,}\)</span> the "<dfn class="terminology">other trig functions</dfn>" can be found by the following definitions as in <a href="sec-other-trig-functions.html#figure-other-trig-def-1" class="xref" data-knowl="./knowl/xref/figure-other-trig-def-1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 5.4.4">Figure 5.4.4</a>. Visit <a class="external" href="https://www.desmos.com/calculator/ywkhnnagb4" target="_blank">this interactive Desmos graph</a> to see the six trigonometric lengths in action.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/figure-other-trig-def-1.html" id="definitions-other-trig-functions-2-2-1-1-5">
 \begin{gather*}
-\\
-\\
-\\
-
+\tan(\theta) = \frac{\sin(\theta)}{\cos(\theta)}\\
+\cot(\theta) = \frac{\cos(\theta)}{\sin(\theta)}\\
+\sec(\theta) = \frac{1}{\cos(\theta)}\\
+\csc(\theta) = \frac{1}{\sin(\theta)}
 \end{gather*}
-</div></div></article><article class="definition definition-like" id="definitions-other-trig-functions-3"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.4.4</span><span class="period">.</span><span class="space"> </span><span class="title">CHOSHACAO.</span>
-</h4>
-<div class="para logical" id="definitions-other-trig-functions-3-2-1"><div class="displaymath process-math" id="definitions-other-trig-functions-3-2-1-1">
-\begin{gather*}
-\\
-\\
-\\
-
-\end{gather*}
-</div></div></article><article class="definition definition-like" id="definitions-other-trig-functions-4"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.4.5</span><span class="period">.</span><span class="space"> </span><span class="title">Even and Odd Trigonometric Functions.</span>
-</h4>
-<div class="para" id="definitions-other-trig-functions-4-2-1"></div> <ul class="disc" id="definitions-other-trig-functions-4-2-2">
-<li id="definitions-other-trig-functions-4-2-2-1"><div class="para" id="definitions-other-trig-functions-4-2-2-1-1"></div></li>
-<li id="definitions-other-trig-functions-4-2-2-2"><div class="para" id="definitions-other-trig-functions-4-2-2-2-1"></div></li>
-<li id="definitions-other-trig-functions-4-2-2-3"><div class="para" id="definitions-other-trig-functions-4-2-2-3-1"></div></li>
-<li id="definitions-other-trig-functions-4-2-2-4"><div class="para" id="definitions-other-trig-functions-4-2-2-4-1"></div></li>
-<li id="definitions-other-trig-functions-4-2-2-5"><div class="para" id="definitions-other-trig-functions-4-2-2-5-1"></div></li>
-<li id="definitions-other-trig-functions-4-2-2-6"><div class="para" id="definitions-other-trig-functions-4-2-2-6-1"></div></li>
-</ul></article><article class="definition definition-like" id="definitions-other-trig-functions-5"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.4.6</span><span class="period">.</span><span class="space"> </span><span class="title">Other Pythagorean Identities.</span>
-</h4>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:1.25%;margin-right:1.25%;">
-<div class="sbspanel top" style="width:61.5384615384615%;"><div class="para logical" id="definitions-other-trig-functions-5-2-1-1"><div class="displaymath process-math" id="definitions-other-trig-functions-5-2-1-1-1">
-\begin{gather*}
-\\
-
-\end{gather*}
-</div></div></div>
-<div class="sbspanel top" style="width:35.8974358974359%;"><figure class="figure figure-like" id="definitions-other-trig-functions-5-2-1-2"><img src="generated/latex-image/definitions-other-trig-functions-5-2-1-2-2.svg" role="img" class="contained" alt="described in detail following the image" aria-describedby="definitions-other-trig-functions-5-2-1-2-2-description"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="definitions-other-trig-functions-5-2-1-2-2-description"><div class="para" id="definitions-other-trig-functions-5-2-1-2-2-1-1"></div></div></details><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.4.7<span class="period">.</span></span><span class="space"> </span></figcaption></figure></div>
-</div></div></article><article class="definition definition-like" id="definitions-other-trig-functions-6"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.4.8</span><span class="period">.</span><span class="space"> </span><span class="title">Periods of Trigonometric Functions.</span>
-</h4>
-<div class="para logical" id="definitions-other-trig-functions-6-2-1"><ul class="disc" id="definitions-other-trig-functions-6-2-1-1">
-<li id="definitions-other-trig-functions-6-2-1-1-1"><div class="para" id="definitions-other-trig-functions-6-2-1-1-1-1"></div></li>
-<li id="definitions-other-trig-functions-6-2-1-1-2"><div class="para" id="definitions-other-trig-functions-6-2-1-1-2-1"></div></li>
-</ul></div></article></section><section class="exercises" id="exit-other-trig-functions"><h3 class="heading hide-type">
-<span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Exit Exercises</span>
-</h3>
-<article class="exercise exercise-like" id="exit-other-trig-functions-2"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
-<div class="para" id="exit-other-trig-functions-2-1-1"></div></article><article class="exercise exercise-like" id="exit-other-trig-functions-3"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
-<div class="para" id="exit-other-trig-functions-3-1-1"></div></article><article class="exercise exercise-like" id="exit-other-trig-functions-4"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
-<div class="introduction" id="exit-other-trig-functions-4-1">
-<div class="para" id="exit-other-trig-functions-4-1-1"></div>
-<figure class="figure figure-like" id="graph-domain-range-exit"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;">
-<img src="generated/latex-image/graph-domain-range-exit-2.svg" role="img" class="contained" alt="described in detail following the image" aria-describedby="graph-domain-range-exit-2-description"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="graph-domain-range-exit-2-description"><div class="para" id="graph-domain-range-exit-2-1-1">Graph of a function. From below, the curve travels up to the point <span class="process-math">\((-7,2)\text{,}\)</span> then passes smoothly through the points <span class="process-math">\((-4,-1)\text{;}\)</span> <span class="process-math">\((-2,-1)\text{;}\)</span> <span class="process-math">\((0,-3)\text{;}\)</span> <span class="process-math">\((5,4)\text{;}\)</span> <span class="process-math">\((7,0)\text{;}\)</span> then continues downward and to the right off of the grid.</div></div></details>
 </div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.4.9<span class="period">.</span></span><span class="space"> </span><span class="process-math">\(y=F(x)\)</span></figcaption></figure>
+<div class="autopermalink" data-description="Paragraph"><a href="#definitions-other-trig-functions-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<div class="sbspanel sbspanel--top top" style="">
+<figure class="figure figure-like" id="figure-other-trig-def-1"><div class="image-box"><img src="generated/latex-image/figure-other-trig-def-1-1.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.4.4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" data-description="Figure 5.4.4"><a href="#figure-other-trig-def-1" title="Copy heading and permalink for Figure 5.4.4" aria-label="Copy heading and permalink for Figure 5.4.4">🔗</a></div></figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description='Definition 5.4.3: The "Other" Trigonometric Functions'><a href="#definitions-other-trig-functions-2" title='Copy heading and permalink for Definition 5.4.3: The "Other" Trigonometric Functions' aria-label='Copy heading and permalink for Definition 5.4.3: The "Other" Trigonometric Functions'>🔗</a></div>
+</article>
+<article class="definition definition-like" id="definitions-other-trig-functions-3"><h4 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.4.5</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">CHOSHACAO.</span>
+</h4>
+<div class="sidebyside">
+<div class="sbsrow" style="margin-left:1.25%;margin-right:1.25%;grid-template-columns:61.5384615384615% 35.8974358974359%;column-gap:2.5%;">
+<div class="sbspanel sbspanel--top top" style="">
+<div class="para logical" id="definitions-other-trig-functions-3-2-1-1">
+<div class="para">For a right triangle with hypotenuse <span class="process-math">\(h\text{,}\)</span> and sides <span class="process-math">\(x\)</span> and <span class="process-math">\(y\text{,}\)</span> as in <a href="sec-other-trig-functions.html#figure-other-trig-def-2" class="xref" data-knowl="./knowl/xref/figure-other-trig-def-2.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 5.4.6">Figure 5.4.6</a>, tangent is still "opposite over adjacent", as you saw in the section about right-angle trigonometry and the "other trigonmetric function values" can be found with "<dfn class="terminology">CHOSHACAO</dfn>". Visit <a class="external" href="https://www.desmos.com/calculator/ywkhnnagb4" target="_blank">this interactive Desmos graph</a> to see the six trigonometric lengths in action.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/figure-other-trig-def-2.html" id="definitions-other-trig-functions-3-2-1-1-7">
+\begin{gather*}
+\tan(\theta) = \frac{y}{x} = \frac{\sin(\theta)}{\cos(\theta)}\\
+\cot(\theta) = \frac{x}{y} = \frac{\cos(\theta)}{\sin(\theta)}\\
+\sec(\theta) = \frac{h}{x} = \frac{1}{\cos(\theta)}\\
+\csc(\theta) = \frac{h}{y} = \frac{1}{\sin(\theta)}
+\end{gather*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#definitions-other-trig-functions-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<div class="sbspanel sbspanel--top top" style="">
+<figure class="figure figure-like" id="figure-other-trig-def-2"><div class="image-box"><img src="generated/latex-image/figure-other-trig-def-2-1.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.4.6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" data-description="Figure 5.4.6"><a href="#figure-other-trig-def-2" title="Copy heading and permalink for Figure 5.4.6" aria-label="Copy heading and permalink for Figure 5.4.6">🔗</a></div></figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Definition 5.4.5: CHOSHACAO"><a href="#definitions-other-trig-functions-3" title="Copy heading and permalink for Definition 5.4.5: CHOSHACAO" aria-label="Copy heading and permalink for Definition 5.4.5: CHOSHACAO">🔗</a></div>
+</article>
+<article class="definition definition-like" id="definitions-other-trig-functions-4"><h4 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.4.7</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Even and Odd Trigonometric Functions.</span>
+</h4>
+<div class="para" id="definitions-other-trig-functions-4-2-1">Recall that even functions are symmetrical about the <span class="process-math">\(y\)</span>-axis, which makes <span class="process-math">\(f(x)=f(-x)\text{,}\)</span> and odd functions are symmetrical about the origin, which makes <span class="process-math">\(-f(x) = f(-x)\text{.}\)</span> All of the trigonometric functions are either even or odd. Here’s a list:<div class="autopermalink" data-description="Paragraph"><a href="#definitions-other-trig-functions-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<ul class="disc" id="definitions-other-trig-functions-4-2-2">
+<li id="definitions-other-trig-functions-4-2-2-1">
+<div class="para" id="definitions-other-trig-functions-4-2-2-1-1">
+<span class="process-math">\(\sin(-x) = -\sin(x)\text{,}\)</span> so <span class="process-math">\(\sin(x)\)</span> is odd.<div class="autopermalink" data-description="Paragraph"><a href="#definitions-other-trig-functions-4-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#definitions-other-trig-functions-4-2-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="definitions-other-trig-functions-4-2-2-2">
+<div class="para" id="definitions-other-trig-functions-4-2-2-2-1">
+<span class="process-math">\(\tan(-x) = -\tan(x)\text{,}\)</span> so <span class="process-math">\(\tan(x)\)</span> is odd.<div class="autopermalink" data-description="Paragraph"><a href="#definitions-other-trig-functions-4-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#definitions-other-trig-functions-4-2-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="definitions-other-trig-functions-4-2-2-3">
+<div class="para" id="definitions-other-trig-functions-4-2-2-3-1">
+<span class="process-math">\(\cot(-x) = -\cot(x)\text{,}\)</span> so <span class="process-math">\(\cot(x)\)</span> is odd.<div class="autopermalink" data-description="Paragraph"><a href="#definitions-other-trig-functions-4-2-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#definitions-other-trig-functions-4-2-2-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="definitions-other-trig-functions-4-2-2-4">
+<div class="para" id="definitions-other-trig-functions-4-2-2-4-1">
+<span class="process-math">\(\csc(-x) = -\csc(x)\text{,}\)</span> so <span class="process-math">\(\csc(x)\)</span> is odd.<div class="autopermalink" data-description="Paragraph"><a href="#definitions-other-trig-functions-4-2-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#definitions-other-trig-functions-4-2-2-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="definitions-other-trig-functions-4-2-2-5">
+<div class="para" id="definitions-other-trig-functions-4-2-2-5-1">
+<span class="process-math">\(\cos(-x) = \cos(x)\text{,}\)</span> so <span class="process-math">\(\cos(x)\)</span> is even.<div class="autopermalink" data-description="Paragraph"><a href="#definitions-other-trig-functions-4-2-2-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#definitions-other-trig-functions-4-2-2-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="definitions-other-trig-functions-4-2-2-6">
+<div class="para" id="definitions-other-trig-functions-4-2-2-6-1">
+<span class="process-math">\(\sec(-x) = \sec(x)\text{,}\)</span> so <span class="process-math">\(\sec(x)\)</span> is even.<div class="autopermalink" data-description="Paragraph"><a href="#definitions-other-trig-functions-4-2-2-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#definitions-other-trig-functions-4-2-2-6" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Definition 5.4.7: Even and Odd Trigonometric Functions"><a href="#definitions-other-trig-functions-4" title="Copy heading and permalink for Definition 5.4.7: Even and Odd Trigonometric Functions" aria-label="Copy heading and permalink for Definition 5.4.7: Even and Odd Trigonometric Functions">🔗</a></div>
+</article>
+<article class="definition definition-like" id="definitions-other-trig-functions-5"><h4 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.4.8</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Other Pythagorean Identities.</span>
+</h4>
+<div class="sidebyside">
+<div class="sbsrow" style="margin-left:1.25%;margin-right:1.25%;grid-template-columns:61.5384615384615% 35.8974358974359%;column-gap:2.5%;">
+<div class="sbspanel sbspanel--top top" style="">
+<div class="para logical" id="definitions-other-trig-functions-5-2-1-1">
+<div class="para">You already know that <span class="process-math">\(\sin^2(\theta) + \cos^2(\theta) = 1\text{,}\)</span> and that this is called the <dfn class="terminology">Pythagorean Identity</dfn>. There are two other Pythagorean relationships which you can see in <a href="sec-other-trig-functions.html#figure-other-trig-def-3" class="xref" data-knowl="./knowl/xref/figure-other-trig-def-3.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 5.4.9">Figure 5.4.9</a>, which is a trimmed down version of <a href="sec-other-trig-functions.html#figure-other-trig-def-1" class="xref" data-knowl="./knowl/xref/figure-other-trig-def-1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 5.4.4">Figure 5.4.4</a>.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/figure-other-trig-def-3.html ./knowl/xref/figure-other-trig-def-1.html" id="definitions-other-trig-functions-5-2-1-1-5">
+\begin{gather*}
+\tan^2(\theta) + 1 = \sec^2(\theta)\\
+\cot^2(\theta) + 1 = \csc^2(\theta)
+\end{gather*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#definitions-other-trig-functions-5-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<div class="sbspanel sbspanel--top top" style="">
+<figure class="figure figure-like" id="figure-other-trig-def-3"><div class="image-box">
+<img src="generated/latex-image/figure-other-trig-def-3-2.svg" role="img" class="contained" alt="described in detail following the image" aria-describedby="figure-other-trig-def-3-2-description"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="figure-other-trig-def-3-2-description">
+<div class="para" id="figure-other-trig-def-3-2-1-1"><div class="autopermalink" data-description="Paragraph"><a href="#figure-other-trig-def-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+</div></details>
+</div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.4.9<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" data-description="Figure 5.4.9"><a href="#figure-other-trig-def-3" title="Copy heading and permalink for Figure 5.4.9" aria-label="Copy heading and permalink for Figure 5.4.9">🔗</a></div></figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Definition 5.4.8: Other Pythagorean Identities"><a href="#definitions-other-trig-functions-5" title="Copy heading and permalink for Definition 5.4.8: Other Pythagorean Identities" aria-label="Copy heading and permalink for Definition 5.4.8: Other Pythagorean Identities">🔗</a></div>
+</article>
+<article class="definition definition-like" id="definitions-other-trig-functions-6"><h4 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.4.10</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Periods of Trigonometric Functions.</span>
+</h4>
+<div class="para logical" id="definitions-other-trig-functions-6-2-1">
+<div class="para">The <dfn class="terminology">period</dfn> of a function is a length of the shortest <span class="process-math">\(x\)</span>-interval over which a function completes one full cycle. This can be thought of as the shortest distance that a graph can be shifted left or right before completely aligning with the original graph. Mathematically, this would be that the period, <span class="process-math">\(P\text{,}\)</span> of a repeating function <span class="process-math">\(f\)</span> is the smallestvalue such that <span class="process-math">\(f(x+P) = f(x)\text{,}\)</span> for any value of <span class="process-math">\(x\text{.}\)</span>
+</div>
+<ul class="disc" id="definitions-other-trig-functions-6-2-1-7">
+<li id="definitions-other-trig-functions-6-2-1-7-1">
+<div class="para" id="definitions-other-trig-functions-6-2-1-7-1-1">The period of <span class="process-math">\(\sin(x)\text{,}\)</span> <span class="process-math">\(\csc(x)\text{,}\)</span> <span class="process-math">\(\cos(x)\text{,}\)</span> and <span class="process-math">\(\sec(x)\)</span> is <span class="process-math">\(2\pi\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#definitions-other-trig-functions-6-2-1-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#definitions-other-trig-functions-6-2-1-7-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="definitions-other-trig-functions-6-2-1-7-2">
+<div class="para" id="definitions-other-trig-functions-6-2-1-7-2-1">The period of <span class="process-math">\(\tan(x)\)</span> and <span class="process-math">\(\cot(x)\)</span> is <span class="process-math">\(\pi\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#definitions-other-trig-functions-6-2-1-7-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#definitions-other-trig-functions-6-2-1-7-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#definitions-other-trig-functions-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 5.4.10: Periods of Trigonometric Functions"><a href="#definitions-other-trig-functions-6" title="Copy heading and permalink for Definition 5.4.10: Periods of Trigonometric Functions" aria-label="Copy heading and permalink for Definition 5.4.10: Periods of Trigonometric Functions">🔗</a></div>
+</article><div class="autopermalink" data-description="Subsection: Definitions"><a href="#definitions-other-trig-functions" title="Copy heading and permalink for Subsection: Definitions" aria-label="Copy heading and permalink for Subsection: Definitions">🔗</a></div>
+</section>
+<section class="exercises" id="exit-other-trig-functions">
+<h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Exit Exercises</span>
+</h3>
+<article class="exercise exercise-like" id="exit-other-trig-functions-2"><h4 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="exit-other-trig-functions-2-1-1">Evaluate <span class="process-math">\(\sec\left(\frac{-3\pi}{4}\right)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#exit-other-trig-functions-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 1"><a href="#exit-other-trig-functions-2" title="Copy heading and permalink for Exercise 1" aria-label="Copy heading and permalink for Exercise 1">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="exit-other-trig-functions-3"><h4 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="exit-other-trig-functions-3-1-1">If <span class="process-math">\(\cot(\alpha) = -\frac27\)</span> and <span class="process-math">\(\frac{\pi}{2} \leq \alpha \leq \pi\text{,}\)</span> find the value of <span class="process-math">\(\tan(\alpha)\)</span> and <span class="process-math">\(\sec(\alpha)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#exit-other-trig-functions-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 2"><a href="#exit-other-trig-functions-3" title="Copy heading and permalink for Exercise 2" aria-label="Copy heading and permalink for Exercise 2">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="exit-other-trig-functions-4"><h4 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="introduction" id="exit-other-trig-functions-4-1">
+<div class="para" id="exit-other-trig-functions-4-1-1">Find the trigonometric values given the right triangle with lengths shown below.<div class="autopermalink" data-description="Paragraph"><a href="#exit-other-trig-functions-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="figure-other-trig-exit"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;">
+<img src="generated/latex-image/figure-other-trig-exit-2.svg" role="img" class="contained" alt="described in detail following the image" aria-describedby="figure-other-trig-exit-2-description"><details class="image-description" aria-live="polite"><summary title="details"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span></summary><div id="figure-other-trig-exit-2-description">
+<div class="para" id="figure-other-trig-exit-2-1-1"><div class="autopermalink" data-description="Paragraph"><a href="#figure-other-trig-exit-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+</div></details>
+</div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.4.11<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A right triangle<div class="autopermalink" data-description="Figure 5.4.11"><a href="#figure-other-trig-exit" title="Copy heading and permalink for Figure 5.4.11" aria-label="Copy heading and permalink for Figure 5.4.11">🔗</a></div></figcaption>
+</figure>
 </div>
 <article class="task exercise-like" id="exit-other-trig-functions-4-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="exit-other-trig-functions-4-2-1-1"></div></article><article class="task exercise-like" id="exit-other-trig-functions-4-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="exit-other-trig-functions-4-3-1-1"></div></article><article class="task exercise-like" id="exit-other-trig-functions-4-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="exit-other-trig-functions-4-4-1-1"></div></article></article></section><section class="reading-questions" id="sec-other-trig-functions-8"><h3 class="heading hide-type">
-<span class="type">Reflection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Reflection</span>
+<div class="para" id="exit-other-trig-functions-4-2-1-1">
+<span class="process-math">\(\csc(\beta)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#exit-other-trig-functions-4-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.a"><a href="#exit-other-trig-functions-4-2" title="Copy heading and permalink for Task 3.a" aria-label="Copy heading and permalink for Task 3.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="exit-other-trig-functions-4-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="exit-other-trig-functions-4-3-1-1">
+<span class="process-math">\(\cot(\beta)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#exit-other-trig-functions-4-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.b"><a href="#exit-other-trig-functions-4-3" title="Copy heading and permalink for Task 3.b" aria-label="Copy heading and permalink for Task 3.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="exit-other-trig-functions-4-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="exit-other-trig-functions-4-4-1-1">
+<span class="process-math">\(\cos(\beta)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#exit-other-trig-functions-4-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 3.c"><a href="#exit-other-trig-functions-4-4" title="Copy heading and permalink for Task 3.c" aria-label="Copy heading and permalink for Task 3.c">🔗</a></div>
+</article><div class="autopermalink" data-description="Exercise 3"><a href="#exit-other-trig-functions-4" title="Copy heading and permalink for Exercise 3" aria-label="Copy heading and permalink for Exercise 3">🔗</a></div>
+</article><div class="autopermalink" data-description="Exercises: Exit Exercises"><a href="#exit-other-trig-functions" title="Copy heading and permalink for Exercises: Exit Exercises" aria-label="Copy heading and permalink for Exercises: Exit Exercises">🔗</a></div>
+</section>
+<section class="reading-questions" id="sec-other-trig-functions-8">
+<h3 class="heading hide-type">
+<span class="type">Reflection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Reflection</span>
 </h3>
-<article class="exercise exercise-like" id="sec-other-trig-functions-8-1"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
-<div class="para" id="sec-other-trig-functions-8-1-1-1">On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</div></article></section></section></div>
-<div class="ptx-content-footer">
-<a class="previous-button button" href="sec-unit-circle.html" title="Previous"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="periodic-functions.html" title="Next"><span class="name">Next</span><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<article class="exercise exercise-like" id="sec-other-trig-functions-8-1"><h4 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="sec-other-trig-functions-8-1-1-1">On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?<div class="autopermalink" data-description="Paragraph"><a href="#sec-other-trig-functions-8-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Reading Question 1"><a href="#sec-other-trig-functions-8-1" title="Copy heading and permalink for Reading Question 1" aria-label="Copy heading and permalink for Reading Question 1">🔗</a></div>
+</article><div class="autopermalink" data-description="Reflection"><a href="#sec-other-trig-functions-8" title="Copy heading and permalink for Reflection" aria-label="Copy heading and permalink for Reflection">🔗</a></div>
+</section><div class="autopermalink" data-description="Section 5.4: Other Trigonometric Functions"><a href="#sec-other-trig-functions" title="Copy heading and permalink for Section 5.4: Other Trigonometric Functions" aria-label="Copy heading and permalink for Section 5.4: Other Trigonometric Functions">🔗</a></div>
+</section>
+</div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec-unit-circle.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="periodic-functions.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
-<a xmlns:xlink="http://www.w3.org/1999/xlink" class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a xmlns:xlink="http://www.w3.org/1999/xlink" class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a xmlns:xlink="http://www.w3.org/1999/xlink" class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
 </div>
 </body>
 </html>

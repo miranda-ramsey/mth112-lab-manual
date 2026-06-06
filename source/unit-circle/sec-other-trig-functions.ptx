@@ -155,8 +155,8 @@
             <introduction>
                 <p>
                     Find all six trigonometric function values at the angle <m>\frac{\pi}{3}</m> 
-                    using your memorized values for <m>\sin(\frac{\pi}{3})</m> and
-                    <m>\cos(\frac{\pi}{3}\right)</m>.
+                    using your memorized values for <m>\sin\left(\frac{\pi}{3}\right)</m> and
+                    <m>\cos\left(\frac{\pi}{3}\right)</m>.
                 </p>
             </introduction>
             <task>
@@ -211,30 +211,28 @@
                 </p>
                 <figure xml:id="figure-other-trig-practice-2">
                     <caption></caption>
-                    <image>
+                    <image width="60%">
                         <description>
                             <p>
+                                <!--TODO-->
                             </p>
                         </description>
                         <latex-image>
                             <![CDATA[
-                            \begin{tikzpicture}[
-                                declare function={
-                                func(\x)= (\x<=-4) * (2/3*(\x+4)^2+1)  +
-                                and(\x>-4, \x<=-3)   +
-                                and(\x>-3, \x<=-2) * ((x+3)^2+1)   +
-                                and(\x>-2, \x<=0) * (-(x+1)^2+3)   +
-                                and(\x>0, \x<=2) * (-2*x+2)    +
-                                and(\x>2, \x<=4) * ((x-3)^2-3) +
-                                (\x>4) * (2*(x-4)-2);
-                                }
-                                ]
-                                \begin{axis}[xlabel={$t$}]
-                                \addplot+[domain=-7:6, samples=66, closedopen] {func(x)};
-                                \legend{\(y = r(t)\)}
-                                \end{axis}
-                            \end{tikzpicture}
-                            ]]>
+                                \begin{tikzpicture}
+                                \coordinate (O) at (3.30275,5.00917);
+                                \coordinate (B) at (0,0);
+                                \coordinate (A) at (10.9,0);
+                                \draw (O)--(A)--(B)--cycle;
+                                \footnotesize
+                                \tkzLabelSegment[above=2pt,rotate=-atan(5.00917/7.5972)](O,A){$91\text{cm}$}
+                                \tkzLabelSegment[above=2pt,rotate=atan(5.00917/3.30275)](O,B){$60\text{cm}$}
+                                \tkzLabelSegment[below=2pt](A,B){$109\text{cm}$}
+                                \tkzMarkRightAngle[size=0.5](A,O,B)
+                                \tkzMarkAngle[size=0.8cm](A,B,O)
+                                \tkzLabelAngle[pos = 1,right](A,B,O){$\theta$}
+                                \end{tikzpicture}
+                                ]]>
                         </latex-image>
                     </image>
                 </figure>
@@ -505,65 +503,136 @@
         <definition>
             <title>The "Other" Trigonometric Functions</title>
             <statement>
-                <p>
-                    For a right triangle with angle <m>\theta</m>, the "<term>other trig functions</term>"
-                    can be found by the following definitions as in <xref ref="figure-other-trig-def-1"/>.
-                    Visit <url href="https://www.desmos.com/calculator/ywkhnnagb4" visual="http://tiny.cc/six-trig-functions">
-                    this interactive Desmos graph</url> to see the six trigonometric lengths in action.
-                    <md>
-                        <mrow>\tan(\theta) = \frac{\sin(\theta)}{\cos(\theta)}</mrow>
-                        <mrow>\cot(\theta) = \frac{\cos(\theta)}{\sin(\theta)}</mrow>
-                        <mrow>\sec(\theta) = \frac{1}{\cos(\theta)}</mrow>
-                        <mrow>\csc(\theta) = \frac{1}{\sin(\theta)}</mrow>
-                    </md>
-                </p>
+                <sidebyside widths="60% 35%">
+                    <p>
+                        For a right triangle with angle <m>\theta</m>, the "<term>other trig functions</term>"
+                        can be found by the following definitions as in <xref ref="figure-other-trig-def-1"/>.
+                        Visit <url href="https://www.desmos.com/calculator/ywkhnnagb4" visual="http://tiny.cc/six-trig-functions">
+                        this interactive Desmos graph</url> to see the six trigonometric lengths in action.
+                        <md>
+                            <mrow>\tan(\theta) = \frac{\sin(\theta)}{\cos(\theta)}</mrow>
+                            <mrow>\cot(\theta) = \frac{\cos(\theta)}{\sin(\theta)}</mrow>
+                            <mrow>\sec(\theta) = \frac{1}{\cos(\theta)}</mrow>
+                            <mrow>\csc(\theta) = \frac{1}{\sin(\theta)}</mrow>
+                        </md>
+                    </p>
+                    <figure xml:id="figure-other-trig-def-1">
+                        <image>
+                            <latex-image>
+                                <![CDATA[
+                                    \begin{tikzpicture}
+                                    \begin{axis}[
+                                    framed,
+                                    xmin=-1.1,xmax=1.8,
+                                    ymin=-1.1,ymax=1.8,
+                                    xtick={-1,1},
+                                    ytick={-1,1},
+                                    ]
+                                    \draw 	(axis cs:0,0) circle [radius=1];
+                                    \addplot[mark=*,color=first] coordinates{(0.6,0.8)(0,0)(0.6,0)};
+                                    \addplot[mark=*,color=first] coordinates{(1.67,0)(0,1.25)};
+                                    \draw   [color=first, very thick](0,0)--(0.6,0.8);
+                                    \draw 	(0.3,0.4) node[above,color=first,rotate=53.13] {\scriptsize{$r=1$}};
+                                    \addplot[variable=\t, domain=0:atan(4/3), samples=50,very thin, color=third]({.2*cos(t)}, {.2*sin(t)});
+                                    \draw 	(0.25,0.07) node[left,color=third] {\tiny$\theta$};
+                                    \draw   [color=fourth,very thick](0,0)--(0.6,0);
+                                    \draw 	[decorate, pen colour={fourth}, decoration = {calligraphic brace, mirror, amplitude=3pt}] (0,0)--(0.6,0) node[pos=0.5,below,color=fourth] {\scriptsize$\cos(\theta)$};
+                                    \draw   [color=second, very thick](0.6,0)--(0.6,0.8);
+                                    \draw 	(0.6,0.3) node[above,color=second,rotate=-90] {\scriptsize$\sin(\theta)$};
+                                    \draw   [color=third, very thick](5/3,0)--(0.6,0.8);
+                                    \draw 	[decorate, pen colour={third}, decoration = {calligraphic brace, amplitude=5pt, mirror}] (1.76,.1)--(0.7,0.9) node[pos=0.5,above,color=third,rotate=-36.87] {\scriptsize$\tan(\theta)$};
+                                    \draw   [color=fourth, very thick](0.6,0.8)--(0,1.25);
+                                    \draw 	[decorate, pen colour={fourth}, decoration = {calligraphic brace, amplitude=5pt, mirror}] (0.7,0.9)--(0.1,1.35) node[pos=0.5,above,color=fourth,rotate=-36.87] {\scriptsize$\cot(\theta)$};
+                                    \draw   [color=fifth, very thick,dashed](5/3,0)--(0,0);
+                                    \draw 	[decorate, pen colour={fifth}, decoration = {calligraphic brace, mirror, amplitude=5pt, aspect=0.4}] (0,-0.2) --  (1.67,-0.2) node[pos=0.4,below,color=fifth] {\scriptsize$\sec(\theta)$};
+                                    \draw   [color=second, very thick](0,0)--(0,1.25);
+                                    \draw 	[decorate, pen colour={second}, decoration = {calligraphic brace, amplitude=5pt}] (-0.1,0) --  (-0.1,1.25) node[pos=0.5,above,color=second,rotate=90] {\scriptsize$\csc(\theta)$};
+                                    \end{axis}
+                                    \end{tikzpicture}
+                                    ]]>
+                            </latex-image>
+                        </image>
+                    </figure>
+                </sidebyside>
             </statement>
         </definition>
         <definition>
             <title>CHOSHACAO</title>
             <statement>
-                <p>
+                <sidebyside widths="60% 35%">
+                    <p>
                         For a right triangle with hypotenuse <m>h</m>, and sides <m>x</m> and <m>y</m>, as in <xref ref="figure-other-trig-def-2"/>, tangent is still "opposite over adjacent", as you saw in the section about right-angle trigonometry and the "other trigonmetric function values" can be found with "<term>CHOSHACAO</term>".
-                    Visit <url href="https://www.desmos.com/calculator/ywkhnnagb4" visual="http://tiny.cc/six-trig-functions">
-                    this interactive Desmos graph</url> to see the six trigonometric lengths in action.
-                    <md>
-                        <mrow>\tan(\theta) = \frac{y}{x} = \frac{\sin(\theta)}{\cos(\theta)}</mrow>
-                        <mrow>\cot(\theta) = \frac{x}{y} = \frac{\cos(\theta)}{\sin(\theta)}</mrow>
-                        <mrow>\sec(\theta) = \frac{h}{x} = \frac{1}{\cos(\theta)}</mrow>
-                        <mrow>\csc(\theta) = \frac{h}{y} = \frac{1}{\sin(\theta)}</mrow>
-                    </md>
-                </p>
+                            Visit <url href="https://www.desmos.com/calculator/ywkhnnagb4" visual="http://tiny.cc/six-trig-functions">
+                                this interactive Desmos graph</url> to see the six trigonometric lengths in action.
+                                <md>
+                                    <mrow>\tan(\theta) = \frac{y}{x} = \frac{\sin(\theta)}{\cos(\theta)}</mrow>
+                                    <mrow>\cot(\theta) = \frac{x}{y} = \frac{\cos(\theta)}{\sin(\theta)}</mrow>
+                                    <mrow>\sec(\theta) = \frac{h}{x} = \frac{1}{\cos(\theta)}</mrow>
+                                    <mrow>\csc(\theta) = \frac{h}{y} = \frac{1}{\sin(\theta)}</mrow>
+                                </md>
+                    </p>
+                    <figure xml:id="figure-other-trig-def-2">
+                        <image>
+                            <latex-image>
+                                <![CDATA[
+                                    \begin{tikzpicture}[thin, scale=2]
+                                    \coordinate (O) at (0,0);
+                                    \coordinate (A) at (3,0);
+                                    \coordinate (B) at (0,2);
+                                    \draw (O)--(A)--(B)--cycle;
+                                    \footnotesize
+                                    \tkzLabelSegment[below=2pt](O,A){$x$\text{, Adjacent}}
+                                    \tkzLabelSegment[above=2pt, rotate=90](O,B){$y$\text{, Opposite}}
+                                    \tkzLabelSegment[above=2pt, rotate=-atan(2/3)](A,B){$h$\text{, Hypotenuse}}
+                                    \tkzMarkRightAngle[size=0.5](A,O,B)
+                                    \tkzMarkAngle[size=0.8cm](B,A,O)
+                                    \tkzLabelAngle[pos = 0.6](B,A,O){\large$\theta$}
+                                    \end{tikzpicture}
+                                    ]]>
+                            </latex-image>
+                        </image>
+                    </figure>
+                </sidebyside>
             </statement>
         </definition>
         <definition>
             <title>Even and Odd Trigonometric Functions</title>
             <statement>
                 <p>
-                        Recall that even functions are symmetrical about the <m>y</m>-axis, which makes <m>f(x)=f(-x)</m>, and odd functions are symmetrical about the origin, which makes <m>-f(x) = f(-x)</m>. All of the trigonometric functions are either even or odd. Here's a list:
+                    Recall that even functions are symmetrical about the <m>y</m>-axis, which makes 
+                    <m>f(x)=f(-x)</m>, and odd functions are symmetrical about the origin, which 
+                    makes <m>-f(x) = f(-x)</m>. All of the trigonometric functions are either even 
+                    or odd. Here's a list:
                 </p>
                 <ul>
                     <li>
                         <p>
+                            <m>\sin(-x) = -\sin(x)</m>, so <m>\sin(x)</m> is odd.
                         </p>
                     </li>
                     <li>
                         <p>
+                            <m>\tan(-x) = -\tan(x)</m>, so <m>\tan(x)</m> is odd.
                         </p>
                     </li>
                     <li>
                         <p>
+                            <m>\cot(-x) = -\cot(x)</m>, so <m>\cot(x)</m> is odd.
                         </p>
                     </li>
                     <li>
                         <p>
+                            <m>\csc(-x) = -\csc(x)</m>, so <m>\csc(x)</m> is odd.
                         </p>
                     </li>
                     <li>
                         <p>
+                            <m>\cos(-x) = \cos(x)</m>, so <m>\cos(x)</m> is even.
                         </p>
                     </li>
                     <li>
                         <p>
+                            <m>\sec(-x) = \sec(x)</m>, so <m>\sec(x)</m> is even.
                         </p>
                     </li>
                 </ul>
@@ -574,12 +643,16 @@
             <statement>
                 <sidebyside widths="60% 35%">
                     <p>
+                        You already know that <m>\sin^2(\theta) + \cos^2(\theta) = 1</m>, and that
+                        this is called the <term>Pythagorean Identity</term>. There are two other
+                        Pythagorean relationships which you can see in <xref ref="figure-other-trig-def-3"/>, 
+                        which is a trimmed down version of <xref ref="figure-other-trig-def-1"/>.
                         <md>
-                            <mrow></mrow>
-                            <mrow></mrow>
+                            <mrow>\tan^2(\theta) + 1 = \sec^2(\theta)</mrow>
+                            <mrow>\cot^2(\theta) + 1 = \csc^2(\theta)</mrow>
                         </md>
                     </p>
-                    <figure>
+                    <figure xml:id="figure-other-trig-def-3">
                         <caption></caption>
                         <image width="60%">
                             <description>
@@ -590,38 +663,38 @@
                             <latex-image>
                                 <![CDATA[
                                     \begin{tikzpicture}
-			\begin{axis}[
-				framed,
-				xmin=-1.1,xmax=1.8,
-				ymin=-1.1,ymax=1.8,
-		       	xtick={-1,1},
-		       	ytick={-1,1},
-				]
-					\draw 	(axis cs:0,0) circle [radius=1];
-					\addplot[mark=*,color=first,mark size=1pt] coordinates{(0.6,0.8)(0,0)};
-					\addplot[mark=*,color=first,mark size=1pt] coordinates{(1.67,0)(0,1.25)};
+                                    \begin{axis}[
+                                    framed,
+                                    xmin=-1.1,xmax=1.8,
+                                    ymin=-1.1,ymax=1.8,
+                                    xtick={-1,1},
+                                    ytick={-1,1},
+                                    ]
+                                    \draw 	(axis cs:0,0) circle [radius=1];
+                                    \addplot[mark=*,color=first,mark size=1pt] coordinates{(0.6,0.8)(0,0)};
+                                    \addplot[mark=*,color=first,mark size=1pt] coordinates{(1.67,0)(0,1.25)};
 
-					\draw   [thin,color=fourth](0.7,0.725)--(0.622,0.621)--(0.522,0.696);
-					\draw   [thin,color=second](0.5,0.875)--(0.422,0.771)--(0.522,0.696); %these are kludgy ways of getting right angle markers but the markrightangle command doesn't work within an axis environment.
+                                    \draw   [thin,color=fourth](0.7,0.725)--(0.622,0.621)--(0.522,0.696);
+                                    \draw   [thin,color=second](0.5,0.875)--(0.422,0.771)--(0.522,0.696); %these are kludgy ways of getting right angle markers but the markrightangle command doesn't work within an axis environment.
 
-					\draw   [color=first, very thick](0,0)--(0.6,0.8);
-					\draw 	(0.3,0.4) node[above,color=first,rotate=53.13] {\footnotesize{$r=1$}};
-					\addplot[variable=\t, domain=0:atan(4/3), samples=50,very thin, color=first]({.2*cos(t)}, {.2*sin(t)});
-					\draw 	(0.15,0.1) node[right,color=first] {\footnotesize$\theta$};
+                                    \draw   [color=first, very thick](0,0)--(0.6,0.8);
+                                    \draw 	(0.3,0.4) node[above,color=first,rotate=53.13] {\footnotesize{$r=1$}};
+                                    \addplot[variable=\t, domain=0:atan(4/3), samples=50,very thin, color=first]({.2*cos(t)}, {.2*sin(t)});
+                                    \draw 	(0.15,0.1) node[right,color=first] {\footnotesize$\theta$};
 
-					\draw   [color=fourth, very thick](5/3,0)--(0.6,0.8);
-					\draw 	[decorate, pen colour={fourth}, decoration = {calligraphic brace, amplitude=5pt, mirror}] (1.76,.1)--(0.7,0.9) node[pos=0.5,above,color=fourth,rotate=-36.87] {\footnotesize$\tan(\theta)$};
-					\draw   [color=fourth, very thick](5/3,0)--(0,0);
-					\draw 	[decorate, pen colour={fourth}, decoration = {calligraphic brace, mirror, amplitude=5pt, aspect=0.4}] (0,-0.1) --  (1.67,-0.1) node[pos=0.4,below,color=fourth] {\footnotesize$\sec(\theta)$};
+                                    \draw   [color=fourth, very thick](5/3,0)--(0.6,0.8);
+                                    \draw 	[decorate, pen colour={fourth}, decoration = {calligraphic brace, amplitude=5pt, mirror}] (1.76,.1)--(0.7,0.9) node[pos=0.5,above,color=fourth,rotate=-36.87] {\footnotesize$\tan(\theta)$};
+                                    \draw   [color=fourth, very thick](5/3,0)--(0,0);
+                                    \draw 	[decorate, pen colour={fourth}, decoration = {calligraphic brace, mirror, amplitude=5pt, aspect=0.4}] (0,-0.1) --  (1.67,-0.1) node[pos=0.4,below,color=fourth] {\footnotesize$\sec(\theta)$};
 
-					\draw   [color=second, very thick](0.6,0.8)--(0,1.25);
-					\draw 	[decorate, pen colour={second}, decoration = {calligraphic brace, amplitude=5pt, mirror}] (0.7,0.9)--(0.1,1.35) node[pos=0.5,above,color=second,rotate=-36.87] {\footnotesize$\cot(\theta)$};
-					\draw   [color=second, very thick](0,0)--(0,1.25);
-					\draw   [color=second, thin](0.6,0.8)--(0,1.25);
-					\draw 	[decorate, pen colour={second}, decoration = {calligraphic brace, amplitude=5pt}] (-0.1,0) --  (-0.1,1.25) node[pos=0.5,above,color=second,rotate=90] {\footnotesize$\csc(\theta)$};
-			\end{axis}
+                                    \draw   [color=second, very thick](0.6,0.8)--(0,1.25);
+                                    \draw 	[decorate, pen colour={second}, decoration = {calligraphic brace, amplitude=5pt, mirror}] (0.7,0.9)--(0.1,1.35) node[pos=0.5,above,color=second,rotate=-36.87] {\footnotesize$\cot(\theta)$};
+                                    \draw   [color=second, very thick](0,0)--(0,1.25);
+                                    \draw   [color=second, thin](0.6,0.8)--(0,1.25);
+                                    \draw 	[decorate, pen colour={second}, decoration = {calligraphic brace, amplitude=5pt}] (-0.1,0) --  (-0.1,1.25) node[pos=0.5,above,color=second,rotate=90] {\footnotesize$\csc(\theta)$};
+                                    \end{axis}
                                     \end{tikzpicture}
-                                ]]>
+                                    ]]>
                             </latex-image>
                         </image>
                     </figure>
@@ -632,13 +705,22 @@
             <title>Periods of Trigonometric Functions</title>
             <statement>
                 <p>
+                    The <term>period</term> of a function is a length of the shortest <m>x</m>-interval
+                    over which a function completes one full cycle. This can be thought of as the 
+                    shortest distance that a graph can be shifted left or right before completely 
+                    aligning with the original graph. Mathematically, this would be that the period,
+                    <m>P</m>, of a repeating function <m>f</m> is the smallestvalue such that 
+                    <m>f(x+P) = f(x)</m>, for any value of <m>x</m>.
                     <ul>
                         <li>
                             <p>
+                                The period of <m>\sin(x)</m>, <m>\csc(x)</m>, <m>\cos(x)</m>, and 
+                                <m>\sec(x)</m> is <m>2\pi</m>.
                             </p>
                         </li>
                         <li>
                             <p>
+                                The period of <m>\tan(x)</m> and <m>\cot(x)</m> is <m>\pi</m>.
                             </p>
                         </li>
                     </ul>
@@ -653,62 +735,45 @@
         <exercise>
             <statement>
                 <p>
+                    Evaluate <m>\sec\left(\frac{-3\pi}{4}\right)</m>.
                 </p>
             </statement>
         </exercise>
         <exercise>
             <statement>
                 <p>
+                    If <m>\cot(\alpha) = -\frac27</m> and <m>\frac{\pi}{2} \leq \alpha \leq \pi</m>,
+                    find the value of <m>\tan(\alpha)</m> and <m>\sec(\alpha)</m>.
                 </p>
             </statement>
         </exercise>
         <exercise>
             <introduction>
                 <p>
+                    Find the trigonometric values given the right triangle with lengths shown below.
                 </p>
-                <figure xml:id="graph-domain-range-exit">
-                    <caption><m>y=F(x)</m></caption>
+                <figure xml:id="figure-other-trig-exit">
+                    <caption>A right triangle</caption>
                     <image width="60%">
                         <description>
                             <p>
-                                Graph of a function. From below, the curve travels up to the point <m>(-7,2)</m>,
-                                then passes smoothly through the points <m>(-4,-1)</m>;
-                                <m>(-2,-1)</m>;
-                                <m>(0,-3)</m>;
-                                <m>(5,4)</m>;
-                                <m>(7,0)</m>;
-                                then continues downward and to the right off of the grid.
+                                <!--TODO-->
                             </p>
                         </description>
                         <latex-image>
                             <![CDATA[
-                            \begin{tikzpicture}[
-                                declare function={
-                                func(\x)=
-                                (\x<=-7) * (-2*(\x+7)^2+2)  +
-                                and(\x>-7, \x<=-5) * (-0.5*(\x+7)^2+2)  +
-                                and(\x>-5, \x<=-4) * ((\x+4)^2-1)   +
-                                and(\x>-4, \x<=-2) * (-1)   +
-                                and(\x>-2, \x<=-1) * (-1*(\x+2)^2-1)    +
-                                and(\x>-1, \x<=1) * ((\x)^2-3)  +
-                                and(\x>1, \x<=3) * (2*(\x-1)-2) +
-                                and(\x>3, \x<=5) * (-0.5*(\x-5)^2+4)    +
-                                and(\x>5, \x<=7) * (-1*(\x-5)^2+4)  +
-                                (\x>7) * (4/(\x-6)-4);
-                                }
-                                ]
-                                \begin{axis}[
-                                width=\axisdefaultwidth,
-                                height=0.6*\axisdefaultheight,
-                                xmin=-10,xmax=10,
-                                ymin=-5,ymax=5,
-                                xtick={-8,-6,...,8},
-                                minor xtick={-9,-7,-5,...,7,9},
-                                ytick={-4,-2,...,6},
-                                minor ytick={-7,-5,...,7},
-                                ]
-                                \addplot+[samples=100, domain=-8.871:10] {func(x)};
-                                \end{axis}
+                                \begin{tikzpicture}
+                                \coordinate (A) at (5.6,0);
+                                \coordinate (O) at (0,0);
+                                \coordinate (B) at (0,3.3);
+                                \draw (A)--(O)--(B)--cycle;
+                                \footnotesize
+                                \tkzLabelSegment[above=2pt,rotate=-atan(3.3/5.6)](B,A){$65\text{cm}$}
+                                \tkzLabelSegment[above=2pt,rotate=90](O,B){$33\text{cm}$}
+                                \tkzLabelSegment[below=2pt](O,A){$56\text{cm}$}
+                                \tkzMarkRightAngle[size=0.5](A,O,B)
+                                \tkzMarkAngle[size=1cm](O,B,A)
+                                \tkzLabelAngle[pos=0.6](O,B,A){$\beta$}
                                 \end{tikzpicture}
                                 ]]>
                         </latex-image>
@@ -718,18 +783,21 @@
             <task>
                 <statement>
                     <p>
+                        <m>\csc(\beta)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\cot(\beta)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\cos(\beta)</m>
                     </p>
                 </statement>
             </task>

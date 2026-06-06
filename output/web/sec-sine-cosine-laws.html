@@ -6,75 +6,32 @@
 <!--*                                          *-->
 <!--********************************************-->
 <html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Laws of Sines and Cosines</title>
-<link xmlns:xlink="http://www.w3.org/1999/xlink" rel="preconnect" href="https://fonts.googleapis.com">
-<link xmlns:xlink="http://www.w3.org/1999/xlink" rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link xmlns:xlink="http://www.w3.org/1999/xlink" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
 <link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
-<link xmlns:xlink="http://www.w3.org/1999/xlink" href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
-<script>
-var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
-window.MathJax = {
-  "tex": {
-    "inlineMath": [
-      [
-        "\\(",
-        "\\)"
-      ]
-    ],
-    "tags": "none",
-    "tagSide": "right",
-    "tagIndent": ".8em",
-    "packages": {
-      "[+]": [
-        "base",
-        "extpfeil",
-        "ams",
-        "amscd",
-        "color",
-        "newcommand",
-        "knowl"
-      ]
-    }
-  },
-  "options": {
-    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
-    "processHtmlClass": "process-math"
-  },
-  "chtml": {
-    "scale": 0.98,
-    "mtextInheritFont": true
-  },
-  "loader": {
-    "load": [
-      "input/asciimath",
-      "[tex]/extpfeil",
-      "[tex]/amscd",
-      "[tex]/color",
-      "[tex]/newcommand",
-      "[pretext]/mathjaxknowl3.js"
-    ],
-    "paths": {
-      "pretext": "_static/pretext/js/lib"
-    }
-  },
-  "startup": {
-    pageReady() {
-      return MathJax.startup.defaultPageReady().then(function () {
-      console.log("in ready function");
-      rsMathReady();
-      }
-    )}
-  }
-};
-</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta xmlns:xlink="http://www.w3.org/1999/xlink" name="Keywords" content="Authored in PreTeXt">
+<script type="module">import { startMathJax } from './_static/pretext/js/mathjax_startup.js';
+startMathJax({
+hasWebworkReps: false,
+hasSage: false,
+isReact: false,
+htmlPresentation: false,
+});
+</script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="og:type" content="book">
-<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:title" content="Lab Manual for MTH 112">
-<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:author" content="Mathematics Faculty">
-<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<meta property="og:type" content="book">
+<meta property="book:title" content="Lab Manual for MTH 112">
+<meta property="book:author" content="Mathematics Faculty">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><!--** eBookCongig is necessary to configure interactive       **-->
 <!--** Runestone components to run locally in reader's browser **-->
 <!--** No external communication:                              **-->
 <!--**     log level is 0, Runestone Services are disabled     **-->
@@ -105,14 +62,14 @@ eBookConfig.enable_chatcodes =  false;
 <!--*** Runestone Services ***-->
 <script src="_static/prefix-runtime.dcab57465a404e85.bundle.js"></script><script src="_static/prefix-713.de0ab26248766350.bundle.js"></script><script src="_static/prefix-runestone.79fbb790b185d712.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-713.f43ced6a6134ea74.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.87414d180ebeebd6.css">
-<script xmlns:xlink="http://www.w3.org/1999/xlink" src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdn.geogebra.org/apps/deployggb.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdn.geogebra.org/apps/deployggb.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
 <body class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
-<h1 class="heading"><a href="mth-112-workbook.html"><span class="title">Lab Manual for MTH 112:</span> <span class="subtitle">Precalculus II: Trigonometry</span></a></h1>
+<h1 class="heading"><a href="mth-112-workbook.html"><span class="title">Lab Manual for MTH 112</span> <span class="subtitle">Precalculus II: Trigonometry</span></a></h1>
 <p class="byline">Mathematics Faculty</p>
-</div></div></header><nav xmlns:xlink="http://www.w3.org/1999/xlink" id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
 <button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
 <div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
 <div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
@@ -139,7 +96,7 @@ var ggbApp = new GGBApplet({"appName": "graphing",
     "disableAutoScale": false},
 true);
 </script><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="further-applications.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="further-applications.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-polar-coordinates.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
-</div></nav><div xmlns:xlink="http://www.w3.org/1999/xlink" id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
 \newcommand{\Q}{\mathbb Q}
 \newcommand{\R}{\mathbb R}
@@ -150,7 +107,7 @@ true);
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
 <div class="ptx-page">
-<div xmlns:xlink="http://www.w3.org/1999/xlink" id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-frontmatter">
 <div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
 <ul class="structural toc-item-list">
@@ -351,41 +308,89 @@ true);
 </li>
 <li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
 </ul></nav></div>
-<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section xmlns:xlink="http://www.w3.org/1999/xlink" class="section" id="sec-sine-cosine-laws"><h2 class="heading hide-type">
-<span class="type">Section</span><span class="space"> </span><span class="codenumber">8.1</span><span class="space"> </span><span class="title">Laws of Sines and Cosines</span>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<section class="section" id="sec-sine-cosine-laws">
+<h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">8.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Laws of Sines and Cosines</span>
 </h2>
-<section class="introduction" id="sec-sine-cosine-laws-2"><div class="para" id="sec-sine-cosine-laws-2-1">In this section, we will learn how to use the laws of sines and cosines to find missing sides and angles in non-right triangles. Then we can use these laws to solve applications.</div></section><section class="subsection" id="sec-sine-cosine-laws-3"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Textbook Reference</span>
+<section class="introduction" id="sec-sine-cosine-laws-2">
+<div class="para" id="sec-sine-cosine-laws-2-1">In this section, we will learn how to use the laws of sines and cosines to find missing sides and angles in non-right triangles. Then we can use these laws to solve applications.<div class="autopermalink" data-description="Paragraph"><a href="#sec-sine-cosine-laws-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section>
+<section class="subsection" id="sec-sine-cosine-laws-3">
+<h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Textbook Reference</span>
 </h3>
-<div class="para" id="sec-sine-cosine-laws-3-2">This relates to content in §10.1 and §10.2 of <a class="external" href="https://openstax.org/details/books/algebra-and-trigonometry-2e" target="_blank">Algebra and Trigonometry 2e</a><details class="ptx-footnote" aria-live="polite" id="sec-sine-cosine-laws-3-2-4"><summary class="ptx-footnote__number" title="Footnote 8.1.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="sec-sine-cosine-laws-3-2-4"><code class="code-inline tex2jax_ignore">http://tiny.cc/111Z-Textbook</code></div></details>.</div></section><section class="exercises" id="prep-sine-cosine-laws"><h3 class="heading hide-type">
-<span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Preparation Exercises</span>
+<div class="para" id="sec-sine-cosine-laws-3-2">This relates to content in §10.1 and §10.2 of <a class="external" href="https://openstax.org/details/books/algebra-and-trigonometry-2e" target="_blank">Algebra and Trigonometry 2e</a>.<div class="autopermalink" data-description="Paragraph"><a href="#sec-sine-cosine-laws-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection: Textbook Reference"><a href="#sec-sine-cosine-laws-3" title="Copy heading and permalink for Subsection: Textbook Reference" aria-label="Copy heading and permalink for Subsection: Textbook Reference">🔗</a></div>
+</section>
+<section class="exercises" id="prep-sine-cosine-laws">
+<h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Preparation Exercises</span>
 </h3>
-<section class="introduction" id="prep-sine-cosine-laws-2"><div class="para" id="prep-sine-cosine-laws-2-1">Answer the following. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.</div></section><article class="exercise exercise-like" id="prep-sine-cosine-laws-3"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
-<div class="para" id="prep-sine-cosine-laws-3-1-1">What needs to be true about a triangle in order to use the Pythagorean Theorem on it?</div></article><article class="exercise exercise-like" id="prep-sine-cosine-laws-4"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
-<div class="para" id="prep-sine-cosine-laws-4-1-1">What needs to be true about a triangle to use SOHCAHTOA on it?</div></article><article class="exercise exercise-like" id="prep-sine-cosine-laws-5"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
-<div class="para" id="prep-sine-cosine-laws-5-1-1">Find solutions to the equation <span class="process-math">\(56\sin(\theta) = 21\)</span> on the interval <span class="process-math">\(\left[-180^\circ,180^\circ\right]\text{.}\)</span> Use your calculator and write your answer(s) rounded to four digits behind the decimal place.</div></article><article class="exercise exercise-like" id="prep-sine-cosine-laws-6"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
-<div class="para" id="prep-sine-cosine-laws-6-1-1">For the right triangle shown in <code class="code-inline tex2jax_ignore">[provisional cross-reference: prep-laws-right-triangle]</code>, find the missing lengths of <span class="process-math">\(G\text{,}\)</span> <span class="process-math">\(H\text{,}\)</span> and the angle <span class="process-math">\(\iota\text{.}\)</span> You can use a calculator to hep get an approximation, accurate to four digits behind the decimal place.</div></article></section><section class="exercises" id="practice-sine-cosine-laws"><h3 class="heading hide-type">
-<span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Practice Exercises</span>
+<section class="introduction" id="prep-sine-cosine-laws-2">
+<div class="para" id="prep-sine-cosine-laws-2-1">Answer the following. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.<div class="autopermalink" data-description="Paragraph"><a href="#prep-sine-cosine-laws-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section>
+<article class="exercise exercise-like" id="prep-sine-cosine-laws-3"><h4 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="prep-sine-cosine-laws-3-1-1">What needs to be true about a triangle in order to use the Pythagorean Theorem on it?<div class="autopermalink" data-description="Paragraph"><a href="#prep-sine-cosine-laws-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 1"><a href="#prep-sine-cosine-laws-3" title="Copy heading and permalink for Exercise 1" aria-label="Copy heading and permalink for Exercise 1">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="prep-sine-cosine-laws-4"><h4 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="prep-sine-cosine-laws-4-1-1">What needs to be true about a triangle to use SOHCAHTOA on it?<div class="autopermalink" data-description="Paragraph"><a href="#prep-sine-cosine-laws-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 2"><a href="#prep-sine-cosine-laws-4" title="Copy heading and permalink for Exercise 2" aria-label="Copy heading and permalink for Exercise 2">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="prep-sine-cosine-laws-5"><h4 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="prep-sine-cosine-laws-5-1-1">Find solutions to the equation <span class="process-math">\(56\sin(\theta) = 21\)</span> on the interval <span class="process-math">\(\left[-180^\circ,180^\circ\right]\text{.}\)</span> Use your calculator and write your answer(s) rounded to four digits behind the decimal place.<div class="autopermalink" data-description="Paragraph"><a href="#prep-sine-cosine-laws-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 3"><a href="#prep-sine-cosine-laws-5" title="Copy heading and permalink for Exercise 3" aria-label="Copy heading and permalink for Exercise 3">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="prep-sine-cosine-laws-6"><h4 class="heading"><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="prep-sine-cosine-laws-6-1-1">For the right triangle shown in <code class="code-inline tex2jax_ignore">[provisional cross-reference: prep-laws-right-triangle]</code>, find the missing lengths of <span class="process-math">\(G\text{,}\)</span> <span class="process-math">\(H\text{,}\)</span> and the angle <span class="process-math">\(\iota\text{.}\)</span> You can use a calculator to hep get an approximation, accurate to four digits behind the decimal place.<div class="autopermalink" data-description="Paragraph"><a href="#prep-sine-cosine-laws-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 4"><a href="#prep-sine-cosine-laws-6" title="Copy heading and permalink for Exercise 4" aria-label="Copy heading and permalink for Exercise 4">🔗</a></div>
+</article><div class="autopermalink" data-description="Exercises: Preparation Exercises"><a href="#prep-sine-cosine-laws" title="Copy heading and permalink for Exercises: Preparation Exercises" aria-label="Copy heading and permalink for Exercises: Preparation Exercises">🔗</a></div>
+</section>
+<section class="exercises" id="practice-sine-cosine-laws">
+<h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Practice Exercises</span>
 </h3>
-<article class="exercise exercise-like" id="practice-sine-cosine-laws-2"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>Find the missing angle, <span class="process-math">\(C\text{,}\)</span> and then use the law of sines to find the missing lengths <span class="process-math">\(a\)</span> and <span class="process-math">\(c\text{,}\)</span> in the triangle in <code class="code-inline tex2jax_ignore">[provisional cross-reference: practice-laws-AAS]</code>. Round your answers to two digits behind the decimal place.</article><article class="exercise exercise-like" id="practice-sine-cosine-laws-3"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>Use the law of sines to find the missing angles, <span class="process-math">\(A\)</span> and <span class="process-math">\(C\text{,}\)</span> and the length, <span class="process-math">\(a\text{,}\)</span> in the triangle in Figure <code class="code-inline tex2jax_ignore">[provisional cross-reference: practice-laws-SSA]</code>. Round your answers to two digits behind the decimal place.</article><article class="exercise exercise-like" id="practice-sine-cosine-laws-4"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>Use the law of cosines to find the missing angles, <span class="process-math">\(A\)</span> and <span class="process-math">\(C\text{,}\)</span> and the length, <span class="process-math">\(b\text{,}\)</span> in the triangle in Figure <code class="code-inline tex2jax_ignore">[provisional cross-reference: practice-laws-SAS]</code>. Round your answers to two digits behind the decimal place.</article><article class="exercise exercise-like" id="practice-sine-cosine-laws-5"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>Use the law of cosines to find the missing angles, <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(B\text{,}\)</span> and <span class="process-math">\(C\text{,}\)</span> in the triangle in Figure <code class="code-inline tex2jax_ignore">[provisional cross-reference: practice-laws-SSS]</code>. Round your answers to two digits behind the decimal place.</article></section><section class="subsection" id="definitions-sine-cosine-laws"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Definitions</span>
+<article class="exercise exercise-like" id="practice-sine-cosine-laws-2"><h4 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>Find the missing angle, <span class="process-math">\(C\text{,}\)</span> and then use the law of sines to find the missing lengths <span class="process-math">\(a\)</span> and <span class="process-math">\(c\text{,}\)</span> in the triangle in <code class="code-inline tex2jax_ignore">[provisional cross-reference: practice-laws-AAS]</code>. Round your answers to two digits behind the decimal place.<div class="autopermalink" data-description="Exercise 1"><a href="#practice-sine-cosine-laws-2" title="Copy heading and permalink for Exercise 1" aria-label="Copy heading and permalink for Exercise 1">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="practice-sine-cosine-laws-3"><h4 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>Use the law of sines to find the missing angles, <span class="process-math">\(A\)</span> and <span class="process-math">\(C\text{,}\)</span> and the length, <span class="process-math">\(a\text{,}\)</span> in the triangle in Figure <code class="code-inline tex2jax_ignore">[provisional cross-reference: practice-laws-SSA]</code>. Round your answers to two digits behind the decimal place.<div class="autopermalink" data-description="Exercise 2"><a href="#practice-sine-cosine-laws-3" title="Copy heading and permalink for Exercise 2" aria-label="Copy heading and permalink for Exercise 2">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="practice-sine-cosine-laws-4"><h4 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>Use the law of cosines to find the missing angles, <span class="process-math">\(A\)</span> and <span class="process-math">\(C\text{,}\)</span> and the length, <span class="process-math">\(b\text{,}\)</span> in the triangle in Figure <code class="code-inline tex2jax_ignore">[provisional cross-reference: practice-laws-SAS]</code>. Round your answers to two digits behind the decimal place.<div class="autopermalink" data-description="Exercise 3"><a href="#practice-sine-cosine-laws-4" title="Copy heading and permalink for Exercise 3" aria-label="Copy heading and permalink for Exercise 3">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="practice-sine-cosine-laws-5"><h4 class="heading"><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>Use the law of cosines to find the missing angles, <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(B\text{,}\)</span> and <span class="process-math">\(C\text{,}\)</span> in the triangle in Figure <code class="code-inline tex2jax_ignore">[provisional cross-reference: practice-laws-SSS]</code>. Round your answers to two digits behind the decimal place.<div class="autopermalink" data-description="Exercise 4"><a href="#practice-sine-cosine-laws-5" title="Copy heading and permalink for Exercise 4" aria-label="Copy heading and permalink for Exercise 4">🔗</a></div>
+</article><div class="autopermalink" data-description="Exercises: Practice Exercises"><a href="#practice-sine-cosine-laws" title="Copy heading and permalink for Exercises: Practice Exercises" aria-label="Copy heading and permalink for Exercises: Practice Exercises">🔗</a></div>
+</section>
+<section class="subsection" id="definitions-sine-cosine-laws">
+<h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Definitions</span>
 </h3>
 <article class="definition definition-like" id="definitions-sine-cosine-laws-2"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">8.1.1</span><span class="period">.</span><span class="space"> </span><span class="title">Law of Sines.</span>
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">8.1.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Law of Sines.</span>
 </h4>
 <div class="para logical" id="definitions-sine-cosine-laws-2-2-1">
 <div class="para">The <dfn class="terminology">law of sines</dfn> says that the ratios of sines of angles in a triangle and the opposite sides are all constant. That’s a bit of a mouthful, maybe a math-ful will help. Consider the triangle in Figure <code class="code-inline tex2jax_ignore">[provisional cross-reference: def-law-of-sines]</code>. The law of sines says that...</div>
 <div class="displaymath process-math" data-contains-math-knowls="" id="definitions-sine-cosine-laws-2-2-1-3">
-\begin{gather*}
-\end{gather*}
+\begin{equation*}
+\frac{\sin(A)}{a} = \frac{\sin(B)}{b} = \frac{\sin(C)}{c}
+\end{equation*}
 </div>
 <div class="para">or alternately,</div>
 <div class="displaymath process-math" data-contains-math-knowls="" id="definitions-sine-cosine-laws-2-2-1-4">
-\begin{gather*}
-\end{gather*}
+\begin{equation*}
+\frac{a}{\sin(A)} = \frac{b}{\sin(B)} = \frac{c}{\sin(C)}
+\end{equation*}
 </div>
-</div></article><article class="note remark-like" id="definitions-sine-cosine-laws-3"><h4 class="heading">
-<span class="type">Note</span><span class="space"> </span><span class="codenumber">8.1.2</span><span class="period">.</span>
+<div class="autopermalink" data-description="Paragraph"><a href="#definitions-sine-cosine-laws-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 8.1.1: Law of Sines"><a href="#definitions-sine-cosine-laws-2" title="Copy heading and permalink for Definition 8.1.1: Law of Sines" aria-label="Copy heading and permalink for Definition 8.1.1: Law of Sines">🔗</a></div>
+</article>
+<article class="note remark-like" id="definitions-sine-cosine-laws-3"><h4 class="heading">
+<span class="type">Note</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">8.1.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h4>
 <div class="para logical" id="definitions-sine-cosine-laws-3-1">
 <div class="para">When using the law of sines, you almost never need all three parts of the equation at the same time, so you will end up using one of these at a time:</div>
@@ -396,65 +401,128 @@ true);
 \frac{\sin(C)}{c} \amp= \frac{\sin(A)}{a}
 \end{align*}
 </div>
-</div></article><article class="definition definition-like" id="definitions-sine-cosine-laws-4"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">8.1.3</span><span class="period">.</span><span class="space"> </span><span class="title">Law of Cosines.</span>
+<div class="autopermalink" data-description="Paragraph"><a href="#definitions-sine-cosine-laws-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Note 8.1.2"><a href="#definitions-sine-cosine-laws-3" title="Copy heading and permalink for Note 8.1.2" aria-label="Copy heading and permalink for Note 8.1.2">🔗</a></div>
+</article>
+<article class="definition definition-like" id="definitions-sine-cosine-laws-4"><h4 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">8.1.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Law of Cosines.</span>
 </h4>
 <div class="para logical" id="definitions-sine-cosine-laws-4-2-1">
 <div class="para">The <dfn class="terminology">law of cosines</dfn> is really the natural extension of the Pythagorean Theorem for triangles without a right angle. Consider the triangle in Figure <code class="code-inline tex2jax_ignore">[provisional cross-reference: def-law-of-cosines]</code>. The law of cosines says that...</div>
 <div class="displaymath process-math" data-contains-math-knowls="" id="definitions-sine-cosine-laws-4-2-1-3">
-\begin{gather*}
-\end{gather*}
+\begin{equation*}
+a^2 = b^2 + c^2 - 2bc\cos(A)
+\end{equation*}
 </div>
 <div class="para">or</div>
 <div class="displaymath process-math" data-contains-math-knowls="" id="definitions-sine-cosine-laws-4-2-1-4">
-\begin{gather*}
-\end{gather*}
+\begin{equation*}
+b^2 = a^2 + c^2 - 2bc\cos(B)
+\end{equation*}
 </div>
 <div class="para">or</div>
 <div class="displaymath process-math" data-contains-math-knowls="" id="definitions-sine-cosine-laws-4-2-1-5">
-\begin{gather*}
-\end{gather*}
+\begin{equation*}
+c^2 = a^2 + b^2 - 2bc\cos(C)
+\end{equation*}
 </div>
-</div></article><article class="note remark-like" id="definitions-sine-cosine-laws-5"><h4 class="heading">
-<span class="type">Note</span><span class="space"> </span><span class="codenumber">8.1.4</span><span class="period">.</span>
+<div class="autopermalink" data-description="Paragraph"><a href="#definitions-sine-cosine-laws-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 8.1.3: Law of Cosines"><a href="#definitions-sine-cosine-laws-4" title="Copy heading and permalink for Definition 8.1.3: Law of Cosines" aria-label="Copy heading and permalink for Definition 8.1.3: Law of Cosines">🔗</a></div>
+</article>
+<article class="note remark-like" id="definitions-sine-cosine-laws-5"><h4 class="heading">
+<span class="type">Note</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">8.1.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h4>
-<div class="para" id="definitions-sine-cosine-laws-5-1">Unlike the Pythagorean Theorem, you <em class="emphasis">don’t</em> have to put the longest length alone on one side. It can be inputted for <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(b\text{,}\)</span> or <span class="process-math">\(c\text{.}\)</span>
-</div></article></section><section class="exercises" id="exit-sine-cosine-laws"><h3 class="heading hide-type">
-<span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Exit Exercises</span>
+<div class="para" id="definitions-sine-cosine-laws-5-1">Unlike the Pythagorean Theorem, you <em class="emphasis">don’t</em> have to put the longest length alone on one side. It can be inputted for <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(b\text{,}\)</span> or <span class="process-math">\(c\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#definitions-sine-cosine-laws-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Note 8.1.4"><a href="#definitions-sine-cosine-laws-5" title="Copy heading and permalink for Note 8.1.4" aria-label="Copy heading and permalink for Note 8.1.4">🔗</a></div>
+</article><div class="autopermalink" data-description="Subsection: Definitions"><a href="#definitions-sine-cosine-laws" title="Copy heading and permalink for Subsection: Definitions" aria-label="Copy heading and permalink for Subsection: Definitions">🔗</a></div>
+</section>
+<section class="exercises" id="exit-sine-cosine-laws">
+<h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Exit Exercises</span>
 </h3>
-<article class="exercise exercise-like" id="exit-sine-cosine-laws-2"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<article class="exercise exercise-like" id="exit-sine-cosine-laws-2"><h4 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
 <article class="task exercise-like" id="exit-sine-cosine-laws-2-1"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para logical" id="exit-sine-cosine-laws-2-1-1-1">
 <div class="para">Michelé correctly wrote down thees two equations about a triangle from a homework question.</div>
 <div class="displaymath process-math" id="exit-sine-cosine-laws-2-1-1-1-1">
-\begin{gather*}
-\end{gather*}
+\begin{equation*}
+b^2 = 74+16^2 - 2\cdot\sqrt{74}\cdot 16\cos(54.5^\circ)
+\end{equation*}
 </div>
 <div class="para">and</div>
 <div class="displaymath process-math" id="exit-sine-cosine-laws-2-1-1-1-2">
-\begin{gather*}
-\end{gather*}
+\begin{equation*}
+\frac{\sin(C)}{16} = \frac{\sin(32.5^\circ)}{\sqrt{74}}
+\end{equation*}
 </div>
 <div class="para">Draw the triangle from the question that these equations would have been based on.</div>
-</div></article><article class="task exercise-like" id="exit-sine-cosine-laws-2-2"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="exit-sine-cosine-laws-2-2-1-1">On a steep hillside somewhre in the Cascades of Oregon stands a tall Douglas Fir. The slope is from point <span class="process-math">\(B\text{,}\)</span> at the base o the tree, to the point <span class="process-math">\(P\text{.}\)</span> The top of the tree is at point T. Some hikers wanted to get an extimate of its height, so they took a few measurements. They measured an angle of 52° from the vertically growing tree to the hillside slope using their inclinometer on their phones. Then they measured out 115ft up the hillside to point <span class="process-math">\(P\)</span> and measured the angle from there to be 83° from the base of the tree to the top of the tree, as shown in Figure <code class="code-inline tex2jax_ignore">[provisional cross-reference: exit-laws-tree]</code>. Use the laws of sines or cosines to find an estimate for the height of the tree and round your answer to the nearest foot.</div></article><article class="task exercise-like" id="exit-sine-cosine-laws-2-3"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="introduction" id="exit-sine-cosine-laws-2-3-1"><div class="para" id="exit-sine-cosine-laws-2-3-1-1">Imagine a triangle with sides <span class="process-math">\(a=15\text{,}\)</span> <span class="process-math">\(c=8\text{,}\)</span> and the angle <span class="process-math">\(C=20^\circ\text{.}\)</span> Length <span class="process-math">\(b\)</span> and angles <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are unknown.</div></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#exit-sine-cosine-laws-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.a"><a href="#exit-sine-cosine-laws-2-1" title="Copy heading and permalink for Task 1.a" aria-label="Copy heading and permalink for Task 1.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="exit-sine-cosine-laws-2-2"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="exit-sine-cosine-laws-2-2-1-1">On a steep hillside somewhre in the Cascades of Oregon stands a tall Douglas Fir. The slope is from point <span class="process-math">\(B\text{,}\)</span> at the base o the tree, to the point <span class="process-math">\(P\text{.}\)</span> The top of the tree is at point T. Some hikers wanted to get an extimate of its height, so they took a few measurements. They measured an angle of 52° from the vertically growing tree to the hillside slope using their inclinometer on their phones. Then they measured out 115ft up the hillside to point <span class="process-math">\(P\)</span> and measured the angle from there to be 83° from the base of the tree to the top of the tree, as shown in Figure <code class="code-inline tex2jax_ignore">[provisional cross-reference: exit-laws-tree]</code>. Use the laws of sines or cosines to find an estimate for the height of the tree and round your answer to the nearest foot.<div class="autopermalink" data-description="Paragraph"><a href="#exit-sine-cosine-laws-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.b"><a href="#exit-sine-cosine-laws-2-2" title="Copy heading and permalink for Task 1.b" aria-label="Copy heading and permalink for Task 1.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="exit-sine-cosine-laws-2-3"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="introduction" id="exit-sine-cosine-laws-2-3-1">
+<div class="para" id="exit-sine-cosine-laws-2-3-1-1">Imagine a triangle with sides <span class="process-math">\(a=15\text{,}\)</span> <span class="process-math">\(c=8\text{,}\)</span> and the angle <span class="process-math">\(C=20^\circ\text{.}\)</span> Length <span class="process-math">\(b\)</span> and angles <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are unknown.<div class="autopermalink" data-description="Paragraph"><a href="#exit-sine-cosine-laws-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
 <article class="task exercise-like" id="exit-sine-cosine-laws-2-3-2"><h6 class="heading"><span class="codenumber">(i)</span></h6>
-<div class="para" id="exit-sine-cosine-laws-2-3-2-1-1">There are actually two such triangles that exist. Draw pictures of both triangles.</div>
-<div class="solutions"><details id="exit-sine-cosine-laws-2-3-2-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="exit-sine-cosine-laws-2-3-2-2-1">One is obtuse and the other is acute.</div></div></details></div></article><article class="task exercise-like" id="exit-sine-cosine-laws-2-3-3"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
-<div class="para" id="exit-sine-cosine-laws-2-3-3-1-1">Write down the law of sines to solve for angle <span class="process-math">\(A\)</span> for each triangle, and compare the two equations.</div></article><article class="task exercise-like" id="exit-sine-cosine-laws-2-3-4"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
-<div class="para" id="exit-sine-cosine-laws-2-3-4-1-1">Solve for the angles and missing lengths in both triangles. Round your final answers for the angles and lengths to two digits behind the decimal place.</div></article><div class="conclusion" id="exit-sine-cosine-laws-2-3-5"><div class="para" id="exit-sine-cosine-laws-2-3-5-1">
-<a class="external" href="https://www.desmos.com/calculator/lfhs1mcq1c" target="_blank">Check out this Desmos link</a><details class="ptx-footnote" aria-live="polite" id="exit-sine-cosine-laws-2-3-5-1-2"><summary class="ptx-footnote__number" title="Footnote 8.1.2"><sup> 2 </sup></summary><div class="ptx-footnote__contents" id="exit-sine-cosine-laws-2-3-5-1-2"><code class="code-inline tex2jax_ignore">www.desmos.com/calculator/lfhs1mcq1c</code></div></details> for a visual on these "ambiguous triangles".</div></div></article></article></section><section class="reading-questions" id="sec-sine-cosine-laws-8"><h3 class="heading hide-type">
-<span class="type">Reflection</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Reflection</span>
+<div class="para" id="exit-sine-cosine-laws-2-3-2-1-1">There are actually two such triangles that exist. Draw pictures of both triangles.<div class="autopermalink" data-description="Paragraph"><a href="#exit-sine-cosine-laws-2-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="exit-sine-cosine-laws-2-3-2-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="hint solution-like knowl__content">
+<div class="para" id="exit-sine-cosine-laws-2-3-2-2-1">One is obtuse and the other is acute.<div class="autopermalink" data-description="Paragraph"><a href="#exit-sine-cosine-laws-2-3-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 1.c.i.1"><a href="#exit-sine-cosine-laws-2-3-2-2" title="Copy heading and permalink for Hint 1.c.i.1" aria-label="Copy heading and permalink for Hint 1.c.i.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" data-description="Task 1.c.i"><a href="#exit-sine-cosine-laws-2-3-2" title="Copy heading and permalink for Task 1.c.i" aria-label="Copy heading and permalink for Task 1.c.i">🔗</a></div>
+</article>
+<article class="task exercise-like" id="exit-sine-cosine-laws-2-3-3"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="para" id="exit-sine-cosine-laws-2-3-3-1-1">Write down the law of sines to solve for angle <span class="process-math">\(A\)</span> for each triangle, and compare the two equations.<div class="autopermalink" data-description="Paragraph"><a href="#exit-sine-cosine-laws-2-3-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.c.ii"><a href="#exit-sine-cosine-laws-2-3-3" title="Copy heading and permalink for Task 1.c.ii" aria-label="Copy heading and permalink for Task 1.c.ii">🔗</a></div>
+</article>
+<article class="task exercise-like" id="exit-sine-cosine-laws-2-3-4"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<div class="para" id="exit-sine-cosine-laws-2-3-4-1-1">Solve for the angles and missing lengths in both triangles. Round your final answers for the angles and lengths to two digits behind the decimal place.<div class="autopermalink" data-description="Paragraph"><a href="#exit-sine-cosine-laws-2-3-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 1.c.iii"><a href="#exit-sine-cosine-laws-2-3-4" title="Copy heading and permalink for Task 1.c.iii" aria-label="Copy heading and permalink for Task 1.c.iii">🔗</a></div>
+</article>
+<div class="conclusion" id="exit-sine-cosine-laws-2-3-5">
+<div class="para" id="exit-sine-cosine-laws-2-3-5-1">
+<a class="external" href="https://www.desmos.com/calculator/lfhs1mcq1c" target="_blank">Check out this Desmos link</a> for a visual on these "ambiguous triangles".<div class="autopermalink" data-description="Paragraph"><a href="#exit-sine-cosine-laws-2-3-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<div class="autopermalink" data-description="Task 1.c"><a href="#exit-sine-cosine-laws-2-3" title="Copy heading and permalink for Task 1.c" aria-label="Copy heading and permalink for Task 1.c">🔗</a></div>
+</article><div class="autopermalink" data-description="Exercise 1"><a href="#exit-sine-cosine-laws-2" title="Copy heading and permalink for Exercise 1" aria-label="Copy heading and permalink for Exercise 1">🔗</a></div>
+</article><div class="autopermalink" data-description="Exercises: Exit Exercises"><a href="#exit-sine-cosine-laws" title="Copy heading and permalink for Exercises: Exit Exercises" aria-label="Copy heading and permalink for Exercises: Exit Exercises">🔗</a></div>
+</section>
+<section class="reading-questions" id="sec-sine-cosine-laws-8">
+<h3 class="heading hide-type">
+<span class="type">Reflection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Reflection</span>
 </h3>
-<article class="exercise exercise-like" id="sec-sine-cosine-laws-8-1"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
-<div class="para" id="sec-sine-cosine-laws-8-1-1-1">On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</div></article></section></section></div>
-<div class="ptx-content-footer">
-<a class="previous-button button" href="further-applications.html" title="Previous"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-polar-coordinates.html" title="Next"><span class="name">Next</span><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<article class="exercise exercise-like" id="sec-sine-cosine-laws-8-1"><h4 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="sec-sine-cosine-laws-8-1-1-1">On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?<div class="autopermalink" data-description="Paragraph"><a href="#sec-sine-cosine-laws-8-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Reading Question 1"><a href="#sec-sine-cosine-laws-8-1" title="Copy heading and permalink for Reading Question 1" aria-label="Copy heading and permalink for Reading Question 1">🔗</a></div>
+</article><div class="autopermalink" data-description="Reflection"><a href="#sec-sine-cosine-laws-8" title="Copy heading and permalink for Reflection" aria-label="Copy heading and permalink for Reflection">🔗</a></div>
+</section><div class="autopermalink" data-description="Section 8.1: Laws of Sines and Cosines"><a href="#sec-sine-cosine-laws" title="Copy heading and permalink for Section 8.1: Laws of Sines and Cosines" aria-label="Copy heading and permalink for Section 8.1: Laws of Sines and Cosines">🔗</a></div>
+</section>
+</div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="further-applications.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-polar-coordinates.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
-<a xmlns:xlink="http://www.w3.org/1999/xlink" class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a xmlns:xlink="http://www.w3.org/1999/xlink" class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a xmlns:xlink="http://www.w3.org/1999/xlink" class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
 </div>
 </body>
 </html>

@@ -511,7 +511,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.4",
   "title": "Other Trigonometric Functions",
-  "body": " Other Trigonometric Functions   In this section, we'll find exact values of the trigonometric functions secant, cosecant, tangent, and cotangent of , , and , use reference angles to evaluate the trigonometric functions secant, tangent, and cotangent, use properties of even and odd trigonometric functions, recognize and use fundamental identities, and evaluate trigonometric functions with a calculator.    Textbook Reference  This relates to content in 7.4 of Algebra and Trigonometry 2e .    Preparation Exercises   Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.     What does \"CHOSHACAO\" stand for? See Right Angle Trigonometry Definitions .      What is the value of ?      Find the value of using your memorized unit circle values and a reference angle.      Find the value of using your memorized unit circle values and a reference angle.      Explain what makes a function an \"odd function\"?      Practice Exercises    Find all six trigonometric function values given the coordinates at an angle on a unit circle.   A point on a unit circle at an angle    A unit circle with an angle in standard position, beginning on the positive -axis and rotating counter-clockwise to the coordinates in the second quadrant.                                                    Find all six trigonometric function values at the angle using your memorized values for and .                                                Find the trigonometric function values given the right triangle with lengths shown in .                                            Fill in a table of all 6 trig values for the standard angles on the unit circle.                                                                                                                                                                                                                      Definitions   The \"Other\" Trigonometric Functions         CHOSHACAO         Even and Odd Trigonometric Functions                                  Other Pythagorean Identities                      Periods of Trigonometric Functions                   Exit Exercises                      Graph of a function. From below, the curve travels up to the point , then passes smoothly through the points ; ; ; ; ; then continues downward and to the right off of the grid.                              On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    --> "
+  "body": " Other Trigonometric Functions   In this section, we'll find exact values of the trigonometric functions secant, cosecant, tangent, and cotangent of , , and , use reference angles to evaluate the trigonometric functions secant, tangent, and cotangent, use properties of even and odd trigonometric functions, recognize and use fundamental identities, and evaluate trigonometric functions with a calculator.    Textbook Reference  This relates to content in 7.4 of Algebra and Trigonometry 2e .    Preparation Exercises   Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.     What does \"CHOSHACAO\" stand for? See Right Angle Trigonometry Definitions .      What is the value of ?      Find the value of using your memorized unit circle values and a reference angle.      Find the value of using your memorized unit circle values and a reference angle.      Explain what makes a function an \"odd function\"?      Practice Exercises    Find all six trigonometric function values given the coordinates at an angle on a unit circle.   A point on a unit circle at an angle    A unit circle with an angle in standard position, beginning on the positive -axis and rotating counter-clockwise to the coordinates in the second quadrant.                                                    Find all six trigonometric function values at the angle using your memorized values for and .                                                Find the trigonometric function values given the right triangle with lengths shown in .                                             Fill in a table of all 6 trig values for the standard angles on the unit circle.                                                                                                                                                          Use the fact that , , , and are all odd, and and are even to find the following values.                                                Find the other five trigonometric values for the angle shown in each part.      and .       and .       Definitions   The \"Other\" Trigonometric Functions    For a right triangle with angle , the \" other trig functions \" can be found by the following definitions as in . Visit this interactive Desmos graph to see the six trigonometric lengths in action.            CHOSHACAO    For a right triangle with hypotenuse , and sides and , as in , tangent is still \"opposite over adjacent\", as you saw in the section about right-angle trigonometry and the \"other trigonmetric function values\" can be found with \" CHOSHACAO \". Visit this interactive Desmos graph to see the six trigonometric lengths in action.            Even and Odd Trigonometric Functions   Recall that even functions are symmetrical about the -axis, which makes , and odd functions are symmetrical about the origin, which makes . All of the trigonometric functions are either even or odd. Here's a list:     , so is odd.     , so is odd.     , so is odd.     , so is odd.     , so is even.     , so is even.       Other Pythagorean Identities    You already know that , and that this is called the Pythagorean Identity . There are two other Pythagorean relationships which you can see in , which is a trimmed down version of .                  Periods of Trigonometric Functions   The period of a function is a length of the shortest -interval over which a function completes one full cycle. This can be thought of as the shortest distance that a graph can be shifted left or right before completely aligning with the original graph. Mathematically, this would be that the period, , of a repeating function is the smallestvalue such that , for any value of .   The period of , , , and is .    The period of and is .         Exit Exercises    Evaluate .      If and , find the value of and .      Find the trigonometric values given the right triangle with lengths shown below.   A right triangle                                      On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    --> "
 },
 {
   "id": "sec-other-trig-functions-4-3",
@@ -583,7 +583,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3",
   "title": "",
-  "body": "  Find the trigonometric function values given the right triangle with lengths shown in .                                         "
+  "body": "  Find the trigonometric function values given the right triangle with lengths shown in .                                          "
 },
 {
   "id": "practice-other-trig-functions-5",
@@ -601,7 +601,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5",
   "title": "",
-  "body": "                                         "
+  "body": "  Use the fact that , , , and are all odd, and and are even to find the following values.                                             "
 },
 {
   "id": "practice-other-trig-functions-7",
@@ -610,7 +610,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6",
   "title": "",
-  "body": "                 "
+  "body": "  Find the other five trigonometric values for the angle shown in each part.      and .       and .    "
 },
 {
   "id": "definitions-other-trig-functions-2",
@@ -619,43 +619,43 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "5.4.3",
   "title": "The \"Other\" Trigonometric Functions.",
-  "body": " The \"Other\" Trigonometric Functions       "
+  "body": " The \"Other\" Trigonometric Functions    For a right triangle with angle , the \" other trig functions \" can be found by the following definitions as in . Visit this interactive Desmos graph to see the six trigonometric lengths in action.          "
 },
 {
   "id": "definitions-other-trig-functions-3",
   "level": "2",
   "url": "sec-other-trig-functions.html#definitions-other-trig-functions-3",
   "type": "Definition",
-  "number": "5.4.4",
+  "number": "5.4.5",
   "title": "CHOSHACAO.",
-  "body": " CHOSHACAO       "
+  "body": " CHOSHACAO    For a right triangle with hypotenuse , and sides and , as in , tangent is still \"opposite over adjacent\", as you saw in the section about right-angle trigonometry and the \"other trigonmetric function values\" can be found with \" CHOSHACAO \". Visit this interactive Desmos graph to see the six trigonometric lengths in action.          "
 },
 {
   "id": "definitions-other-trig-functions-4",
   "level": "2",
   "url": "sec-other-trig-functions.html#definitions-other-trig-functions-4",
   "type": "Definition",
-  "number": "5.4.5",
+  "number": "5.4.7",
   "title": "Even and Odd Trigonometric Functions.",
-  "body": " Even and Odd Trigonometric Functions                                "
+  "body": " Even and Odd Trigonometric Functions   Recall that even functions are symmetrical about the -axis, which makes , and odd functions are symmetrical about the origin, which makes . All of the trigonometric functions are either even or odd. Here's a list:     , so is odd.     , so is odd.     , so is odd.     , so is odd.     , so is even.     , so is even.     "
 },
 {
   "id": "definitions-other-trig-functions-5",
   "level": "2",
   "url": "sec-other-trig-functions.html#definitions-other-trig-functions-5",
   "type": "Definition",
-  "number": "5.4.6",
+  "number": "5.4.8",
   "title": "Other Pythagorean Identities.",
-  "body": " Other Pythagorean Identities                    "
+  "body": " Other Pythagorean Identities    You already know that , and that this is called the Pythagorean Identity . There are two other Pythagorean relationships which you can see in , which is a trimmed down version of .                "
 },
 {
   "id": "definitions-other-trig-functions-6",
   "level": "2",
   "url": "sec-other-trig-functions.html#definitions-other-trig-functions-6",
   "type": "Definition",
-  "number": "5.4.8",
+  "number": "5.4.10",
   "title": "Periods of Trigonometric Functions.",
-  "body": " Periods of Trigonometric Functions                "
+  "body": " Periods of Trigonometric Functions   The period of a function is a length of the shortest -interval over which a function completes one full cycle. This can be thought of as the shortest distance that a graph can be shifted left or right before completely aligning with the original graph. Mathematically, this would be that the period, , of a repeating function is the smallestvalue such that , for any value of .   The period of , , , and is .    The period of and is .      "
 },
 {
   "id": "exit-other-trig-functions-2",
@@ -664,7 +664,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1",
   "title": "",
-  "body": "     "
+  "body": "  Evaluate .   "
 },
 {
   "id": "exit-other-trig-functions-3",
@@ -673,7 +673,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2",
   "title": "",
-  "body": "     "
+  "body": "  If and , find the value of and .   "
 },
 {
   "id": "exit-other-trig-functions-4",
@@ -682,7 +682,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3",
   "title": "",
-  "body": "        Graph of a function. From below, the curve travels up to the point , then passes smoothly through the points ; ; ; ; ; then continues downward and to the right off of the grid.                         "
+  "body": "  Find the trigonometric values given the right triangle with lengths shown below.   A right triangle                                 "
 },
 {
   "id": "sec-other-trig-functions-8-1",

@@ -39,24 +39,28 @@
         <exercise>
             <statement>
                 <p>
+                    What is the value of <m>\sin(\frac{\pi}{3])</m>?
                 </p>
             </statement>
         </exercise>
         <exercise>
             <statement>
                 <p>
+                    Find the value of <m>\cos(\frac{11\pi}{4])</m> using your memorized unit circle values and a reference angle.
                 </p>
             </statement>
         </exercise>
         <exercise>
             <statement>
                 <p>
+                    Find the value of <m>\sin(-\frac{2\pi}{3])</m> using your memorized unit circle values and a reference angle.
                 </p>
             </statement>
         </exercise>
         <exercise>
             <statement>
                 <p>
+                    Explain what makes a function an "odd function"?
                 </p>
             </statement>
         </exercise>
@@ -67,35 +71,38 @@
 		<exercise>
             <introduction>
                 <p>
+                    Find all six trigonometric function values given the coordinates at an angle <m>\gamma</m> on a unit circle.
                 </p>
                 <figure>
-                    <caption></caption>
+                    <caption>A point on a unit circle at an angle <m>\gamma</m></caption>
                     <image width="60%">
                         <description>
                             <p>
-                                <!--TODO-->
+                                A unit circle with an angle <m>\gamma</m> in standard position, beginning
+                                on the positive <m>x</m>-axis and rotating counter-clockwise to the
+                                coordinates <m>(-\frac{\sqrt{3}}{2},\frac12)</m> in the second quadrant.
                             </p>
                         </description>
-                        <latex-image>
+                        <latex-image> 
                             <![CDATA[
                                 \begin{tikzpicture}
-				\begin{axis}[
-					% framed,
-					xmin=-1.2,xmax=1.2,
-					ymin=-1.2,ymax=1.2,
-			       	xtick={-1,1},
-			       	ytick={-1,1},
-			       	clip=false,
-					]
-						\draw 	(axis cs:0,0) circle [radius=1];
-						\addplot[mark=*,color=first] coordinates{(-0.866,0.5)};
-						\draw 	(-0.866,0.5) node[above left,color=first] {\scriptsize{$\left(-\frac{\sqrt{3}}{2},\frac{1}{2}\right)$}};
-						\addplot[variable=\t, domain=0:150, samples=50, color=third]({.2*cos(t)}, {.2*sin(t)});
-						\draw 	(0.1,0.1) node[above right,color=third] {$\gamma$};
-						\draw   [color=fourth,very thick,mark=*](0,0)--(-0.866,0.5);
-				\end{axis}
+                                \begin{axis}[
+                                % framed,
+                                xmin=-1.2,xmax=1.2,
+                                ymin=-1.2,ymax=1.2,
+                                xtick={-1,1},
+                                ytick={-1,1},
+                                clip=false,
+                                ]
+                                \draw 	(axis cs:0,0) circle [radius=1];
+                                \addplot[mark=*,color=first] coordinates{(-0.866,0.5)};
+                                \draw 	(-0.866,0.5) node[above left,color=first] {\scriptsize{$\left(-\frac{\sqrt{3}}{2},\frac{1}{2}\right)$}};
+                                \addplot[variable=\t, domain=0:150, samples=50, color=third]({.2*cos(t)}, {.2*sin(t)});
+                                \draw 	(0.1,0.1) node[above right,color=third] {$\gamma$};
+                                \draw   [color=fourth,very thick,mark=*](0,0)--(-0.866,0.5);
+                                \end{axis}
                                 \end{tikzpicture}
-                            ]]>
+                                ]]>
                         </latex-image>
                     </image>
                 </figure>
@@ -103,36 +110,42 @@
             <task>
                 <statement>
                     <p>
+                        <m>\sin(\gamma)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\cos(\gamma)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\csc(\gamma)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\sec(\gamma)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\tan(\gamma)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\cot(\gamma)</m>
                     </p>
                 </statement>
             </task>
@@ -141,41 +154,50 @@
         <exercise>
             <introduction>
                 <p>
+                    Find all six trigonometric function values at the angle <m>\frac{\pi}{3}</m> 
+                    using your memorized values for <m>\sin(\frac{\pi}{3})</m> and
+                    <m>\cos(\frac{\pi}{3}\right)</m>.
                 </p>
             </introduction>
             <task>
                 <statement>
                     <p>
+                        <m>\sin(\frac{\pi}{3})</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\cos(\frac{\pi}{3})</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\csc(\frac{\pi}{3})</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\sec(\frac{\pi}{3})</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\tan(\frac{\pi}{3})</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\cot(\frac{\pi}{3})</m>
                     </p>
                 </statement>
             </task>
@@ -184,6 +206,8 @@
         <exercise>
             <introduction>
                 <p>
+                    Find the trigonometric function values given the right triangle with lengths shown
+                    in <xref ref="figure-other-trig-practice-2"/>.
                 </p>
                 <figure xml:id="figure-other-trig-practice-2">
                     <caption></caption>
@@ -218,73 +242,236 @@
             <task>
                 <statement>
                     <p>
+                        <m>\sin(\theta)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\csc(\theta)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\sec(\theta)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\cot(\theta)</m>
                     </p>
                 </statement>
             </task>
 		</exercise>
+
         <exercise>
             <statement>
                 <p>
+                    Fill in a table of all 6 trig values for the standard angles on the unit circle.
                 </p>
+                <tabular row-headers="yes" halign="right" top="major" left="major" right="major">
+                    <col right="minor"/>
+                    <col right="minor"/>
+                    <col right="minor"/>
+                    <col right="minor"/>
+                    <col right="minor"/>
+                    <col/>
+                    <row bottom="minor">
+                        <cell halign="center">
+                            <m>\theta</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\quad 0 \quad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\quad\frac{5\pi}{6}\quad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\quad\frac{\pi}{4}\quad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\quad\frac{4\pi}{3}\quad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\quad\frac{\pi}{2}\quad</m>
+                        </cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell halign="center">
+                            <m>\sin(\theta)</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell halign="center">
+                            <m>\cos(\theta)</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell halign="center">
+                            <m>\csc(\theta)</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell halign="center">
+                            <m>\sec(\theta)</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell halign="center">
+                            <m>\tan(\theta)</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                    </row>
+                    <row bottom="major">
+                        <cell halign="center">
+                            <m>\cot(\theta)</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                    </row>
+                </tabular>
             </statement>
         </exercise>
         
         <exercise>
             <introduction>
                 <p>
+                    Use the fact that <m>\sin(x)</m>, <m>\tan(x)</m>, <m>\cot(x)</m>, and <m>\csc(x)</m>
+                    are all odd, and <m>\cos(x)</m> and <m>\sec(x)</m> are even to find the following
+                    values.
                 </p>
             </introduction>
             <task>
                 <statement>
                     <p>
+                        <m>\sin\left(-\frac{2\pi}{3}\right)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\tan\left(-\frac{2\pi}{3}\right)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\cot\left(-\frac{2\pi}{3}\right)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\csc\left(-\frac{2\pi}{3}\right)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\cos\left(-\frac{2\pi}{3}\right)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\sec\left(-\frac{2\pi}{3}\right)</m>
                     </p>
                 </statement>
             </task>
@@ -293,17 +480,20 @@
         <exercise>
             <introduction>
                 <p>
+                    Find the other five trigonometric values for the angle shown in each part.
                 </p>
             </introduction>
             <task>
                 <statement>
                     <p>
+                        <m>\sec(\psi) = -\frac{7}{2}</m> and <m>\frac{\pi}{2} \leq \psi \leq \pi</m>.
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\cot(\zeta) = -\frac{6}{5}</m> and <m>\frac{3\pi}{2} \leq \zeta \leq 2\pi</m>.
                     </p>
                 </statement>
             </task>
@@ -316,11 +506,15 @@
             <title>The "Other" Trigonometric Functions</title>
             <statement>
                 <p>
+                    For a right triangle with angle <m>\theta</m>, the "<term>other trig functions</term>"
+                    can be found by the following definitions as in <xref ref="figure-other-trig-def-1"/>.
+                    Visit <url href="https://www.desmos.com/calculator/ywkhnnagb4" visual="http://tiny.cc/six-trig-functions">
+                    this interactive Desmos graph</url> to see the six trigonometric lengths in action.
                     <md>
-                        <mrow></mrow>
-                        <mrow></mrow>
-                        <mrow></mrow>
-                        <mrow></mrow>
+                        <mrow>\tan(\theta) = \frac{\sin(\theta)}{\cos(\theta)}</mrow>
+                        <mrow>\cot(\theta) = \frac{\cos(\theta)}{\sin(\theta)}</mrow>
+                        <mrow>\sec(\theta) = \frac{1}{\cos(\theta)}</mrow>
+                        <mrow>\csc(\theta) = \frac{1}{\sin(\theta)}</mrow>
                     </md>
                 </p>
             </statement>
@@ -329,11 +523,14 @@
             <title>CHOSHACAO</title>
             <statement>
                 <p>
+                        For a right triangle with hypotenuse <m>h</m>, and sides <m>x</m> and <m>y</m>, as in <xref ref="figure-other-trig-def-2"/>, tangent is still "opposite over adjacent", as you saw in the section about right-angle trigonometry and the "other trigonmetric function values" can be found with "<term>CHOSHACAO</term>".
+                    Visit <url href="https://www.desmos.com/calculator/ywkhnnagb4" visual="http://tiny.cc/six-trig-functions">
+                    this interactive Desmos graph</url> to see the six trigonometric lengths in action.
                     <md>
-                        <mrow></mrow>
-                        <mrow></mrow>
-                        <mrow></mrow>
-                        <mrow></mrow>
+                        <mrow>\tan(\theta) = \frac{y}{x} = \frac{\sin(\theta)}{\cos(\theta)}</mrow>
+                        <mrow>\cot(\theta) = \frac{x}{y} = \frac{\cos(\theta)}{\sin(\theta)}</mrow>
+                        <mrow>\sec(\theta) = \frac{h}{x} = \frac{1}{\cos(\theta)}</mrow>
+                        <mrow>\csc(\theta) = \frac{h}{y} = \frac{1}{\sin(\theta)}</mrow>
                     </md>
                 </p>
             </statement>
@@ -342,6 +539,7 @@
             <title>Even and Odd Trigonometric Functions</title>
             <statement>
                 <p>
+                        Recall that even functions are symmetrical about the <m>y</m>-axis, which makes <m>f(x)=f(-x)</m>, and odd functions are symmetrical about the origin, which makes <m>-f(x) = f(-x)</m>. All of the trigonometric functions are either even or odd. Here's a list:
                 </p>
                 <ul>
                     <li>

@@ -511,7 +511,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.4",
   "title": "Other Trigonometric Functions",
-  "body": " Other Trigonometric Functions   In this section, we'll find exact values of the trigonometric functions secant, cosecant, tangent, and cotangent of , , and , use reference angles to evaluate the trigonometric functions secant, tangent, and cotangent, use properties of even and odd trigonometric functions, recognize and use fundamental identities, and evaluate trigonometric functions with a calculator.    Textbook Reference  This relates to content in 7.4 of Algebra and Trigonometry 2e .    Preparation Exercises   Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.     What does \"CHOSHACAO\" stand for? See Right Angle Trigonometry Definitions .                              Practice Exercises                                                                                                                                                                                                             Definitions   The \"Other\" Trigonometric Functions         CHOSHACAO         Even and Odd Trigonometric Functions                                  Other Pythagorean Identities                      Periods of Trigonometric Functions                   Exit Exercises                      Graph of a function. From below, the curve travels up to the point , then passes smoothly through the points ; ; ; ; ; then continues downward and to the right off of the grid.                              On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    --> "
+  "body": " Other Trigonometric Functions   In this section, we'll find exact values of the trigonometric functions secant, cosecant, tangent, and cotangent of , , and , use reference angles to evaluate the trigonometric functions secant, tangent, and cotangent, use properties of even and odd trigonometric functions, recognize and use fundamental identities, and evaluate trigonometric functions with a calculator.    Textbook Reference  This relates to content in 7.4 of Algebra and Trigonometry 2e .    Preparation Exercises   Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.     What does \"CHOSHACAO\" stand for? See Right Angle Trigonometry Definitions .      What is the value of ?      Find the value of using your memorized unit circle values and a reference angle.      Find the value of using your memorized unit circle values and a reference angle.      Explain what makes a function an \"odd function\"?      Practice Exercises    Find all six trigonometric function values given the coordinates at an angle on a unit circle.   A point on a unit circle at an angle    A unit circle with an angle in standard position, beginning on the positive -axis and rotating counter-clockwise to the coordinates in the second quadrant.                                                    Find all six trigonometric function values at the angle using your memorized values for and .                                                Find the trigonometric function values given the right triangle with lengths shown in .                                            Fill in a table of all 6 trig values for the standard angles on the unit circle.                                                                                                                                                                                                                      Definitions   The \"Other\" Trigonometric Functions         CHOSHACAO         Even and Odd Trigonometric Functions                                  Other Pythagorean Identities                      Periods of Trigonometric Functions                   Exit Exercises                      Graph of a function. From below, the curve travels up to the point , then passes smoothly through the points ; ; ; ; ; then continues downward and to the right off of the grid.                              On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    --> "
 },
 {
   "id": "sec-other-trig-functions-4-3",
@@ -529,7 +529,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2",
   "title": "",
-  "body": "     "
+  "body": "  What is the value of ?   "
 },
 {
   "id": "sec-other-trig-functions-4-5",
@@ -538,7 +538,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3",
   "title": "",
-  "body": "     "
+  "body": "  Find the value of using your memorized unit circle values and a reference angle.   "
 },
 {
   "id": "sec-other-trig-functions-4-6",
@@ -547,7 +547,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4",
   "title": "",
-  "body": "     "
+  "body": "  Find the value of using your memorized unit circle values and a reference angle.   "
 },
 {
   "id": "sec-other-trig-functions-4-7",
@@ -556,7 +556,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5",
   "title": "",
-  "body": "     "
+  "body": "  Explain what makes a function an \"odd function\"?   "
 },
 {
   "id": "practice-other-trig-functions-2",
@@ -565,7 +565,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1",
   "title": "",
-  "body": "                                                    "
+  "body": "  Find all six trigonometric function values given the coordinates at an angle on a unit circle.   A point on a unit circle at an angle    A unit circle with an angle in standard position, beginning on the positive -axis and rotating counter-clockwise to the coordinates in the second quadrant.                                                 "
 },
 {
   "id": "practice-other-trig-functions-3",
@@ -574,7 +574,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2",
   "title": "",
-  "body": "                                         "
+  "body": "  Find all six trigonometric function values at the angle using your memorized values for and .                                             "
 },
 {
   "id": "practice-other-trig-functions-4",
@@ -583,7 +583,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3",
   "title": "",
-  "body": "                                       "
+  "body": "  Find the trigonometric function values given the right triangle with lengths shown in .                                         "
 },
 {
   "id": "practice-other-trig-functions-5",
@@ -592,7 +592,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4",
   "title": "",
-  "body": "     "
+  "body": "  Fill in a table of all 6 trig values for the standard angles on the unit circle.                                                                                                                                                       "
 },
 {
   "id": "practice-other-trig-functions-6",

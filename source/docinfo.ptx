@@ -29,11 +29,11 @@
   <!-- for those in the next element. -->
   <latex-image-preamble> 
       <!-- Packages -->
-      \usepackage{tikz, pgfplots}
-      \pgfplotsset{compat=1.14}
+      \usepackage{tikz, pgfplots, tkz-euclide}
+      \pgfplotsset{compat=1.18}
       \usetikzlibrary{positioning,matrix,arrows}
       \usetikzlibrary{shapes,decorations,shadows,fadings,patterns}
-      \usetikzlibrary{decorations.markings,decorations.fractals,decorations.footprints,decorations.pathreplacing,decorations.text}
+      \usetikzlibrary{decorations.markings,decorations.fractals,decorations.footprints,decorations.pathreplacing,decorations.text,calligraphy}
       \usetikzlibrary{arrows,arrows.meta}
 \usepgfplotslibrary{fillbetween}
 \usepgfplotslibrary{polar}

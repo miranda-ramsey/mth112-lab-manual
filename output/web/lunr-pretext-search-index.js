@@ -25,7 +25,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.1",
   "title": "Angles",
-  "body": " Angles   In this section, we'll draw angles in standard position, convert between degrees and radians and degrees-minutes-seconds, find coterminal angles, and find the length of a circular arc.    Textbook Reference  This relates to content in 7.1 of Algebra and Trigonometry 2e .    Preparation Exercises    Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.     Solve the equation for .      Simplify the expression without a calculator. Reduce to simplest form.      In terms of time, how many minutes total are in 3 hours and 53 minutes?      Draw a line segment from the point to the point . Find the distance between those two points using the Pythagorean Theorem. Leave your answer in exact form.          Practice Exercises    Find an angle that is coterminal to -40 and is between 360 and 720       Match each angle in the first group with its coterminal angle in the second group.     30  270  -220  -60  0  150      720  -90  390  510  -420  500         Convert the angles.     Convert 28 to radians. Leave your answer as a fraction in terms of .      Convert radians to degrees. Round to 6 digits behind the decimal place.      Convert 14 20 36 to a decimal measurement of degrees.      Convert 76.85 to degrees-minutes-seconds.       Use the formula to find the missing values.     Find the arc length of on a circle of radius 6 with an interior angle of .      Find the interior angle of an arc length on a circle of radius 12 with an arc length of .      Find the arc length of on a circle of radius with an interior angle of 20        Definitions   Angle   An angle is formed when two lines intersect at a point. We can measure the “size” of this angle in degrees or radians.     Ray   A ray is a portion of a line that starts at a point and extends infinitely in one direction.     Degree   A degree is an angle measurement equal to of a full rotation.     Right Angle   A right angle is an angle of 90 .     Radian   A radian is a unit of measurement of angle size, and 1 radian is defined to be the angle that is made when the arc length for that angle on a circle of radius 1 is equal to 1. Check out this Desmos link and click the \"play\" button on the slider for a visual representation of this concept.    Standard Angles    A circle with common angles indicated in radians:   0     30     45     60     90     120     135     150     180     210     225     240     270     300     315     330            Initial and Terminal sides   An angle is created by imagining two rays originating from the same point: the initial side of the angle is stationary and the terminal side is rotated around until the desired angle is created. Angles measured from initial to terminal side in a counterclockwise direction are positive. Angles measured from initial to terminal side clockwise are negative.     Standard Position   An angle is said to be in standard position if the initial and terminal sides of the angle meet at the origin and the initial side of the angle is along the positive x-axis.     Coterminal   Two angles are coterminal if their initial and terminal sides align, but they differ by an integer number of full rotations. In standard position, this means that the two angles are “in the same place” are different by some integer multiple of 360 (or radians).     Arc length   An arc length is a distance along a part of the circumference of a circle. A formula for arc length is , where stands for arc length along a circle of radius , with an interior angle centered at the center of the circle.    Coterminal angles and    An angle drawn in standard position is indicated in two ways. Beginning with an initial side along the positive -axis and ending with a terminal side in the second quadrant, the angle in the counter- clockwise direction is labeled and the angle in the clockwise direction is labeled . The segment of the circumference of the circle between the initial and terminal sides of is the arc subtended by , and the length measure of that arc is the arc length for angle .         Exit Exercises    Explain why -90 is not the same as 270 .      Convert 34 29 24 to decimal degrees.      Convert the angle 144 to radians. Write your answer in exact form as a fraction with in it.      How big of an arc length will an angle of radians create on a circle of radius 6? Draw this angle and arc length on the circle of radius 6 provided.    A circle of radius 6    A circle with radius 6, centered on the origin $(0,0)$.           On a scale of 1 5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
+  "body": " Angles   In this section, we'll draw angles in standard position, convert between degrees and radians and degrees-minutes-seconds, find coterminal angles, and find the length of a circular arc.    Textbook Reference  This relates to content in 7.1 of Algebra and Trigonometry 2e .    Preparation Exercises    Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.     Solve the equation for .      Simplify the expression without a calculator. Reduce to simplest form.      In terms of time, how many minutes total are in 3 hours and 53 minutes?      Draw a line segment from the point to the point . Find the distance between those two points using the Pythagorean Theorem. Leave your answer in exact form.          Practice Exercises    Find an angle that is coterminal to -40 and is between 360 and 720       Match each angle in the first group with its coterminal angle in the second group.     30  270  -220  -60  0  150      720  -90  390  510  -420  500         Convert the angles.     Convert 28 to radians. Leave your answer as a fraction in terms of .      Convert radians to degrees. Round to 6 digits behind the decimal place.      Convert 14 20 36 to a decimal measurement of degrees.      Convert 76.85 to degrees-minutes-seconds.       Use the formula to find the missing values.     Find the arc length of on a circle of radius 6 with an interior angle of .      Find the interior angle of an arc length on a circle of radius 12 with an arc length of .      Find the arc length of on a circle of radius with an interior angle of 20        Definitions   Angle   An angle is formed when two lines intersect at a point. We can measure the “size” of this angle in degrees or radians.     Ray   A ray is a portion of a line that starts at a point and extends infinitely in one direction.     Degree   A degree is an angle measurement equal to of a full rotation.     Right Angle   A right angle is an angle of 90 .     Radian   A radian is a unit of measurement of angle size, and 1 radian is defined to be the angle that is made when the arc length for that angle on a circle of radius 1 is equal to 1. Check out this Desmos link and click the \"play\" button on the slider for a visual representation of this concept.    Standard Angles    A circle with common angles indicated in radians:   0     30     45     60     90     120     135     150     180     210     225     240     270     300     315     330            Initial and Terminal sides   An angle is created by imagining two rays originating from the same point: the initial side of the angle is stationary and the terminal side is rotated around until the desired angle is created. Angles measured from initial to terminal side in a counterclockwise direction are positive. Angles measured from initial to terminal side clockwise are negative.     Standard Position   An angle is said to be in standard position if the initial and terminal sides of the angle meet at the origin and the initial side of the angle is along the positive x-axis.     Coterminal   Two angles are coterminal if their initial and terminal sides align, but they differ by an integer number of full rotations. In standard position, this means that the two angles are “in the same place” are different by some integer multiple of 360 (or radians).     Arc length   An arc length is a distance along a part of the circumference of a circle. A formula for arc length is , where stands for arc length along a circle of radius , with an interior angle centered at the center of the circle.    Coterminal angles and    An angle drawn in standard position is indicated in two ways. Beginning with an initial side along the positive -axis and ending with a terminal side in the second quadrant, the angle in the counter- clockwise direction is labeled and the angle in the clockwise direction is labeled . The segment of the circumference of the circle between the initial and terminal sides of is the arc subtended by , and the length measure of that arc is the arc length for angle .         Exit Exercises    Explain why -90 is not the same as 270 .      Convert 34 29 24 to decimal degrees.      Convert the angle 144 to radians. Write your answer in exact form as a fraction with in it.      How big of an arc length will an angle of radians create on a circle of radius 6? Draw this angle and arc length on the circle of radius 6 provided.   A circle of radius 6    A circle with radius 6, centered on the origin $(0,0)$.            On a scale of 1 5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
 },
 {
   "id": "sec-angles-4-2",
@@ -187,7 +187,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4",
   "title": "",
-  "body": "  How big of an arc length will an angle of radians create on a circle of radius 6? Draw this angle and arc length on the circle of radius 6 provided.    A circle of radius 6    A circle with radius 6, centered on the origin $(0,0)$.      "
+  "body": "  How big of an arc length will an angle of radians create on a circle of radius 6? Draw this angle and arc length on the circle of radius 6 provided.   A circle of radius 6    A circle with radius 6, centered on the origin $(0,0)$.       "
 },
 {
   "id": "sec-angles-8-1",
@@ -205,7 +205,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.2",
   "title": "Right Angle Trigonometry",
-  "body": " Right Angle Trigonometry   In this section, we'll use right triangles to evaluate trigonometric functions, find function values for 30 , 45 , and 60 , use all six trigonometric functions to find lengths inside right triangles, and use right-triangle trigonometry to solve applied problems.    Textbook Reference  This relates to content in 7.2 of Algebra and Trigonometry 2e .    Preparation Exercises   Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.     What does the word \"adjacent\" mean?      Fill in the table with the missing angle measurements.             Angle (radians)                            Angle (degrees)     30   90         60      135         Practice Exercises    Decide which values math without a calculator using \"SOHCAHTOA\" and \"CHOSHACAO\". The triangles are not shown to scale.     Which of the values will be the same as sin(40 )?      Which of the values will be the same as tan(20 )?       For the triangle shown in , find , , and . You can use a calculator to help get an approximation, accurate to 4 digits behind the decimal place.      On a backpacking trip in the Wallowa Mountains of northeastern Oregon, Megan and Emily were marveling at the height of an enormous Ponderosa Pine. Ross said, \"we can calculate it’s height pretty easily just by knowing that 'a pace' is 3ft and the distance from the tip of my thumb to the tip of my pinkie is 9 inches\". Ross paced away from the tree on level ground 30 paces. Help the three hikers measure the height of the tree two different ways.     Ross finds a stick and measures it to be about 6ft tall. He lays down on the ground and asks Emily to hold the stick vertically on the ground at a certain point where the tip of the stick lines up with the tip of the tree from his point of view. That distance on the ground was 4ft from Ross's viewing position, as shown in Figure 5.9. Set up similar triangles to estimate the height of the tree. Drawing not to scale.      Ross then took out his phone and used the inclinometer app on to measure the angle to to top of the tree, to be about 55 . In this scenario, Ross still 30 paces away from the tree, and was standing to measure the height: the phone was 5ft above the ground, as shown in Figure 5.10. Use right-triangle trigonometry to estimate the height of the tree. Drawing not to scale.       Definitions   Consider the triangle shown in .    SOHCAHTOA        CHOSHACAO         Exit Exercises    Use the triangle in to answer the questions below.     Find the value of       Find the value of       Find the value of        Shown in is a triangle with side , angle , and angle . Find the length of the side .        On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
+  "body": " Right Angle Trigonometry   In this section, we will use right triangles to evaluate trigonometric functions, find function values for 30 , 45 , and 60 , use all six trigonometric functions to find lengths inside right triangles, and use right-triangle trigonometry to solve applied problems.    Textbook Reference  This relates to content in 7.2 of Algebra and Trigonometry 2e .    Preparation Exercises   Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.     What does the word \"adjacent\" mean?      Fill in the table with the missing angle measurements.             Angle (radians)                            Angle (degrees)     30   90         60      135          Recall that similar triangles are two triangles with equal angle measurements, but not necessarily equal side lengths. The ratio of any two corresponding sides of the triangles will be equal, which means that         Using the similar triangles equations, solve for the missing sides. Drawing may not be drawn to scale.           Practice Exercises    Decide which values math without a calculator using \"SOHCAHTOA\" and \"CHOSHACAO\". The triangles are not shown to scale.      Which of the values will be the same as sin(40 )?                 A right triangle                 Which of the values will be the same as tan(20 )?                 A right triangle                 For the triangle shown in , find , , and . You can use a calculator to help get an approximation, accurate to 4 digits behind the decimal place.     A right triangle with hypotenuse , a side with length adjacent to angle , and a side with length m adjacent to an angle with measure .          On a backpacking trip in the Wallowa Mountains of northeastern Oregon, Megan and Emily were marveling at the height of an enormous Ponderosa Pine. Ross said, \"we can calculate it’s height pretty easily just by knowing that 'a pace' is 3ft and the distance from the tip of my thumb to the tip of my pinkie is 9 inches\". Ross paced away from the tree on level ground 30 paces. Help the three hikers measure the height of the tree two different ways.      Ross finds a stick and measures it to be about 6ft tall. He lays down on the ground and asks Emily to hold the stick vertically on the ground at a certain point where the tip of the stick lines up with the tip of the tree from his point of view. That distance on the ground was 4ft from Ross's viewing position, as shown in . Set up similar triangles to estimate the height of the tree. Drawing not to scale.   A tree in the woods                 Ross then took out his phone and used the inclinometer app on to measure the angle to to top of the tree, to be about 55 . In this scenario, Ross still 30 paces away from the tree, and was standing to measure the height: the phone was 5ft above the ground, as shown in . Use right-triangle trigonometry to estimate the height of the tree. Drawing not to scale.   A tree in the woods                 Definitions   Consider the triangle shown in .   A right trangle             SOHCAHTOA    SOHCAHTOA stands for    S ine is O pposite over H ypotenuse.     C osine is A djacent over H ypotenuse.     T angent is O pposite over A djacent.   These mean the following:      CHOSHACAO    CHOSHACAO stands for    C osecant is H ypotenuse over O pposite.     S ecant is H ypotenuse over A djacent.     C otangent is A djacent over O pposite.   These mean the following:       Exit Exercises     Use the triangle in to answer the questions below.   Find the value of     Find the value of     Find the value of                       Shown in is a triangle with side , angle , and angle . Find the length of the side .                    On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
 },
 {
   "id": "prep-average-rates-and-dq-3",
@@ -226,13 +226,22 @@ var ptx_lunr_docs = [
   "body": "  Fill in the table with the missing angle measurements.             Angle (radians)                            Angle (degrees)     30   90         60      135      "
 },
 {
+  "id": "prep-average-rates-and-dq-5",
+  "level": "2",
+  "url": "sec-right-angle-trig.html#prep-average-rates-and-dq-5",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "   Recall that similar triangles are two triangles with equal angle measurements, but not necessarily equal side lengths. The ratio of any two corresponding sides of the triangles will be equal, which means that         Using the similar triangles equations, solve for the missing sides. Drawing may not be drawn to scale.        "
+},
+{
   "id": "practice-right-angle-trig-2",
   "level": "2",
   "url": "sec-right-angle-trig.html#practice-right-angle-trig-2",
   "type": "Exercise",
   "number": "1",
   "title": "",
-  "body": "  Decide which values math without a calculator using \"SOHCAHTOA\" and \"CHOSHACAO\". The triangles are not shown to scale.     Which of the values will be the same as sin(40 )?      Which of the values will be the same as tan(20 )?    "
+  "body": "  Decide which values math without a calculator using \"SOHCAHTOA\" and \"CHOSHACAO\". The triangles are not shown to scale.      Which of the values will be the same as sin(40 )?                 A right triangle                 Which of the values will be the same as tan(20 )?                 A right triangle              "
 },
 {
   "id": "practice-right-angle-trig-3",
@@ -241,7 +250,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2",
   "title": "",
-  "body": "  For the triangle shown in , find , , and . You can use a calculator to help get an approximation, accurate to 4 digits behind the decimal place.   "
+  "body": "  For the triangle shown in , find , , and . You can use a calculator to help get an approximation, accurate to 4 digits behind the decimal place.     A right triangle with hypotenuse , a side with length adjacent to angle , and a side with length m adjacent to an angle with measure .       "
 },
 {
   "id": "practice-right-angle-trig-4",
@@ -250,25 +259,34 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3",
   "title": "",
-  "body": "  On a backpacking trip in the Wallowa Mountains of northeastern Oregon, Megan and Emily were marveling at the height of an enormous Ponderosa Pine. Ross said, \"we can calculate it’s height pretty easily just by knowing that 'a pace' is 3ft and the distance from the tip of my thumb to the tip of my pinkie is 9 inches\". Ross paced away from the tree on level ground 30 paces. Help the three hikers measure the height of the tree two different ways.     Ross finds a stick and measures it to be about 6ft tall. He lays down on the ground and asks Emily to hold the stick vertically on the ground at a certain point where the tip of the stick lines up with the tip of the tree from his point of view. That distance on the ground was 4ft from Ross's viewing position, as shown in Figure 5.9. Set up similar triangles to estimate the height of the tree. Drawing not to scale.      Ross then took out his phone and used the inclinometer app on to measure the angle to to top of the tree, to be about 55 . In this scenario, Ross still 30 paces away from the tree, and was standing to measure the height: the phone was 5ft above the ground, as shown in Figure 5.10. Use right-triangle trigonometry to estimate the height of the tree. Drawing not to scale.    "
+  "body": "  On a backpacking trip in the Wallowa Mountains of northeastern Oregon, Megan and Emily were marveling at the height of an enormous Ponderosa Pine. Ross said, \"we can calculate it’s height pretty easily just by knowing that 'a pace' is 3ft and the distance from the tip of my thumb to the tip of my pinkie is 9 inches\". Ross paced away from the tree on level ground 30 paces. Help the three hikers measure the height of the tree two different ways.      Ross finds a stick and measures it to be about 6ft tall. He lays down on the ground and asks Emily to hold the stick vertically on the ground at a certain point where the tip of the stick lines up with the tip of the tree from his point of view. That distance on the ground was 4ft from Ross's viewing position, as shown in . Set up similar triangles to estimate the height of the tree. Drawing not to scale.   A tree in the woods                 Ross then took out his phone and used the inclinometer app on to measure the angle to to top of the tree, to be about 55 . In this scenario, Ross still 30 paces away from the tree, and was standing to measure the height: the phone was 5ft above the ground, as shown in . Use right-triangle trigonometry to estimate the height of the tree. Drawing not to scale.   A tree in the woods              "
+},
+{
+  "id": "figure-right-triangle-definitions",
+  "level": "2",
+  "url": "sec-right-angle-trig.html#figure-right-triangle-definitions",
+  "type": "Figure",
+  "number": "5.2.8",
+  "title": "",
+  "body": " A right trangle          "
 },
 {
   "id": "definitions-right-angle-trig-3",
   "level": "2",
   "url": "sec-right-angle-trig.html#definitions-right-angle-trig-3",
   "type": "Definition",
-  "number": "5.2.1",
+  "number": "5.2.9",
   "title": "SOHCAHTOA.",
-  "body": " SOHCAHTOA      "
+  "body": " SOHCAHTOA    SOHCAHTOA stands for    S ine is O pposite over H ypotenuse.     C osine is A djacent over H ypotenuse.     T angent is O pposite over A djacent.   These mean the following:    "
 },
 {
   "id": "definitions-right-angle-trig-4",
   "level": "2",
   "url": "sec-right-angle-trig.html#definitions-right-angle-trig-4",
   "type": "Definition",
-  "number": "5.2.2",
+  "number": "5.2.10",
   "title": "CHOSHACAO.",
-  "body": " CHOSHACAO      "
+  "body": " CHOSHACAO    CHOSHACAO stands for    C osecant is H ypotenuse over O pposite.     S ecant is H ypotenuse over A djacent.     C otangent is A djacent over O pposite.   These mean the following:    "
 },
 {
   "id": "exit-right-trig-2",
@@ -277,7 +295,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1",
   "title": "",
-  "body": "  Use the triangle in to answer the questions below.     Find the value of       Find the value of       Find the value of     "
+  "body": "   Use the triangle in to answer the questions below.   Find the value of     Find the value of     Find the value of                   "
 },
 {
   "id": "exit-right-trig-3",
@@ -286,7 +304,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2",
   "title": "",
-  "body": "  Shown in is a triangle with side , angle , and angle . Find the length of the side .   "
+  "body": "   Shown in is a triangle with side , angle , and angle . Find the length of the side .               "
 },
 {
   "id": "sec-right-angle-trig-8-1",
@@ -304,7 +322,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.3",
   "title": "The Unit Circle",
-  "body": " The Unit Circle   In this section, we will find function values for the sine and cosine of 30 , 45 , and 60 , identify the domain and range of sine and cosine functions, find reference angles, and use reference angles to evaluate trigonometric functions.    Textbook Reference  This relates to content in 7.3 of Algebra and Trigonometry 2e .    Preparation Exercises   Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.     For a right triangle with side and hypotenuse , find the missing side using the Pythagorean Theorem.      Which quadrant are the following angles in?                                                              Simplify without a calculator.      Count from to by multiples of , then reduce those fractions. Here's how to start out:       Practice Exercises     If and , which quadrant must be in?      If and , which quadrant must be in?       Find the reference angles for the given angles.     340       440                      Which of the standard angles between and on the unit circle do the following and coordinates go with?                            If and , find the value of .      If and , find the value of .      If and , find the value of .              Evaluate the expressions without a calculator by first finding and using the reference angles for the angles shown.                                  Definitions   The Unit Circle   A unit circle is a circle with radius 1.     Cosine of an Angle   The cosine of an angle , , is equal to the -value at that angle on a unit circle.     Sine of an Angle   The sine of an angle , , is equal to the -value at that angle on a unit circle.     The Pythagorean Identity   The Pythagorean Identity is the relationship between sine and cosine values, , relating to the Pythagorean Theorem in .     Reference Angle   A reference angle , , to an angle , is the acute (or right) positive angle between the -axis to the angle as shown in .      Exit Exercises    Which angle, , between and has a sine value of and a cosine value of ?      What is the reference angle for ?      Evaluate without a calculator.      If and , find the value of .        On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    --> "
+  "body": " The Unit Circle   In this section, we will find function values for the sine and cosine of 30 , 45 , and 60 , identify the domain and range of sine and cosine functions, find reference angles, and use reference angles to evaluate trigonometric functions.    Textbook Reference  This relates to content in 7.3 of Algebra and Trigonometry 2e .    Preparation Exercises   Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.     For a right triangle with side and hypotenuse , find the missing side using the Pythagorean Theorem.      Which quadrant are the following angles in?                                                              Simplify without a calculator.      Count from to by multiples of , then reduce those fractions. Here's how to start out:       Practice Exercises     If and , which quadrant must be in?      If and , which quadrant must be in?       Find the reference angles for the given angles.     340       440                      Which of the standard angles between and on the unit circle do the following and coordinates go with?                            If and , find the value of .      If and , find the value of .      If and , find the value of .              Evaluate the expressions without a calculator by first finding and using the reference angles for the angles shown.                                  Definitions                The Unit Circle   A unit circle is a circle with radius 1.     Cosine of an Angle   The cosine of an angle , , is equal to the -value at that angle on a unit circle.     Sine of an Angle   The sine of an angle , , is equal to the -value at that angle on a unit circle.     The Pythagorean Identity   The Pythagorean Identity is the relationship between sine and cosine values, , relating to the Pythagorean Theorem in .                Reference Angle   A reference angle , , to an angle , is the acute (or right) positive angle between the -axis to the angle as shown in .                 Exit Exercises    Which angle, , between and has a sine value of and a cosine value of ?      What is the reference angle for ?      Evaluate without a calculator.      If and , find the value of .        On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    --> "
 },
 {
   "id": "prep-unit-circle-3",
@@ -388,13 +406,13 @@ var ptx_lunr_docs = [
   "body": "  Evaluate the expressions without a calculator by first finding and using the reference angles for the angles shown.                               "
 },
 {
-  "id": "def-unit-circle-2",
+  "id": "def-unit-circle-2-1",
   "level": "2",
-  "url": "sec-unit-circle.html#def-unit-circle-2",
-  "type": "Definition",
+  "url": "sec-unit-circle.html#def-unit-circle-2-1",
+  "type": "Figure",
   "number": "5.3.1",
-  "title": "The Unit Circle.",
-  "body": " The Unit Circle   A unit circle is a circle with radius 1.   "
+  "title": "",
+  "body": "          "
 },
 {
   "id": "def-unit-circle-3",
@@ -402,8 +420,8 @@ var ptx_lunr_docs = [
   "url": "sec-unit-circle.html#def-unit-circle-3",
   "type": "Definition",
   "number": "5.3.2",
-  "title": "Cosine of an Angle.",
-  "body": " Cosine of an Angle   The cosine of an angle , , is equal to the -value at that angle on a unit circle.   "
+  "title": "The Unit Circle.",
+  "body": " The Unit Circle   A unit circle is a circle with radius 1.   "
 },
 {
   "id": "def-unit-circle-4",
@@ -411,8 +429,8 @@ var ptx_lunr_docs = [
   "url": "sec-unit-circle.html#def-unit-circle-4",
   "type": "Definition",
   "number": "5.3.3",
-  "title": "Sine of an Angle.",
-  "body": " Sine of an Angle   The sine of an angle , , is equal to the -value at that angle on a unit circle.   "
+  "title": "Cosine of an Angle.",
+  "body": " Cosine of an Angle   The cosine of an angle , , is equal to the -value at that angle on a unit circle.   "
 },
 {
   "id": "def-unit-circle-5",
@@ -420,8 +438,8 @@ var ptx_lunr_docs = [
   "url": "sec-unit-circle.html#def-unit-circle-5",
   "type": "Definition",
   "number": "5.3.4",
-  "title": "The Pythagorean Identity.",
-  "body": " The Pythagorean Identity   The Pythagorean Identity is the relationship between sine and cosine values, , relating to the Pythagorean Theorem in .   "
+  "title": "Sine of an Angle.",
+  "body": " Sine of an Angle   The sine of an angle , , is equal to the -value at that angle on a unit circle.   "
 },
 {
   "id": "def-unit-circle-6",
@@ -429,8 +447,17 @@ var ptx_lunr_docs = [
   "url": "sec-unit-circle.html#def-unit-circle-6",
   "type": "Definition",
   "number": "5.3.5",
+  "title": "The Pythagorean Identity.",
+  "body": " The Pythagorean Identity   The Pythagorean Identity is the relationship between sine and cosine values, , relating to the Pythagorean Theorem in .              "
+},
+{
+  "id": "def-unit-circle-7",
+  "level": "2",
+  "url": "sec-unit-circle.html#def-unit-circle-7",
+  "type": "Definition",
+  "number": "5.3.7",
   "title": "Reference Angle.",
-  "body": " Reference Angle   A reference angle , , to an angle , is the acute (or right) positive angle between the -axis to the angle as shown in .   "
+  "body": " Reference Angle   A reference angle , , to an angle , is the acute (or right) positive angle between the -axis to the angle as shown in .              "
 },
 {
   "id": "exit-unit-circle-2",
@@ -484,7 +511,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.4",
   "title": "Other Trigonometric Functions",
-  "body": " Other Trigonometric Functions   In this section, we'll find exact values of the trigonometric functions secant, cosecant, tangent, and cotangent of , , and , use reference angles to evaluate the trigonometric functions secant, tangent, and cotangent, use properties of even and odd trigonometric functions, recognize and use fundamental identities, and evaluate trigonometric functions with a calculator.    Textbook Reference  This relates to content in 7.4 of Algebra and Trigonometry 2e .    Preparation Exercises   Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.     What does \"CHOSHACAO\" stand for? See Right Angle Trigonometry Definitions .                              "
+  "body": " Other Trigonometric Functions   In this section, we'll find exact values of the trigonometric functions secant, cosecant, tangent, and cotangent of , , and , use reference angles to evaluate the trigonometric functions secant, tangent, and cotangent, use properties of even and odd trigonometric functions, recognize and use fundamental identities, and evaluate trigonometric functions with a calculator.    Textbook Reference  This relates to content in 7.4 of Algebra and Trigonometry 2e .    Preparation Exercises   Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.     What does \"CHOSHACAO\" stand for? See Right Angle Trigonometry Definitions .                              Practice Exercises                                                                                                                                                                                                             Definitions   The \"Other\" Trigonometric Functions         CHOSHACAO         Even and Odd Trigonometric Functions                                  Other Pythagorean Identities                      Periods of Trigonometric Functions                   Exit Exercises                      Graph of a function. From below, the curve travels up to the point , then passes smoothly through the points ; ; ; ; ; then continues downward and to the right off of the grid.                              On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    --> "
 },
 {
   "id": "sec-other-trig-functions-4-3",
@@ -530,6 +557,141 @@ var ptx_lunr_docs = [
   "number": "5",
   "title": "",
   "body": "     "
+},
+{
+  "id": "practice-other-trig-functions-2",
+  "level": "2",
+  "url": "sec-other-trig-functions.html#practice-other-trig-functions-2",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "                                                    "
+},
+{
+  "id": "practice-other-trig-functions-3",
+  "level": "2",
+  "url": "sec-other-trig-functions.html#practice-other-trig-functions-3",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "                                         "
+},
+{
+  "id": "practice-other-trig-functions-4",
+  "level": "2",
+  "url": "sec-other-trig-functions.html#practice-other-trig-functions-4",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "                                       "
+},
+{
+  "id": "practice-other-trig-functions-5",
+  "level": "2",
+  "url": "sec-other-trig-functions.html#practice-other-trig-functions-5",
+  "type": "Exercise",
+  "number": "4",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "practice-other-trig-functions-6",
+  "level": "2",
+  "url": "sec-other-trig-functions.html#practice-other-trig-functions-6",
+  "type": "Exercise",
+  "number": "5",
+  "title": "",
+  "body": "                                         "
+},
+{
+  "id": "practice-other-trig-functions-7",
+  "level": "2",
+  "url": "sec-other-trig-functions.html#practice-other-trig-functions-7",
+  "type": "Exercise",
+  "number": "6",
+  "title": "",
+  "body": "                 "
+},
+{
+  "id": "definitions-other-trig-functions-2",
+  "level": "2",
+  "url": "sec-other-trig-functions.html#definitions-other-trig-functions-2",
+  "type": "Definition",
+  "number": "5.4.3",
+  "title": "The \"Other\" Trigonometric Functions.",
+  "body": " The \"Other\" Trigonometric Functions       "
+},
+{
+  "id": "definitions-other-trig-functions-3",
+  "level": "2",
+  "url": "sec-other-trig-functions.html#definitions-other-trig-functions-3",
+  "type": "Definition",
+  "number": "5.4.4",
+  "title": "CHOSHACAO.",
+  "body": " CHOSHACAO       "
+},
+{
+  "id": "definitions-other-trig-functions-4",
+  "level": "2",
+  "url": "sec-other-trig-functions.html#definitions-other-trig-functions-4",
+  "type": "Definition",
+  "number": "5.4.5",
+  "title": "Even and Odd Trigonometric Functions.",
+  "body": " Even and Odd Trigonometric Functions                                "
+},
+{
+  "id": "definitions-other-trig-functions-5",
+  "level": "2",
+  "url": "sec-other-trig-functions.html#definitions-other-trig-functions-5",
+  "type": "Definition",
+  "number": "5.4.6",
+  "title": "Other Pythagorean Identities.",
+  "body": " Other Pythagorean Identities                    "
+},
+{
+  "id": "definitions-other-trig-functions-6",
+  "level": "2",
+  "url": "sec-other-trig-functions.html#definitions-other-trig-functions-6",
+  "type": "Definition",
+  "number": "5.4.8",
+  "title": "Periods of Trigonometric Functions.",
+  "body": " Periods of Trigonometric Functions                "
+},
+{
+  "id": "exit-other-trig-functions-2",
+  "level": "2",
+  "url": "sec-other-trig-functions.html#exit-other-trig-functions-2",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "exit-other-trig-functions-3",
+  "level": "2",
+  "url": "sec-other-trig-functions.html#exit-other-trig-functions-3",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "exit-other-trig-functions-4",
+  "level": "2",
+  "url": "sec-other-trig-functions.html#exit-other-trig-functions-4",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "        Graph of a function. From below, the curve travels up to the point , then passes smoothly through the points ; ; ; ; ; then continues downward and to the right off of the grid.                         "
+},
+{
+  "id": "sec-other-trig-functions-8-1",
+  "level": "2",
+  "url": "sec-other-trig-functions.html#sec-other-trig-functions-8-1",
+  "type": "Reading Question",
+  "number": "1",
+  "title": "",
+  "body": "  On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
 {
   "id": "sec-sine-cosine-graphs",

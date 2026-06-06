@@ -4,7 +4,7 @@
     <title>Right Angle Trigonometry</title>
     <introduction>
         <p>
-            In this section, we'll use right triangles to evaluate trigonometric functions, find 
+            In this section, we will use right triangles to evaluate trigonometric functions, find 
             function values for 30<degree/>, 45<degree/>, and 60<degree/>, use all six trigonometric
             functions to find lengths inside right triangles, and use right-triangle trigonometry to
             solve applied problems.
@@ -110,6 +110,62 @@
                 </tabular>
 			</statement>
 		</exercise>
+        <exercise>
+            <statement>
+                <sidebyside widths="50% 40%">
+                    <p>
+                        Recall that <term>similar triangles</term> are two triangles with equal 
+                        angle measurements, but not necessarily equal side lengths. The ratio of 
+                        any two corresponding sides of the triangles will be equal, which means that 
+                        <md>
+                            \frac{A_1}{b_1}=\frac{A_2}{b_2}=\frac{A_3}{b_3}.
+                        </md>
+                    </p>
+                    <figure>
+                        <image>
+                            <latex-image>
+                                <![CDATA[
+                                    \begin{tikzpicture}[scale=0.3]
+                                    \draw   (0,0)--(1.5,0) coordinate[label=below:$b_1$]--
+                                    (3,0)--(3,2) coordinate[label=right:$b_2$]--
+                                    (3,4)--(1.5,2) coordinate[label=above left:$b_3$]--cycle;
+
+                                    \draw   (5,0)--(8,0) coordinate[label=below:$A_1$]--
+                                    (11,0)--(11,4) coordinate[label=right:$A_2$]--
+                                    (11,8)--(8,4) coordinate[label=above left:$A_3$]--cycle;
+
+                                    \draw   (2.5,0)--(2.5,.5)--(3,.5)--(3,0)--cycle;
+                                    \draw  	(11,0)--(11,.5)--(10.5,.5)--(10.5,0)--cycle;
+                                    \end{tikzpicture}
+                                ]]>
+                            </latex-image>
+                        </image>
+                    </figure>
+                </sidebyside>
+                <p>
+                    Using the similar triangles equations, solve for the missing sides. Drawing may
+                    not be drawn to scale.
+                </p>
+                <figure>
+                    <image width="60%">
+                        <latex-image>
+                            <![CDATA[
+                                \begin{tikzpicture}[scale=0.4]
+                                \draw   (0,0)--(1.5,0) coordinate[label=below:$6$]--
+                                (3,0)--(3,2) coordinate[label=right:$y$]--
+                                (3,4)--(1.5,2) coordinate[label=above left:$8$]--cycle;
+                                \draw   (4,0)--(7,0) coordinate[label=below:$9$]--
+                                (10,0)--(10,4) coordinate[label=right:$Y$]--
+                                (10,8)--(7,4) coordinate[label=above left:$Z$]--cycle;
+                                \draw   (2.5,0)--(2.5,.5)--(3,.5)--(3,0)--cycle;
+                                \draw  	(10,0)--(10,.5)--(9.5,.5)--(9.5,0)--cycle;
+                                \end{tikzpicture}
+                            ]]>
+                        </latex-image>
+                    </image>
+                </figure>
+            </statement>
+        </exercise>
 	</exercises>
 
 	<exercises xml:id="practice-right-angle-trig">
@@ -123,26 +179,144 @@
             </introduction>
             <task>
                 <statement>
-                    <p>
-                        Which of the values will be the same as sin(40<degree/>)?
-                    </p>
+                    <sidebyside widths="65% 30%">
+                        <p>
+                            Which of the values will be the same as sin(40<degree/>)?
+                            <ul>
+                                <li>
+                                    <m>\sin(50^\circ)</m>
+                                </li>
+                                <li>
+                                    <m>\cos(50^\circ)</m>
+                                </li>
+                                <li>
+                                    <m>\tan(40^\circ)</m>
+                                </li>
+                                <li>
+                                    <m>\cos(40^\circ)</m>
+                                </li>
+                            </ul>
+                        </p>
+                        <figure>
+                            <caption>A right triangle</caption>
+                            <image>
+                                <description>
+                                    <p>
+                                        <!--TODO-->
+                                    </p>
+                                </description>
+                                <latex-image>
+                                    <![CDATA[
+                                        \begin{tikzpicture}
+                                        \coordinate (O) at (0,0);
+                                        \coordinate (A) at (2,0);
+                                        \coordinate (B) at (0,3);
+                                        \draw (O)--(A)--(B)--cycle;
+                                        \footnotesize
+                                        \tkzLabelSegment[below=2pt](O,A){$a$}
+                                        \tkzLabelSegment[left=2pt](O,B){$b$}
+                                        \tkzLabelSegment[above=2pt, rotate=-atan(3/2)](A,B){$c$}
+                                        \tkzMarkRightAngle[size=0.5](A,O,B)
+                                        \tkzMarkAngle[size=0.9cm](B,A,O)
+                                        \tkzLabelAngle[pos = 0.6](B,A,O){$50^\circ$}
+                                        \tkzMarkAngle[size=0.7cm](O,B,A)
+                                        \end{tikzpicture}
+                                        ]]>
+                                </latex-image>
+                            </image>
+                        </figure>
+                    </sidebyside>
                 </statement>
             </task>
             <task>
                 <statement>
-                    <p>
-                        Which of the values will be the same as tan(20<degree/>)?
-                    </p>
+                    <sidebyside widths="50% 45%">
+                        <p>
+                            Which of the values will be the same as tan(20<degree/>)?
+                            <ul>
+                                <li>
+                                    <m>\cot(20^\circ)</m>
+                                </li>
+                                <li>
+                                    <m>\tan(70^\circ)</m>
+                                </li>
+                                <li>
+                                    <m>\cot(70^\circ)</m>
+                                </li>
+                                <li>
+                                    <m>\cos(70^\circ)</m>
+                                </li>
+                            </ul>
+                        </p>
+                        <figure>
+                            <caption>A right triangle</caption>
+                            <image>
+                                <description>
+                                    <p>
+                                        <!--TODO-->
+                                    </p>
+                                </description>
+                                <latex-image>
+                                    <![CDATA[
+                                        \begin{tikzpicture}
+                                        \coordinate (O) at (0,0);
+                                        \coordinate (A) at (5,0);
+                                        \coordinate (B) at (0,2);
+                                        \draw (O)--(A)--(B)--cycle;
+                                        \footnotesize
+                                        \tkzLabelSegment[below=2pt](O,A){$x$}
+                                        \tkzLabelSegment[left=2pt](O,B){$y$}
+                                        \tkzLabelSegment[above=2pt, rotate=-atan(2/5)](A,B){$z$}
+                                        \tkzMarkRightAngle[size=0.5](A,O,B)
+                                        \tkzMarkAngle[size=1.3cm](B,A,O)
+                                        \tkzLabelAngle[pos = 1](B,A,O){$20^\circ$}
+                                        \tkzMarkAngle[size=0.7cm](O,B,A)
+                                        \end{tikzpicture}
+                                        ]]>
+                                </latex-image>
+                            </image>
+                        </figure>
+                    </sidebyside>
                 </statement>
             </task>
         </exercise>
         <exercise>
             <statement>
                 <p>
-                    For the triangle shown in <xref provisional="figure 5.8 in original"/>, find 
-                    <m>a</m>, <m>c</m>, and <m>/alpha</m>. You can use a calculator to help get an 
+                    For the triangle shown in <xref ref="practice-right-angle-triangle"/>, find 
+                    <m>a</m>, <m>c</m>, and <m>\alpha</m>. You can use a calculator to help get an 
                     approximation, accurate to 4 digits behind the decimal place.
                 </p>
+                <figure xml:id="practice-right-angle-triangle">
+                    <image width="60%">
+                        <description>
+                            <p>
+                                A right triangle with hypotenuse <m>c</m>, a side with length 
+                                <m>a</m> adjacent to angle <m>\alpha</m>, and a side with length
+                                <m>28</m>m adjacent to an angle with measure <m>58^\circ</m>.
+                            </p>
+                        </description>
+                        <latex-image>
+                            <![CDATA[
+                                \begin{tikzpicture}[thin] \label{section-right-triangle-trig-example-triangle-solving2}
+                                \coordinate (O) at (0,0);
+                                \coordinate (A) at (7,0);
+                                \coordinate (B) at (0,3);
+                                \draw (O)--(A)--(B)--cycle;
+                                \footnotesize
+                                \tkzLabelSegment[below=2pt](O,A){$a$}
+                                \tkzLabelSegment[left=2pt](O,B){$28\text{m}$}
+                                \tkzLabelSegment[above right=2pt](A,B){$c$}
+                                \tkzMarkRightAngle[size=0.5](A,O,B)
+                                \tkzMarkAngle[size=0.8cm](B,A,O)
+                                \tkzLabelAngle[pos = 0.6](B,A,O){$\alpha$}
+                                \tkzMarkAngle[size=0.7cm](O,B,A)
+                                \tkzLabelAngle[pos = 0.5](O,B,A){$58^\circ$}
+                                \end{tikzpicture}
+                            ]]>
+                        </latex-image>
+                    </image>
+                </figure>
             </statement>
         </exercise>
         <exercise>
@@ -158,26 +332,106 @@
             </introduction>
             <task>
                 <statement>
-                    <p>
-                        Ross finds a stick and measures it to be about 6ft tall. He lays down on the 
-                        ground and asks Emily to hold the stick vertically on the ground at a 
-                        certain point where the tip of the stick lines up with the tip of the tree 
-                        from his point of view. That distance on the ground was 4ft from Ross's 
-                        viewing position, as shown in Figure 5.9. Set up similar triangles to 
-                        estimate the height of the tree. Drawing not to scale.
-                    </p>
+                    <sidebyside widths="60% 35%">
+                        <p>
+                            Ross finds a stick and measures it to be about 6ft tall. He lays down on the 
+                            ground and asks Emily to hold the stick vertically on the ground at a 
+                            certain point where the tip of the stick lines up with the tip of the tree 
+                            from his point of view. That distance on the ground was 4ft from Ross's 
+                            viewing position, as shown in <xref ref="figure-right-triangle-trig-practice-tree-1"/>.
+                            Set up similar triangles to estimate the height of the tree. Drawing 
+                            not to scale.
+                        </p>
+                        <figure xml:id="figure-right-triangle-trig-practice-tree-1">
+                            <caption>A tree in the woods</caption>
+                            <image>
+                                <description>
+                                    <p>
+                                        <!--TODO-->
+                                    </p>
+                                </description>
+                                <latex-image>
+                                    <![CDATA[
+                                        \begin{tikzpicture}
+                                        \begin{axis}[
+                                        axis x line=none,
+                                        axis y line=none,
+                                        xlabel=none,
+                                        ylabel=none,
+                                        xmin=-5,xmax=110,
+                                        ymin=-5,ymax=140,
+                                        clip=false,
+                                        ]	
+                                        \node   [inner sep=0pt] (Ponderosa) at (88,67) {\includegraphics[width=.106\textwidth]{external/images/Ponderosalookalike.png}};
+                                        \draw   [color=second,thin](0,0)--(90,0)--(90,135)--cycle;
+                                        \draw   [color=second,thin](83,0)--(83,8)--(90,8);
+                                        \draw   [thin,color=third](0,-10)--(0,-15)--(90,-15)--(90,-10);
+                                        \draw   [color=third](45,-15) coordinate[label=below:$90$ft];
+
+                                        \draw   [thin,color=first](5.4,0)--(5.4,3)--(8,3);
+                                        \draw   [thin,color=fourth](0,-1)--(0,-2)--(8,-2)--(8,-1);
+                                        \draw   [color=fourth](4,-1) coordinate[label=below:\tiny{$4$ft}];
+
+                                        \draw   [very thick,color=first](8,0)--(8,12);
+                                        \draw   [thin,color=first](10,1)--(11,1)--(11,12)--(10,12);
+                                        \draw   [color=first](10,7) coordinate[label=right:\footnotesize{$6$ft stick}];
+                                        \end{axis}
+                                        \end{tikzpicture}
+                                        ]]>
+                                </latex-image>
+                            </image>
+                        </figure>
+                    </sidebyside>
                 </statement>
             </task>
             <task>
                 <statement>
-                    <p>
-                        Ross then took out his phone and used the inclinometer app on to measure the
-                        angle to to top of the tree, to be about 55<degree/>. In this scenario, Ross 
-                        still 30 paces away from the tree, and was standing to measure the height: 
-                        the phone was 5ft above the ground, as shown in Figure 5.10. Use 
-                        right-triangle trigonometry to estimate the height of the tree. Drawing not 
-                        to scale.
-                    </p>
+                    <sidebyside widths="60% 35%">
+                        <p>
+                            Ross then took out his phone and used the inclinometer app on to measure the
+                            angle to to top of the tree, to be about 55<degree/>. In this scenario, Ross 
+                            still 30 paces away from the tree, and was standing to measure the height: 
+                            the phone was 5ft above the ground, as shown in <xref ref="figure-right-triangle-trig-practice-tree-2"/>. 
+                            Use right-triangle trigonometry to estimate the height of the tree. 
+                            Drawing not to scale.
+                        </p>
+                        <figure xml:id="figure-right-triangle-trig-practice-tree-2">
+                            <caption>A tree in the woods</caption>
+                            <image>
+                                <description>
+                                    <p>
+                                        <!--TODO-->
+                                    </p>
+                                </description>
+                                <latex-image>
+                                    <![CDATA[
+                                        \begin{tikzpicture}
+                                        \begin{axis}[
+                                        axis x line=none,
+                                        axis y line=none,
+                                        xlabel=none,
+                                        ylabel=none,
+                                        xmin=-5,xmax=110,
+                                        ymin=-5,ymax=140,
+                                        clip=false,
+                                        ]	
+                                        \node   [inner sep=0pt] (Ponderosa) at (88,67) {\includegraphics[width=.106\textwidth]{external/images/Ponderosalookalike.png}};
+                                        \draw   [thin,color=second](0,0)--(90,0)--(90,135)--(0,10)--cycle;
+                                        \draw   [color=second,thin](83,0)--(83,8)--(90,8);
+                                        \draw   [color=first](-1,5) coordinate[label=left:\footnotesize{$5$ft}];
+                                        \draw   [thin,color=first](-2,0)--(-3,0)--(-3,10)--(-2,10);
+                                        \draw   [color=third](45,-10) coordinate[label=below:$90$ft];
+                                        \draw   [thin,color=third](0,-5)--(0,-10)--(90,-10)--(90,-5);
+                                        \draw   [color=fourth](10,16)coordinate[label=right:\footnotesize$55^\circ$];
+                                        \draw   [thin,dashed,color=fourth] (90,10)--(0,10);
+                                        \addplot[variable=\t, domain=0:55, samples=50,very thin, color=fourth]({8*cos(t)}, {8*sin(t)+10});  
+                                        \end{axis}
+                                        \end{tikzpicture}
+                                        ]]>
+                                </latex-image>
+                            </image>
+                        </figure>
+                    </sidebyside>
                 </statement>
             </task>
         </exercise>
@@ -189,14 +443,66 @@
 
         <introduction>
             <p>
-                Consider the triangle shown in <xref provisional="Right triangle for definitions"/>.
+                Consider the triangle shown in <xref ref="figure-right-triangle-definitions"/>.
             </p>
+            <figure xml:id="figure-right-triangle-definitions">
+                <caption>A right trangle</caption>
+                <image width="60%">
+                    <description>
+                        <p>
+                            <!--TODO-->
+                        </p>
+                    </description>
+                    <latex-image>
+                        <![CDATA[
+                            \begin{tikzpicture}
+                            \coordinate (O) at (0,0);
+                            \coordinate (A) at (5,0);
+                            \coordinate (B) at (5,3);
+                            \draw (O)--(A)--(B)--cycle;
+                            \footnotesize
+                            \tkzLabelSegment[below=2pt](O,A){Adjacent}
+                            \tkzLabelSegment[above=2pt,rotate=atan(3/5)](O,B){Hypotenuse}
+                            \tkzLabelSegment[above=2pt,rotate=-90](A,B){Opposite}
+
+                            \tkzMarkRightAngle[size=0.5](O,A,B)
+                            \tkzMarkAngle[size=0.9cm](A,O,B)
+                            \tkzLabelAngle[pos = 0.7](A,O,B){$\theta$}
+                            \end{tikzpicture}
+                        ]]>
+                    </latex-image>
+                </image>
+            </figure>
         </introduction>
 
         <definition>
             <title>SOHCAHTOA</title>
             <statement>
                 <p>
+                    <term>SOHCAHTOA</term> stands for
+                    <ul>
+                        <li>
+                            <p>
+                                <em>S</em>ine is <em>O</em>pposite over <em>H</em>ypotenuse.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <em>C</em>osine is <em>A</em>djacent over <em>H</em>ypotenuse.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <em>T</em>angent is <em>O</em>pposite over <em>A</em>djacent.
+                            </p>
+                        </li>
+                    </ul>
+                    These mean the following:
+                    <md>
+                        <mrow>\sin(\theta)=\frac{\text{Opposite}}{\text{Hypotenuse}}</mrow>
+                        <mrow>\cos(\theta)=\frac{\text{Adjacent}}{\text{Hypotenuse}}</mrow>
+                        <mrow>\tan(\theta)=\frac{\text{Opposite}}{\text{Adjacent}}</mrow>
+                    </md>
                 </p>
             </statement>
         </definition>
@@ -205,6 +511,30 @@
             <title>CHOSHACAO</title>
             <statement>
                 <p>
+                    <term>CHOSHACAO</term> stands for
+                    <ul>
+                        <li>
+                            <p>
+                                <em>C</em>osecant is <em>H</em>ypotenuse over <em>O</em>pposite.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <em>S</em>ecant is <em>H</em>ypotenuse over <em>A</em>djacent.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <em>C</em>otangent is <em>A</em>djacent over <em>O</em>pposite.
+                            </p>
+                        </li>
+                    </ul>
+                    These mean the following:
+                    <md>
+                        <mrow>\csc(\theta)=\frac{\text{Hypotenuse}}{\text{Opposite}}</mrow>
+                        <mrow>\sec(\theta)=\frac{\text{Hypotenuse}}{\text{Adjacent}}</mrow>
+                        <mrow>\cot(\theta)=\frac{\text{Adjacent}}{\text{Opposite}}</mrow>
+                    </md>
                 </p>
             </statement>
         </definition>
@@ -215,40 +545,98 @@
         <title>Exit Exercises</title>
         <exercise>
             <introduction>
+                <sidebyside widths="60% 35%">
                 <p>
-                    Use the triangle in <xref provisional="Figure 5.12"/> to answer the questions 
+                    Use the triangle in <xref ref="figure-right-triangle-exit-1"/> to answer the questions 
                     below.
-                </p>
-            </introduction>
-            <task>
-                <statement>
+            <ol>
+                <li>
                     <p>
                         Find the value of <m>\cos(\theta)</m>
                     </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
+                </li>
+                <li>
                     <p>
                         Find the value of <m>\tan(\theta)</m>
                     </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
+                </li>
+                <li>
                     <p>
                         Find the value of <m>\csc(\theta)</m>
                     </p>
-                </statement>
-            </task>
+                </li>
+            </ol>
+                </p>
+                    <figure xml:id="figure-right-triangle-exit-1">
+                        <caption></caption>
+                        <image width="60%">
+                            <description>
+                                <p>
+                                    <!--TODO-->
+                                </p>
+                            </description>
+                            <latex-image>
+                                <![CDATA[
+                                    \begin{tikzpicture}[thin]
+			\coordinate (O) at (0,0);
+			\coordinate (A) at (3,0);
+			\coordinate (B) at (0,2);
+			\draw (O)--(A)--(B)--cycle;
+			\footnotesize
+			\tkzLabelSegment[below=2pt](O,A){$77\text{cm}$}
+			\tkzLabelSegment[above=2pt,rotate=90](O,B){$36\text{cm}$}
+			\tkzLabelSegment[above=2pt,rotate=-atan(2/3)](A,B){$85\text{cm}$}
+			\tkzMarkRightAngle[size=0.5](A,O,B)
+			\tkzMarkAngle[size=0.8cm](B,A,O)
+			\tkzLabelAngle[pos = 0.6](B,A,O){$\phi$}
+			\tkzMarkAngle[size=0.7cm](O,B,A)
+			\tkzLabelAngle[pos = 0.5](O,B,A){$\theta$}
+                                    \end{tikzpicture}
+                                ]]>
+                            </latex-image>
+                        </image>
+                    </figure>
+                </sidebyside>
+            </introduction>
         </exercise>
         <exercise>
 			<statement>
+                <sidebyside widths="40% 55%">
                 <p>
-                    Shown in <xref provisional="Figure 5.13"/> is a triangle with side <m>b=11</m>, 
-                    angle <m>B = 22^/circ</m>, and angle <m>C = 90^\circ</m>. Find the length of 
+                    Shown in <xref ref="figure-right-triangle-exit-2"/> is a triangle with side <m>b=11</m>, 
+                    angle <m>B = 22^\circ</m>, and angle <m>C = 90^\circ</m>. Find the length of 
                     the side <m>a</m>.
                 </p>
+                    <figure xml:id="figure-right-triangle-exit-2">
+                        <caption></caption>
+                        <image width="60%">
+                            <description>
+                                <p>
+                                    <!--TODO-->
+                                </p>
+                            </description>
+                            <latex-image>
+                                <![CDATA[
+                                    \begin{tikzpicture}
+				\coordinate (O) at (0,0);
+				\coordinate (A) at (5,0);
+				\coordinate (B) at (0,3);
+				\draw (O)--(A)--(B)--cycle;
+				\footnotesize
+				\tkzLabelSegment[below=2pt](O,A){$a$}
+				\tkzLabelSegment[left=2pt](O,B){$11$}
+				\tkzLabelSegment[above right=2pt](A,B){$c$}
+				\tkzMarkRightAngle[size=0.5](A,O,B)
+				\tkzMarkAngle[size=1.2cm](B,A,O)
+				\tkzLabelAngle[pos = 0.6, left](B,A,O){\footnotesize$22^\circ$}
+				\tkzMarkAngle[size=0.7cm](O,B,A)
+				\tkzLabelAngle[pos = 0.5](O,B,A){$A$}
+                                    \end{tikzpicture}
+                                ]]>
+                            </latex-image>
+                        </image>
+                    </figure>
+                </sidebyside>
 			</statement>
         </exercise>
     </exercises>

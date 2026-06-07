@@ -49,27 +49,218 @@
                     Fill in the table to show how the points are transformed for the given function 
                     values.
                 </p>
+                <tabular row-headers="yes" halign="center" top="major" left="major" right="major">
+                    <col right="minor"/>
+                    <col right="minor"/>
+                    <col right="minor"/>
+                    <col right="minor"/>
+                    <col right="minor"/>
+                    <col/>
+                    <row bottom="minor">
+                        <cell halign="center">
+                            Points on <m>y=h(x)</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>(0,0)</m>
+                        </cell>
+                        <cell halign="center">
+                            <m> (1,1) </m>
+                        </cell>
+                        <cell halign="center">
+                            <m> (-1,-1)</m>
+                        </cell>
+                        <cell halign="center">
+                            <m> (-3,2) </m>
+                        </cell>
+                        <cell halign="center">
+                            <m> (2,-3) </m>
+                        </cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell halign="center">
+                            Points on <m>y=3h(x)</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell halign="center">
+                            Points on <m>y=3h(2x)</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell halign="center">
+                            Points on <m>y=3h(2(x-1))</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                    </row>
+                    <row bottom="major">
+                        <cell halign="center">
+                            Points on <m>y=3h(2(x-1))+4</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\qquad</m>
+                        </cell>
+                    </row>
+                </tabular>
             </statement>
 		</exercise>
         <exercise>
             <introduction>
-                <p>
-                    Make the following graphs on <xref provisional="figure 6.1"/> given the 
-                    graph of <m>f</m> shown in <xref provisional="figure 6.1"/>.
-                </p>
+                <sidebyside widths="60% 35%">
+                    <p>
+                        Sketch the following graphs, given the 
+                        graph of <m>f</m> shown in <xref ref="figure-sine-cosine-graphs-preparation"/>.
+                    </p>
+                    <figure xml:id="figure-sine-cosine-graphs-preparation">
+                        <image>
+                            <description>
+                                <!--TODO-->
+                            </description>
+                            <latex-image>
+                                <![CDATA[
+                                    \begin{tikzpicture}
+                                    \begin{axis}[
+                                    framed,
+                                    grid=both,
+                                    xmin=-8,xmax=8,
+                                    ymin=-8,ymax=8,
+                                    xtick={-6,-4,...,6},
+                                    minor xtick={-7,-6,...,7},
+                                    ytick={-6,-4,...,6},
+                                    minor ytick={-7,-6,...,7},
+                                    ]
+                                    \addplot[first,line width=1.5pt,samples=4]expression[domain=-4:-2]{-1};
+                                    \addplot[first,line width=1.5pt,samples=4]expression[domain=-2:0]{1.5*x+2};
+                                    \addplot[first,line width=1.5pt,samples=4]expression[domain=0:2]{2};
+                                    \addplot[first,line width=1.5pt,samples=4]expression[domain=2:4]{-x+4};
+                                    \addplot[first,smooth,mark=*,line width=1pt,fill=first,only marks]coordinates{(-4,-1) (-2,-1) (0,2) (2,2) (4,0)};
+                                    \end{axis}
+                                    \end{tikzpicture}
+                                    ]]>
+                            </latex-image>
+                        </image>
+                    </figure>
+                </sidebyside>
             </introduction>
             <task>
 				<statement>
-                    <p>
-                        Make a graph of <m>y = -2f(x)-3</m>.
-                    </p>
+                    <sidebyside widths="60% 35%">
+                        <p>
+                            Make a graph of <m>y = -2f(x)-3</m>.
+                        </p>
+                        <image>
+                            <description>
+                                <p>
+                                    A blank graph.
+                                </p>
+                            </description>
+                            <latex-image>
+                                <![CDATA[
+                                    \begin{tikzpicture}
+                                    \begin{axis}[
+                                    framed,
+                                    grid=both,
+                                    xmin=-8,xmax=8,
+                                    ymin=-8,ymax=8,
+                                    xtick={-6,-4,...,6},
+                                    minor xtick={-7,-6,...,7},
+                                    ytick={-6,-4,...,6},
+                                    minor ytick={-7,-6,...,7},
+                                    ]
+                                    \end{axis}
+                                    \end{tikzpicture}
+                                    ]]>
+                            </latex-image>
+                        </image>
+                    </sidebyside>
 				</statement>
             </task>
             <task>
 				<statement>
-                    <p>
-                        Make a graph of <m>y = -3f(2(x+1))-1</m>.
-                    </p>
+                    <sidebyside widths="60% 35%">
+                        <p>
+                            Make a graph of <m>y = -3f(2(x+1))-1</m>.
+                        </p>
+                        <image>
+                            <description>
+                                <p>
+                                    A blank graph.
+                                </p>
+                            </description>
+                            <latex-image>
+                                <![CDATA[
+                                    \begin{tikzpicture}
+                                    \begin{axis}[
+                                    framed,
+                                    grid=both,
+                                    xmin=-8,xmax=8,
+                                    ymin=-8,ymax=8,
+                                    xtick={-6,-4,...,6},
+                                    minor xtick={-7,-6,...,7},
+                                    ytick={-6,-4,...,6},
+                                    minor ytick={-7,-6,...,7},
+                                    ]
+                                    \end{axis}
+                                    \end{tikzpicture}
+                                    ]]>
+                            </latex-image>
+                        </image>
+                    </sidebyside>
 				</statement>
             </task>
 		</exercise>
@@ -82,84 +273,187 @@
                 <p>
                     Make a graph of <m>y = sin(x)</m> by plotting the points that you know from the
                     table. You need to know that <m>\frac{\sqrt{2}}{2} \approx 0.71</m> and
-                    <m>\frac{\sqrt{3}}{2} \approx 0.87</m>
+                    <m>\frac{\sqrt{3}}{2} \approx 0.87</m>.
                 </p>
+                <tabular row-headers="yes" halign="center" top="major" left="major" right="major">
+                    <col right="minor"/>
+                    <col right="minor"/>
+                    <col right="minor"/>
+                    <col right="minor"/>
+                    <col right="minor"/>
+                    <col right="minor"/>
+                    <col right="minor"/>
+                    <col right="minor"/>
+                    <col right="minor"/>
+                    <col right="minor"/>
+                    <col right="minor"/>
+                    <col right="minor"/>
+                    <col right="minor"/>
+                    <col right="minor"/>
+                    <col right="minor"/>
+                    <col right="minor"/>
+                    <col right="minor"/>
+                    <col/>
+                    <row bottom="minor">
+                        <cell halign="center">
+                            <m>\theta</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>0</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\frac{\pi}{6}</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\frac{\pi}{4}</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\frac{\pi}{3}</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\frac{\pi}{2}</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\frac{2\pi}{3}</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\frac{3\pi}{4}</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\frac{5\pi}{6}</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\pi</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\frac{7\pi}{6}</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\frac{5\pi}{4}</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\frac{4\pi}{3}</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\frac{3\pi}{2}</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\frac{5\pi}{3}</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\frac{7\pi}{4}</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\frac{11\pi}{6}</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>2\pi</m>
+                        </cell>
+                    </row>
+                    <row bottom="major">
+                        <cell halign="center">
+                            <m>\sin(\theta)</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>0</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\frac{1}{2}</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\frac{\sqrt{2}}{2}</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\frac{\sqrt{3}}{2}</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>1</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\frac{\sqrt{3}}{2}</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\frac{\sqrt{2}}{2}</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\frac{1}{2}</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>0</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>-\frac{1}{2}</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>-\frac{\sqrt{2}}{2}</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>\frac{\sqrt{3}}{2}</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>-1</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>-\frac{\sqrt{3}}{2}</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>-\frac{\sqrt{2}}{2}</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>-\frac{1}{2}</m>
+                        </cell>
+                        <cell halign="center">
+                            <m>0</m>
+                        </cell>
+                    </row>
+                </tabular>
+                <image>
+                    <description>
+                        <p>
+                            <!--TODO-->
+                        </p>
+                    </description>
+                    <latex-image>
+                        <![CDATA[
+                            \begin{tikzpicture}
+                            \begin{axis}[
+                            framed,
+                            grid=both,
+                            width=\textwidth,
+                            height=0.4\textwidth,
+                            xlabel={$\theta$},
+                            xmin=-0.785398,xmax=7.06858,
+                            ymin=-1.2,ymax=1.2,
+                            xtick={0.5235987756,0.785398,1.047197551,1.570796,2.094395102,2.3561945,2.617993878,3.1415927,3.665191429,3.9269908,4.188790205,4.712389,5.235987756,5.4977871,5.759586532,6.28318},
+                            xticklabels={$\frac{\pi}{6}$,$\frac{\pi}{4}$,$\frac{\pi}{3}$,$\frac{\pi}{2}$,$\frac{2\pi}{3}$,$\frac{3\pi}{4}$,$\frac{5\pi}{6}$,$\pi$,$\frac{7\pi}{6}$,$\frac{5\pi}{4}$,$\frac{4\pi}{3}$,$\frac{3\pi}{2}$,$\frac{5\pi}{3}$,$\frac{7\pi}{4}$,$\frac{11\pi}{6}$,$2\pi$},
+                            ytick={-1,-0.87,-0.71,-0.5,0.5,0.71,0.87,1},
+                            ]
+                            % \addplot[first,line width=1.5pt,samples=100,<->]expression[domain=-0.785398:7.06858]{sin(180*x/pi)};
+                            \end{axis}
+                            \end{tikzpicture}
+                            ]]>
+                    </latex-image>
+                </image>
             </statement>
-		</exercise>
-		<exercise>
+        </exercise>
+        <exercise>
             <introduction>
                 <p>
+                    Compared to <m>y=\sin(x)</m>...
                 </p>
             </introduction>
             <task>
 				<statement>
                     <p>
+                        What is the phase shift for the function <m>2\sin(3x-\pi)+4</m>? Interpret
+                        this as a fraction of a period shift.
                     </p>
 				</statement>
             </task>
             <task>
 				<statement>
                     <p>
-                    </p>
-				</statement>
-            </task>
-		</exercise>
-		<exercise>
-            <introduction>
-                <p>
-                </p>
-            </introduction>
-            <task>
-				<statement>
-                    <p>
-                    </p>
-				</statement>
-            </task>
-            <task>
-				<statement>
-                    <p>
-                    </p>
-				</statement>
-            </task>
-            <task>
-				<statement>
-                    <p>
-                    </p>
-				</statement>
-            </task>
-            <task>
-				<statement>
-                    <p>
-                    </p>
-				</statement>
-            </task>
-            <task>
-				<statement>
-                    <p>
-                    </p>
-				</statement>
-            </task>
-            <task>
-				<statement>
-                    <p>
-                    </p>
-				</statement>
-            </task>
-            <task>
-				<statement>
-                    <p>
-                    </p>
-				</statement>
-            </task>
-            <task>
-				<statement>
-                    <p>
-                    </p>
-				</statement>
-            </task>
-            <task>
-				<statement>
-                    <p>
+                        What is the horizontal shift for the function <m>2\sin(3x-\pi)+4</m>?
                     </p>
 				</statement>
             </task>
@@ -167,48 +461,172 @@
 		<exercise>
             <introduction>
                 <p>
+                    For the graph of <m>G</m> shown in <xref ref="figure-sine-cosine-graphs-practice-3"/>,
+                    answer the following questions.
+                </p>
+                <figure xml:id="figure-sine-cosine-graphs-practice-3">
+                    <image width="60%">
+                        <description>
+                            <!--TODO-->
+                        </description>
+                        <latex-image>
+                            <![CDATA[
+                                \begin{tikzpicture}
+                                \begin{axis}[
+                                framed,
+                                xmin=-7,xmax=7,
+                                ymin=-7,ymax=7,
+                                xtick={-6,-5,...,6},
+                                ytick={-6,-5,...,6},
+                                grid=both,
+                                ]
+                                \addplot[first,line width=1.5pt,samples=100,<->]expression[domain=-7:7]{5*cos(180*2/5*(x-2))+1};
+                                \end{axis}
+                                \end{tikzpicture}
+                                ]]>
+                        </latex-image>
+                    </image>
+                </figure>
+            </introduction>
+            <task>
+				<statement>
+                    <p>
+                        What is the range of <m>G</m>?
+                    </p>
+				</statement>
+            </task>
+            <task>
+				<statement>
+                    <p>
+                        What is the midline, <m>y = D</m>, of <m>G</m>?
+                    </p>
+				</statement>
+            </task>
+            <task>
+				<statement>
+                    <p>
+                        What is the amplitude, <m>A</m>, of <m>G</m>?
+                    </p>
+				</statement>
+            </task>
+            <task>
+				<statement>
+                    <p>
+                        What is the period, <m>P</m>, of <m>G</m>?
+                    </p>
+				</statement>
+            </task>
+            <task>
+				<statement>
+                    <p>
+                        What is the value of <m>B</m> for <m>G</m>?
+                    </p>
+				</statement>
+            </task>
+            <task>
+				<statement>
+                    <p>
+                        If we think of <m>G</m> as a transformation of <m>\sin(x)</m>, how much of 
+                        a horizontal shift would have happened to create <m>G</m>?
+                    </p>
+				</statement>
+            </task>
+            <task>
+				<statement>
+                    <p>
+                        Write a formula for <m>G</m> as a transformation of <m>\sin(x)</m>,
+                        <m>G(x) = A\sin(B(x-C))+D</m>
+                    </p>
+				</statement>
+            </task>
+            <task>
+				<statement>
+                    <p>
+                        If we think of <m>G</m> as a transformation of <m>\cos(x)</m>, how much of 
+                        a horizontal shift would have happened to create <m>G</m>?
+                    </p>
+				</statement>
+            </task>
+            <task>
+				<statement>
+                    <p>
+                        Write a formula for <m>G</m> as a transformation of <m>\cos(x)</m>,
+                        <m>G(x) = A\cos(B(x-C))+D</m>
+                    </p>
+				</statement>
+            </task>
+		</exercise>
+		<exercise>
+            <introduction>
+                <p>
+                    Answer the questions about the function <m>T(x) = 3\sin(\frac{\pi}{3}(x+1))-5</m>.
                 </p>
             </introduction>
             <task>
 				<statement>
                     <p>
+                        What is the midline of the function <m>T</m>?
                     </p>
 				</statement>
             </task>
             <task>
 				<statement>
                     <p>
+                        What is the amplitude, <m>A</m>, of the function <m>T</m>?
                     </p>
 				</statement>
             </task>
             <task>
 				<statement>
                     <p>
+                        What is the range of the function <m>T</m>?
                     </p>
 				</statement>
             </task>
             <task>
 				<statement>
                     <p>
+                        What is the value of <m>B</m> for the function <m>T</m>?
                     </p>
 				</statement>
             </task>
             <task>
 				<statement>
                     <p>
+                        What is the period, <m>P</m>, of the function <m>T</m>?
                     </p>
 				</statement>
             </task>
             <task>
 				<statement>
                     <p>
+                        What does the "<m>x+1</m>" portion of the function do as a transformation
+                        of <m>\sin(x)</m>?
                     </p>
 				</statement>
             </task>
             <task>
 				<statement>
                     <p>
+                        Make a graph of <m>T</m> with what you know about the shape of <m>\sin(x)</m> and the information that you gained in the above parts. Check your result on a calculator after you've tried everything by hand.
                     </p>
+                    <image width="60%">
+                        <latex-image>
+                            <![CDATA[
+                                \begin{tikzpicture}
+                                \begin{axis}[
+                                framed,
+                                xmin=-7,xmax=7,
+                                ymin=-9,ymax=5,
+                                xtick={-6,-5,...,6},
+                                ytick={-8,-7,...,4},
+                                grid=both,
+                                ]
+                                \end{axis}
+                                \end{tikzpicture}
+                                ]]>
+                        </latex-image>
+                    </image>
 				</statement>
             </task>
 		</exercise>
@@ -221,7 +639,8 @@
             <title>Even/Odd Function Properties of Sine and Cosine</title>
             <statement>
                 <p>
-
+                    Sine is an odd function, which means that it is symmetrical over the origin. 
+                    Cosine is an even function, which means that it is symmetrical over the <m>y</m>-axis.
                 </p>
             </statement>
         </definition>
@@ -229,7 +648,10 @@
             <title>Period</title>
             <statement>
                 <p>
-
+                    The <term>period</term> of a function is the smallest number, <m>P</m>, such 
+                    that a horizontal shift of <m>P</m> units results in a graph that perfectly
+                    overlaps the graph of the original function. Try <url href="https://www.desmos.com/calculator/yxoydtia61" visual="http://tiny.cc/period-definition">this Desmos link</url> 
+                    to see a visual on the topic.
                 </p>
             </statement>
         </definition>
@@ -237,7 +659,11 @@
             <title>Midline</title>
             <statement>
                 <p>
-
+                    The <term>midline</term> of a periodic function is the horizontal line, <m>y= D</m>,
+                    that is exactly halfway between the highest and lowest <m>y</m>-values on the 
+                    graph. You can find this equation by averaging the highest and lowest 
+                    <m>y</m>-values on the graph with the formula 
+                    <m>y= \frac{\text{highest y-value } + \text{lowest y-value}}{2}</m>.
                 </p>
             </statement>
         </definition>
@@ -245,7 +671,11 @@
             <title>Amplitude</title>
             <statement>
                 <p>
-
+                    The <term>amplitude</term> of a periodic function is the vertical distance from 
+                    the midline to the highest <m>y</m>-value on the graph or the vertical distance 
+                    from the midline to the lowest <m>y</m>-value on the graph. You can find this 
+                    distance with the formula 
+                    <m>|A|= \frac{\text{highest y-value } - \text{lowest y-value}}{2}</m>.
                 </p>
             </statement>
         </definition>
@@ -253,7 +683,9 @@
             <title>Sinusoidal Function</title>
             <statement>
                 <p>
-
+                    A <term>sinusoidal</term> function is a transformation of a sine or cosine 
+                    function. Sinusoidal functions have the form <m>f(x) = Asin(B(x−C)) + D</m> or 
+                    <m>f(x) = Acos(B(x−C)) + D</m>.
                 </p>
             </statement>
         </definition>
@@ -261,7 +693,14 @@
             <title>Phase Shift</title>
             <statement>
                 <p>
-
+                    The <term>phase shift</term> of a periodic function represents the fraction of 
+                    a period that the graph has been shifted from the base function. You can find 
+                    the phase shift of a sinusoidal function (<m>f(x) = Asin(B(x−C)) + D</m> or
+                    <m>f(x) = Acos(B(x−C)) + D</m>) by evaluating <m>\frac{BC}{2\pi}</m>. Please 
+                    note that this definition is different from the one that the book gives, but is 
+                    consistent with most other physics, engineering, and technical mathematics 
+                    texts. The book defines the phase shift to be the same as the horizontal shift,
+                    for which we already have a name.
                 </p>
             </statement>
         </definition>
@@ -269,7 +708,9 @@
             <title>Horizontal Shift</title>
             <statement>
                 <p>
-
+                    A sinusoidal function, <m>f(x) = Asin(B(x−C)) + D</m> or 
+                    <m>f(x) = Acos(B(x−C)) + D</m>, is <term>horizontally shifted</term> C units 
+                    from the base function position.
                 </p>
             </statement>
         </definition>
@@ -277,53 +718,107 @@
             <title>Relationship between the B-value and the Period</title>
             <statement>
                 <p>
-
+                    The B value of a sinusoidal function, <m>f(x) = Asin(B(x−C)) + D</m> or 
+                    <m>f(x) = Acos(B(x−C)) + D</m>, has a relationship with the period, <m>P</m>, 
+                    of the function. Since the period is a positive number, we will use absolute
+                    values on B, since B might be negative. That relationship is that 
+                    <m>|B|=\frac{2\pi}{P}</m>, which is the same as saying <m>P = \frac{2\pi}{|B|}</m>.
                 </p>
             </statement>
         </definition>
-
 	</subsection>
-        
     <exercises xml:id="exit-sine-cosine-graphs">
         <title>Exit Exercises</title>
         <exercise>
 		    <introduction>
                 <p>
+                    Consider the function <m>W(x) = 5\sin\left(\frac{4\pi}{5}(x-1)\right)+3</m>:
                 </p>
             </introduction>
             <task>
                 <statement>
                     <p>
+                        What is the period of the function <m>W(x)</m>?
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        What is the midline of the function <m>W(x)</m>?
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        What is the amplitude of the function <m>W(x)</m>?
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        By hand, make a graph of the function <m>W(x)</m> using the information above.
                     </p>
+                    <image width="60%">
+                        <description>
+                            <p>
+                                A blank graph.
+                            </p>
+                        </description>
+                        <latex-image>
+                            <![CDATA[
+				\begin{tikzpicture}
+					\begin{axis}[
+						framed,
+						xmin=-2,xmax=6,
+						ymin=-5,ymax=10,
+						xtick={-1,0,...,5},
+						ytick={-4,-3,...,9},
+						grid=both
+						]
+                            \end{axis}
+                                \end{tikzpicture} 
+                                ]]>
+                        </latex-image>
+                    </image>
                 </statement>
             </task>
 	    </exercise>
         <exercise>
 		    <statement>
                 <p>
+                    Find two possible formulas, one using sine and the other using cosine, for the 
+                    graph shown in <xref ref="figure-sine-cosine-graphs-exit"/>.
                 </p>
+                <figure xml:id="figure-sine-cosine-graphs-exit">
+                    <image width="60%">
+                        <latex-image>
+                            <![CDATA[
+				\begin{tikzpicture}
+					\begin{axis}[
+						framed,
+						width=10cm,
+						height=5cm,
+						xlabel={$\theta$},
+						xmin=-1,xmax=20,
+						ymin=-8,ymax=2,
+						xtick={1,2,...,19},
+						ytick={-7,-6,...,1},
+						grid=both,
+						]
+						\addplot[first,line width=1pt,samples=100]expression[domain=-1:20,<->]{4*sin(18*(x-2))-3};
+						\addplot [first,only marks] coordinates {(7,1)(17,-7)};
+					\end{axis}
+                                \end{tikzpicture} 
+                                ]]>
+                        </latex-image>
+                    </image>
+                </figure>
             </statement>
 	    </exercise>
     </exercises>
-
     <reading-questions>
         <exercise>
             <statement>

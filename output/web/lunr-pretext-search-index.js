@@ -700,7 +700,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.1",
   "title": "Graphs of Sine and Cosine Functions",
-  "body": " Graphs of Sine and Cosine Functions   In this section, we'll graph transformations of and and examine phase shifts of sine and cosine curves.    Textbook Reference  This relates to content in 8.1 of Algebra and Trigonometry 2e .    Preparation Exercises   Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.      What is the period of the sine function? Of the cosine function?      What is the range of the sine function? Of the cosine function?       Imagine a function , with some points given in the table below. Fill in the table to show how the points are transformed for the given function values.      Make the following graphs on given the graph of shown in .     Make a graph of .      Make a graph of .       Practice Exercises    Make a graph of by plotting the points that you know from the table. You need to know that and                                                                                                                                     Definitions   Even\/Odd Function Properties of Sine and Cosine        Period        Midline        Amplitude        Sinusoidal Function        Phase Shift        Horizontal Shift        Relationship between the B-value and the Period         Exit Exercises                                          On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
+  "body": " Graphs of Sine and Cosine Functions   In this section, we'll graph transformations of and and examine phase shifts of sine and cosine curves.    Textbook Reference  This relates to content in 8.1 of Algebra and Trigonometry 2e .    Preparation Exercises   Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.      What is the period of the sine function? Of the cosine function?      What is the range of the sine function? Of the cosine function?       Imagine a function , with some points given in the table below. Fill in the table to show how the points are transformed for the given function values.          Points on                    Points on                    Points on                    Points on                    Points on                         Sketch the following graphs, given the graph of shown in .               Make a graph of .    A blank graph.           Make a graph of .    A blank graph.           Practice Exercises    Make a graph of by plotting the points that you know from the table. You need to know that and .                                                                                                                                                  Compared to ...     What is the phase shift for the function ? Interpret this as a fraction of a period shift.      What is the horizontal shift for the function ?       For the graph of shown in , answer the following questions.             What is the range of ?      What is the midline, , of ?      What is the amplitude, , of ?      What is the period, , of ?      What is the value of for ?      If we think of as a transformation of , how much of a horizontal shift would have happened to create ?      Write a formula for as a transformation of ,       If we think of as a transformation of , how much of a horizontal shift would have happened to create ?      Write a formula for as a transformation of ,        Answer the questions about the function .     What is the midline of the function ?      What is the amplitude, , of the function ?      What is the range of the function ?      What is the value of for the function ?      What is the period, , of the function ?      What does the \" \" portion of the function do as a transformation of ?      Make a graph of with what you know about the shape of and the information that you gained in the above parts. Check your result on a calculator after you've tried everything by hand.          Definitions   Even\/Odd Function Properties of Sine and Cosine   Sine is an odd function, which means that it is symmetrical over the origin. Cosine is an even function, which means that it is symmetrical over the -axis.     Period   The period of a function is the smallest number, , such that a horizontal shift of units results in a graph that perfectly overlaps the graph of the original function. Try this Desmos link to see a visual on the topic.     Midline   The midline of a periodic function is the horizontal line, , that is exactly halfway between the highest and lowest -values on the graph. You can find this equation by averaging the highest and lowest -values on the graph with the formula .     Amplitude   The amplitude of a periodic function is the vertical distance from the midline to the highest -value on the graph or the vertical distance from the midline to the lowest -value on the graph. You can find this distance with the formula .     Sinusoidal Function   A sinusoidal function is a transformation of a sine or cosine function. Sinusoidal functions have the form or .     Phase Shift   The phase shift of a periodic function represents the fraction of a period that the graph has been shifted from the base function. You can find the phase shift of a sinusoidal function ( or ) by evaluating . Please note that this definition is different from the one that the book gives, but is consistent with most other physics, engineering, and technical mathematics texts. The book defines the phase shift to be the same as the horizontal shift, for which we already have a name.     Horizontal Shift   A sinusoidal function, or , is horizontally shifted C units from the base function position.     Relationship between the B-value and the Period   The B value of a sinusoidal function, or , has a relationship with the period, , of the function. Since the period is a positive number, we will use absolute values on B, since B might be negative. That relationship is that , which is the same as saying .      Exit Exercises    Consider the function :     What is the period of the function ?      What is the midline of the function ?      What is the amplitude of the function ?      By hand, make a graph of the function using the information above.    A blank graph.          Find two possible formulas, one using sine and the other using cosine, for the graph shown in .             On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
 },
 {
   "id": "prep-sine-cosine-graphs-3",
@@ -718,7 +718,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2",
   "title": "",
-  "body": "  Imagine a function , with some points given in the table below. Fill in the table to show how the points are transformed for the given function values.   "
+  "body": "  Imagine a function , with some points given in the table below. Fill in the table to show how the points are transformed for the given function values.          Points on                    Points on                    Points on                    Points on                    Points on                     "
 },
 {
   "id": "prep-sine-cosine-graphs-5",
@@ -727,7 +727,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3",
   "title": "",
-  "body": "  Make the following graphs on given the graph of shown in .     Make a graph of .      Make a graph of .    "
+  "body": "   Sketch the following graphs, given the graph of shown in .               Make a graph of .    A blank graph.           Make a graph of .    A blank graph.        "
 },
 {
   "id": "practice-sine-cosine-graphs-2",
@@ -736,7 +736,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1",
   "title": "",
-  "body": "  Make a graph of by plotting the points that you know from the table. You need to know that and    "
+  "body": "  Make a graph of by plotting the points that you know from the table. You need to know that and .                                                                                                                                               "
 },
 {
   "id": "practice-sine-cosine-graphs-3",
@@ -745,7 +745,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2",
   "title": "",
-  "body": "                 "
+  "body": "  Compared to ...     What is the phase shift for the function ? Interpret this as a fraction of a period shift.      What is the horizontal shift for the function ?    "
 },
 {
   "id": "practice-sine-cosine-graphs-4",
@@ -754,7 +754,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3",
   "title": "",
-  "body": "                                                           "
+  "body": "  For the graph of shown in , answer the following questions.             What is the range of ?      What is the midline, , of ?      What is the amplitude, , of ?      What is the period, , of ?      What is the value of for ?      If we think of as a transformation of , how much of a horizontal shift would have happened to create ?      Write a formula for as a transformation of ,       If we think of as a transformation of , how much of a horizontal shift would have happened to create ?      Write a formula for as a transformation of ,     "
 },
 {
   "id": "practice-sine-cosine-graphs-5",
@@ -763,79 +763,79 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4",
   "title": "",
-  "body": "                                               "
+  "body": "  Answer the questions about the function .     What is the midline of the function ?      What is the amplitude, , of the function ?      What is the range of the function ?      What is the value of for the function ?      What is the period, , of the function ?      What does the \" \" portion of the function do as a transformation of ?      Make a graph of with what you know about the shape of and the information that you gained in the above parts. Check your result on a calculator after you've tried everything by hand.       "
 },
 {
   "id": "definitions-sine-cosine-graphs-2",
   "level": "2",
   "url": "sec-sine-cosine-graphs.html#definitions-sine-cosine-graphs-2",
   "type": "Definition",
-  "number": "6.1.1",
+  "number": "6.1.3",
   "title": "Even\/Odd Function Properties of Sine and Cosine.",
-  "body": " Even\/Odd Function Properties of Sine and Cosine      "
+  "body": " Even\/Odd Function Properties of Sine and Cosine   Sine is an odd function, which means that it is symmetrical over the origin. Cosine is an even function, which means that it is symmetrical over the -axis.   "
 },
 {
   "id": "definitions-sine-cosine-graphs-3",
   "level": "2",
   "url": "sec-sine-cosine-graphs.html#definitions-sine-cosine-graphs-3",
   "type": "Definition",
-  "number": "6.1.2",
+  "number": "6.1.4",
   "title": "Period.",
-  "body": " Period      "
+  "body": " Period   The period of a function is the smallest number, , such that a horizontal shift of units results in a graph that perfectly overlaps the graph of the original function. Try this Desmos link to see a visual on the topic.   "
 },
 {
   "id": "definitions-sine-cosine-graphs-4",
   "level": "2",
   "url": "sec-sine-cosine-graphs.html#definitions-sine-cosine-graphs-4",
   "type": "Definition",
-  "number": "6.1.3",
+  "number": "6.1.5",
   "title": "Midline.",
-  "body": " Midline      "
+  "body": " Midline   The midline of a periodic function is the horizontal line, , that is exactly halfway between the highest and lowest -values on the graph. You can find this equation by averaging the highest and lowest -values on the graph with the formula .   "
 },
 {
   "id": "definitions-sine-cosine-graphs-5",
   "level": "2",
   "url": "sec-sine-cosine-graphs.html#definitions-sine-cosine-graphs-5",
   "type": "Definition",
-  "number": "6.1.4",
+  "number": "6.1.6",
   "title": "Amplitude.",
-  "body": " Amplitude      "
+  "body": " Amplitude   The amplitude of a periodic function is the vertical distance from the midline to the highest -value on the graph or the vertical distance from the midline to the lowest -value on the graph. You can find this distance with the formula .   "
 },
 {
   "id": "definitions-sine-cosine-graphs-6",
   "level": "2",
   "url": "sec-sine-cosine-graphs.html#definitions-sine-cosine-graphs-6",
   "type": "Definition",
-  "number": "6.1.5",
+  "number": "6.1.7",
   "title": "Sinusoidal Function.",
-  "body": " Sinusoidal Function      "
+  "body": " Sinusoidal Function   A sinusoidal function is a transformation of a sine or cosine function. Sinusoidal functions have the form or .   "
 },
 {
   "id": "definitions-sine-cosine-graphs-7",
   "level": "2",
   "url": "sec-sine-cosine-graphs.html#definitions-sine-cosine-graphs-7",
   "type": "Definition",
-  "number": "6.1.6",
+  "number": "6.1.8",
   "title": "Phase Shift.",
-  "body": " Phase Shift      "
+  "body": " Phase Shift   The phase shift of a periodic function represents the fraction of a period that the graph has been shifted from the base function. You can find the phase shift of a sinusoidal function ( or ) by evaluating . Please note that this definition is different from the one that the book gives, but is consistent with most other physics, engineering, and technical mathematics texts. The book defines the phase shift to be the same as the horizontal shift, for which we already have a name.   "
 },
 {
   "id": "definitions-sine-cosine-graphs-8",
   "level": "2",
   "url": "sec-sine-cosine-graphs.html#definitions-sine-cosine-graphs-8",
   "type": "Definition",
-  "number": "6.1.7",
+  "number": "6.1.9",
   "title": "Horizontal Shift.",
-  "body": " Horizontal Shift      "
+  "body": " Horizontal Shift   A sinusoidal function, or , is horizontally shifted C units from the base function position.   "
 },
 {
   "id": "definitions-sine-cosine-graphs-9",
   "level": "2",
   "url": "sec-sine-cosine-graphs.html#definitions-sine-cosine-graphs-9",
   "type": "Definition",
-  "number": "6.1.8",
+  "number": "6.1.10",
   "title": "Relationship between the B-value and the Period.",
-  "body": " Relationship between the B-value and the Period      "
+  "body": " Relationship between the B-value and the Period   The B value of a sinusoidal function, or , has a relationship with the period, , of the function. Since the period is a positive number, we will use absolute values on B, since B might be negative. That relationship is that , which is the same as saying .   "
 },
 {
   "id": "exit-sine-cosine-graphs-2",
@@ -844,7 +844,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1",
   "title": "",
-  "body": "                             "
+  "body": "  Consider the function :     What is the period of the function ?      What is the midline of the function ?      What is the amplitude of the function ?      By hand, make a graph of the function using the information above.    A blank graph.       "
 },
 {
   "id": "exit-sine-cosine-graphs-3",
@@ -853,7 +853,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2",
   "title": "",
-  "body": "     "
+  "body": "  Find two possible formulas, one using sine and the other using cosine, for the graph shown in .        "
 },
 {
   "id": "sec-sine-cosine-graphs-8-1",
@@ -871,7 +871,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.2",
   "title": "Graphs of Other Trigonometric Functions",
-  "body": " Graphs of Other Trigonometric Functions   In this section, we'll discuss the graphs of tangent, cosecant, and secant and their domains.    Textbook Reference  This relates to content in 8.2 of Algebra and Trigonometry 2e .    Preparation Exercises                                      Practice Exercises                                                                                                  Exit Exercises                              On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    --> "
+  "body": " Graphs of Other Trigonometric Functions   In this section, we'll discuss the graphs of tangent, cosecant, and secant and their domains.    Textbook Reference  This relates to content in 8.2 of Algebra and Trigonometry 2e .    Preparation Exercises   Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.     Evaluate using the definitino of tangent: .      Evaluate using the definitino of cosecant: .      Which of the six trigonometric functions (sine, cosine, tangent, cosecant, secant, cotangent) are odd functions?      What is the domain of the sine function? What is the domain of the cosine functions?      Which values of make it so that is ? Hint: There are infinitely many answers.      Practice Exercises   Recall that for a right triangle with angle , the \"other trigonometric functions\" can be found by the following definitions. Visit this interactive Desmos graph to see the six trigonometric lengths in action.                            The cosecant function, , would be undefined when . When is ? There are infinitely many answers: write your answers in a full sentence describing the pattern.      Write your answers to in set-builder notation.      Based on your answers to the above questions, what is the domain of the cosecant function? Write your answer in a sentence explaining the pattern.        The secant function, , would be undefined when . When is ? There are infinitely many answers: write your answers in a full sentence describing the pattern.      Write your answers to in set-builder notation.      Based on your answers to the above questions, what is the domain of the secant function? Write your answer in a sentence explaining the pattern.        The tangent function, , would be undefined when . This is the same problem that the secant function had. So, what is the domain of the tangent function? Write your answer in a sentence explaining the pattern.      The cotangent function, , would be undefined when . This is the same problem that the cosecant function had. So, what is the domain of the cotangent function? Write your answer in a sentence explaining the pattern.       Match the \"other trigonometric functions\" with their graphs, shown in , , , and . Use the definitions of the functions and their domains to decide which goes with which. Check your answers with your favorite graphing program.                                                              Exit Exercises    Which trigonometric functions have a domain that is the set of all real numbers except integer multiples of ?      Which trigonometric function is defined to be ?      Which trigonometric functions have a domain that is the set of all real numbers except odd-integer multiples of       Shown in is a graph of a transformation of . What values of and create this transformation?                  On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
 },
 {
   "id": "prep-other-graphs-3",
@@ -880,7 +880,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1",
   "title": "",
-  "body": "     "
+  "body": "  Evaluate using the definitino of tangent: .   "
 },
 {
   "id": "prep-other-graphs-4",
@@ -889,7 +889,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2",
   "title": "",
-  "body": "     "
+  "body": "  Evaluate using the definitino of cosecant: .   "
 },
 {
   "id": "prep-other-graphs-5",
@@ -898,7 +898,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3",
   "title": "",
-  "body": "     "
+  "body": "  Which of the six trigonometric functions (sine, cosine, tangent, cosecant, secant, cotangent) are odd functions?   "
 },
 {
   "id": "prep-other-graphs-6",
@@ -907,7 +907,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4",
   "title": "",
-  "body": "     "
+  "body": "  What is the domain of the sine function? What is the domain of the cosine functions?   "
 },
 {
   "id": "prep-other-graphs-7",
@@ -916,7 +916,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5",
   "title": "",
-  "body": "     "
+  "body": "  Which values of make it so that is ? Hint: There are infinitely many answers.   "
 },
 {
   "id": "practice-other-graphs-3",
@@ -925,7 +925,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1",
   "title": "",
-  "body": "                   "
+  "body": "   The cosecant function, , would be undefined when . When is ? There are infinitely many answers: write your answers in a full sentence describing the pattern.      Write your answers to in set-builder notation.      Based on your answers to the above questions, what is the domain of the cosecant function? Write your answer in a sentence explaining the pattern.    "
 },
 {
   "id": "practice-other-graphs-4",
@@ -934,7 +934,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2",
   "title": "",
-  "body": "                   "
+  "body": "   The secant function, , would be undefined when . When is ? There are infinitely many answers: write your answers in a full sentence describing the pattern.      Write your answers to in set-builder notation.      Based on your answers to the above questions, what is the domain of the secant function? Write your answer in a sentence explaining the pattern.    "
 },
 {
   "id": "practice-other-graphs-5",
@@ -943,7 +943,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3",
   "title": "",
-  "body": "             "
+  "body": "   The tangent function, , would be undefined when . This is the same problem that the secant function had. So, what is the domain of the tangent function? Write your answer in a sentence explaining the pattern.      The cotangent function, , would be undefined when . This is the same problem that the cosecant function had. So, what is the domain of the cotangent function? Write your answer in a sentence explaining the pattern.    "
 },
 {
   "id": "practice-other-graphs-6",
@@ -952,7 +952,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4",
   "title": "",
-  "body": "                             "
+  "body": "  Match the \"other trigonometric functions\" with their graphs, shown in , , , and . Use the definitions of the functions and their domains to decide which goes with which. Check your answers with your favorite graphing program.                                                           "
 },
 {
   "id": "exit-other-graphs-2",
@@ -961,7 +961,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1",
   "title": "",
-  "body": "     "
+  "body": "  Which trigonometric functions have a domain that is the set of all real numbers except integer multiples of ?   "
 },
 {
   "id": "exit-other-graphs-3",
@@ -970,7 +970,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2",
   "title": "",
-  "body": "     "
+  "body": "  Which trigonometric function is defined to be ?   "
 },
 {
   "id": "exit-other-graphs-4",
@@ -979,7 +979,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3",
   "title": "",
-  "body": "     "
+  "body": "  Which trigonometric functions have a domain that is the set of all real numbers except odd-integer multiples of    "
 },
 {
   "id": "exit-other-graphs-5",
@@ -988,7 +988,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4",
   "title": "",
-  "body": "     "
+  "body": "  Shown in is a graph of a transformation of . What values of and create this transformation?             "
 },
 {
   "id": "sec-other-graphs-7-1",
@@ -1006,7 +1006,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.3",
   "title": "Inverse Trigonometry",
-  "body": " Inverse Trigonometry   In this section, we'll use the inverse sine, cosine, and tangent functions, find the exact value of expressions involving the inverse-trigonometric functions, use a calculator to evaluate inverse-trigonometric functions, and find the exact values of composite functions with inverse-trigonometric functions.    Textbook Reference  This relates to content in 8.3 of Algebra and Trigonometry 2e .    Preparation Exercises   Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.                                               Practice Exercises                                                                                                                                                                                                            Definitions   Invese Cosine        Inverse Sine        Inverse Tangent         Exit Exercises                                                      On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
+  "body": " Inverse Trigonometry   In this section, we'll use the inverse sine, cosine, and tangent functions, find the exact value of expressions involving the inverse-trigonometric functions, use a calculator to evaluate inverse-trigonometric functions, and find the exact values of composite functions with inverse-trigonometric functions.    Textbook Reference  This relates to content in 8.3 of Algebra and Trigonometry 2e .    Preparation Exercises   Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.     Fill in the blanks referring to the angles in .           is coterminal with the negative angle        is coterminal with the negative angle        is coterminal with the negative angle        is coterminal with the negative angle         The invertible function is defined by . Fill in the row. Some entries may be \"undefined\".                                                                                                  Show that the graph in represents an invertible function . Graph the inverse alongside .            Practice Exercises    Evaluate the expressions using your memorized values on the unit circle. Some might be undefined.                                         Fill in using your memorized values on the unit circle.                                                                                                   Fill in with standard values of inverse trigonmetric functions without a calculator. If the value of is blank, start by filling that in first.                                                     N\/A                        N\/A             N\/A           Use a calculator to approximate the values below.                                         Use inverse trigonometry to find the missing angles.      Use inverse trigonometry and a calculator to find the missing angles and in the triangle shown in . Drawing not to scale.             Imagine designing a birdhouse to make out of wood. The sides of this birdhouse are shaped like trapezoids, with dimensions shown in . Find the angle , in degrees, using inverse trigonometry and your calculator. Note: this angle will be related to how you set up your saw to cut the wood correctly.             Evaluate the following expressions without a calculator.                                   Evaluate the following expressions without a calculator.                                  In this exercise, discuss some of the details about inverse trigonometry with your group members.     What are the similarities and differences between and ? Start by discussing the meaning of the inputs and outputs of the functions.      What are the similarities and differences between and ? Start by discussing the meaning of the inputs and outputs of the functions.      The range of both and is in quadrants I and IV. The range of is in quadrants I and II. Why do you think that none of the inverse trigonometric functions using quadrant III?      If Georgiana said that, \"I think that the value of is ,\" how would you help her understand her mistake?       Definitions   Inverse Cosine   The inverse cosine function inputs an -value on the unit circle and outputs the angle from to that matches that -value, as shown in . Another way to say that is that for angles, , in the interval , if then .          Function            Domain and meaning     except odd multiples of   Angles on unit circle        -values on unit circle      Range and meaning        -values on unit circle       Angles on unit circle                    Inverse Sine   The inverse sine function inputs a -value on the unit circle and outputs the angle from to that matches that -value, as shown in . Another way to say that is that for angles, , in the interval , if then .          Function            Domain and meaning     except odd multiples of   Angles on unit circle        -values on unit circle      Range and meaning        -values on unit circle       Angles on unit circle                    Inverse Tangent    The inverse tangent function inputs a slope, , and ouptuts the angle from to (non-inclusive) that matches that slope, as shown in . Another way to say that is that for angles, , in the interval , if then .           Function            Domain and meaning     except odd multiples of   Angles on unit circle       Slopes      Range and meaning       Slopes       Angles on unit circle                     Exit Exercises    Fill in the blanks to show how you should think about the inputs and outputs of each function? The answer to each is either \"an angle\", \"an -value on the unit circle\", or \" -value on the unit circle\".                                  Evaluate .       Fill in the missing values in .                                                           Use inverse trigonometry and a calculator to find the missing angle in the triangle shown in . Drawing is not to scale.                   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
 },
 {
   "id": "prep-inverse-trig-3",
@@ -1015,7 +1015,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1",
   "title": "",
-  "body": "                             "
+  "body": "  Fill in the blanks referring to the angles in .           is coterminal with the negative angle        is coterminal with the negative angle        is coterminal with the negative angle        is coterminal with the negative angle     "
 },
 {
   "id": "prep-inverse-trig-4",
@@ -1024,7 +1024,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2",
   "title": "",
-  "body": "     "
+  "body": "   The invertible function is defined by . Fill in the row. Some entries may be \"undefined\".                                                                                              "
 },
 {
   "id": "prep-inverse-trig-5",
@@ -1033,142 +1033,142 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3",
   "title": "",
-  "body": "     "
+  "body": "   Show that the graph in represents an invertible function . Graph the inverse alongside .         "
 },
 {
-  "id": "practice-models-2",
+  "id": "practice-inverse-trig-2",
   "level": "2",
-  "url": "sec-inverse-trig.html#practice-models-2",
+  "url": "sec-inverse-trig.html#practice-inverse-trig-2",
   "type": "Exercise",
   "number": "1",
   "title": "",
-  "body": "                                   "
+  "body": "  Evaluate the expressions using your memorized values on the unit circle. Some might be undefined.                                      "
 },
 {
-  "id": "practice-models-3",
+  "id": "practice-inverse-trig-3",
   "level": "2",
-  "url": "sec-inverse-trig.html#practice-models-3",
+  "url": "sec-inverse-trig.html#practice-inverse-trig-3",
   "type": "Exercise",
   "number": "2",
   "title": "",
-  "body": "     "
+  "body": "  Fill in using your memorized values on the unit circle.                                                                                               "
 },
 {
-  "id": "practice-models-4",
+  "id": "practice-inverse-trig-4",
   "level": "2",
-  "url": "sec-inverse-trig.html#practice-models-4",
+  "url": "sec-inverse-trig.html#practice-inverse-trig-4",
   "type": "Exercise",
   "number": "3",
   "title": "",
-  "body": "     "
+  "body": "   Fill in with standard values of inverse trigonmetric functions without a calculator. If the value of is blank, start by filling that in first.                                                     N\/A                        N\/A             N\/A        "
 },
 {
-  "id": "practice-models-5",
+  "id": "practice-inverse-trig-5",
   "level": "2",
-  "url": "sec-inverse-trig.html#practice-models-5",
+  "url": "sec-inverse-trig.html#practice-inverse-trig-5",
   "type": "Exercise",
   "number": "4",
   "title": "",
-  "body": "                                   "
+  "body": "  Use a calculator to approximate the values below.                                      "
 },
 {
-  "id": "practice-models-6",
+  "id": "practice-inverse-trig-6",
   "level": "2",
-  "url": "sec-inverse-trig.html#practice-models-6",
+  "url": "sec-inverse-trig.html#practice-inverse-trig-6",
   "type": "Exercise",
   "number": "5",
   "title": "",
-  "body": "                 "
+  "body": "  Use inverse trigonometry to find the missing angles.      Use inverse trigonometry and a calculator to find the missing angles and in the triangle shown in . Drawing not to scale.             Imagine designing a birdhouse to make out of wood. The sides of this birdhouse are shaped like trapezoids, with dimensions shown in . Find the angle , in degrees, using inverse trigonometry and your calculator. Note: this angle will be related to how you set up your saw to cut the wood correctly.          "
 },
 {
-  "id": "practice-models-7",
+  "id": "practice-inverse-trig-7",
   "level": "2",
-  "url": "sec-inverse-trig.html#practice-models-7",
+  "url": "sec-inverse-trig.html#practice-inverse-trig-7",
   "type": "Exercise",
   "number": "6",
   "title": "",
-  "body": "                             "
+  "body": "  Evaluate the following expressions without a calculator.                               "
 },
 {
-  "id": "practice-models-8",
+  "id": "practice-inverse-trig-8",
   "level": "2",
-  "url": "sec-inverse-trig.html#practice-models-8",
+  "url": "sec-inverse-trig.html#practice-inverse-trig-8",
   "type": "Exercise",
   "number": "7",
   "title": "",
-  "body": "                             "
+  "body": "  Evaluate the following expressions without a calculator.                               "
 },
 {
-  "id": "practice-models-9",
+  "id": "practice-inverse-trig-9",
   "level": "2",
-  "url": "sec-inverse-trig.html#practice-models-9",
+  "url": "sec-inverse-trig.html#practice-inverse-trig-9",
   "type": "Exercise",
   "number": "8",
   "title": "",
-  "body": "                             "
+  "body": "  In this exercise, discuss some of the details about inverse trigonometry with your group members.     What are the similarities and differences between and ? Start by discussing the meaning of the inputs and outputs of the functions.      What are the similarities and differences between and ? Start by discussing the meaning of the inputs and outputs of the functions.      The range of both and is in quadrants I and IV. The range of is in quadrants I and II. Why do you think that none of the inverse trigonometric functions using quadrant III?      If Georgiana said that, \"I think that the value of is ,\" how would you help her understand her mistake?    "
 },
 {
-  "id": "definitions-models-2",
+  "id": "definitions-inverse-trig-2",
   "level": "2",
-  "url": "sec-inverse-trig.html#definitions-models-2",
+  "url": "sec-inverse-trig.html#definitions-inverse-trig-2",
   "type": "Definition",
-  "number": "6.3.1",
-  "title": "Invese Cosine.",
-  "body": " Invese Cosine      "
+  "number": "6.3.8",
+  "title": "Inverse Cosine.",
+  "body": " Inverse Cosine   The inverse cosine function inputs an -value on the unit circle and outputs the angle from to that matches that -value, as shown in . Another way to say that is that for angles, , in the interval , if then .          Function            Domain and meaning     except odd multiples of   Angles on unit circle        -values on unit circle      Range and meaning        -values on unit circle       Angles on unit circle                  "
 },
 {
-  "id": "definitions-models-3",
+  "id": "definitions-inverse-trig-3",
   "level": "2",
-  "url": "sec-inverse-trig.html#definitions-models-3",
+  "url": "sec-inverse-trig.html#definitions-inverse-trig-3",
   "type": "Definition",
-  "number": "6.3.2",
+  "number": "6.3.11",
   "title": "Inverse Sine.",
-  "body": " Inverse Sine      "
+  "body": " Inverse Sine   The inverse sine function inputs a -value on the unit circle and outputs the angle from to that matches that -value, as shown in . Another way to say that is that for angles, , in the interval , if then .          Function            Domain and meaning     except odd multiples of   Angles on unit circle        -values on unit circle      Range and meaning        -values on unit circle       Angles on unit circle                  "
 },
 {
-  "id": "definitions-models-4",
+  "id": "definitions-inverse-trig-4",
   "level": "2",
-  "url": "sec-inverse-trig.html#definitions-models-4",
+  "url": "sec-inverse-trig.html#definitions-inverse-trig-4",
   "type": "Definition",
-  "number": "6.3.3",
+  "number": "6.3.14",
   "title": "Inverse Tangent.",
-  "body": " Inverse Tangent      "
+  "body": " Inverse Tangent    The inverse tangent function inputs a slope, , and ouptuts the angle from to (non-inclusive) that matches that slope, as shown in . Another way to say that is that for angles, , in the interval , if then .           Function            Domain and meaning     except odd multiples of   Angles on unit circle       Slopes      Range and meaning       Slopes       Angles on unit circle                  "
 },
 {
-  "id": "exit-models-2",
+  "id": "exit-inverse-trig-2",
   "level": "2",
-  "url": "sec-inverse-trig.html#exit-models-2",
+  "url": "sec-inverse-trig.html#exit-inverse-trig-2",
   "type": "Exercise",
   "number": "1",
   "title": "",
-  "body": "                             "
+  "body": "  Fill in the blanks to show how you should think about the inputs and outputs of each function? The answer to each is either \"an angle\", \"an -value on the unit circle\", or \" -value on the unit circle\".                               "
 },
 {
-  "id": "exit-models-3",
+  "id": "exit-inverse-trig-3",
   "level": "2",
-  "url": "sec-inverse-trig.html#exit-models-3",
+  "url": "sec-inverse-trig.html#exit-inverse-trig-3",
   "type": "Exercise",
   "number": "2",
   "title": "",
-  "body": "     "
+  "body": "  Evaluate .   "
 },
 {
-  "id": "exit-models-4",
+  "id": "exit-inverse-trig-4",
   "level": "2",
-  "url": "sec-inverse-trig.html#exit-models-4",
+  "url": "sec-inverse-trig.html#exit-inverse-trig-4",
   "type": "Exercise",
   "number": "3",
   "title": "",
-  "body": "     "
+  "body": "   Fill in the missing values in .                                                       "
 },
 {
-  "id": "exit-models-5",
+  "id": "exit-inverse-trig-5",
   "level": "2",
-  "url": "sec-inverse-trig.html#exit-models-5",
+  "url": "sec-inverse-trig.html#exit-inverse-trig-5",
   "type": "Exercise",
   "number": "4",
   "title": "",
-  "body": "     "
+  "body": "   Use inverse trigonometry and a calculator to find the missing angle in the triangle shown in . Drawing is not to scale.              "
 },
 {
   "id": "sec-inverse-trig-8-1",

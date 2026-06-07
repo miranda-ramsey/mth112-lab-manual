@@ -21,40 +21,47 @@
 		<title>Preparation Exercises</title>
 	    <introduction>
             <p>
+                Answer the following without using a calculator. These questions are intended to 
+                check the prerequisite skills needed to complete the rest of the lab.
             </p>
         </introduction>
 		<exercise>
 			<statement>
 				<p>
-
+                    Evaluate <m>\tan\left(\frac{2\pi}{3}\right)</m> using the definitino of tangent:
+                    <m>\tan(\theta) = \frac{\sin(\theta)}{\cos(\theta)}</m>.
 				</p>
             </statement>
 		</exercise>
 		<exercise>
 			<statement>
 				<p>
-
+                    Evaluate <m>\csc\left(-\frac{5\pi}{6}\right)</m> using the definitino of 
+                    cosecant: <m>\csc(\theta) = \frac{\csc(\theta)}{\sin(\theta)}</m>.
 				</p>
             </statement>
 		</exercise>
 		<exercise>
 			<statement>
 				<p>
-
+                    Which of the six trigonometric functions (sine, cosine, tangent, cosecant, 
+                    secant, cotangent) are odd functions?
 				</p>
             </statement>
 		</exercise>
 		<exercise>
 			<statement>
 				<p>
-
+                    What is the domain of the sine function? What is the domain of the cosine
+                    functions?
 				</p>
             </statement>
 		</exercise>
 		<exercise>
 			<statement>
 				<p>
-
+                    Which values of <m>\theta</m> make it so that <m>\sin(\theta)\</m> is <m>0</m>?
+                    Hint: There are infinitely many answers.
 				</p>
             </statement>
 		</exercise>
@@ -64,11 +71,31 @@
 		<title>Practice Exercises</title>
         <introduction>
             <p>
+                Recall that for a right triangle with angle <m>\theta</m>, the "other trigonometric
+                functions" can be found by the following definitions. Visit 
+                <url href="https://www.desmos.com/calculator/ywkhnnagb4" visual="http://tiny.cc/six-trig-functions">this interactive Desmos graph</url>
+                to see the six trigonometric lengths in action.
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>
+                        <p>
+                            <m>\tan(\theta) = \frac{\sin(\theta)}{\cos(\theta)}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\cot(\theta) = \frac{\cos(\theta)}{\sin(\theta)}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\sec(\theta) = \frac{1}{\cos(\theta)}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\csc(\theta) = \frac{1}{\sin(\theta)}</m>
+                        </p>
+                    </li>
                 </ul>
             </p>
         </introduction>
@@ -76,38 +103,25 @@
 			<task>
                 <statement>
                     <p>
+                        The cosecant function, <m>\csc(\theta) = \frac{1}{\sin(\theta)}</m>, would
+                        be undefined when <m>\sin(\\theta)=0</m>. When is <m>\sin(theta)=0</m>? There
+                        are infinitely many answers: write your answers in a full sentence 
+                        describing the pattern.
                     </p>
                 </statement>
 			</task>
 			<task>
                 <statement>
                     <p>
+                        Write your answers to <m>\sin(\theta)=0</m> in set-builder notation.
                     </p>
                 </statement>
 			</task>
 			<task>
                 <statement>
                     <p>
-                    </p>
-                </statement>
-			</task>
-		</exercise>
-		<exercise>
-			<task>
-                <statement>
-                    <p>
-                    </p>
-                </statement>
-			</task>
-			<task>
-                <statement>
-                    <p>
-                    </p>
-                </statement>
-			</task>
-			<task>
-                <statement>
-                    <p>
+                        Based on your answers to the above questions, what is the domain of the 
+                        cosecant function? Write your answer in a sentence explaining the pattern.
                     </p>
                 </statement>
 			</task>
@@ -116,12 +130,47 @@
 			<task>
                 <statement>
                     <p>
+                        The secant function, <m>\sec(\theta) = \frac{1}{\cos(\theta)}</m>, would
+                        be undefined when <m>\cos(\theta)=0</m>. When is <m>\cos(\theta)=0</m>? There
+                        are infinitely many answers: write your answers in a full sentence 
+                        describing the pattern.
                     </p>
                 </statement>
 			</task>
 			<task>
                 <statement>
                     <p>
+                        Write your answers to <m>\cos(\theta)=0</m> in set-builder notation.
+                    </p>
+                </statement>
+			</task>
+			<task>
+                <statement>
+                    <p>
+                        Based on your answers to the above questions, what is the domain of the 
+                        secant function? Write your answer in a sentence explaining the pattern.
+                    </p>
+                </statement>
+			</task>
+		</exercise>
+		<exercise>
+			<task>
+                <statement>
+                    <p>
+                        The tangent function, <m>\tan(\theta) = \frac{\sin(\theta)}{\cos(\theta)}</m>, 
+                        would be undefined when <m>\cos(\theta)=0</m>. This is the same problem that
+                        the secant function had. So, what is the domain of the tangent function? 
+                        Write your answer in a sentence explaining the pattern.
+                    </p>
+                </statement>
+			</task>
+			<task>
+                <statement>
+                    <p>
+                        The cotangent function, <m>\cot(\theta) = \frac{\cos(\theta)}{\sin(\theta)}</m>, 
+                        would be undefined when <m>\sin(\theta)=0</m>. This is the same problem that
+                        the cosecant function had. So, what is the domain of the cotangent function? 
+                        Write your answer in a sentence explaining the pattern.
                     </p>
                 </statement>
 			</task>
@@ -130,30 +179,187 @@
 		<exercise>
             <introduction>
                 <p>
+                    Match the "other trigonometric functions" with their graphs, shown in 
+                    <xref ref="figure-other-graphs-matching-A"/>,
+                    <xref ref="figure-other-graphs-matching-B"/>,
+                    <xref ref="figure-other-graphs-matching-C"/>, and
+                    <xref ref="figure-other-graphs-matching-D"/>.
+                    Use the definitions of the functions and their domains to decide which goes with
+                    which. Check your answers with your favorite graphing program.
                 </p>
             </introduction>
             <task>
                 <statement>
+                    <sidebyside widths="45% 50%">
                     <p>
+                        <m>y=\tan(x)</m>
                     </p>
+                    <figure xml:id="figure-other-graphs-matching-A">
+                        <image>
+                            <latex-image>
+                                <![CDATA[
+                                    \begin{tikzpicture}
+ 						\begin{axis}[
+ 							framed,
+ 							xmin=-7,xmax=7,
+ 							ymin=-7,ymax=7,
+						    xtick={-6,-5,...,6},
+						    ytick={-6,-5,...,6},
+						    grid=both,
+						    clip=false,
+ 							]
+							\addplot[first,line width=1pt,samples=100,<->]expression[domain=-7:-6.427]{cosec(180/pi*x)};
+							\addplot[first,line width=1pt,samples=100,<->]expression[domain=-6.14:-3.285]{cosec(180/pi*x)};
+							\addplot[first,line width=1pt,samples=100,<->]expression[domain=-2.998:-0.143]{cosec(180/pi*x)};
+							\addplot[first,line width=1pt,samples=100,<->]expression[domain=0.143:2.998]{cosec(180/pi*x)};
+							\addplot[first,line width=1pt,samples=100,<->]expression[domain=3.285:6.14]{cosec(180/pi*x)};
+							\addplot[first,line width=1pt,samples=100,<->]expression[domain=6.427:7]{cosec(180/pi*x)};
+							\addplot[variable=\t,domain=-7:7,<->,dashed,line width=0.8pt,samples=10,color=third]({-2*pi},{t});
+							\addplot[variable=\t,domain=-7:7,<->,dashed,line width=0.8pt,samples=10,color=third]({-pi},{t});
+							\addplot[variable=\t,domain=-7:7,<->,dashed,line width=0.8pt,samples=10,color=third]({0},{t});
+							\addplot[variable=\t,domain=-7:7,<->,dashed,line width=0.8pt,samples=10,color=third]({pi},{t});
+							\addplot[variable=\t,domain=-7:7,<->,dashed,line width=0.8pt,samples=10,color=third]({2*pi},{t});
+							\node[left,color=third,rotate=90] at (axis cs:-2*pi,-7) {$x=-2\pi$};
+							\node[left,color=third,rotate=90] at (axis cs:-pi,-7) {$x=-\pi$};
+							\node[left,color=third,rotate=90] at (axis cs:0,-7) {$x=0$};
+							\node[left,color=third,rotate=90] at (axis cs:pi,-7) {$x=\pi$};
+							\node[left,color=third,rotate=90] at (axis cs:2*pi,-7) {$x=2\pi$};
+ 						\end{axis}
+                                    \end{tikzpicture}
+                                    ]]>
+                            </latex-image>
+                        </image>
+                    </figure>
+                </sidebyside>
                 </statement>
             </task>
             <task>
                 <statement>
+                    <sidebyside widths="45% 50%">
                     <p>
+                        <m>y=\cot(x)</m>
                     </p>
+                    <figure xml:id="figure-other-graphs-matching-B">
+                        <image>
+                            <latex-image>
+                                <![CDATA[
+                                    \begin{tikzpicture}
+ 						\begin{axis}[
+ 							framed,
+							xmin=-7,xmax=7,
+ 							ymin=-7,ymax=7,
+						    xtick={-6,-5,...,6},
+						    ytick={-6,-5,...,6},
+						    grid=both,
+						    clip=false,
+ 							]
+							\addplot[first,line width=1pt,samples=100,<->]expression[domain=-7:-4.854]{tan(180/pi*x)};
+							\addplot[first,line width=1pt,samples=100,<->]expression[domain=-4.57:-1.713]{tan(180/pi*x)};
+							\addplot[first,line width=1pt,samples=100,<->]expression[domain=-1.429:1.429]{tan(180/pi*x)};
+							\addplot[first,line width=1pt,samples=100,<->]expression[domain=1.713:4.57]{tan(180/pi*x)};
+							\addplot[first,line width=1pt,samples=100,<->]expression[domain=4.854:7]{tan(180/pi*x)};
+							\addplot[variable=\t,domain=-7:7,<->,dashed,line width=0.8pt,samples=10,color=third]({-3*pi/2},{t});
+							\addplot[variable=\t,domain=-7:7,<->,dashed,line width=0.8pt,samples=10,color=third]({-pi/2},{t});
+							\addplot[variable=\t,domain=-7:7,<->,dashed,line width=0.8pt,samples=10,color=third]({pi/2},{t});
+							\addplot[variable=\t,domain=-7:7,<->,dashed,line width=0.8pt,samples=10,color=third]({3*pi/2},{t});
+							\node[left,color=third,rotate=90] at (axis cs:-3*pi/2,-7) {$x=-\frac{3\pi}{2}$};
+							\node[left,color=third,rotate=90] at (axis cs:-pi/2,-7) {$x=-\frac{\pi}{2}$};
+							\node[left,color=third,rotate=90] at (axis cs:pi/2,-7) {$x=\frac{\pi}{2}$};
+							\node[left,color=third,rotate=90] at (axis cs:3*pi/2,-7) {$x=\frac{3\pi}{2}$};
+ 						\end{axis}
+                                    \end{tikzpicture}
+                                    ]]>
+                            </latex-image>
+                        </image>
+                    </figure>
+                </sidebyside>
                 </statement>
             </task>
             <task>
                 <statement>
+                    <sidebyside widths="45% 50%">
                     <p>
+                        <m>y = \sec(x)</m>
                     </p>
+                    <figure xml:id="figure-other-graphs-matching-C">
+                        <image>
+                            <latex-image>
+                                <![CDATA[
+                                    \begin{tikzpicture}
+ 						\begin{axis}[
+ 							framed,
+							xmin=-7,xmax=7,
+ 							ymin=-7,ymax=7,
+						    xtick={-6,-5,...,6},
+						    ytick={-6,-5,...,6},
+						    grid=both,
+						    clip=false,
+ 							]
+							\addplot[first,line width=1pt,samples=100,<->]expression[domain=-7:-4.854]{sec(180/pi*x)};
+							\addplot[first,line width=1pt,samples=100,<->]expression[domain=-4.57:-1.713]{sec(180/pi*x)};
+							\addplot[first,line width=1pt,samples=100,<->]expression[domain=-1.429:1.429]{sec(180/pi*x)};
+							\addplot[first,line width=1pt,samples=100,<->]expression[domain=1.713:4.57]{sec(180/pi*x)};
+							\addplot[first,line width=1pt,samples=100,<->]expression[domain=4.854:7]{sec(180/pi*x)};
+							\addplot[variable=\t,domain=-7:7,<->,dashed,line width=0.8pt,samples=10,color=third]({-3*pi/2},{t});
+							\addplot[variable=\t,domain=-7:7,<->,dashed,line width=0.8pt,samples=10,color=third]({-pi/2},{t});
+							\addplot[variable=\t,domain=-7:7,<->,dashed,line width=0.8pt,samples=10,color=third]({pi/2},{t});
+							\addplot[variable=\t,domain=-7:7,<->,dashed,line width=0.8pt,samples=10,color=third]({3*pi/2},{t});
+							\node[left,color=third,rotate=90] at (axis cs:-3*pi/2,-7) {$x=-\frac{3\pi}{2}$};
+							\node[left,color=third,rotate=90] at (axis cs:-pi/2,-7) {$x=-\frac{\pi}{2}$};
+							\node[left,color=third,rotate=90] at (axis cs:pi/2,-7) {$x=\frac{\pi}{2}$};
+							\node[left,color=third,rotate=90] at (axis cs:3*pi/2,-7) {$x=\frac{3\pi}{2}$};
+ 						\end{axis}
+                                    \end{tikzpicture}
+                                    ]]>
+                            </latex-image>
+                        </image>
+                    </figure>
+                </sidebyside>
                 </statement>
             </task>
             <task>
                 <statement>
+                    <sidebyside widths="45% 50%">
                     <p>
+                        <m>y = \csc(x)</m>
                     </p>
+                    <figure xml:id="figure-other-graphs-matching-D">
+                        <image>
+                            <latex-image>
+                                <![CDATA[
+                                    \begin{tikzpicture}
+ 						\begin{axis}[
+ 							framed,
+							xmin=-7,xmax=7,
+ 							ymin=-7,ymax=7,
+						    xtick={-6,-5,...,6},
+						    ytick={-6,-5,...,6},
+						    grid=both,
+						    clip=false,
+ 							]
+							\addplot[first,line width=1pt,samples=100,<->]expression[domain=-7:-6.427]{cot(180/pi*x)};
+							\addplot[first,line width=1pt,samples=100,<->]expression[domain=-6.14:-3.285]{cot(180/pi*x)};
+							\addplot[first,line width=1pt,samples=100,<->]expression[domain=-2.998:-0.143]{cot(180/pi*x)};
+							\addplot[first,line width=1pt,samples=100,<->]expression[domain=0.143:2.998]{cot(180/pi*x)};
+							\addplot[first,line width=1pt,samples=100,<->]expression[domain=3.285:6.14]{cot(180/pi*x)};
+							\addplot[first,line width=1pt,samples=100,<->]expression[domain=6.427:7]{cot(180/pi*x)};
+							\addplot[variable=\t,domain=-7:7,<->,dashed,line width=0.8pt,samples=10,color=third]({-2*pi},{t});
+							\addplot[variable=\t,domain=-7:7,<->,dashed,line width=0.8pt,samples=10,color=third]({-pi},{t});
+							\addplot[variable=\t,domain=-7:7,<->,dashed,line width=0.8pt,samples=10,color=third]({0},{t});
+							\addplot[variable=\t,domain=-7:7,<->,dashed,line width=0.8pt,samples=10,color=third]({pi},{t});
+							\addplot[variable=\t,domain=-7:7,<->,dashed,line width=0.8pt,samples=10,color=third]({2*pi},{t});
+							\node[left,color=third,rotate=90] at (axis cs:-2*pi,-7) {$x=-2\pi$};
+							\node[left,color=third,rotate=90] at (axis cs:-pi,-7) {$x=-\pi$};
+							\node[left,color=third,rotate=90] at (axis cs:0,-7) {$x=0$};
+							\node[left,color=third,rotate=90] at (axis cs:pi,-7) {$x=\pi$};
+							\node[left,color=third,rotate=90] at (axis cs:2*pi,-7) {$x=2\pi$};
+ 						\end{axis}
+                                    \end{tikzpicture}
+                                    ]]>
+                            </latex-image>
+                        </image>
+                    </figure>
+                </sidebyside>
                 </statement>
             </task>
 		</exercise>
@@ -164,25 +370,71 @@
         <exercise>
             <statement>
                 <p>
+                    Which trigonometric functions have a domain that is the set of all real numbers
+                    except integer multiples of <m>\pi</m>?
                 </p>
             </statement>
         </exercise>
         <exercise>
             <statement>
                 <p>
+                    Which trigonometric function is defined to be <m>\dfrac{\cos(\theta)}{\sin(\theta)}</m>?
                 </p>
             </statement>
         </exercise>
         <exercise>
             <statement>
                 <p>
+                    Which trigonometric functions have a domain that is the set of all real numbers 
+                    except odd-integer multiples of <m>\frac{\pi}{2}</m>
                 </p>
             </statement>
         </exercise>
         <exercise>
             <statement>
                 <p>
+                    Shown in <xref ref="figure-other-graphs-exit"/> is a graph of a transformation 
+                    of <m>y = \tan(x)</m>. What values of <m>C</m> and <m>D</m> create this
+                    transformation?
                 </p>
+                    <figure xml:id="figure-other-graphs-exit">
+                        <image width="60%">
+                            <description>
+                                <p>
+                                    <!--TODO-->
+                                </p>
+                            </description>
+                            <latex-image>
+                                <![CDATA[
+                                    \begin{tikzpicture}
+                                    \begin{axis}[
+                                    framed,
+                                    xmin=-7,xmax=7,
+                                    ymin=-7,ymax=7,
+                                    xtick={-6,-5,...,6},
+                                    ytick={-6,-5,...,6},
+                                    grid=both,
+                                    clip=false,
+                                    ]
+                                    \addplot[first,line width=1pt,samples=100,<->]expression[domain=-6.958:-4.124]{tan(180/pi*(x-pi/4))+2};
+                                    \addplot[first,line width=1pt,samples=100,<->]expression[domain=-3.816:-0.983]{tan(180/pi*(x-pi/4))+2};
+                                    \addplot[first,line width=1pt,samples=100,<->]expression[domain=-0.675:2.159]{tan(180/pi*(x-pi/4))+2};
+                                    \addplot[first,line width=1pt,samples=100,<->]expression[domain=2.467:5.3]{tan(180/pi*(x-pi/4))+2};
+                                    \addplot[first,line width=1pt,samples=100,<->]expression[domain=5.608:7]{tan(180/pi*(x-pi/4))+2};
+                                    \addplot[variable=\t,domain=-7:7,<->,dashed,line width=0.8pt,samples=10,color=third]({-5*pi/4},{t});
+                                    \addplot[variable=\t,domain=-7:7,<->,dashed,line width=0.8pt,samples=10,color=third]({-pi/4},{t});
+                                    \addplot[variable=\t,domain=-7:7,<->,dashed,line width=0.8pt,samples=10,color=third]({3*pi/4},{t});
+                                    \addplot[variable=\t,domain=-7:7,<->,dashed,line width=0.8pt,samples=10,color=third]({7*pi/4},{t});
+                                    \node[left,color=third,rotate=90] at (axis cs:-5*pi/4,-7) {$x=-\frac{5\pi}{4}$};
+                                    \node[left,color=third,rotate=90] at (axis cs:-pi/4,-7) {$x=-\frac{\pi}{4}$};
+                                    \node[left,color=third,rotate=90] at (axis cs:3*pi/4,-7) {$x=\frac{3\pi}{4}$};
+                                    \node[left,color=third,rotate=90] at (axis cs:7*pi/4,-7) {$x=\frac{7\pi}{4}$};
+                                    \end{axis}
+                                    \end{tikzpicture}
+                                    ]]>
+                            </latex-image>
+                        </image>
+                    </figure>
             </statement>
         </exercise>
     </exercises>
@@ -194,5 +446,4 @@
             </statement>
         </exercise>
     </reading-questions>
-    -->
 </section>

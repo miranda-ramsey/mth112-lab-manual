@@ -21,36 +21,70 @@
     <exercises xml:id="prep-trig-identities">
 		<title>Preparation Exercises</title>
         <introduction>
-            Answer the following without using a calculator. These questions are intended to check 
+            Answer the following. These questions are intended to check 
             the prerequisite skills needed to complete the rest of the lab.
         </introduction>
 		<exercise>
             <statement>
                 <p>
+                Sketch a graph of <m>f(x) = 4\sin\left(\frac{\pi}{3}\left(x-2\right)\right)+x</m>.
+                </p>
+                <image width="60%">
+                    <description>
+                        <p>
+                            A blank graph.
+                        </p>
+                    </description>
+                    <latex-image>
+                        <![CDATA[
+                            \begin{tikzpicture}
+                            \begin{axis}[
+                            framed,
+                            xmin=-8,xmax=8,
+                            ymin=-10,ymax=8,
+                            xtick={-6,-4,...,6},
+                            minor xtick={-7,-6,...,7},
+                            ytick={-8,-6,...,6},
+                            minor ytick={-9,-8,...,7},
+                            grid=both,
+                            ]
+                            \end{axis}
+                            \end{tikzpicture}
+                            ]]>
+                    </latex-image>
+                </image>
+            </statement>
+        </exercise>
+		<exercise>
+            <statement>
+                <p>
+                    If <m>g(x) = \frac{x-4}{x-1}</m>, evaluate <m>g\left(\frac{x-2}{x-3}\right)</m>
+                    and simplify to lowest form.
                 </p>
             </statement>
         </exercise>
 		<exercise>
             <statement>
                 <p>
+                    Which of the six fundamental trigonometric functions are odd functions?
                 </p>
             </statement>
         </exercise>
 		<exercise>
             <statement>
                 <p>
+                    True or false: "Since we know that <m>\sin^2(x) + \cos^2(x) = 1</m>, then if we
+                    take the square root on both sides, it must be true that <m>\sin(x)+\cos(x)=1</m>."
+                </p>
+                <p>
+                    Explain your reasoning.
                 </p>
             </statement>
         </exercise>
 		<exercise>
             <statement>
                 <p>
-                </p>
-            </statement>
-        </exercise>
-		<exercise>
-            <statement>
-                <p>
+                    Factor the expression <m>1-S^2</m>.
                 </p>
             </statement>
         </exercise>
@@ -64,59 +98,96 @@
                 </p>
             </introduction>
             <statement>
-                <p>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </p>
+                <sidebyside widths="60% 35%">
+                    <p>
+                        Use technology to verify the identity <m>sec(x)−cos(x) = sin(x)tan(x)</m> 
+                        by following the steps below.
+                        <ul>
+                            <li>Make a graph of the left-hand side of the equation, <m>y = \sec(x) - \cos(x)</m>, using technology.</li>
+                            <li>Make a graph of the right-hand side of the equation, <m>y = \sin(x)\tan(x)</m>, using technology.</li>
+                            <li>Describe what you see on your graph. If the two graphs above overlap, then that verifies that both sides of the equation are identical.</li>
+                        </ul>
+                    </p>
+                    <image width="60%">
+                        <description>
+                            <p>
+                                A blank graph.
+                            </p>
+                        </description>
+                        <latex-image>
+                            <![CDATA[
+                                \begin{tikzpicture}
+                                \begin{axis}[
+                                framed,
+                                xmin=-9.424778,xmax=9.424778,
+                                ymin=-10,ymax=10,
+                                xtick={-6.2831853,-3.1415927,0,3.1415927,6.2831853},
+                                xticklabels={$-2\pi$,$-\pi$,$0$,$\pi$,$2\pi$},
+                                ytick={-8,-6,...,8},
+                                grid=both,
+                                ]
+                                \end{axis}
+                                \end{tikzpicture}
+                                ]]>
+                        </latex-image>
+                    </image>
+                </sidebyside>
             </statement>
 		</exercise>
 		<exercise>
             <statement>
                 <p>
+                    Show that <m>\sin(x)-\cos(x)=\left(\tan(x)-1\right)\sec^2(x)</m> is <em>not</em>
+                    an identity by creating a graph in Desmos. Discuss with your neighbor what the 
+                    graph shows that makes it not an identity.
                 </p>
             </statement>
 		</exercise>
 		<exercise>
             <introduction>
                 <p>
+                    Verify the trigonometric identities.
                 </p>
             </introduction>
             <task>
                 <statement>
                     <p>
+                        <m>\tan(\theta)\csc(\theta)=\sec(\theta)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\sec(-\beta) + \tan(-\beta) = (1-\sin(\beta))\sec(\beta)</m>jj
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\frac{\sec(\alpha)}{\csc(\alpha)} = \tan(\alpha)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\frac{\tan^2(\gamma)}{\tan^2(\gamma)+1} = \sin^2(\gamma)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\tan(\phi)\sin(\phi)+\cos(\phi)=\sec(\phi)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\frac{\csc(\mu)\cos(\mu)}{\tan(\mu)+\cot(\mu)} = \cos^2(\mu)</m>
                     </p>
                 </statement>
             </task>
@@ -124,17 +195,20 @@
         <exercise>
             <introduction>
                 <p>
+                    Factor the trigonometric expressions.
                 </p>
             </introduction>
             <task>
                 <statement>
                     <p>
+                        <m>4-9\sin^2(x)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>2\sin^2(x)-\sin(x)-1</m>
                     </p>
                 </statement>
             </task>
@@ -148,6 +222,8 @@
             <title>Identity</title>
             <statement>
                 <p>
+                    An <term>identity</term> is an equation that is always true, regardless of the
+                    value inputted.
                 </p>
             </statement>
         </definition>
@@ -155,11 +231,14 @@
             <title>Identities for tangent, cotangent, secant, and cosecant</title>
             <statement>
                 <p>
+                    Recall that the functions <term>tangent</term>, <term>cotangent</term>, 
+                    <term>secant</term>, and <term>cosecant</term> can all be written in terms of 
+                    sine and/or cosine.
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li><m>\tan(x) = \frac{\sin(x)}{\cos(x)}</m></li>
+                        <li><m>\sec(x) = \frac{1}{\cos(x)}</m></li>
+                        <li><m>\cot(x) = \frac{\cos(x)}{\sin(x)}</m></li>
+                        <li><m>\csc(x) = \frac{1}{\sin(x)}</m></li>
                     </ul>
                 </p>
             </statement>
@@ -168,17 +247,19 @@
             <title>Odd and even trigonometric functions</title>
             <statement>
                 <p>
+                    Recall that sine, tangent, cotangent, and cosecant are all <term>odd functions</term>.
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li><m>\sin(x) = -\sin(x)</m></li>
+                        <li><m>\tan(x) = -\tan(x)</m></li>
+                        <li><m>\cot(x) = -\cot(x)</m></li>
+                        <li><m>\csc(x) = -\csc(x)</m></li>
                     </ul>
                 </p>
                 <p>
+                    Cosine and secant are <term>even functions</term>
                     <ul>
-                        <li></li>
-                        <li></li>
+                        <li><m>\cos(x) = -\cos(x)</m></li>
+                        <li><m>\sec(x) = -\sec(x)</m></li>
                     </ul>
                 </p>
             </statement>
@@ -187,13 +268,16 @@
             <title>Pythagorean identities</title>
             <statement>
                 <p>
+                    Recall the three <term>Pythagorean Identities</term>:
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li><m>\sin^2(\theta) + \cos^2(\theta) = 1</m></li>
+                        <li><m>\tan^2(\theta) + 1 = \sec^2(\theta)</m></li>
+                        <li><m>\cot^2(\theta) + 1 = \csc^2(\theta)</m></li>
                     </ul>
                 </p>
                 <p>
+                    Note that the first relationship is often written as either 
+                    <m>\sin^2(\theta) = 1 - \cos^2(\theta)</m> or <m>\cos^2(\theta) = 1 - \sin^2(\theta)</m>.
                 </p>
             </statement>
         </definition>
@@ -204,24 +288,32 @@
         <exercise>
             <statement>
                 <p>
+                    What makes an equation "an identity"?
                 </p>
             </statement>
         </exercise>
         <exercise>
             <statement>
                 <p>
+                    How would you decide if the equation 
+                    <md>\sin(\theta)+\cos(\theta) = \frac{1}{\csc(\theta)+\sec(\theta)}</md>
+                    is an identity or not?
                 </p>
             </statement>
         </exercise>
         <exercise>
             <statement>
                 <p>
+                    Verify the identity  
+                    <md>-\frac{\cos(-\kappa)}{\sec(\kappa)} = \sin^2(\kappa) - 1</md>.
                 </p>
             </statement>
         </exercise>
         <exercise>
             <statement>
                 <p>
+                    Verify the identity  
+                    <md>-\frac{\cos(x)}{1 - \sin(x)} = \frac{1+\sin(x)}{\cos(x)}</md>.
                 </p>
             </statement>
         </exercise>

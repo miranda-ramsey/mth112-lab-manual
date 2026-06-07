@@ -1249,7 +1249,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.2",
   "title": "Trigonometric Identities",
-  "body": " Trigonometric Identities   In this section, we will learn to verify the fundamental trigonometric identities and to simplify trigonometric expressions using algebra and the identities.    Textbook Reference  This relates to content in 9.1 of Algebra and Trigonometry 2e .    Preparation Exercises  Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.                                  Practice Exercises                                                                                     Definitions   Identity        Identities for tangent, cotangent, secant, and cosecant              Odd and even trigonometric functions                    Pythagorean identities                Exit Exercises                              On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
+  "body": " Trigonometric Identities   In this section, we will learn to verify the fundamental trigonometric identities and to simplify trigonometric expressions using algebra and the identities.    Textbook Reference  This relates to content in 9.1 of Algebra and Trigonometry 2e .    Preparation Exercises  Answer the following. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.    Sketch a graph of .    A blank graph.         If , evaluate and simplify to lowest form.      Which of the six fundamental trigonometric functions are odd functions?      True or false: \"Since we know that , then if we take the square root on both sides, it must be true that .\"  Explain your reasoning.      Factor the expression .      Practice Exercises           Make a graph of the left-hand side of the equation, , using technology.  Make a graph of the right-hand side of the equation, , using technology.  Describe what you see on your graph. If the two graphs above overlap, then that verifies that both sides of the equation are identical.      A blank graph.          Show that is not an identity by creating a graph in Desmos. Discuss with your neighbor what the graph shows that makes it not an identity.      Verify the trigonometric identities.             jj                                   Factor the trigonometric expressions.                    Definitions   Identity   An identity is an equation that is always true, regardless of the value inputted.     Identities for tangent, cotangent, secant, and cosecant   Recall that the functions tangent , cotangent , secant , and cosecant can all be written in terms of sine and\/or cosine.           Odd and even trigonometric functions   Recall that sine, tangent, cotangent, and cosecant are all odd functions .        Cosine and secant are even functions          Pythagorean identities   Recall the three Pythagorean Identities :       Note that the first relationship is often written as either or .      Exit Exercises    What makes an equation \"an identity\"?      How would you decide if the equation is an identity or not?      Verify the identity .      Verify the identity .        On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
 },
 {
   "id": "prep-trig-identities-3",
@@ -1258,7 +1258,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1",
   "title": "",
-  "body": "     "
+  "body": "  Sketch a graph of .    A blank graph.      "
 },
 {
   "id": "prep-trig-identities-4",
@@ -1267,7 +1267,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2",
   "title": "",
-  "body": "     "
+  "body": "  If , evaluate and simplify to lowest form.   "
 },
 {
   "id": "prep-trig-identities-5",
@@ -1276,7 +1276,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3",
   "title": "",
-  "body": "     "
+  "body": "  Which of the six fundamental trigonometric functions are odd functions?   "
 },
 {
   "id": "prep-trig-identities-6",
@@ -1285,7 +1285,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4",
   "title": "",
-  "body": "     "
+  "body": "  True or false: \"Since we know that , then if we take the square root on both sides, it must be true that .\"  Explain your reasoning.   "
 },
 {
   "id": "prep-trig-identities-7",
@@ -1294,7 +1294,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5",
   "title": "",
-  "body": "     "
+  "body": "  Factor the expression .   "
 },
 {
   "id": "practice-trig-identities-2",
@@ -1303,7 +1303,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1",
   "title": "",
-  "body": "              "
+  "body": "         Make a graph of the left-hand side of the equation, , using technology.  Make a graph of the right-hand side of the equation, , using technology.  Describe what you see on your graph. If the two graphs above overlap, then that verifies that both sides of the equation are identical.      A blank graph.       "
 },
 {
   "id": "practice-trig-identities-3",
@@ -1312,7 +1312,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2",
   "title": "",
-  "body": "     "
+  "body": "  Show that is not an identity by creating a graph in Desmos. Discuss with your neighbor what the graph shows that makes it not an identity.   "
 },
 {
   "id": "practice-trig-identities-4",
@@ -1321,7 +1321,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3",
   "title": "",
-  "body": "                                         "
+  "body": "  Verify the trigonometric identities.             jj                                "
 },
 {
   "id": "practice-trig-identities-5",
@@ -1330,7 +1330,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4",
   "title": "",
-  "body": "                 "
+  "body": "  Factor the trigonometric expressions.                 "
 },
 {
   "id": "definitions-trig-identities-2",
@@ -1339,7 +1339,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "7.2.1",
   "title": "Identity.",
-  "body": " Identity      "
+  "body": " Identity   An identity is an equation that is always true, regardless of the value inputted.   "
 },
 {
   "id": "definitions-trig-identities-3",
@@ -1348,7 +1348,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "7.2.2",
   "title": "Identities for tangent, cotangent, secant, and cosecant.",
-  "body": " Identities for tangent, cotangent, secant, and cosecant            "
+  "body": " Identities for tangent, cotangent, secant, and cosecant   Recall that the functions tangent , cotangent , secant , and cosecant can all be written in terms of sine and\/or cosine.         "
 },
 {
   "id": "definitions-trig-identities-4",
@@ -1357,7 +1357,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "7.2.3",
   "title": "Odd and even trigonometric functions.",
-  "body": " Odd and even trigonometric functions                  "
+  "body": " Odd and even trigonometric functions   Recall that sine, tangent, cotangent, and cosecant are all odd functions .        Cosine and secant are even functions        "
 },
 {
   "id": "definitions-trig-identities-5",
@@ -1366,7 +1366,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "7.2.4",
   "title": "Pythagorean identities.",
-  "body": " Pythagorean identities             "
+  "body": " Pythagorean identities   Recall the three Pythagorean Identities :       Note that the first relationship is often written as either or .   "
 },
 {
   "id": "exit-trig-identities-2",
@@ -1375,7 +1375,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1",
   "title": "",
-  "body": "     "
+  "body": "  What makes an equation \"an identity\"?   "
 },
 {
   "id": "exit-trig-identities-3",
@@ -1384,7 +1384,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2",
   "title": "",
-  "body": "     "
+  "body": "  How would you decide if the equation is an identity or not?   "
 },
 {
   "id": "exit-trig-identities-4",
@@ -1393,7 +1393,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3",
   "title": "",
-  "body": "     "
+  "body": "  Verify the identity .   "
 },
 {
   "id": "exit-trig-identities-5",
@@ -1402,7 +1402,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4",
   "title": "",
-  "body": "     "
+  "body": "  Verify the identity .   "
 },
 {
   "id": "sec-trig-identities-8-1",

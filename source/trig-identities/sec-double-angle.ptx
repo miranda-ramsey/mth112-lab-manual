@@ -30,35 +30,43 @@
 		<exercise>
             <statement>
                 <p>
+                    Use the sum of angles for sine formula, 
+                    <m>\sin(\alpha +\beta) = \sin(\alpha)\cos(\beta)+\cos(\alpha)\sin(\beta)</m>, to 
+                    evaluate and simplify the expression <m>\sin(\theta + \theta)</m>
                 </p>
             </statement>
 		</exercise>
 		<exercise>
             <introduction>
                 <p>
+                    In which quadrants are the function values negative?
                 </p>
             </introduction>
             <task>
                 <statement>
                     <p>
+                        <m>\sin(\theta)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\cos(\theta)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\tan(\theta)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\sec(\theta)</m>
                     </p>
                 </statement>
             </task>
@@ -66,12 +74,17 @@
 		<exercise>
             <statement>
                 <p>
+                    True or false:
+                    <md>\sin(60^\circ + 60^\circ) = 2\sin(60^\circ)</md>
+                    Explain your reasoning.
                 </p>
             </statement>
 		</exercise>
 		<exercise>
             <statement>
                 <p>
+                    Verify the identity algebraically:
+                    <md>\frac{\cos(\tau)}{1 + \sin(\tau)} = \sec(\tau)-\tan(\tau)</md>
                 </p>
             </statement>
 		</exercise>
@@ -83,17 +96,20 @@
 		<exercise>
             <introduction>
                 <p>
+                    Find the values using the half angle identities.
                 </p>
             </introduction>
             <task>
                 <statement>
                     <p>
+                        <m>\sin(22.5^\circ)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\cos(15^\circ)</m>
                     </p>
                 </statement>
             </task>
@@ -101,35 +117,56 @@
 		<exercise>
             <introduction>
                 <p>
+                    If <m>\sin(\phi) = \frac{1}{6}</m> and <m>\phi</m> is in quadrant II, find the 
+                    following values:
                 </p>
             </introduction>
             <task>
                 <statement>
                     <p>
+                        <m>\cos(\phi)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\tan(\phi)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\sin(2\phi)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\cos(2\phi)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\tan(2\phi)</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\sin(\frac{\phi}{2})</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\cos(\frac{\phi}{2})</m>
                     </p>
                 </statement>
             </task>
@@ -137,17 +174,20 @@
 		<exercise>
             <introduction>
                 <p>
+                    Verify the identities algebraically.
                 </p>
             </introduction>
             <task>
                 <statement>
                     <p>
+                        <m>\sec^2(\theta)=\frac{2}{1 + \cos(2\theta)}</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\left(2\sin(\theta) - 3\cos(\theta)\right)^2\sec^2(\theta)=4 - 6\sin(2\theta) + 5\cos^2(\theta)</m>
                     </p>
                 </statement>
             </task>
@@ -155,6 +195,8 @@
         <exercise>
             <statement>
                 <p>
+                    Using a graphing utility, find the value of <m>C</m> that makes the equation an identity:
+                    <md> \left(\cos(x) + \sec(x)\right)^2 = C + \tan^2(x) - \sin^2(x)</md>
                 </p>
             </statement>
         </exercise>
@@ -167,11 +209,20 @@
             <title>Double-Angle Identities</title>
             <statement>
                 <p>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
+                    Each of the trigonometric functions has a formula that accounts for an angle 
+                    that is twice as large as some starting angle, the <term>double-angle identities.</term> 
+                    We will focus only on those for sine, cosine, and tangent. The formulas are summarized below.
+                    <md>
+                        \sin(2\theta)=2\sin(\theta)\cos(\theta)
+                    </md>
+                    <md>
+                        <mrow>\cos(2\theta)\amp=\cos^2(\theta)-\sin^2(\theta)</mrow>
+                        <mrow>\amp=1-2\sin^2(\theta)</mrow>
+                        <mrow>\amp=2\cos^2(\theta)-1</mrow>
+                    </md>
+                    <md>
+                        \tan(2\theta) = \dfrac{2\tan(\theta)}{1-\tan^2(\theta)}
+                    </md>
                 </p>
             </statement>
         </definition>
@@ -179,11 +230,15 @@
             <title>Half-Angle Identities</title>
             <statement>
                 <p>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
+                    <md>
+                        \sin\left(\frac{\theta}{2}\right)=\pm\sqrt{\dfrac{1-\cos(\theta)}{2}}
+                    </md>
+                    <md>
+                        \cos\left(\frac{\theta}{2}\right)=\pm\sqrt{\dfrac{1+\cos(\theta)}{2}}
+                    </md>
+                    <md>
+                        \tan\left(\frac{\theta}{2}\right)=\pm\sqrt{\dfrac{1-\cos(\theta)}{1+\cos(\theta)}}
+                    </md>
                 </p>
             </statement>
         </definition>
@@ -194,29 +249,27 @@
         <exercise>
             <introduction>
                 <p>
+                If <m>\tan(\rho)=\frac{4}{3}</m> and <m>\rho</m> is in quadrant III, find the following values.
                 </p>
             </introduction>
             <task>
                 <statement>
                     <p>
+                        <m>\cos(\rho)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\sin(2\rho)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
+                        <m>\sin(\dfrac{\rho}{2}</m>
                     </p>
                 </statement>
             </task>
@@ -224,6 +277,8 @@
         <exercise>
 		    <statement>
                 <p>
+                    Algebraically verify the identity 
+                    <md>\sin(4\alpha) = 8 \sin(\alpha)\cos^3(\alpha) - 4\sin(\alpha)\cos(\alpha)</md>
                 </p>
             </statement>
 	    </exercise>

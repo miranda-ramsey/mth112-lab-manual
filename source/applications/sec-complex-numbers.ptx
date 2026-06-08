@@ -21,22 +21,67 @@
 
     <exercises xml:id="prep-complex-numbers">
 		<title>Preparation Exercises</title>
+        <introduction>
+            <p>
+                Answer the following. These questions are intended to check the prerequisite skills
+                needed to complete the rest of the lab.
+            </p>
+        </introduction>
 		<exercise>
             <statement>
                 <p>
+                    Convert the polar point <m>\left(4,\frac{7\pi}{6}\right)_p</m> to rectangular
+                    form. Leave your components in exact form.
                 </p>
             </statement>
         </exercise>
 		<exercise>
             <statement>
                 <p>
+                    Convert the rectangular point <m>\left(-5,2\right)_r</m> to polar form. Use your
+                    calculator to find an angle in radians rounded to two digits behind the decimal
+                    place.
                 </p>
             </statement>
         </exercise>
 		<exercise>
             <statement>
-                <p>
-                </p>
+                <sidebyside widths="60% 35%">
+                    <p>
+                        For the right triangle shown in <xref ref="figure-complex-preparation"/>, 
+                        find the missing length of <m>r</m> and the missing angle <m>\theta</m>
+                        using SOHCAHTOA. You can ue a calculator to get an approximation, accurate
+                        to 4 digits behind the decimal place.
+                    </p>
+                    <figure xml:id="figure-complex-preparation">
+                        <image>
+                            <description>
+                                <p> 
+                                    A right triangle with hypotenuse <m>r</m>, unknown angle
+                                    <m>\theta</m>, adjacent side <m>5</m>cm, and opposite side
+                                    <m>2</m>cm.
+                                </p>
+                            </description>
+                            <latex-image>
+                                <![CDATA[
+                                    \begin{tikzpicture}
+                                    \coordinate (O) at (0,0);
+                                    \coordinate (A) at (5,0);
+                                    \coordinate (B) at (5,2);
+                                    \draw (O)--(A)--(B)--cycle;
+                                    \footnotesize
+                                    \tkzLabelSegment[below=2pt](O,A){$5\text{cm}$}
+                                    \tkzLabelSegment[above=2pt](O,B){$r$}
+                                    \tkzLabelSegment[right=2pt](A,B){$2\text{cm}$}
+                                    \tkzMarkRightAngle[size=0.5](B,A,O)
+                                    \tkzMarkAngle[size=1.3cm](A,O,B)
+                                    \tkzLabelAngle[pos = 1](A,O,B){$\theta$}
+                                    \end{tikzpicture}
+                                    ]]>
+                            </latex-image>
+                        </image>
+                    </figure>
+                </sidebyside>
             </statement>
         </exercise>
 	</exercises>
@@ -46,23 +91,35 @@
 		<exercise>
             <introduction>
                 <p>
+                    Plot the complex numbers on the complex plane, with real units on the <m>x</m>-axis
+                    and imaginary units on the <m>y</m>-axis.
                 </p>
             </introduction>
             <task>
                 <statement>
                     <p>
+                        <m>2+3i</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>-1+2i</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>-3i</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>3-i</m>
                     </p>
                 </statement>
             </task>
@@ -70,17 +127,20 @@
 		<exercise>
             <introduction>
                 <p>
+                    Find the absolute value and argument of the complex numbers.
                 </p>
             </introduction>
             <task>
                 <statement>
                     <p>
+                        <m>2+3i</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>-1+2i</m>
                     </p>
                 </statement>
             </task>
@@ -89,12 +149,18 @@
             <task>
                 <statement>
                     <p>
+                        Convert the standard form complex number <m>5-12i</m> into polar form.
+                        Use radians and round your argument to two digits behind the decimal place.
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        Convert the polar form complex number 
+                        <m>7\left(\cos\left(\frac{5\pi}{6}\right) + i\sin\left(\frac{5\pi}{6}\right)\right)</m>
+                        into standard form. Keep your values exact using your memorized values on
+                        the unit circle.
                     </p>
                 </statement>
             </task>
@@ -102,23 +168,27 @@
 		<exercise>
             <introduction>
                 <p>
+                    Simplify the expressions completely.
                 </p>
             </introduction>
             <task>
                 <statement>
                     <p>
+                        <m>(2i)^4</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>(2i+3)\cdot(4i-1)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>(2i+3)-(4i-1)</m>
                     </p>
                 </statement>
             </task>
@@ -127,12 +197,17 @@
             <task>
                 <statement>
                     <p>
+                        Convert the standard form complex number <m>5-12i</m> into Euler's form. Use
+                        radians and round your argument to two digits behind the decimal place.
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        Convert the Euler's form complex number <m>7e^{\frac{4\pi i}{3}}</m> into
+                        standard form. Keep your values exact using your memorized values on the
+                        unit circle.
                     </p>
                 </statement>
             </task>
@@ -146,12 +221,18 @@
             <title>The Imaginary Unit <m>i</m></title>
             <statement>
                 <p>
+                    The <term>imaginary unit</term> <m>i</m> is defined to be <m>i=\sqrt{-1}</m>. 
+                    Since there is no real number that is multiplied by itself to create a negative
+                    number, <m>i</m> must not be a real number. It fits into a new category of
+                    numbers called imaginary numbers, which are multiples of <m>i</m>. It's called
+                    a "unit" because its absolute value is <m>1</m>
                 </p>
             </statement>
         </definition>
         <example>
             <statement>
                 <p>
+                    <m>4i</m>, <m>-2i</m>, and <m>\sqrt{-9}</m> are all imaginary numbers.
                 </p>
             </statement>
         </example>
@@ -159,12 +240,17 @@
             <title>Standard Form of a Complex Number</title>
             <statement>
                 <p>
+                    A <term>complex number</term> is any real number plus any imaginary number. Any
+                    complex number can be written in standard form (also called rectangular form),
+                    which is the form <m>a+bi</m>, where both <m>a</m> and <m>b</m> are real
+                    numbers. 
                 </p>
             </statement>
         </definition>
         <example>
             <statement>
                 <p>
+                    <m>3 + 0i</m>, <m>0 - 2i</m>, and <m>1 - \sqrt{5}i</m> are all complex numbers.
                 </p>
             </statement>
         </example>
@@ -172,12 +258,19 @@
             <title>The Complex Plane</title>
             <statement>
                 <p>
+                    The <term>complex plane</term> is the two dimensional axes system to pot complex
+                    numbers. The horizontal axis, often just labeled <m>x</m>, measures the real
+                    part of a complex number. The vertical axis, often labeled <m>y</m>, measures
+                    the imaginary part of a complex number.
                 </p>
             </statement>
         </definition>
         <example>
             <statement>
                 <p>
+                    The number <m>-3+4i</m> would be plotted <m>3</m> units to the left and 
+                    <m>4</m> units up from the origin at the same place that <m>(-3,4)</m> would 
+                    have been plotted in the regular two-dimensional real axes.
                 </p>
             </statement>
         </example>
@@ -185,18 +278,21 @@
             <title>Absolute Value of a Complex Number</title>
             <statement>
                 <p>
+                    The <term>absolute</term> value of the complex number is the distance from the 
+                    origin to the number in the complex plane. The absolute value is written as 
+                    usual, <m>|z|</m>. To find the absolute value of <m> z= a+ bi</m>, use the 
+                    Pythagorean Theorem: <m>|z|= \sqrt{a^2 + b^2}</m>.
                 </p>
+                <p>Note: the <m>i</m> is dropped during this calculation!</p>
+                <p>Note: the absolute value of a complex number is sometimes also called the 
+                <term>magnitude</term> or <term>modulus</term>.</p>
             </statement>
         </definition>
-        <note>
-            <statement>
-                <p>
-                </p>
-            </statement>
-        </note>
         <example>
             <statement>
                 <p>
+                    To find the absolute value of <m>z = -3+4i</m>, we would write that
+                    <m>|z| = \sqrt{(-3)^2 + 4^2} = 5</m>.
                 </p>
             </statement>
         </example>
@@ -204,55 +300,104 @@
             <title>Argument of a Complex Number</title>
             <statement>
                 <p>
+                    The <term>argument of the complex number</term>, <m>z =a+ bi</m>, is an angle, 
+                    <m>\theta</m>, measured from the standard position to the number in the complex 
+                    plane. To find this angle, θ, use the formula <m>tan(\theta) = \frac{b}{a}</m>
+                    solve for <m>\theta</m> that is in the correct quadrant.
+                </p>
+                <p>
+                    Note: the <m>i</m> is dropped during this calculation!
                 </p>
             </statement>
         </definition>
-        <note>
-            <statement>
-                <p>
-                </p>
-            </statement>
-        </note>
         <example>
             <statement>
-                <p>
-                </p>
+                <sidebyside widths="60% 35%">
+                    <p>
+                        To find the argument of <m>z =−3 + 4i</m>, we would first note that <m>z</m>
+                        is in the second quadrant, and we would write <m>tan(\theta) = \frac{4}{−3}</m>.
+                        Next, we would take the inverse-tangent on both sides, however,
+                        inverse-tangent does not give us angles in quadrant II, so we know that to 
+                        find the correct argument of <m>z</m> we should add <m>\pi</m>. So the 
+                        argument of <m>z</m> is <m>\theta = \tan^{-1}\left(\frac{4}{-3}\right) + \pi \approx 2.21</m>,
+                        as shown in <xref ref="figure-complex-argument-definition"/>
+                    </p>
+                    <figure xml:id="figure-complex-argument-definition">
+                        <image>
+                            <description>
+                                <p>
+                                    A graph on the complex plane. The point <m>-3+4i</m> is plotted
+                                    with a dotted line connecting it to the origin. The dotted line
+                                    is labeled <m>|z| = 5</m>, showing the absolute value, and the
+                                    angle from the positive <m>x</m>-axis is labeled <m>\theta \approx 2.21</m>, 
+                                    showing the argument.
+                                </p>
+                            </description>
+                            <latex-image>
+                                <![CDATA[
+                                    \begin{tikzpicture}
+                                    \begin{axis}[
+                                    framed,
+                                    ylabel={$y_i$},
+                                    xmin=-4,xmax=2,
+                                    ymin=-1,ymax=5,
+                                    xtick={-3,-2,-1,1},
+                                    ytick={1,2,3,4},
+                                    grid=both,
+                                    ]
+                                    \draw 	(-3,4) node[above,color=first] {$-3+4i$};
+                                    \draw 	(1,1.3) node[color=third] {$\theta\approx2.21$};
+                                    \addplot[only marks, mark=*,color=first] coordinates{(-3,4)(0,0)};
+                                    \addplot[dashed,color=second,thin] coordinates{(-3,4)(0,0)};
+                                    \addplot[domain= 0:126.87,third] ({cos(x)},{sin(x)});
+                                    \draw 	(-1.5,2) node[above,color=second,rotate=-atan(4/3)] {$|z|=5$};
+                                    \end{axis}
+                                    \end{tikzpicture}
+                                    ]]>
+                            </latex-image>
+                        </image>
+                    </figure>
+                </sidebyside>
             </statement>
         </example>
         <definition>
             <title>Polar Form of a Complex Number</title>
             <statement>
                 <p>
+                    A complex number can be written in <term>polar form</term>, which is the form 
+                    <m>r\left(\cos(\theta)+i\sin(\theta)\right)</m>, where <m>r=|z|</m> and 
+                    <m>\theta</m> is the argument of the complex number. 
                 </p>
+                <p>Note: <m>\cos(\theta)+i\sin(\theta)</m> is sometimes called <m>\text{cis}(\theta)</m>.</p>
             </statement>
         </definition>
-        <note>
-            <statement>
-                <p>
-                </p>
-            </statement>
-        </note>
         <example>
             <statement>
                 <p>
+                    <m>z=-3+4i</m> can be written as <m>z\approx5\left(\cos(2.21)+i\sin(2.21)\right)</m>. 
                 </p>
+                <p>Note: We used the <m>\approx</m> symbol here because the <m>2.21</m> was an 
+                    approximate value.</p>
             </statement>
         </example>
         <definition>
             <title>Euler's Form of a Complex Number</title>
             <statement>
                 <p>
+                    <term>Euler's form</term> of a complex number, <m>z</m>, is <m>z=re^{i\theta}</m>, 
+                    where <m>r=|z|</m> and <m>\theta</m> is the argument of <m>z</m>. 
                 </p>
             </statement>
         </definition>
         <example>
             <statement>
                 <p>
+                    <m>z=-3+4i</m> can be written as <m>z\approx5e^{i\cdot2.21}</m>. 
                 </p>
+                <p>Note: We used the <m>\approx</m> symbol here because the <m>2.21</m> was an 
+                    approximate value.</p>
             </statement>
         </example>
-        
-
 	</subsection>
         
     <exercises xml:id="exit-complex-numbers">
@@ -260,6 +405,8 @@
         <exercise>
             <statement>
                 <p>
+                    Describe the difference between the point <m>(5,8)</m> in the two-dimensional 
+                    real coordinate plane and the complex number <m>5+8i</m> in the complex plane.
                 </p>
             </statement>
         </exercise>
@@ -267,30 +414,39 @@
             <task>
                 <statement>
                     <p>
+                        Plot the complex number <m>-6-4i</m> onto the complex plane.
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        Find the absolute value of the complex number <m>-6-4i</m>. Simplify the
+                        radical completely and leave your answer in exact form. Illustrate the value
+                        on your plot from exercise a.
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        Find the argument of the complex number <m>-6-4i</m>. Use a calculator to
+                        round your answer to three digits behind the decimal place. Illustrate the 
+                        value on your plot from exercise a.
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        Write the complex number <m>-6-4i</m> into polar form.
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        Write the complex number <m>-6-4i</m> into Euler's form.
                     </p>
                 </statement>
             </task>
@@ -304,5 +460,4 @@
             </statement>
         </exercise>
     </reading-questions>
-    -->
 </section>

@@ -230,6 +230,37 @@
         </exercise>
         <exercise>
             <statement>
+                <p>
+                    If you were trying to solve the equation <m>2\sin^2(x) = \sin(x) + 1</m> on the 
+                    interval <m>[-\pi,pi]</m>, and you had a graph of <m>y = 2\sin^2(x)</m> and 
+                    <m>y = \sin(x) + 1</m>, what would you look for on the graph to solve the 
+                    equation? Create that graph, then write out the solution set based on your work.
+                </p>
+                <image width="60%">
+                    <description>
+                        <p>A blank graph.</p>
+                    </description>
+                    <latex-image>
+                        <![CDATA[
+                            \begin{tikzpicture}
+                            \begin{axis}[
+                            width=12cm,
+                            framed,
+                            xmin=-7/6*pi,
+                            xmax=7/6*pi,
+                            ymin=-2,
+                            ymax=3,
+                            xtick={-3.1416, -2.6180, -2.0944, -1.5708, -1.0472, -0.5236, 0.5236, 1.0472, 1.5708, 2.0944, 2.6180, 3.1416},
+                            xticklabels={$-\pi$,$-\frac{5\pi}{6}$,$-\frac{2\pi}{3}$,$-\frac{\pi}{2}$,$-\frac{\pi}{3}$,$-\frac{\pi}{6}$,$\frac{\pi}{6}$,$\frac{\pi}{3}$,$\frac{\pi}{2}$,$\frac{2\pi}{3}$,$\frac{5\pi}{6}$,$\pi$},
+                            grid=both,
+                            ytick={-1,1,2},
+                            clip=false,
+                            ]
+                            \end{axis}
+                            \end{tikzpicture}
+                            ]]>
+                    </latex-image>
+                </image>
             </statement>
         </exercise>
         <exercise>

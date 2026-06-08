@@ -52,12 +52,44 @@
         </exercise>
 		<exercise>
             <statement>
-                <p>
-                    For the right triangle shown in <xref provisional="prep-laws-right-triangle"/>,
-                    find the missing lengths of <m>G</m>, <m>H</m>, and the angle <m>\iota</m>. You
-                    can use a calculator to hep get an approximation, accurate to four digits behind
-                    the decimal place.
-                </p>
+                <sidebyside widths="60% 35%">
+                    <p>
+                        For the right triangle shown in <xref ref="prep-laws-right-triangle"/>,
+                        find the missing lengths of <m>G</m>, <m>H</m>, and the angle <m>\iota</m>. You
+                        can use a calculator to hep get an approximation, accurate to four digits behind
+                        the decimal place.
+                    </p>
+                    <figure xml:id="prep-laws-right-triangle">
+                        <image>
+                            <description>
+                                <p>
+                                    A right triangle with unknown hypotenuse <m>H</m>, unknown angle
+                                    <m>\iota</m> and adjacent side <m>G</m>, and known angle <m>49^\circ</m> 
+                                    with adjacent side length <m>48</m>in.
+                                </p>
+                            </description>
+                            <latex-image>
+                                <![CDATA[
+                                    \begin{tikzpicture}
+                                    \coordinate (O) at (0,0);
+                                    \coordinate (A) at (4,0);
+                                    \coordinate (B) at (0,3.5);
+                                    \draw (O)--(A)--(B)--cycle;
+                                    \footnotesize
+                                    \tkzLabelSegment[below=2pt](O,A){$G$}
+                                    \tkzLabelSegment[above=2pt,rotate=90](O,B){$48\text{in}$}
+                                    \tkzLabelSegment[above right=2pt](A,B){$H$}
+                                    \tkzMarkRightAngle[size=0.5](A,O,B)
+                                    \tkzMarkAngle[size=0.8cm](B,A,O)
+                                    \tkzLabelAngle[pos = 0.6](B,A,O){$\iota$}
+                                    \tkzMarkAngle[size=0.7cm](O,B,A)
+                                    \tkzLabelAngle[pos = 1](O,B,A){$49^\circ$}
+                                    \end{tikzpicture}
+                                    ]]>
+                            </latex-image>
+                        </image>
+                    </figure>
+                </sidebyside>
             </statement>
         </exercise>
 	</exercises>
@@ -66,30 +98,162 @@
 		<title>Practice Exercises</title>
         <exercise>
             <statement>
-                Find the missing angle, <m>C</m>, and then use the law of sines to find the missing 
-                lengths <m>a</m> and <m>c</m>, in the triangle in <xref provisional="practice-laws-AAS"/>. 
-                Round your answers to two digits behind the decimal place.
+                <sidebyside widths="60% 35%">
+                    <p>
+                        Find the missing angle, <m>C</m>, and then use the law of sines to find the missing 
+                        lengths <m>a</m> and <m>c</m>, in the triangle in <xref ref="practice-laws-AAS"/>. 
+                        Round your answers to two digits behind the decimal place.
+                    </p>
+                    <figure xml:id="practice-laws-AAS">
+                        <image>
+                            <description>
+                                <p>
+                                <!--TODO-->
+                                </p>
+                            </description>
+                            <latex-image>
+                                <![CDATA[
+                                    \begin{tikzpicture}
+                                    \coordinate (A) at (0,0);
+                                    \coordinate (B) at (4,0);
+                                    \coordinate (C) at (1,3);
+                                    \draw (A)--(B)--(C)--cycle;
+                                    \footnotesize
+                                    \tkzLabelSegment[below=2pt](A,B){$c$}
+                                    \tkzLabelSegment[above=2pt,rotate=atan(3)](A,C){$\sqrt{10}$}
+                                    \tkzLabelSegment[above=2pt,rotate=-45](B,C){$a$}
+                                    \tkzMarkAngle[size=1.1cm](B,A,C)
+                                    \tkzLabelAngle[pos = 0.7](B,A,C){$71.6^\circ$}
+                                    \tkzMarkAngle[size=1cm](C,B,A)
+                                    \tkzLabelAngle[pos = .7](C,B,A){$45^\circ$}
+                                    \tkzMarkAngle[size=.6cm](A,C,B)
+                                    \tkzLabelAngle[pos = .4](A,C,B){$C$}
+                                    \end{tikzpicture}
+                                    ]]>
+                            </latex-image>
+                        </image>
+                    </figure>
+                </sidebyside>
             </statement>
         </exercise>
         <exercise>
             <statement>
-                Use the law of sines to find the missing angles, <m>A</m> and <m>C</m>, and the 
-                length, <m>a</m>, in the triangle in Figure <xref provisional="practice-laws-SSA"/>. 
-                Round your answers to two digits behind the decimal place.
+                <sidebyside widths="60% 35%">
+                    <p>
+                        Use the law of sines to find the missing angles, <m>A</m> and <m>C</m>, and the 
+                        length, <m>a</m>, in the triangle in Figure <xref provisional="practice-laws-SSA"/>. 
+                        Round your answers to two digits behind the decimal place.
+                    </p>
+                    <figure xml:id="practice-laws-SSA">
+                        <image>
+                            <description>
+                                <p>
+                                <!--TODO-->
+                                </p>
+                            </description>
+                            <latex-image>
+                                <![CDATA[
+                                    \begin{tikzpicture}
+                                    \coordinate (A) at (0,0);
+                                    \coordinate (B) at (4,0);
+                                    \coordinate (C) at (5,2);
+                                    \draw (A)--(B)--(C)--cycle;
+                                    \footnotesize
+                                    \tkzLabelSegment[below=2pt](A,B){$8$}
+                                    \tkzLabelSegment[above=2pt,rotate=atan(2/5)](A,C){$2\sqrt{29}$}
+                                    \tkzLabelSegment[right=2pt](B,C){$a$}
+                                    \tkzMarkAngle[size=1cm](B,A,C)
+                                    \tkzLabelAngle[pos = 0.75](B,A,C){$A$}
+                                    \tkzMarkAngle[size=0.9cm](C,B,A)
+                                    \tkzLabelAngle[pos = .5](C,B,A){$116.6^\circ$}
+                                    \tkzMarkAngle[size=.7cm](A,C,B)
+                                    \tkzLabelAngle[pos = .45](A,C,B){$C$}
+                                    \end{tikzpicture}
+                                    ]]>
+                            </latex-image>
+                        </image>
+                    </figure>
+                </sidebyside>
             </statement>
         </exercise>
         <exercise>
             <statement>
-                Use the law of cosines to find the missing angles, <m>A</m> and <m>C</m>, and the 
-                length, <m>b</m>, in the triangle in Figure <xref provisional="practice-laws-SAS"/>. 
-                Round your answers to two digits behind the decimal place.
+                <sidebyside widths="60% 35%">
+                    <p>
+                        Use the law of cosines to find the missing angles, <m>A</m> and <m>C</m>, and the 
+                        length, <m>b</m>, in the triangle in Figure <xref provisional="practice-laws-SAS"/>. 
+                        Round your answers to two digits behind the decimal place.
+                    </p>
+                    <figure xml:id="practice-laws-SAS">
+                        <image>
+                            <description>
+                                <p>
+                                <!--TODO-->
+                                </p>
+                            </description>
+                            <latex-image>
+                                <![CDATA[
+                                    \begin{tikzpicture}
+                                    \coordinate (A) at (0,0);
+                                    \coordinate (B) at (5,0);
+                                    \coordinate (C) at (4,3);
+                                    \draw (A)--(B)--(C)--cycle;
+                                    \footnotesize
+                                    \tkzLabelSegment[below=2pt](A,B){$13$}
+                                    \tkzLabelSegment[above left=2pt](A,C){$b$}
+                                    \tkzLabelSegment[above=2pt,rotate=-atan(7/3)](B,C){$\sqrt{58}$}
+                                    \tkzMarkAngle[size=0.9cm](B,A,C)
+                                    \tkzLabelAngle[pos = 0.6](B,A,C){$A$}
+                                    \tkzMarkAngle[size=1.1cm](C,B,A)
+                                    \tkzLabelAngle[pos = .7](C,B,A){$66.8^\circ$}
+                                    \tkzMarkAngle[size=.6cm](A,C,B)
+                                    \tkzLabelAngle[pos = .35](A,C,B){$C$}
+                                    \end{tikzpicture}
+                                    ]]>
+                            </latex-image>
+                        </image>
+                    </figure>
+                </sidebyside>
             </statement>
         </exercise>
         <exercise>
             <statement>
-                Use the law of cosines to find the missing angles, <m>A</m>, <m>B</m>, and <m>C</m>,
-                in the triangle in Figure <xref provisional="practice-laws-SSS"/>. 
-                Round your answers to two digits behind the decimal place.
+                <sidebyside widths="60% 35%">
+                    <p>
+                        Use the law of cosines to find the missing angles, <m>A</m>, <m>B</m>, and <m>C</m>,
+                        in the triangle in Figure <xref provisional="practice-laws-SSS"/>. 
+                        Round your answers to two digits behind the decimal place.
+                    </p>
+                    <figure xml:id="practice-laws-SSS">
+                        <image>
+                            <description>
+                                <p>
+                                <!--TODO-->
+                                </p>
+                            </description>
+                            <latex-image>
+                                <![CDATA[
+                                    \begin{tikzpicture}
+                                    \coordinate (C) at (0,0);
+                                    \coordinate (B) at (3.75,2);
+                                    \coordinate (A) at (2.5,5);
+                                    \draw (C)--(A)--(B)--cycle;
+                                    \footnotesize
+                                    \tkzLabelSegment[above=2pt,rotate=63](C,A){$10\sqrt{5}$}
+                                    \tkzLabelSegment[below=2pt,rotate=28](C,B){$17$}
+                                    \tkzLabelSegment[above=2pt,rotate=-67](A,B){$13$}
+                                    \tkzMarkAngle[size=0.8cm](C,A,B)
+                                    \tkzLabelAngle[pos = 0.5](C,A,B){$A$}
+                                    \tkzMarkAngle[size=0.7cm](A,B,C)
+                                    \tkzLabelAngle[pos = -.4](A,B,C){$B$}
+                                    \tkzMarkAngle[size=1cm](B,C,A)
+                                    \tkzLabelAngle[pos = .7](B,C,A){$C$}
+                                    \end{tikzpicture}
+                                    ]]>
+                            </latex-image>
+                        </image>
+                    </figure>
+                </sidebyside>
             </statement>
         </exercise>
     </exercises>
@@ -102,12 +266,41 @@
                 <p>
                     The <term>law of sines</term> says that the ratios of sines of angles in a triangle
                     and the opposite sides are all constant. That's a bit of a mouthful, maybe a 
-                    math-ful will help. Consider the triangle in Figure <xref provisional="def-law-of-sines"/>.
+                    math-ful will help. Consider the triangle in Figure <xref ref="def-law-of-sines"/>.
                     The law of sines says that...
                     <md>\frac{\sin(A)}{a} = \frac{\sin(B)}{b} = \frac{\sin(C)}{c}</md>
                     or alternately,
                     <md>\frac{a}{\sin(A)} = \frac{b}{\sin(B)} = \frac{c}{\sin(C)}</md>
                 </p>
+                <figure xml:id="def-law-of-sines">
+                    <image width="60%">
+                        <description>
+                            <p>
+                                <!--TODO-->
+                            </p>
+                        </description>
+                        <latex-image>
+                            <![CDATA[
+                                \begin{tikzpicture}
+                                \coordinate (A) at (0,0);
+                                \coordinate (B) at (5,0);
+                                \coordinate (C) at (3,2);
+                                \draw (A)--(B)--(C)--cycle;
+                                \footnotesize
+                                \tkzLabelSegment[below=2pt](A,B){$c$}
+                                \tkzLabelSegment[above left=2pt](A,C){$b$}
+                                \tkzLabelSegment[above right=2pt](B,C){$a$}
+                                \tkzMarkAngle[size=0.9cm](B,A,C)
+                                \tkzLabelAngle[pos = 0.6](B,A,C){$A$}
+                                \tkzMarkAngle[size=0.8cm](C,B,A)
+                                \tkzLabelAngle[pos = .5](C,B,A){$B$}
+                                \tkzMarkAngle[size=.6cm](A,C,B)
+                                \tkzLabelAngle[pos = .35](A,C,B){$C$}
+                                \end{tikzpicture}
+                                ]]>
+                        </latex-image>
+                    </image>
+                </figure>
             </statement>
         </definition>
         <note>
@@ -127,7 +320,7 @@
                 <p>
                     The <term>law of cosines</term> is really the natural extension of the
                     Pythagorean Theorem for triangles without a right angle. Consider the triangle
-                    in Figure <xref provisional="def-law-of-cosines"/>. 
+                    in Figure <xref ref="def-law-of-cosines"/>. 
                     The law of cosines says that...
                     <md>a^2 = b^2 + c^2 - 2bc\cos(A)</md>
                     or 
@@ -135,6 +328,35 @@
                     or 
                     <md>c^2 = a^2 + b^2 - 2bc\cos(C)</md>
                 </p>
+                <figure xml:id="def-law-of-cosines">
+                    <image width="60%">
+                        <description>
+                            <p>
+                                <!--TODO-->
+                            </p>
+                        </description>
+                        <latex-image>
+                            <![CDATA[
+                                \begin{tikzpicture}
+                                \coordinate (A) at (0,0);
+                                \coordinate (B) at (5,0);
+                                \coordinate (C) at (3,2);
+                                \draw (A)--(B)--(C)--cycle;
+                                \footnotesize
+                                \tkzLabelSegment[below=2pt](A,B){$c$}
+                                \tkzLabelSegment[above left=2pt](A,C){$b$}
+                                \tkzLabelSegment[above right=2pt](B,C){$a$}
+                                \tkzMarkAngle[size=0.9cm](B,A,C)
+                                \tkzLabelAngle[pos = 0.6](B,A,C){$A$}
+                                \tkzMarkAngle[size=0.8cm](C,B,A)
+                                \tkzLabelAngle[pos = .5](C,B,A){$B$}
+                                \tkzMarkAngle[size=.6cm](A,C,B)
+                                \tkzLabelAngle[pos = .35](A,C,B){$C$}
+                                \end{tikzpicture}
+                                ]]>
+                        </latex-image>
+                    </image>
+                </figure>
             </statement>
         </definition>
         <note>
@@ -172,10 +394,43 @@
                         using their inclinometer on their phones. Then they measured out 115ft up
                         the hillside to point <m>P</m> and measured the angle from there to be 
                         83<degree/> from the base of the tree to the top of the tree, as shown in 
-                        Figure <xref provisional="exit-laws-tree"/>. Use the laws of sines or cosines
+                        Figure <xref ref="exit-laws-tree"/>. Use the laws of sines or cosines
                         to find an estimate for the height of the tree and round your answer to the
                         nearest foot.
                     </p>
+                    <figure xml:id="exit-laws-tree">
+                        <image width="60%">
+                            <description>
+                                <p>
+                                    <!--TODO-->
+                                </p>
+                            </description>
+                            <latex-image>
+                                <![CDATA[
+                                    \begin{tikzpicture}
+                                    \begin{axis}[
+                                    height=9cm,
+                                    axis x line=none,
+                                    axis y line=none,
+                                    xlabel=none,
+                                    ylabel=none,
+                                    xmin=-10,xmax=110,
+                                    ymin=-10,ymax=230,
+                                    clip=false,
+                                    ]
+                                    \node   [inner sep=0pt] (Doug Fir) at (1,110) {\includegraphics[width=.14\textwidth,angle=-1]{external/images/DougFir.png}};
+                                    \draw   [thin,color=second](0,220) coordinate[label=above:$T$]--(90,70) coordinate[label=right:$P$]--(0,0) coordinate[label=below:$B$]--cycle;
+                                    \addplot[variable=\t, domain=30:90, samples=50,thin, color=third]({22*cos(t)}, {30*sin(t)});
+                                    \draw   (1,15)coordinate[label=right:\footnotesize$52^\circ$];
+                                    \addplot[variable=\t, domain=127:210, samples=50,thin, color=third]({22*cos(t)+90}, {30*sin(t)+70});
+                                    \draw   (87,72)coordinate[label=left:\footnotesize$83^\circ$];
+                                    \draw   (45,35)coordinate[label=below right:$115\text{ft}$];
+                                    \end{axis}
+                                    \end{tikzpicture}
+                                    ]]>
+                            </latex-image>
+                        </image>
+                    </figure>
                 </statement>
             </task>
             <task>

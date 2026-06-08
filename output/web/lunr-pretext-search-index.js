@@ -1249,7 +1249,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.2",
   "title": "Trigonometric Identities",
-  "body": " Trigonometric Identities   In this section, we will learn to verify the fundamental trigonometric identities and to simplify trigonometric expressions using algebra and the identities.    Textbook Reference  This relates to content in 9.1 of Algebra and Trigonometry 2e .    Preparation Exercises  Answer the following. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.    Sketch a graph of .    A blank graph.         If , evaluate and simplify to lowest form.      Which of the six fundamental trigonometric functions are odd functions?      True or false: \"Since we know that , then if we take the square root on both sides, it must be true that .\"  Explain your reasoning.      Factor the expression .      Practice Exercises           Make a graph of the left-hand side of the equation, , using technology.  Make a graph of the right-hand side of the equation, , using technology.  Describe what you see on your graph. If the two graphs above overlap, then that verifies that both sides of the equation are identical.      A blank graph.          Show that is not an identity by creating a graph in Desmos. Discuss with your neighbor what the graph shows that makes it not an identity.      Verify the trigonometric identities.             jj                                   Factor the trigonometric expressions.                    Definitions   Identity   An identity is an equation that is always true, regardless of the value inputted.     Identities for tangent, cotangent, secant, and cosecant   Recall that the functions tangent , cotangent , secant , and cosecant can all be written in terms of sine and\/or cosine.           Odd and even trigonometric functions   Recall that sine, tangent, cotangent, and cosecant are all odd functions .        Cosine and secant are even functions          Pythagorean identities   Recall the three Pythagorean Identities :       Note that the first relationship is often written as either or .      Exit Exercises    What makes an equation \"an identity\"?      How would you decide if the equation is an identity or not?      Verify the identity .      Verify the identity .        On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
+  "body": " Trigonometric Identities   In this section, we will learn to verify the fundamental trigonometric identities and to simplify trigonometric expressions using algebra and the identities.    Textbook Reference  This relates to content in 9.1 of Algebra and Trigonometry 2e .    Preparation Exercises  Answer the following. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.    Sketch a graph of .    A blank graph.         If , evaluate and simplify to lowest form.      Which of the six fundamental trigonometric functions are odd functions?      True or false: \"Since we know that , then if we take the square root on both sides, it must be true that .\"  Explain your reasoning.      Factor the expression .      Practice Exercises         Use technology to verify the identity by following the steps below.  Make a graph of the left-hand side of the equation, , using technology.  Make a graph of the right-hand side of the equation, , using technology.  Describe what you see on your graph. If the two graphs above overlap, then that verifies that both sides of the equation are identical.      A blank graph.          Show that is not an identity by creating a graph in Desmos. Discuss with your neighbor what the graph shows that makes it not an identity.      Verify the trigonometric identities.             jj                                   Factor the trigonometric expressions.                    Definitions   Identity   An identity is an equation that is always true, regardless of the value inputted.     Identities for tangent, cotangent, secant, and cosecant   Recall that the functions tangent , cotangent , secant , and cosecant can all be written in terms of sine and\/or cosine.           Odd and even trigonometric functions   Recall that sine, tangent, cotangent, and cosecant are all odd functions .        Cosine and secant are even functions          Pythagorean identities   Recall the three Pythagorean Identities :       Note that the first relationship is often written as either or .      Exit Exercises    What makes an equation \"an identity\"?      How would you decide if the equation is an identity or not?      Verify the identity .      Verify the identity .        On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
 },
 {
   "id": "prep-trig-identities-3",
@@ -1303,7 +1303,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1",
   "title": "",
-  "body": "         Make a graph of the left-hand side of the equation, , using technology.  Make a graph of the right-hand side of the equation, , using technology.  Describe what you see on your graph. If the two graphs above overlap, then that verifies that both sides of the equation are identical.      A blank graph.       "
+  "body": "       Use technology to verify the identity by following the steps below.  Make a graph of the left-hand side of the equation, , using technology.  Make a graph of the right-hand side of the equation, , using technology.  Describe what you see on your graph. If the two graphs above overlap, then that verifies that both sides of the equation are identical.      A blank graph.       "
 },
 {
   "id": "practice-trig-identities-3",
@@ -1420,7 +1420,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.3",
   "title": "Sum And Difference",
-  "body": " Sum And Difference   In this section, we will learn to use sum and difference formulas for sine, cosine, and tangent, and to use sum and difference formulas to verify identities.    Textbook Reference  This relates to content in 9.2 of Algebra and Trigonometry 2e .   > Preparation Exercises                                                      Practice Exercises                                                                                              Definitions   Sum And Difference Identities                 Exit Exercises    What is the difference between a zero and an -intercept of a polynomial function?                                On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?      "
+  "body": " Sum And Difference   In this section, we will learn to use sum and difference formulas for sine, cosine, and tangent, and to use sum and difference formulas to verify identities.    Textbook Reference  This relates to content in 9.2 of Algebra and Trigonometry 2e .   > Preparation Exercises    Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.     Write down the memorized values from the unit circle.              Count from to by multiples of , and then reduce those fractions. Here's how to start out:       Write down the three Pythagorean Identities.      True or False: Explain your reasoning.      Verify the identity:        Practice Exercises    Use the sum and difference formulas and your memorized unit circle values to evaluate the following expressions without a calculator.                                                Imagine that there are two angles, and , not in the same triangle, such that where and where .     Find the value of       Find the value of       Find the value of       Find the value of        Verify the identities algebraically.                    Definitions   Sum And Difference Identities   There are sum and difference identities for each of the trigonometric functions, but we only focus on those for sine, cosine, and tangent.              Exit Exercises    What is the difference between a zero and an -intercept of a polynomial function?      Evaluate the expression without a calculator.      Imagine that there are two angles, and , not necessarily in the same triangle, such that where and where .     Find the values of and .      Find the value of .      Find the value of .         On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?      "
 },
 {
   "id": "prep-sum-and-difference-2",
@@ -1429,7 +1429,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1",
   "title": "",
-  "body": "                                                 "
+  "body": "  Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.     Write down the memorized values from the unit circle.              Count from to by multiples of , and then reduce those fractions. Here's how to start out:       Write down the three Pythagorean Identities.      True or False: Explain your reasoning.      Verify the identity:     "
 },
 {
   "id": "practice-sum-and-difference-2",
@@ -1438,7 +1438,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1",
   "title": "",
-  "body": "                                         "
+  "body": "  Use the sum and difference formulas and your memorized unit circle values to evaluate the following expressions without a calculator.                                             "
 },
 {
   "id": "practice-sum-and-difference-3",
@@ -1447,7 +1447,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2",
   "title": "",
-  "body": "                             "
+  "body": "  Imagine that there are two angles, and , not in the same triangle, such that where and where .     Find the value of       Find the value of       Find the value of       Find the value of     "
 },
 {
   "id": "practice-sum-and-difference-4",
@@ -1456,7 +1456,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3",
   "title": "",
-  "body": "                 "
+  "body": "  Verify the identities algebraically.                 "
 },
 {
   "id": "definitions-sum-and-difference-2",
@@ -1465,7 +1465,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "7.3.1",
   "title": "Sum And Difference Identities.",
-  "body": " Sum And Difference Identities              "
+  "body": " Sum And Difference Identities   There are sum and difference identities for each of the trigonometric functions, but we only focus on those for sine, cosine, and tangent.           "
 },
 {
   "id": "exit-sum-and-difference-2",
@@ -1483,7 +1483,16 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2",
   "title": "",
-  "body": "                       "
+  "body": "  Evaluate the expression without a calculator.   "
+},
+{
+  "id": "exit-sum-and-difference-4",
+  "level": "2",
+  "url": "sec-sum-and-difference.html#exit-sum-and-difference-4",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Imagine that there are two angles, and , not necessarily in the same triangle, such that where and where .     Find the values of and .      Find the value of .      Find the value of .    "
 },
 {
   "id": "sec-sum-and-difference-8-1",
@@ -1501,7 +1510,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.4",
   "title": "Double Angle Identities",
-  "body": " Double Angle Identities   In this section, we will learn to use double-angle and half-angle formulas to find exact trigonometric values and verify identities, and use reduction identities to simplify an expression.    Textbook Reference  This relates to content in 9.3 of Algebra and Trigonometry 2e .    Preparation Exercises   Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.                                                     Practice Exercises                                                                                  Definitions   Double-Angle Identities             Half-Angle Identities              Exit Exercises                                          On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    --> "
+  "body": " Double Angle Identities   In this section, we will learn to use double-angle and half-angle formulas to find exact trigonometric values and verify identities, and use reduction identities to simplify an expression.    Textbook Reference  This relates to content in 9.3 of Algebra and Trigonometry 2e .    Preparation Exercises   Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.     Use the sum of angles for sine formula, , to evaluate and simplify the expression       In which quadrants are the function values negative?                                  True or false: Explain your reasoning.      Verify the identity algebraically:       Practice Exercises    Find the values using the half angle identities.                    If and is in quadrant II, find the following values:                                                       Verify the identities algebraically.                    Using a graphing utility, find the value of that makes the equation an identity:       Definitions   Double-Angle Identities   Each of the trigonometric functions has a formula that accounts for an angle that is twice as large as some starting angle, the double-angle identities. We will focus only on those for sine, cosine, and tangent. The formulas are summarized below.        Half-Angle Identities            Exit Exercises    If and is in quadrant III, find the following values.                           Algebraically verify the identity         On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    --> "
 },
 {
   "id": "prep-double-angle-3",
@@ -1510,7 +1519,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1",
   "title": "",
-  "body": "     "
+  "body": "  Use the sum of angles for sine formula, , to evaluate and simplify the expression    "
 },
 {
   "id": "prep-double-angle-4",
@@ -1519,7 +1528,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2",
   "title": "",
-  "body": "                             "
+  "body": "  In which quadrants are the function values negative?                               "
 },
 {
   "id": "prep-double-angle-5",
@@ -1528,7 +1537,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3",
   "title": "",
-  "body": "     "
+  "body": "  True or false: Explain your reasoning.   "
 },
 {
   "id": "prep-double-angle-6",
@@ -1537,7 +1546,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4",
   "title": "",
-  "body": "     "
+  "body": "  Verify the identity algebraically:    "
 },
 {
   "id": "practice-double-angle-2",
@@ -1546,7 +1555,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1",
   "title": "",
-  "body": "                 "
+  "body": "  Find the values using the half angle identities.                 "
 },
 {
   "id": "practice-double-angle-3",
@@ -1555,7 +1564,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2",
   "title": "",
-  "body": "                                   "
+  "body": "  If and is in quadrant II, find the following values:                                                    "
 },
 {
   "id": "practice-double-angle-4",
@@ -1564,7 +1573,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3",
   "title": "",
-  "body": "                 "
+  "body": "  Verify the identities algebraically.                 "
 },
 {
   "id": "practice-double-angle-5",
@@ -1573,7 +1582,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4",
   "title": "",
-  "body": "     "
+  "body": "  Using a graphing utility, find the value of that makes the equation an identity:    "
 },
 {
   "id": "definitions-double-angle-2",
@@ -1582,7 +1591,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "7.4.1",
   "title": "Double-Angle Identities.",
-  "body": " Double-Angle Identities           "
+  "body": " Double-Angle Identities   Each of the trigonometric functions has a formula that accounts for an angle that is twice as large as some starting angle, the double-angle identities. We will focus only on those for sine, cosine, and tangent. The formulas are summarized below.      "
 },
 {
   "id": "definitions-double-angle-3",
@@ -1591,7 +1600,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "7.4.2",
   "title": "Half-Angle Identities.",
-  "body": " Half-Angle Identities           "
+  "body": " Half-Angle Identities         "
 },
 {
   "id": "exit-double-angle-2",
@@ -1600,7 +1609,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1",
   "title": "",
-  "body": "                             "
+  "body": "  If and is in quadrant III, find the following values.                        "
 },
 {
   "id": "exit-double-angle-3",
@@ -1609,7 +1618,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2",
   "title": "",
-  "body": "     "
+  "body": "  Algebraically verify the identity    "
 },
 {
   "id": "sec-double-angle-8-1",
@@ -1654,7 +1663,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.6",
   "title": "Solving Trigonometric Equations",
-  "body": " Solving Trigonometric Equations   In this section, we will learn to solve trigonometric equations by hand and with a calculator.    Textbook Reference  This relates to content in 9.5 of Algebra and Trigonometry 2e .    Preparation Exercises   Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.     Solve the equation by hand.      Carlos and Reba were having a discussion about the equation . The answers below are either \"both Reba and Carlos are right\", \"only Reba is right\", \"only Carlos is right\" or \"neither Reba nor Carlos are right\".     Reba said that made the equation true. Carlos said that made the equation true. Who was right?      Reba said that made the equation true. Carlos said that made the equation true. Who was right?      Reba said that was the same as . Carlos said that is not the same as . Who was right?      Reba said that made the equation true. Carlos said that made the equation true. Who was right?      Reba said that the value of was . Carlos said that the value of was . Who was right?      Reba said that thinking about the equation is the same as thinking about angles that have a -value of . Carlos said that thinking about the equation is the same as thinking about angles that have an -value of . Who was right?      Reba said there are two solutions to the equation . Carlos said that there are infinitely many solutions to the equation . Who was right?       Practice Exercises    Practice solving the equations, on the given intervals, with your memorized unit circle values.      on the interval .       on the interval .       on the interval .       on the interval .       on the interval .       on the interval .       Solve the trigonometric equations by hand without a calculator.      on the interval .       on the interval .       on the interval .       on the interval .       on the interval .       on the interval .       Solve the trigonometric equations by hand, and then use a calculator to approximate the solutions.      on the interval .       on the interval .           Solve the trigonometric equations using identities by hand.      on the interval .      on the interval .     on the interval .     on the interval by first using the difference-to-product identity .      Exit Exercises    Explain why you know that the equation couldn't possibly have any real solutions.      Solve the equation on the interval without a calculator.      Solve the equation on the interval without a calculator.      Explain the solving process, in English, for the equation on the interval step by step as if you were explaining it to someone in your class who wanted to understand today's lesson more deeply. Actually solving the equation isn't necessary.        On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
+  "body": " Solving Trigonometric Equations   In this section, we will learn to solve trigonometric equations by hand and with a calculator.    Textbook Reference  This relates to content in 9.5 of Algebra and Trigonometry 2e .    Preparation Exercises   Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.     Solve the equation by hand.      Carlos and Reba were having a discussion about the equation . The answers below are either \"both Reba and Carlos are right\", \"only Reba is right\", \"only Carlos is right\" or \"neither Reba nor Carlos are right\".     Reba said that made the equation true. Carlos said that made the equation true. Who was right?      Reba said that made the equation true. Carlos said that made the equation true. Who was right?      Reba said that was the same as . Carlos said that is not the same as . Who was right?      Reba said that made the equation true. Carlos said that made the equation true. Who was right?      Reba said that the value of was . Carlos said that the value of was . Who was right?      Reba said that thinking about the equation is the same as thinking about angles that have a -value of . Carlos said that thinking about the equation is the same as thinking about angles that have an -value of . Who was right?      Reba said there are two solutions to the equation . Carlos said that there are infinitely many solutions to the equation . Who was right?       Practice Exercises    Practice solving the equations, on the given intervals, with your memorized unit circle values.      on the interval .       on the interval .       on the interval .       on the interval .       on the interval .       on the interval .       Solve the trigonometric equations by hand without a calculator.      on the interval .       on the interval .       on the interval .       on the interval .       on the interval .       on the interval .       Solve the trigonometric equations by hand, and then use a calculator to approximate the solutions.      on the interval .       on the interval .       If you were trying to solve the equation on the interval , and you had a graph of and , what would you look for on the graph to solve the equation? Create that graph, then write out the solution set based on your work.    A blank graph.         Solve the trigonometric equations using identities by hand.      on the interval .      on the interval .     on the interval .     on the interval by first using the difference-to-product identity .      Exit Exercises    Explain why you know that the equation couldn't possibly have any real solutions.      Solve the equation on the interval without a calculator.      Solve the equation on the interval without a calculator.      Explain the solving process, in English, for the equation on the interval step by step as if you were explaining it to someone in your class who wanted to understand today's lesson more deeply. Actually solving the equation isn't necessary.        On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
 },
 {
   "id": "prep-solving-equations-3",
@@ -1708,7 +1717,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4",
   "title": "",
-  "body": "   "
+  "body": "  If you were trying to solve the equation on the interval , and you had a graph of and , what would you look for on the graph to solve the equation? Create that graph, then write out the solution set based on your work.    A blank graph.      "
 },
 {
   "id": "practice-solving-equations-6",
@@ -1771,7 +1780,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "8.1",
   "title": "Laws of Sines and Cosines",
-  "body": " Laws of Sines and Cosines   In this section, we will learn how to use the laws of sines and cosines to find missing sides and angles in non-right triangles. Then we can use these laws to solve applications.    Textbook Reference  This relates to content in 10.1 and 10.2 of Algebra and Trigonometry 2e .    Preparation Exercises   Answer the following. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.     What needs to be true about a triangle in order to use the Pythagorean Theorem on it?      What needs to be true about a triangle to use SOHCAHTOA on it?      Find solutions to the equation on the interval . Use your calculator and write your answer(s) rounded to four digits behind the decimal place.      For the right triangle shown in , find the missing lengths of , , and the angle . You can use a calculator to hep get an approximation, accurate to four digits behind the decimal place.      Practice Exercises   Find the missing angle, , and then use the law of sines to find the missing lengths and , in the triangle in . Round your answers to two digits behind the decimal place.    Use the law of sines to find the missing angles, and , and the length, , in the triangle in Figure . Round your answers to two digits behind the decimal place.    Use the law of cosines to find the missing angles, and , and the length, , in the triangle in Figure . Round your answers to two digits behind the decimal place.    Use the law of cosines to find the missing angles, , , and , in the triangle in Figure . Round your answers to two digits behind the decimal place.     Definitions   Law of Sines   The law of sines says that the ratios of sines of angles in a triangle and the opposite sides are all constant. That's a bit of a mouthful, maybe a math-ful will help. Consider the triangle in Figure . The law of sines says that... or alternately,      When using the law of sines, you almost never need all three parts of the equation at the same time, so you will end up using one of these at a time:     Law of Cosines   The law of cosines is really the natural extension of the Pythagorean Theorem for triangles without a right angle. Consider the triangle in Figure . The law of cosines says that... or or      Unlike the Pythagorean Theorem, you don't have to put the longest length alone on one side. It can be inputted for , , or .     Exit Exercises     Michelé correctly wrote down thees two equations about a triangle from a homework question. and Draw the triangle from the question that these equations would have been based on.      On a steep hillside somewhre in the Cascades of Oregon stands a tall Douglas Fir. The slope is from point , at the base o the tree, to the point . The top of the tree is at point T. Some hikers wanted to get an extimate of its height, so they took a few measurements. They measured an angle of 52 from the vertically growing tree to the hillside slope using their inclinometer on their phones. Then they measured out 115ft up the hillside to point and measured the angle from there to be 83 from the base of the tree to the top of the tree, as shown in Figure . Use the laws of sines or cosines to find an estimate for the height of the tree and round your answer to the nearest foot.      Imagine a triangle with sides , , and the angle . Length and angles and are unknown.     There are actually two such triangles that exist. Draw pictures of both triangles.    One is obtuse and the other is acute.      Write down the law of sines to solve for angle for each triangle, and compare the two equations.      Solve for the angles and missing lengths in both triangles. Round your final answers for the angles and lengths to two digits behind the decimal place.      Check out this Desmos link for a visual on these \"ambiguous triangles\".         On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
+  "body": " Laws of Sines and Cosines   In this section, we will learn how to use the laws of sines and cosines to find missing sides and angles in non-right triangles. Then we can use these laws to solve applications.    Textbook Reference  This relates to content in 10.1 and 10.2 of Algebra and Trigonometry 2e .    Preparation Exercises   Answer the following. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.     What needs to be true about a triangle in order to use the Pythagorean Theorem on it?      What needs to be true about a triangle to use SOHCAHTOA on it?      Find solutions to the equation on the interval . Use your calculator and write your answer(s) rounded to four digits behind the decimal place.       For the right triangle shown in , find the missing lengths of , , and the angle . You can use a calculator to hep get an approximation, accurate to four digits behind the decimal place.     A right triangle with unknown hypotenuse , unknown angle and adjacent side , and known angle with adjacent side length in.           Practice Exercises     Find the missing angle, , and then use the law of sines to find the missing lengths and , in the triangle in . Round your answers to two digits behind the decimal place.                  Use the law of sines to find the missing angles, and , and the length, , in the triangle in Figure . Round your answers to two digits behind the decimal place.                  Use the law of cosines to find the missing angles, and , and the length, , in the triangle in Figure . Round your answers to two digits behind the decimal place.                  Use the law of cosines to find the missing angles, , , and , in the triangle in Figure . Round your answers to two digits behind the decimal place.                 Definitions   Law of Sines   The law of sines says that the ratios of sines of angles in a triangle and the opposite sides are all constant. That's a bit of a mouthful, maybe a math-ful will help. Consider the triangle in Figure . The law of sines says that... or alternately,                When using the law of sines, you almost never need all three parts of the equation at the same time, so you will end up using one of these at a time:     Law of Cosines   The law of cosines is really the natural extension of the Pythagorean Theorem for triangles without a right angle. Consider the triangle in Figure . The law of cosines says that... or or                Unlike the Pythagorean Theorem, you don't have to put the longest length alone on one side. It can be inputted for , , or .     Exit Exercises     Michelé correctly wrote down thees two equations about a triangle from a homework question. and Draw the triangle from the question that these equations would have been based on.      On a steep hillside somewhre in the Cascades of Oregon stands a tall Douglas Fir. The slope is from point , at the base o the tree, to the point . The top of the tree is at point T. Some hikers wanted to get an extimate of its height, so they took a few measurements. They measured an angle of 52 from the vertically growing tree to the hillside slope using their inclinometer on their phones. Then they measured out 115ft up the hillside to point and measured the angle from there to be 83 from the base of the tree to the top of the tree, as shown in Figure . Use the laws of sines or cosines to find an estimate for the height of the tree and round your answer to the nearest foot.                Imagine a triangle with sides , , and the angle . Length and angles and are unknown.     There are actually two such triangles that exist. Draw pictures of both triangles.    One is obtuse and the other is acute.      Write down the law of sines to solve for angle for each triangle, and compare the two equations.      Solve for the angles and missing lengths in both triangles. Round your final answers for the angles and lengths to two digits behind the decimal place.      Check out this Desmos link for a visual on these \"ambiguous triangles\".         On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
 },
 {
   "id": "prep-sine-cosine-laws-3",
@@ -1807,7 +1816,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4",
   "title": "",
-  "body": "  For the right triangle shown in , find the missing lengths of , , and the angle . You can use a calculator to hep get an approximation, accurate to four digits behind the decimal place.   "
+  "body": "   For the right triangle shown in , find the missing lengths of , , and the angle . You can use a calculator to hep get an approximation, accurate to four digits behind the decimal place.     A right triangle with unknown hypotenuse , unknown angle and adjacent side , and known angle with adjacent side length in.        "
 },
 {
   "id": "practice-sine-cosine-laws-2",
@@ -1816,7 +1825,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1",
   "title": "",
-  "body": " Find the missing angle, , and then use the law of sines to find the missing lengths and , in the triangle in . Round your answers to two digits behind the decimal place.  "
+  "body": "   Find the missing angle, , and then use the law of sines to find the missing lengths and , in the triangle in . Round your answers to two digits behind the decimal place.              "
 },
 {
   "id": "practice-sine-cosine-laws-3",
@@ -1825,7 +1834,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2",
   "title": "",
-  "body": " Use the law of sines to find the missing angles, and , and the length, , in the triangle in Figure . Round your answers to two digits behind the decimal place.  "
+  "body": "   Use the law of sines to find the missing angles, and , and the length, , in the triangle in Figure . Round your answers to two digits behind the decimal place.              "
 },
 {
   "id": "practice-sine-cosine-laws-4",
@@ -1834,7 +1843,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3",
   "title": "",
-  "body": " Use the law of cosines to find the missing angles, and , and the length, , in the triangle in Figure . Round your answers to two digits behind the decimal place.  "
+  "body": "   Use the law of cosines to find the missing angles, and , and the length, , in the triangle in Figure . Round your answers to two digits behind the decimal place.              "
 },
 {
   "id": "practice-sine-cosine-laws-5",
@@ -1843,23 +1852,23 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4",
   "title": "",
-  "body": " Use the law of cosines to find the missing angles, , , and , in the triangle in Figure . Round your answers to two digits behind the decimal place.  "
+  "body": "   Use the law of cosines to find the missing angles, , , and , in the triangle in Figure . Round your answers to two digits behind the decimal place.              "
 },
 {
   "id": "definitions-sine-cosine-laws-2",
   "level": "2",
   "url": "sec-sine-cosine-laws.html#definitions-sine-cosine-laws-2",
   "type": "Definition",
-  "number": "8.1.1",
+  "number": "8.1.6",
   "title": "Law of Sines.",
-  "body": " Law of Sines   The law of sines says that the ratios of sines of angles in a triangle and the opposite sides are all constant. That's a bit of a mouthful, maybe a math-ful will help. Consider the triangle in Figure . The law of sines says that... or alternately,    "
+  "body": " Law of Sines   The law of sines says that the ratios of sines of angles in a triangle and the opposite sides are all constant. That's a bit of a mouthful, maybe a math-ful will help. Consider the triangle in Figure . The law of sines says that... or alternately,              "
 },
 {
   "id": "definitions-sine-cosine-laws-3",
   "level": "2",
   "url": "sec-sine-cosine-laws.html#definitions-sine-cosine-laws-3",
   "type": "Note",
-  "number": "8.1.2",
+  "number": "8.1.8",
   "title": "",
   "body": " When using the law of sines, you almost never need all three parts of the equation at the same time, so you will end up using one of these at a time:   "
 },
@@ -1868,16 +1877,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-sine-cosine-laws.html#definitions-sine-cosine-laws-4",
   "type": "Definition",
-  "number": "8.1.3",
+  "number": "8.1.9",
   "title": "Law of Cosines.",
-  "body": " Law of Cosines   The law of cosines is really the natural extension of the Pythagorean Theorem for triangles without a right angle. Consider the triangle in Figure . The law of cosines says that... or or    "
+  "body": " Law of Cosines   The law of cosines is really the natural extension of the Pythagorean Theorem for triangles without a right angle. Consider the triangle in Figure . The law of cosines says that... or or              "
 },
 {
   "id": "definitions-sine-cosine-laws-5",
   "level": "2",
   "url": "sec-sine-cosine-laws.html#definitions-sine-cosine-laws-5",
   "type": "Note",
-  "number": "8.1.4",
+  "number": "8.1.11",
   "title": "",
   "body": " Unlike the Pythagorean Theorem, you don't have to put the longest length alone on one side. It can be inputted for , , or .  "
 },
@@ -1888,7 +1897,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1",
   "title": "",
-  "body": "   Michelé correctly wrote down thees two equations about a triangle from a homework question. and Draw the triangle from the question that these equations would have been based on.      On a steep hillside somewhre in the Cascades of Oregon stands a tall Douglas Fir. The slope is from point , at the base o the tree, to the point . The top of the tree is at point T. Some hikers wanted to get an extimate of its height, so they took a few measurements. They measured an angle of 52 from the vertically growing tree to the hillside slope using their inclinometer on their phones. Then they measured out 115ft up the hillside to point and measured the angle from there to be 83 from the base of the tree to the top of the tree, as shown in Figure . Use the laws of sines or cosines to find an estimate for the height of the tree and round your answer to the nearest foot.      Imagine a triangle with sides , , and the angle . Length and angles and are unknown.     There are actually two such triangles that exist. Draw pictures of both triangles.    One is obtuse and the other is acute.      Write down the law of sines to solve for angle for each triangle, and compare the two equations.      Solve for the angles and missing lengths in both triangles. Round your final answers for the angles and lengths to two digits behind the decimal place.      Check out this Desmos link for a visual on these \"ambiguous triangles\".    "
+  "body": "   Michelé correctly wrote down thees two equations about a triangle from a homework question. and Draw the triangle from the question that these equations would have been based on.      On a steep hillside somewhre in the Cascades of Oregon stands a tall Douglas Fir. The slope is from point , at the base o the tree, to the point . The top of the tree is at point T. Some hikers wanted to get an extimate of its height, so they took a few measurements. They measured an angle of 52 from the vertically growing tree to the hillside slope using their inclinometer on their phones. Then they measured out 115ft up the hillside to point and measured the angle from there to be 83 from the base of the tree to the top of the tree, as shown in Figure . Use the laws of sines or cosines to find an estimate for the height of the tree and round your answer to the nearest foot.                Imagine a triangle with sides , , and the angle . Length and angles and are unknown.     There are actually two such triangles that exist. Draw pictures of both triangles.    One is obtuse and the other is acute.      Write down the law of sines to solve for angle for each triangle, and compare the two equations.      Solve for the angles and missing lengths in both triangles. Round your final answers for the angles and lengths to two digits behind the decimal place.      Check out this Desmos link for a visual on these \"ambiguous triangles\".    "
 },
 {
   "id": "sec-sine-cosine-laws-8-1",
@@ -1906,43 +1915,43 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "8.2",
   "title": "Polar Coordinates",
-  "body": " Polar Coordinates   In this section, we will learn a completely different way of organizing the coordinate plane: polar coordinates, where a polar point, , has a radius from the origin and the angle from standard position, . We will practice plotting points using polar coordinates, converting between polar coordinates and rectangular coordinates, transforming equations between polar and rectangular forms, and graphing polar equations.    Textbook Reference  This relates to content in 10.3 and 10.4 of Algebra and Trigonometry 2e .    Preparation Exercises    Completely factor                                                                                           Practice Exercises                                                                                                                                                                            Definitions   Polar Function   A polar function is usually given in the form where is the angle measured from the standard position along the positive -axis, and is the radius measured from the origin.     Conversion formulas              Exit Exercises                                                                        On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
-},
-{
-  "id": "prep-polar-coordinates-2",
-  "level": "2",
-  "url": "sec-polar-coordinates.html#prep-polar-coordinates-2",
-  "type": "Exercise",
-  "number": "1",
-  "title": "",
-  "body": "  Completely factor                      "
+  "body": " Polar Coordinates   In this section, we will learn a completely different way of organizing the coordinate plane: polar coordinates, where a polar point, , has a radius from the origin and the angle from standard position, . We will practice plotting points using polar coordinates, converting between polar coordinates and rectangular coordinates, transforming equations between polar and rectangular forms, and graphing polar equations.    Textbook Reference  This relates to content in 10.3 and 10.4 of Algebra and Trigonometry 2e .    Preparation Exercises   Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.      Thinking back to SOHCAHTOA, recall that for a triangle with legs and and hypotenuse , as shown in , you know that , , and .     A right triangle with hypotenuse and side lengths and .          Solve for .      Solve for .      What would the pythagorean theorem say about the triangle in ?       What conditions would you need to put on , , and to make the solution to the equation be ?      Which quadrant are the following angles in, when measured from the standard position?                                  Evaluate the expression using your memorized values on the unit circle.                                  Practice Exercises    Practice plotting points written in polar form. For clarity, a small will be written next to polar points to distinguish them from rectangular points, which will be written with a small next to them. Label each point.     A Polar grid on an -axis and -axis. Instead of vertical and horizontal lines denoting and values, there are concentric circles denoting and straight lines passing through the origin at different angles denoting values.                                                    Convert the polar points to rectangular form and the rectangular points to polar form. For clarity, a small will be written next to polar points to distinguish them from rectangular points, which will be written with a small next to them.     Find the rectangular coordinates of the polar points. Leave your answers in exact form rather than using your calculator to get a decimal value for the coordinates.                    Find the polar coordinates of the rectangular points.      . Leave your answers in exact form for both the radius and the angle.       . Leave your radius in exact form, but use a calculator to find an approximation of the angle, accurate to three digits behind the decimal place.       . Leave your radius in exact form, but use a calculator to find an approximation of the angle, accurate to three digits behind the decimal place.        Convert equations between polar form and rectangular form. You can graph both the original equation and the polar form equation in Desmos to verify that you have converted correctly.     Convert the polar equations to rectangular form. You don't need to solve for a variable, necessarily.                           Convert the rectangular equations to polar form. You don't need to solve for a variable, necessarily.                            Create a graph of the polar functions by filling in the tables and plotting points. Round the values of to the nearest tenth. Note that Desmos does have polar grid in the settings, and you can graph functions of the form , where the can be found in the “A B C” keyboard. Use this standardized Desmos template to create the tables.                                                                                                                                                                                             Visit this interactive Desmos graph and change the values of  . Find a particular graph that you like, write down it's equation, and discuss what you like about it with your neighbor.       Definitions   Polar Function   A polar function is usually given in the form where is the angle measured from the standard position along the positive -axis, and is the radius measured from the origin.     Conversion formulas     To convert from rectangular form to polar form, use these two identities.   To convert from polar form to rectangular form, use these two identities.         Exit Exercises    Which wuadrant will be the polar point be in? Explain your answer.      The graph of is a circle of radius centered at . Explain how is a function of for this graph.      A real-world machine used in fabrication uses polar coordinates. From a tripod setup, it has an extendable cord that comes out of a swiveling head on top of the unit that measures the distance to the end of the cord, and at what angle. This inputs a radius and angle into the computer. The machine then converts this polar point into a rectangular point and displays the resulting image on the screen. Fabrication can then begin.     The following polar coordinates were measured by the machine to form a new countertop. Convert them to rectangular coordinates and plot them in Desmos using the “polygon()” command. The units of measurement are in inches and degrees.                                                Find the total area of the countertop, in square feet. You can assume that the dimensions, as given, were intended to form right angles on the countertop.         On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
 },
 {
   "id": "prep-polar-coordinates-3",
   "level": "2",
   "url": "sec-polar-coordinates.html#prep-polar-coordinates-3",
   "type": "Exercise",
-  "number": "2",
+  "number": "1",
   "title": "",
-  "body": "     "
+  "body": "   Thinking back to SOHCAHTOA, recall that for a triangle with legs and and hypotenuse , as shown in , you know that , , and .     A right triangle with hypotenuse and side lengths and .          Solve for .      Solve for .      What would the pythagorean theorem say about the triangle in ?    "
 },
 {
   "id": "prep-polar-coordinates-4",
   "level": "2",
   "url": "sec-polar-coordinates.html#prep-polar-coordinates-4",
   "type": "Exercise",
-  "number": "3",
+  "number": "2",
   "title": "",
-  "body": "                             "
+  "body": "  What conditions would you need to put on , , and to make the solution to the equation be ?   "
 },
 {
   "id": "prep-polar-coordinates-5",
   "level": "2",
   "url": "sec-polar-coordinates.html#prep-polar-coordinates-5",
   "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Which quadrant are the following angles in, when measured from the standard position?                               "
+},
+{
+  "id": "prep-polar-coordinates-6",
+  "level": "2",
+  "url": "sec-polar-coordinates.html#prep-polar-coordinates-6",
+  "type": "Exercise",
   "number": "4",
   "title": "",
-  "body": "                             "
+  "body": "  Evaluate the expression using your memorized values on the unit circle.                               "
 },
 {
   "id": "practice-polar-coordinates-2",
@@ -1951,7 +1960,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1",
   "title": "",
-  "body": "                                         "
+  "body": "  Practice plotting points written in polar form. For clarity, a small will be written next to polar points to distinguish them from rectangular points, which will be written with a small next to them. Label each point.     A Polar grid on an -axis and -axis. Instead of vertical and horizontal lines denoting and values, there are concentric circles denoting and straight lines passing through the origin at different angles denoting values.                                                 "
 },
 {
   "id": "practice-polar-coordinates-3",
@@ -1960,7 +1969,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2",
   "title": "",
-  "body": "                                               "
+  "body": "  Convert the polar points to rectangular form and the rectangular points to polar form. For clarity, a small will be written next to polar points to distinguish them from rectangular points, which will be written with a small next to them.     Find the rectangular coordinates of the polar points. Leave your answers in exact form rather than using your calculator to get a decimal value for the coordinates.                    Find the polar coordinates of the rectangular points.      . Leave your answers in exact form for both the radius and the angle.       . Leave your radius in exact form, but use a calculator to find an approximation of the angle, accurate to three digits behind the decimal place.       . Leave your radius in exact form, but use a calculator to find an approximation of the angle, accurate to three digits behind the decimal place.     "
 },
 {
   "id": "practice-polar-coordinates-4",
@@ -1969,7 +1978,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3",
   "title": "",
-  "body": "                                                     "
+  "body": "  Convert equations between polar form and rectangular form. You can graph both the original equation and the polar form equation in Desmos to verify that you have converted correctly.     Convert the polar equations to rectangular form. You don't need to solve for a variable, necessarily.                           Convert the rectangular equations to polar form. You don't need to solve for a variable, necessarily.                         "
 },
 {
   "id": "practice-polar-coordinates-5",
@@ -1978,14 +1987,14 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4",
   "title": "",
-  "body": "                       "
+  "body": "  Create a graph of the polar functions by filling in the tables and plotting points. Round the values of to the nearest tenth. Note that Desmos does have polar grid in the settings, and you can graph functions of the form , where the can be found in the “A B C” keyboard. Use this standardized Desmos template to create the tables.                                                                                                                                                                                             Visit this interactive Desmos graph and change the values of  . Find a particular graph that you like, write down it's equation, and discuss what you like about it with your neighbor.    "
 },
 {
   "id": "definitions-polar-coordinates-2",
   "level": "2",
   "url": "sec-polar-coordinates.html#definitions-polar-coordinates-2",
   "type": "Definition",
-  "number": "8.2.1",
+  "number": "8.2.7",
   "title": "Polar Function.",
   "body": " Polar Function   A polar function is usually given in the form where is the angle measured from the standard position along the positive -axis, and is the radius measured from the origin.   "
 },
@@ -1994,9 +2003,9 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-polar-coordinates.html#definitions-polar-coordinates-3",
   "type": "Definition",
-  "number": "8.2.2",
+  "number": "8.2.8",
   "title": "Conversion formulas.",
-  "body": " Conversion formulas           "
+  "body": " Conversion formulas     To convert from rectangular form to polar form, use these two identities.   To convert from polar form to rectangular form, use these two identities.      "
 },
 {
   "id": "exit-polar-coordinates-2",
@@ -2005,7 +2014,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1",
   "title": "",
-  "body": "     "
+  "body": "  Which wuadrant will be the polar point be in? Explain your answer.   "
 },
 {
   "id": "exit-polar-coordinates-3",
@@ -2014,7 +2023,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2",
   "title": "",
-  "body": "     "
+  "body": "  The graph of is a circle of radius centered at . Explain how is a function of for this graph.   "
 },
 {
   "id": "exit-polar-coordinates-4",
@@ -2023,7 +2032,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3",
   "title": "",
-  "body": "                                                     "
+  "body": "  A real-world machine used in fabrication uses polar coordinates. From a tripod setup, it has an extendable cord that comes out of a swiveling head on top of the unit that measures the distance to the end of the cord, and at what angle. This inputs a radius and angle into the computer. The machine then converts this polar point into a rectangular point and displays the resulting image on the screen. Fabrication can then begin.     The following polar coordinates were measured by the machine to form a new countertop. Convert them to rectangular coordinates and plot them in Desmos using the “polygon()” command. The units of measurement are in inches and degrees.                                                Find the total area of the countertop, in square feet. You can assume that the dimensions, as given, were intended to form right angles on the countertop.    "
 },
 {
   "id": "sec-polar-coordinates-8-1",
@@ -2041,34 +2050,34 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "8.3",
   "title": "Complex Numbers",
-  "body": " Complex Numbers   In this section, we will learn about complex numbers. We will learn how to plot complex numbers in the complex plane, convert complex numbers between polar, rectangular, and Euler forms, and how to arithmetic with complex numbers.    Textbook Reference  This relates to content in 10.5 and 2.4 of Algebra and Trigonometry 2e .    Preparation Exercises                      Practice Exercises                                                                                                  Definitions   The Imaginary Unit              Standard Form of a Complex Number              The Complex Plane              Absolute Value of a Complex Number                    Argument of a Complex Number                    Polar Form of a Complex Number                    Euler's Form of a Complex Number               Exit Exercises                                            On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    --> "
-},
-{
-  "id": "prep-complex-numbers-2",
-  "level": "2",
-  "url": "sec-complex-numbers.html#prep-complex-numbers-2",
-  "type": "Exercise",
-  "number": "1",
-  "title": "",
-  "body": "     "
+  "body": " Complex Numbers   In this section, we will learn about complex numbers. We will learn how to plot complex numbers in the complex plane, convert complex numbers between polar, rectangular, and Euler forms, and how to arithmetic with complex numbers.    Textbook Reference  This relates to content in 10.5 and 2.4 of Algebra and Trigonometry 2e .    Preparation Exercises   Answer the following. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.     Convert the polar point to rectangular form. Leave your components in exact form.      Convert the rectangular point to polar form. Use your calculator to find an angle in radians rounded to two digits behind the decimal place.       For the right triangle shown in , find the missing length of and the missing angle using SOHCAHTOA. You can ue a calculator to get an approximation, accurate to 4 digits behind the decimal place.     A right triangle with hypotenuse , unknown angle , adjacent side cm, and opposite side cm.           Practice Exercises    Plot the complex numbers on the complex plane, with real units on the -axis and imaginary units on the -axis.                                  Find the absolute value and argument of the complex numbers.                     Convert the standard form complex number into polar form. Use radians and round your argument to two digits behind the decimal place.      Convert the polar form complex number into standard form. Keep your values exact using your memorized values on the unit circle.       Simplify the expressions completely.                            Convert the standard form complex number into Euler's form. Use radians and round your argument to two digits behind the decimal place.      Convert the Euler's form complex number into standard form. Keep your values exact using your memorized values on the unit circle.       Definitions   The Imaginary Unit   The imaginary unit  is defined to be . Since there is no real number that is multiplied by itself to create a negative number, must not be a real number. It fits into a new category of numbers called imaginary numbers, which are multiples of . It's called a \"unit\" because its absolute value is        , , and are all imaginary numbers.     Standard Form of a Complex Number   A complex number is any real number plus any imaginary number. Any complex number can be written in standard form (also called rectangular form), which is the form , where both and are real numbers.       , , and are all complex numbers.     The Complex Plane   The complex plane is the two dimensional axes system to pot complex numbers. The horizontal axis, often just labeled , measures the real part of a complex number. The vertical axis, often labeled , measures the imaginary part of a complex number.      The number would be plotted units to the left and units up from the origin at the same place that would have been plotted in the regular two-dimensional real axes.     Absolute Value of a Complex Number   The absolute value of the complex number is the distance from the origin to the number in the complex plane. The absolute value is written as usual, . To find the absolute value of , use the Pythagorean Theorem: .  Note: the is dropped during this calculation!  Note: the absolute value of a complex number is sometimes also called the magnitude or modulus .      To find the absolute value of , we would write that .     Argument of a Complex Number   The argument of the complex number , , is an angle, , measured from the standard position to the number in the complex plane. To find this angle, θ, use the formula solve for that is in the correct quadrant.  Note: the is dropped during this calculation!       To find the argument of , we would first note that is in the second quadrant, and we would write . Next, we would take the inverse-tangent on both sides, however, inverse-tangent does not give us angles in quadrant II, so we know that to find the correct argument of we should add . So the argument of is , as shown in      A graph on the complex plane. The point is plotted with a dotted line connecting it to the origin. The dotted line is labeled , showing the absolute value, and the angle from the positive -axis is labeled , showing the argument.          Polar Form of a Complex Number   A complex number can be written in polar form , which is the form , where and is the argument of the complex number.  Note: is sometimes called .       can be written as .  Note: We used the symbol here because the was an approximate value.     Euler's Form of a Complex Number    Euler's form of a complex number, , is , where and is the argument of .       can be written as .  Note: We used the symbol here because the was an approximate value.      Exit Exercises    Describe the difference between the point in the two-dimensional real coordinate plane and the complex number in the complex plane.       Plot the complex number onto the complex plane.      Find the absolute value of the complex number . Simplify the radical completely and leave your answer in exact form. Illustrate the value on your plot from exercise a.      Find the argument of the complex number . Use a calculator to round your answer to three digits behind the decimal place. Illustrate the value on your plot from exercise a.      Write the complex number into polar form.      Write the complex number into Euler's form.         On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
 },
 {
   "id": "prep-complex-numbers-3",
   "level": "2",
   "url": "sec-complex-numbers.html#prep-complex-numbers-3",
   "type": "Exercise",
-  "number": "2",
+  "number": "1",
   "title": "",
-  "body": "     "
+  "body": "  Convert the polar point to rectangular form. Leave your components in exact form.   "
 },
 {
   "id": "prep-complex-numbers-4",
   "level": "2",
   "url": "sec-complex-numbers.html#prep-complex-numbers-4",
   "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Convert the rectangular point to polar form. Use your calculator to find an angle in radians rounded to two digits behind the decimal place.   "
+},
+{
+  "id": "prep-complex-numbers-5",
+  "level": "2",
+  "url": "sec-complex-numbers.html#prep-complex-numbers-5",
+  "type": "Exercise",
   "number": "3",
   "title": "",
-  "body": "     "
+  "body": "   For the right triangle shown in , find the missing length of and the missing angle using SOHCAHTOA. You can ue a calculator to get an approximation, accurate to 4 digits behind the decimal place.     A right triangle with hypotenuse , unknown angle , adjacent side cm, and opposite side cm.        "
 },
 {
   "id": "practice-complex-numbers-2",
@@ -2077,7 +2086,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1",
   "title": "",
-  "body": "                       "
+  "body": "  Plot the complex numbers on the complex plane, with real units on the -axis and imaginary units on the -axis.                               "
 },
 {
   "id": "practice-complex-numbers-3",
@@ -2086,7 +2095,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2",
   "title": "",
-  "body": "                 "
+  "body": "  Find the absolute value and argument of the complex numbers.                 "
 },
 {
   "id": "practice-complex-numbers-4",
@@ -2095,7 +2104,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3",
   "title": "",
-  "body": "             "
+  "body": "   Convert the standard form complex number into polar form. Use radians and round your argument to two digits behind the decimal place.      Convert the polar form complex number into standard form. Keep your values exact using your memorized values on the unit circle.    "
 },
 {
   "id": "practice-complex-numbers-5",
@@ -2104,7 +2113,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4",
   "title": "",
-  "body": "                       "
+  "body": "  Simplify the expressions completely.                        "
 },
 {
   "id": "practice-complex-numbers-6",
@@ -2113,160 +2122,133 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5",
   "title": "",
-  "body": "             "
+  "body": "   Convert the standard form complex number into Euler's form. Use radians and round your argument to two digits behind the decimal place.      Convert the Euler's form complex number into standard form. Keep your values exact using your memorized values on the unit circle.    "
 },
 {
   "id": "definitions-complex-numbers-2",
   "level": "2",
   "url": "sec-complex-numbers.html#definitions-complex-numbers-2",
   "type": "Definition",
-  "number": "8.3.1",
+  "number": "8.3.2",
   "title": "The Imaginary Unit <span class=\"process-math\">\\(i\\)<\/span>.",
-  "body": " The Imaginary Unit      "
+  "body": " The Imaginary Unit   The imaginary unit  is defined to be . Since there is no real number that is multiplied by itself to create a negative number, must not be a real number. It fits into a new category of numbers called imaginary numbers, which are multiples of . It's called a \"unit\" because its absolute value is    "
 },
 {
   "id": "definitions-complex-numbers-3",
   "level": "2",
   "url": "sec-complex-numbers.html#definitions-complex-numbers-3",
   "type": "Example",
-  "number": "8.3.2",
+  "number": "8.3.3",
   "title": "",
-  "body": "     "
+  "body": "   , , and are all imaginary numbers.   "
 },
 {
   "id": "definitions-complex-numbers-4",
   "level": "2",
   "url": "sec-complex-numbers.html#definitions-complex-numbers-4",
   "type": "Definition",
-  "number": "8.3.3",
+  "number": "8.3.4",
   "title": "Standard Form of a Complex Number.",
-  "body": " Standard Form of a Complex Number      "
+  "body": " Standard Form of a Complex Number   A complex number is any real number plus any imaginary number. Any complex number can be written in standard form (also called rectangular form), which is the form , where both and are real numbers.   "
 },
 {
   "id": "definitions-complex-numbers-5",
   "level": "2",
   "url": "sec-complex-numbers.html#definitions-complex-numbers-5",
   "type": "Example",
-  "number": "8.3.4",
+  "number": "8.3.5",
   "title": "",
-  "body": "     "
+  "body": "   , , and are all complex numbers.   "
 },
 {
   "id": "definitions-complex-numbers-6",
   "level": "2",
   "url": "sec-complex-numbers.html#definitions-complex-numbers-6",
   "type": "Definition",
-  "number": "8.3.5",
+  "number": "8.3.6",
   "title": "The Complex Plane.",
-  "body": " The Complex Plane      "
+  "body": " The Complex Plane   The complex plane is the two dimensional axes system to pot complex numbers. The horizontal axis, often just labeled , measures the real part of a complex number. The vertical axis, often labeled , measures the imaginary part of a complex number.   "
 },
 {
   "id": "definitions-complex-numbers-7",
   "level": "2",
   "url": "sec-complex-numbers.html#definitions-complex-numbers-7",
   "type": "Example",
-  "number": "8.3.6",
+  "number": "8.3.7",
   "title": "",
-  "body": "     "
+  "body": "  The number would be plotted units to the left and units up from the origin at the same place that would have been plotted in the regular two-dimensional real axes.   "
 },
 {
   "id": "definitions-complex-numbers-8",
   "level": "2",
   "url": "sec-complex-numbers.html#definitions-complex-numbers-8",
   "type": "Definition",
-  "number": "8.3.7",
+  "number": "8.3.8",
   "title": "Absolute Value of a Complex Number.",
-  "body": " Absolute Value of a Complex Number      "
+  "body": " Absolute Value of a Complex Number   The absolute value of the complex number is the distance from the origin to the number in the complex plane. The absolute value is written as usual, . To find the absolute value of , use the Pythagorean Theorem: .  Note: the is dropped during this calculation!  Note: the absolute value of a complex number is sometimes also called the magnitude or modulus .   "
 },
 {
   "id": "definitions-complex-numbers-9",
   "level": "2",
   "url": "sec-complex-numbers.html#definitions-complex-numbers-9",
-  "type": "Note",
-  "number": "8.3.8",
+  "type": "Example",
+  "number": "8.3.9",
   "title": "",
-  "body": "     "
+  "body": "  To find the absolute value of , we would write that .   "
 },
 {
   "id": "definitions-complex-numbers-10",
   "level": "2",
   "url": "sec-complex-numbers.html#definitions-complex-numbers-10",
-  "type": "Example",
-  "number": "8.3.9",
-  "title": "",
-  "body": "     "
+  "type": "Definition",
+  "number": "8.3.10",
+  "title": "Argument of a Complex Number.",
+  "body": " Argument of a Complex Number   The argument of the complex number , , is an angle, , measured from the standard position to the number in the complex plane. To find this angle, θ, use the formula solve for that is in the correct quadrant.  Note: the is dropped during this calculation!   "
 },
 {
   "id": "definitions-complex-numbers-11",
   "level": "2",
   "url": "sec-complex-numbers.html#definitions-complex-numbers-11",
-  "type": "Definition",
-  "number": "8.3.10",
-  "title": "Argument of a Complex Number.",
-  "body": " Argument of a Complex Number      "
+  "type": "Example",
+  "number": "8.3.11",
+  "title": "",
+  "body": "   To find the argument of , we would first note that is in the second quadrant, and we would write . Next, we would take the inverse-tangent on both sides, however, inverse-tangent does not give us angles in quadrant II, so we know that to find the correct argument of we should add . So the argument of is , as shown in      A graph on the complex plane. The point is plotted with a dotted line connecting it to the origin. The dotted line is labeled , showing the absolute value, and the angle from the positive -axis is labeled , showing the argument.        "
 },
 {
   "id": "definitions-complex-numbers-12",
   "level": "2",
   "url": "sec-complex-numbers.html#definitions-complex-numbers-12",
-  "type": "Note",
-  "number": "8.3.11",
-  "title": "",
-  "body": "     "
+  "type": "Definition",
+  "number": "8.3.13",
+  "title": "Polar Form of a Complex Number.",
+  "body": " Polar Form of a Complex Number   A complex number can be written in polar form , which is the form , where and is the argument of the complex number.  Note: is sometimes called .   "
 },
 {
   "id": "definitions-complex-numbers-13",
   "level": "2",
   "url": "sec-complex-numbers.html#definitions-complex-numbers-13",
   "type": "Example",
-  "number": "8.3.12",
+  "number": "8.3.14",
   "title": "",
-  "body": "     "
+  "body": "   can be written as .  Note: We used the symbol here because the was an approximate value.   "
 },
 {
   "id": "definitions-complex-numbers-14",
   "level": "2",
   "url": "sec-complex-numbers.html#definitions-complex-numbers-14",
   "type": "Definition",
-  "number": "8.3.13",
-  "title": "Polar Form of a Complex Number.",
-  "body": " Polar Form of a Complex Number      "
+  "number": "8.3.15",
+  "title": "Euler’s Form of a Complex Number.",
+  "body": " Euler's Form of a Complex Number    Euler's form of a complex number, , is , where and is the argument of .   "
 },
 {
   "id": "definitions-complex-numbers-15",
   "level": "2",
   "url": "sec-complex-numbers.html#definitions-complex-numbers-15",
-  "type": "Note",
-  "number": "8.3.14",
-  "title": "",
-  "body": "     "
-},
-{
-  "id": "definitions-complex-numbers-16",
-  "level": "2",
-  "url": "sec-complex-numbers.html#definitions-complex-numbers-16",
   "type": "Example",
-  "number": "8.3.15",
-  "title": "",
-  "body": "     "
-},
-{
-  "id": "definitions-complex-numbers-17",
-  "level": "2",
-  "url": "sec-complex-numbers.html#definitions-complex-numbers-17",
-  "type": "Definition",
   "number": "8.3.16",
-  "title": "Euler’s Form of a Complex Number.",
-  "body": " Euler's Form of a Complex Number      "
-},
-{
-  "id": "definitions-complex-numbers-18",
-  "level": "2",
-  "url": "sec-complex-numbers.html#definitions-complex-numbers-18",
-  "type": "Example",
-  "number": "8.3.17",
   "title": "",
-  "body": "     "
+  "body": "   can be written as .  Note: We used the symbol here because the was an approximate value.   "
 },
 {
   "id": "exit-complex-numbers-2",
@@ -2275,7 +2257,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1",
   "title": "",
-  "body": "     "
+  "body": "  Describe the difference between the point in the two-dimensional real coordinate plane and the complex number in the complex plane.   "
 },
 {
   "id": "exit-complex-numbers-3",
@@ -2284,7 +2266,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2",
   "title": "",
-  "body": "                               "
+  "body": "   Plot the complex number onto the complex plane.      Find the absolute value of the complex number . Simplify the radical completely and leave your answer in exact form. Illustrate the value on your plot from exercise a.      Find the argument of the complex number . Use a calculator to round your answer to three digits behind the decimal place. Illustrate the value on your plot from exercise a.      Write the complex number into polar form.      Write the complex number into Euler's form.    "
 },
 {
   "id": "sec-complex-numbers-8-1",

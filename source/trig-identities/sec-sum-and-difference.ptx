@@ -23,18 +23,21 @@
 		<exercise>
             <introduction>
                 <p>
+                    Answer the following without using a calculator. These questions are intended to
+                    check the prerequisite skills needed to complete the rest of the lab.
                 </p>
             </introduction>
             <task>
                 <statement>
                     <p>
+                        Write down the memorized values from the unit circle.
                         <ol>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li><m>\sin(\pi)</m></li>
+                            <li><m>\sin(\frac{\pi}{3})</m></li>
+                            <li><m>\sin(\frac{5\pi}{3})</m></li>
+                            <li><m>\sin(\frac{3\pi}{2})</m></li>
+                            <li><m>\sin(\frac{7\pi}{6})</m></li>
+                            <li><m>\sin(-\frac{3\pi}{4})</m></li>
                         </ol>
                     </p>
                 </statement>
@@ -42,30 +45,33 @@
             <task>
                 <statement>
                     <p>
+                        Count from <m>0</m> to <m>\pi</m> by multiples of <m>\frac{\pi}{12}</m>, and
+                        then reduce those fractions. Here's how to start out: 
+                        <md>\frac{0\pi}{12}, \frac{\pi}{12}, \frac{2\pi}{12}, \frac{3\pi}{12}...</md>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        Write down the three Pythagorean Identities.
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        True or False:
+                        <md>\sin(45^\circ+60^\circ) = \sin(45^\circ) + \sin(60^\circ)</md>
+                            Explain your reasoning.
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
+                        Verify the identity:
+                        <md>\frac{\sec(\phi)\sin(\phi)}{\tan(\phi)+\cot(\phi)} = \sin^2(\phi)</md>
                     </p>
                 </statement>
             </task>
@@ -77,41 +83,49 @@
 		<exercise>
             <introduction>
                 <p>
+                    Use the sum and difference formulas and your memorized unit circle values to 
+                    evaluate the following expressions without a calculator.
                 </p>
             </introduction>
             <task>
                 <statement>
                     <p>
+                        <m>\sin(60^\circ - 45^\circ)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\sin\left(\frac{2\pi}{3} + \frac{\pi}{4}\right)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\cos(105^\circ)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\cos\left(\frac{17\pi}{12}\right)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\tan(75^\circ)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\tan\left(\frac{\pi}{3} - \frac{\pi}{4}\right)</m>
                     </p>
                 </statement>
             </task>
@@ -119,29 +133,36 @@
 		<exercise>
             <introduction>
                 <p>
+                    Imagine that there are two angles, <m>\alpha</m> and <m>\beta</m>, not in the
+                    same triangle, such that <m>\sin(\alpha) = \frac{2}{7}</m> where <m>\frac{\pi}{2}\lt \alpha \lt \pi</m>
+                    and <m>\cos(\beta) = -\frac{5}{6}</m> where <m>\pi \lt \beta \lt \frac{3\pi}{2}</m>.
                 </p>
             </introduction>
             <task>
                 <statement>
                     <p>
+                        Find the value of <m>\cos(\alpha)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        Find the value of <m>\sin(\beta)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        Find the value of <m>\sin(\alpha +\beta)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        Find the value of <m>\cos(\alpha -\beta)</m>
                     </p>
                 </statement>
             </task>
@@ -149,17 +170,20 @@
 		<exercise>
             <introduction>
                 <p>
+                    Verify the identities algebraically.
                 </p>
             </introduction>
             <task>
                 <statement>
                     <p>
+                        <m>\cos(\lambda + \nu) \cos(\lambda - \nu) = \cos^2(\lambda) - \sin^2(\nu)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\tan(\rho + \frac{\pi}{4}) = \frac{\cos(\rho)+\sin(\rho)}{\cos(\rho)-\sin(\rho)}</m>
                     </p>
                 </statement>
             </task>
@@ -173,13 +197,15 @@
             <title>Sum And Difference Identities</title>
             <statement>
                 <p>
+                    There are <term>sum and difference identities</term> for each of the trigonometric 
+                    functions, but we only focus on those for sine, cosine, and tangent.
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li><m>\cos(\alpha + \beta) = \cos(\alpha)\cos(\beta) - \sin(\alpha)\sin(\beta)</m></li>
+                        <li><m>\cos(\alpha - \beta) = \cos(\alpha)\cos(\beta) + \sin(\alpha)\sin(\beta)</m></li>
+                        <li><m>\sin(\alpha + \beta) = \sin(\alpha)\cos(\beta) + \cos(\alpha)\sin(\beta)</m></li>
+                        <li><m>\sin(\alpha - \beta) = \sin(\alpha)\cos(\beta) - \cos(\alpha)\sin(\beta)</m></li>
+                        <li><m>\tan(\alpha + \beta) = \dfrac{\tan(\alpha)+\tan(\beta)}{1-\tan(\alpha)\tan(\beta)</m></li>
+                        <li><m>\tan(\alpha - \beta) = \dfrac{\tan(\alpha)-\tan(\beta)}{1+\tan(\alpha)\tan(\beta)</m></li>
                     </ul>
                 </p>
             </statement>
@@ -196,25 +222,39 @@
             </statement>
         </exercise>
         <exercise>
-            <introduction>
+            <statement>
                 <p>
+                    Evaluate the expression <m>\cos(285^\circ)\</m> without a calculator.
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <introduction>
+                    <p>
+                        Imagine that there are two angles, <m>\kappa</m> and <m>\tau</m>, not 
+                        necessarily in the same triangle, such that <m>\sin(\kappa) = - \frac{3}{4}</m> 
+                        where <m>\frac{3\pi}{2}\lt \kappa\ lt \pi</m> and <m>\cos(\tau) = \frac{3}{8}</m>
+                        where <m>0 \lt \tau \lt \frac{\pi}{2}</m>.
                 </p>
             </introduction>
             <task>
                 <statement>
                     <p>
+                    Find the values of <m>\cos(\kappa)</m> and <m>\sin(\tau)</m>.
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        Find the value of <m>\sin(\kappa - \tau)</m>.
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        Find the value of <m>\tan(\kappa + \tau)</m>.
                     </p>
                 </statement>
             </task>

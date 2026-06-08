@@ -24,27 +24,71 @@
 
     <exercises xml:id="prep-polar-coordinates">
 		<title>Preparation Exercises</title>
+        <introduction>
+            <p>
+                Answer the following without using a calculator. These questions are intended to 
+                check the prerequisite skills needed to complete the rest of the lab.
+            </p>
+        </introduction>
 		<exercise>
             <introduction>
-                <p>
-                    Completely factor <m>2x^2 + 2x - 12.</m>
-                </p>
+                <sidebyside widths="60% 35%">
+                    <p>
+                        Thinking back to SOHCAHTOA, recall that for a triangle with legs <m>x</m> and 
+                        <m>y</m> and hypotenuse <m>r</m>, as shown in <xref ref="figure-polar-preparation"/>,
+                        you know that <m>\cos(\theta)=\frac{x}{r}</m>, <m>\sin(\theta) = \frac{y}{r}</m>,
+                        and <m>\tan(\theta)=\frac{y}{x}</m>.
+                    </p>
+                    <figure xml:id="figure-polar-preparation">
+                        <image>
+                            <description>
+                                <p>
+                                    A right triangle with hypotenuse <m>r</m> and side lengths 
+                                    <m>x</m> and <m>y</m>.
+                                </p>
+                            </description>
+                            <latex-image>
+                                <![CDATA[
+                                    \begin{tikzpicture}
+                                    \coordinate (O) at (0,0);
+                                    \coordinate (A) at (3,0);
+                                    \coordinate (B) at (0,2);
+                                    \draw (O)--(A)--(B)--cycle;
+                                    \footnotesize
+                                    \tkzLabelSegment[below=2pt](O,A){$x$}
+                                    \tkzLabelSegment[left=2pt](O,B){$y$}
+                                    \tkzLabelSegment[above=2pt](A,B){$r$}
+                                    \tkzMarkRightAngle[size=0.5](A,O,B)
+                                    \tkzMarkAngle[size=0.8cm](B,A,O)
+                                    \tkzLabelAngle[pos = 0.6](B,A,O){$\alpha$}
+                                    \tkzMarkAngle[size=0.7cm](O,B,A)
+                                    \tkzLabelAngle[pos = 0.5](O,B,A){$\beta$}
+                                    \end{tikzpicture}
+                                    ]]>
+                            </latex-image>
+                        </image>
+                    </figure>
+                </sidebyside>
             </introduction>
             <task>
                 <statement>
                     <p>
+                        Solve <m>\sin(\theta) = \frac{y}{r}</m> for <m>y</m>.
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        Solve <m>\cos(\theta) = \frac{x}{r}</m> for <m>x</m>.
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        What would the pythagorean theorem say about the triangle in 
+                        <xref ref="figure-polar-preparation"/>?
                     </p>
                 </statement>
             </task>
@@ -52,35 +96,43 @@
         <exercise>
             <statement>
                 <p>
+                    What conditions would you need to put on <m>\theta</m>, <m>x</m>, and <m>y</m>
+                    to make the solution to the equation <m>\tan(\theta) = \frac{y}{x}</m> be 
+                    <m>\theta = \tan^{-1}\left(\frac{y}{x}\right)</m>?
                 </p>
             </statement>
         </exercise>
 		<exercise>
             <introduction>
                 <p>
+                    Which quadrant are the following angles in, when measured from the standard position?
                 </p>
             </introduction>
             <task>
                 <statement>
                     <p>
+                        <m>400^\circ</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>-200^\circ</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>-\frac{7\pi}{6}</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\frac{17\pi}{3}</m>
                     </p>
                 </statement>
             </task>
@@ -88,29 +140,34 @@
 		<exercise>
             <introduction>
                 <p>
+                    Evaluate the expression using your memorized values on the unit circle.
                 </p>
             </introduction>
             <task>
                 <statement>
                     <p>
+                        <m>\sin(420^\circ)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\cos(-210^\circ)</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\sin(-\frac{7\pi}{6})</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\cos(\frac{17\pi}{3})</m>
                     </p>
                 </statement>
             </task>
@@ -122,41 +179,89 @@
 		<exercise>
             <introduction>
                 <p>
+                    Practice plotting points written in polar form. For clarity, a small <m>_p</m> 
+                    will be written next to polar points to distinguish them from rectangular
+                    points, which will be written with a small <m>_r</m> next to them. Label each
+                    point.
                 </p>
+                <figure xml:id="figure-polar-practice-1">
+                    <image width="60%">
+                        <description>
+                            <p>
+                                A Polar grid on an <m>x</m>-axis and <m>y</m>-axis. Instead of
+                                vertical and horizontal lines denoting <m>y</m> and <m>x</m> values, 
+                                there are concentric circles denoting <m>r</m> and straight lines
+                                passing through the origin at different angles denoting <m>\theta</m>
+                                values.
+                            </p>
+                        </description>
+                        <latex-image>
+                            <![CDATA[
+                                \begin{tikzpicture}
+                                \begin{axis}[
+                                xmin=-5,xmax=5,
+                                ymin=-5,ymax=5,
+                                xtick={1,2,3,4},
+                                ytick={1,2,3,4},
+                                clip=false,
+                                ]
+                                \addplot[first,line width=1pt,opacity=0.2,samples=2] expression[domain=-5/sqrt(2):5/sqrt(2)]{x};
+                                \addplot[second,line width=1pt,opacity=0.2,samples=2] expression[domain=-2.5*sqrt(3):2.5*sqrt(3)]{1/sqrt(3)*x};
+                                \addplot[third,line width=1pt,opacity=0.2,samples=2] expression[domain=-2.5:2.5]{sqrt(3)*x};
+                                \addplot[first,line width=1pt,opacity=0.2,samples=2] expression[domain=-5/sqrt(2):5/sqrt(2)]{-x};
+                                \addplot[second,line width=1pt,opacity=0.2,samples=2] expression[domain=-2.5*sqrt(3):2.5*sqrt(3)]{-1/sqrt(3)*x};
+                                \addplot[third,line width=1pt,opacity=0.2,samples=2] expression[domain=-2.5:2.5]{-sqrt(3)*x};
+                                \draw[thin,opacity=0.2] (axis cs:0,0) circle [radius=1];
+                                \draw[thin,opacity=0.2] (axis cs:0,0) circle [radius=2];
+                                \draw[thin,opacity=0.2] (axis cs:0,0) circle [radius=3];
+                                \draw[thin,opacity=0.2] (axis cs:0,0) circle [radius=4];
+                                \draw[thin,opacity=0.2] (axis cs:0,0) circle [radius=5];
+                                \end{axis}
+                                \end{tikzpicture}
+                                ]]>
+                        </latex-image>
+                    </image>
+                </figure>
             </introduction>
             <task>
                 <statement>
                     <p>
+                        <m>\left(4,\frac{\pi}{2}\right)_p</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\left(3,-\frac{\pi}{4}\right)_p</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\left(-2,\frac{5\pi}{6}\right)_p</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\left(2.5,225^\circ\right)_p</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\left(3.5,-120^\circ\right)_p</m>
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
+                        <m>\left(-1.5,270^\circ\right)_p</m>
                     </p>
                 </statement>
             </task>
@@ -164,22 +269,31 @@
 		<exercise>
             <introduction>
                 <p>
+                    Convert the polar points to rectangular form and the rectangular points to polar
+                    form. For clarity, a small <m>_p</m> will be written next to polar points to 
+                    distinguish them from rectangular points, which will be written with a small
+                    <m>_r</m> next to them.
                 </p>
             </introduction>
             <task>
                 <introduction>
                     <p>
+                        Find the rectangular coordinates of the polar points. Leave your answers in
+                        exact form rather than using your calculator to get a decimal value for
+                        the coordinates.
                     </p>
                 </introduction>
                 <task>
                     <statement>
                         <p>
+                            <m>\left(4,\frac{\pi}{2}\right)_p</m>
                         </p>
                     </statement>
                 </task>
                 <task>
                     <statement>
                         <p>
+                            <m>\left(2,-\frac{4\pi}{3}\right)_p</m>
                         </p>
                     </statement>
                 </task>
@@ -187,23 +301,99 @@
             <task>
                 <introduction>
                     <p>
+                        Find the polar coordinates of the rectangular points.
+                    </p>
+                </introduction>
+                    <task>
+                        <statement>
+                            <p>
+                                <m>\left(1,1\right)_r</m>. Leave your answers in exact form for both 
+                                the radius and the angle.
+                            </p>
+                        </statement>
+                    </task>
+                    <task>
+                        <statement>
+                            <p>
+                                <m>\left(2,3\right)_r</m>. Leave your radius in exact form, but use
+                                a calculator to find an approximation of the angle, accurate to
+                                three digits behind the decimal place.
+                            </p>
+                        </statement>
+                    </task>
+                    <task>
+                        <statement>
+                            <p>
+                                <m>\left(-2,-3\right)_r</m>. Leave your radius in exact form, but use
+                                a calculator to find an approximation of the angle, accurate to
+                                three digits behind the decimal place.
+                            </p>
+                        </statement>
+                    </task>
+            </task>
+		</exercise>
+		<exercise>
+            <introduction>
+                <p>
+                    Convert equations between polar form and rectangular form. You can graph both 
+                    the original equation and the polar form equation in Desmos to verify that you 
+                    have converted correctly.
+                </p>
+            </introduction>
+            <task>
+                <introduction>
+                    <p>
+                        Convert the polar equations to rectangular form. You don't need to solve for
+                        a variable, necessarily.
                     </p>
                 </introduction>
                 <task>
                     <statement>
                         <p>
+                            <m>r\,\cos(\theta)=5</m>
                         </p>
                     </statement>
                 </task>
                 <task>
                     <statement>
                         <p>
+                            <m>r=3\sin(\theta)</m>
                         </p>
                     </statement>
                 </task>
                 <task>
                     <statement>
                         <p>
+                            <m>r=5</m>
+                        </p>
+                    </statement>
+                </task>
+            </task>
+            <task>
+                <introduction>
+                    <p>
+                        Convert the rectangular equations to polar form. You don't need to solve for
+                        a variable, necessarily.
+                    </p>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            <m>y=3</m>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            <m>y = 2x+1</m>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            <m>x^2 + y^2 = 2x</m>
                         </p>
                     </statement>
                 </task>
@@ -212,77 +402,255 @@
 		<exercise>
             <introduction>
                 <p>
-                </p>
-            </introduction>
-            <task>
-                <introduction>
-                    <p>
-                    </p>
-                </introduction>
-                <task>
-                    <statement>
-                        <p>
-                        </p>
-                    </statement>
-                </task>
-                <task>
-                    <statement>
-                        <p>
-                        </p>
-                    </statement>
-                </task>
-                <task>
-                    <statement>
-                        <p>
-                        </p>
-                    </statement>
-                </task>
-            </task>
-            <task>
-                <introduction>
-                    <p>
-                    </p>
-                </introduction>
-                <task>
-                    <statement>
-                        <p>
-                        </p>
-                    </statement>
-                </task>
-                <task>
-                    <statement>
-                        <p>
-                        </p>
-                    </statement>
-                </task>
-                <task>
-                    <statement>
-                        <p>
-                        </p>
-                    </statement>
-                </task>
-            </task>
-		</exercise>
-		<exercise>
-            <introduction>
-                <p>
+                    Create a graph of the polar functions by filling in the tables and plotting 
+                    points. Round the values of <m>r</m> to the nearest tenth. Note that Desmos does
+                    have polar grid in the settings, and you can graph functions of the form
+                    <m>r= f(\theta)</m>, where the <m>\theta</m> can be found in the “A B C” 
+                    keyboard. Use <url href="https://www.desmos.com/calculator/vzcwqfvj1g" visual="http://tiny.cc/PolarGraphTable">
+                    this standardized Desmos template</url> to create the tables.
                 </p>
             </introduction>
             <task>
                 <statement>
-                    <p>
-                    </p>
+                    <sidebyside widths="47% 47%">
+                        <table xml:id = "table-polar-practice-4a">
+                            <tabular halign="center" top="major" left="major" right="major">
+                                <col right="minor"/>
+                                <col/>
+                                <row header="yes" bottom="minor">
+                                    <cell>
+                                        <m>\theta</m>
+                                    </cell>
+                                    <cell>
+                                        <m>\qquad r = 2\sin(\theta) \qquad</m>
+                                    </cell>
+                                </row>
+                                <row bottom="minor">
+                                    <cell>
+                                        <m>0^\circ</m>
+                                    </cell>
+                                    <cell>
+                                    </cell>
+                                </row>
+                                <row bottom="minor">
+                                    <cell>
+                                        <m>30^\circ</m>
+                                    </cell>
+                                    <cell>
+                                    </cell>
+                                </row>
+                                <row bottom="minor">
+                                    <cell>
+                                        <m>45^\circ</m>
+                                    </cell>
+                                    <cell>
+                                    </cell>
+                                </row>
+                                <row bottom="minor">
+                                    <cell>
+                                        <m>60^\circ</m>
+                                    </cell>
+                                    <cell>
+                                    </cell>
+                                </row>
+                                <row bottom="minor">
+                                    <cell>
+                                        <m>90^\circ</m>
+                                    </cell>
+                                    <cell>
+                                    </cell>
+                                </row>
+                                <row bottom="minor">
+                                    <cell>
+                                        <m>120^\circ</m>
+                                    </cell>
+                                    <cell>
+                                    </cell>
+                                </row>
+                                <row bottom="minor">
+                                    <cell>
+                                        <m>135^\circ</m>
+                                    </cell>
+                                    <cell>
+                                    </cell>
+                                </row>
+                                <row bottom="minor">
+                                    <cell>
+                                        <m>150^\circ</m>
+                                    </cell>
+                                    <cell>
+                                    </cell>
+                                </row>
+                                <row bottom="major">
+                                    <cell>
+                                        <m>180^\circ</m>
+                                    </cell>
+                                    <cell>
+                                    </cell>
+                                </row>
+                            </tabular>
+                        </table>
+                        <figure xml:id="figure-polar-practice-4a">
+                            <image>
+                                <description>
+                                    <p>
+                                    </p>
+                                </description>
+                                <latex-image>
+                                    <![CDATA[
+                                        \begin{tikzpicture}
+                                        \begin{axis}[
+                                        height=8cm,
+                                        width=8cm,
+                                        xmin=-2.5,xmax=2.5,
+                                        ymin=-2.5,ymax=2.5,
+                                        xtick={1,1.5},
+                                        ytick={1,1.5},
+                                        clip=false,
+                                        ]
+                                        \addplot[first,line width=1pt,opacity=0.2,samples=2] expression[domain=-2/sqrt(2):2/sqrt(2)]{x};
+                                        \addplot[second,line width=1pt,opacity=0.2,samples=2] expression[domain=-sqrt(3):1*sqrt(3)]{1/sqrt(3)*x};
+                                        \addplot[third,line width=1pt,opacity=0.2,samples=2] expression[domain=-1:1]{sqrt(3)*x};
+                                        \addplot[first,line width=1pt,opacity=0.2,samples=2] expression[domain=-2/sqrt(2):2/sqrt(2)]{-x};
+                                        \addplot[second,line width=1pt,opacity=0.2,samples=2] expression[domain=-sqrt(3):sqrt(3)]{-1/sqrt(3)*x};
+                                        \addplot[third,line width=1pt,opacity=0.2,samples=2] expression[domain=-1:1]{-sqrt(3)*x};
+                                        \draw[thin,opacity=0.2,dashed] (axis cs:0,0) circle [radius=0.5];
+                                        \draw[thin,opacity=0.2] (axis cs:0,0) circle [radius=1];
+                                        \draw[thin,opacity=0.2,dashed] (axis cs:0,0) circle [radius=1.5];
+                                        \draw[thin,opacity=0.2] (axis cs:0,0) circle [radius=2];
+                                        \end{axis}
+                                        \end{tikzpicture}
+                                        ]]>
+                                </latex-image>
+                            </image>
+                        </figure>
+                    </sidebyside>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <sidebyside widths="47% 47%">
+                        <table xml:id = "table-polar-practice-4b">
+                            <tabular halign="center" top="major" left="major" right="major">
+                                <col right="minor"/>
+                                <col/>
+                                <row header="yes" bottom="minor">
+                                    <cell>
+                                        <m>\theta</m>
+                                    </cell>
+                                    <cell>
+                                        <m>\qquad r = 2\sin(3\theta) \qquad</m>
+                                    </cell>
+                                </row>
+                                <row bottom="minor">
+                                    <cell>
+                                        <m>0^\circ</m>
+                                    </cell>
+                                    <cell>
+                                    </cell>
+                                </row>
+                                <row bottom="minor">
+                                    <cell>
+                                        <m>30^\circ</m>
+                                    </cell>
+                                    <cell>
+                                    </cell>
+                                </row>
+                                <row bottom="minor">
+                                    <cell>
+                                        <m>45^\circ</m>
+                                    </cell>
+                                    <cell>
+                                    </cell>
+                                </row>
+                                <row bottom="minor">
+                                    <cell>
+                                        <m>60^\circ</m>
+                                    </cell>
+                                    <cell>
+                                    </cell>
+                                </row>
+                                <row bottom="minor">
+                                    <cell>
+                                        <m>90^\circ</m>
+                                    </cell>
+                                    <cell>
+                                    </cell>
+                                </row>
+                                <row bottom="minor">
+                                    <cell>
+                                        <m>120^\circ</m>
+                                    </cell>
+                                    <cell>
+                                    </cell>
+                                </row>
+                                <row bottom="minor">
+                                    <cell>
+                                        <m>135^\circ</m>
+                                    </cell>
+                                    <cell>
+                                    </cell>
+                                </row>
+                                <row bottom="minor">
+                                    <cell>
+                                        <m>150^\circ</m>
+                                    </cell>
+                                    <cell>
+                                    </cell>
+                                </row>
+                                <row bottom="major">
+                                    <cell>
+                                        <m>180^\circ</m>
+                                    </cell>
+                                    <cell>
+                                    </cell>
+                                </row>
+                            </tabular>
+                        </table>
+                        <figure xml:id="figure-polar-practice-4b">
+                            <image>
+                                <description>
+                                    <p>
+                                    </p>
+                                </description>
+                                <latex-image>
+                                    <![CDATA[
+                                        \begin{tikzpicture}
+                                        \begin{axis}[
+                                        height=8cm,
+                                        width=8cm,
+                                        xmin=-2.5,xmax=2.5,
+                                        ymin=-2.5,ymax=2.5,
+                                        xtick={1,1.5},
+                                        ytick={1,1.5},
+                                        clip=false,
+                                        ]
+                                        \addplot[first,line width=1pt,opacity=0.2,samples=2] expression[domain=-2/sqrt(2):2/sqrt(2)]{x};
+                                        \addplot[second,line width=1pt,opacity=0.2,samples=2] expression[domain=-sqrt(3):1*sqrt(3)]{1/sqrt(3)*x};
+                                        \addplot[third,line width=1pt,opacity=0.2,samples=2] expression[domain=-1:1]{sqrt(3)*x};
+                                        \addplot[first,line width=1pt,opacity=0.2,samples=2] expression[domain=-2/sqrt(2):2/sqrt(2)]{-x};
+                                        \addplot[second,line width=1pt,opacity=0.2,samples=2] expression[domain=-sqrt(3):sqrt(3)]{-1/sqrt(3)*x};
+                                        \addplot[third,line width=1pt,opacity=0.2,samples=2] expression[domain=-1:1]{-sqrt(3)*x};
+                                        \draw[thin,opacity=0.2,dashed] (axis cs:0,0) circle [radius=0.5];
+                                        \draw[thin,opacity=0.2] (axis cs:0,0) circle [radius=1];
+                                        \draw[thin,opacity=0.2,dashed] (axis cs:0,0) circle [radius=1.5];
+                                        \draw[thin,opacity=0.2] (axis cs:0,0) circle [radius=2];
+                                        \end{axis}
+                                        \end{tikzpicture}
+                                        ]]>
+                                </latex-image>
+                            </image>
+                        </figure>
+                    </sidebyside>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
+                        Visit <url href="https://www.desmos.com/calculator/uhs3204dt9" visual="http://tiny.cc/polar-graphs">
+                        this interactive Desmos graph</url> and change the values of <m>a</m>
+                        <m>b</m>. Find a particular graph that you like, write down it's equation,
+                        and discuss what you like about it with your neighbor.
                     </p>
                 </statement>
             </task>
@@ -307,9 +675,20 @@
             <statement>
                 <p>
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>
+                            To convert from rectangular form to polar form, use these two identities.
+                            <md>
+                                <mrow>r = \sqrt{x^2 + y^2} \text{ or } r^2 = x^2 + y^2</mrow>
+                                <mrow>\tan(\theta = \frac{y}{x}</mrow>
+                            </md>
+                        </li>
+                        <li>
+                            To convert from polar form to rectangular form, use these two identities.
+                            <md>
+                                <mrow>x = r\,\cos(\theta)</mrow>
+                                <mrow>y = r\,\sin(\theta)</mrow>
+                            </md>
+                        </li>
                     </ul>
                 </p>
             </statement>
@@ -321,58 +700,79 @@
         <exercise>
 		    <statement>
                 <p>
+                    Which wuadrant will be the polar point <m>\left(-2, -\frac{7\pi}{6}\right)_p</m>
+                    be in? Explain your answer.
                 </p>
             </statement>
 	    </exercise>
         <exercise>
 		    <statement>
                 <p>
+                    The graph of <m>r = 2\cos(\theta)</m> is a circle of radius <m>1</m> centered at
+                    <m>\left(1,0\right)_r</m>. Explain how <m>r</m> is a function of <m>\theta</m>
+                    for this graph.
                 </p>
             </statement>
 	    </exercise>
         <exercise>
             <introduction>
                 <p>
+                    A real-world machine used in fabrication uses polar coordinates. From a tripod 
+                    setup, it has an extendable cord that comes out of a swiveling head on top of 
+                    the unit that measures the distance to the end of the cord, and at what angle.
+                    This inputs a radius and angle into the computer. The machine then converts 
+                    this polar point into a rectangular point and displays the resulting image on 
+                    the screen. Fabrication can then begin.
                 </p>
             </introduction>
             <task>
                 <introduction>
                     <p>
+                        The following polar coordinates were measured by the machine to form a new
+                        countertop. Convert them to rectangular coordinates and plot them in Desmos 
+                        using the “polygon()” command. The units of measurement are in inches and 
+                        degrees.
                     </p>
                 </introduction>
                 <task>
                     <statement>
                         <p>
+                            <m>\left(52, 0^\circ\right)_p</m>
                         </p>
                     </statement>
                 </task>
                 <task>
                     <statement>
                         <p>
+                            <m>\left(67.158, 39.259^\circ\right)_p</m>
                         </p>
                     </statement>
                 </task>
                 <task>
                     <statement>
                         <p>
+                            <m>\left(42.5, 90^\circ\right)_p</m>
                         </p>
                     </statement>
                 </task>
                 <task>
                     <statement>
                         <p>
+                            <m>\left(18.5, 90^\circ\right)_p</m>
                         </p>
                     </statement>
                 </task>
                 <task>
                     <statement>
                         <p>
+                            <m>\left(30.303, 37.626^\circ\right)_p</m>
                         </p>
                     </statement>
                 </task>
                 <task>
                     <statement>
                         <p>
+                            <m>\left(24, 0^\circ\right)_p</m>
                         </p>
                     </statement>
                 </task>
@@ -380,6 +780,9 @@
             <task>
                 <statement>
                     <p>
+                        Find the total area of the countertop, in square feet. You can assume that
+                        the dimensions, as given, were intended to form right angles on the 
+                        countertop.
                     </p>
                 </statement>
             </task>

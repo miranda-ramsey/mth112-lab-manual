@@ -2284,25 +2284,25 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "8.4",
   "title": "Vectors",
-  "body": " Vectors   In this section, we will learn about vectors, which are essentially a line segment with a specific length and that points in a particular direction. We will view vectors geometrically, find the magnitude and direction of vectors, find the component form of a vector, and do arithmetic with vectors. Then we will find the dot product of two vectors and work through some applications of vectors.    Textbook Reference  This relates to content in 10.8 of Algebra and Trigonometry 2e .    Preparation Exercises                              Practice Exercises                                                                                                                                                            Definitions   Vector        The vectors and        Components of a Vector        Magnitude of a Vector        Direction of a Vector        Graphically adding two vectors        Graphically subtracting two vectors        Unit Vector        Dot Product         Exit Exercises                                                      On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    --> "
-},
-{
-  "id": "prep-vectors-2",
-  "level": "2",
-  "url": "sec-vectors.html#prep-vectors-2",
-  "type": "Exercise",
-  "number": "1",
-  "title": "",
-  "body": "     "
+  "body": " Vectors   In this section, we will learn about vectors, which are essentially a line segment with a specific length and that points in a particular direction. We will view vectors geometrically, find the magnitude and direction of vectors, find the component form of a vector, and do arithmetic with vectors. Then we will find the dot product of two vectors and work through some applications of vectors.    Textbook Reference  This relates to content in 10.8 of Algebra and Trigonometry 2e .    Preparation Exercises   Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.      For the right triangle shown in , find the missing lengths of and using SOHCAHTOA. You can use a calculator to help get an approximation, accurate to four digits behind the decimal place.     A right triangle with hypotenuse 10cm, known angle 32 , adjacent side and opposite side .            Convert the polar point to rectangular coordinates. Leave your coordinates in exact form using memorized values from the unit circle.      Write the complex number in Euler’s form, . Write your angle in radians and round it to two digits behind the decimal place.      Convert the rectangular point to polar form. Write your angle in radians and round it to two digits behind the decimal place.       Practice Exercises      Draw a vector, , onto the coordinate plane, that goes from point to point .    A blank graph.          Draw another copy of⃗ onto the same graph from exercise (a), this one starting from the origin.      Write in component form using the angled-bracket notation, .      Write in component form using the notation.      Find , the magnitude of .      Find , the direction of , measured in degrees from the standard position. Round your answer to two digits behind the decimal place.       Perform the vector arithmetic.                                                Are the vectors in the same direction, perpendicular, or skew? Consider using the dot product to show that vectors are perpendicular since two vectors are perpendicular if and only if their dot product is 0.      and ?       and ?       and ?       and ?       Find a unit vector, , in direction of .      If a vector , has a magnitude and a direction angle of , use a calculator to find the approximate components of , rounded to two digits behind the decimal place.      Find the angle between the two vectors and using the formula       Jamal and Jenna did a dive in the Columbia River while taking an advanced SCUBA class. It was cold, dark, and muddy. They dove to the deepest part of the river, enjoyed a fast-paced drift dive, and started toward shore well below the surface to avoid boat traffic. They swam at a pace of (relative to the water around them) toward shore at a bearing of on his compass. The river was pushing them at a pace of at a bearing of . They felt like they were spinning in circles, but managed to get to shore safely.     Find the component form of , the vector that represents their swimming velocity, ignoring that the water around them is moving, assuming that the positive -axis aligns with East.      Find the component form of , the vector that represents the river's velocity.      Find the sum , and interpret its meaning in terms of the divers and the river.       Definitions   Vector    A vector is a quantity drawn as a line segment with an arrowhead at one end. It has an initial point, where it begins, and a terminal point, where it ends. It is a line segment with a direction. Vectors are placement-independent in that two vectors that are the same length and parallel are considered the same vector, as shown in . Vector notation is usually \"the vector \" with a right arrow indicating the variable is a vector.                The vectors and    The vector (read “i hat”) is defined to be a vector of length 1 pointed to the right (parallel to the positive x-axis) and (read “j hat”) is defined to be a vector of length 1 pointed up (parallel to the positive y-axis), as shown in . We always use a “hat” on unit vectors instead of an arrow.                Components of a Vector    If you take a vector , and create a right triangle where the vector is the hypotenuse and the legs of the triangle are horizontal and vertical, then the components of vector are the vertical and horizontal vectors that add together to form , as shown in . Since the components are horizontal and vertical, we measure them with 's and 's.                Magnitude of a Vector   The magnitude of a vector , , is the length of the vector and is written . We use the Pythagorean theorem on the components of the vector to find a formula for the magnitude:      Direction of a Vector   The direction of a vector is defined by an angle, , relative to the standard position (unless otherwise specified), positioned at the initial point of the vector.     Graphically adding two vectors   To graphically add two vectors , put the tail of vector at the head of . The sum, , is the vector from the tail of to the head of . Check out this Desmos link for a visual on graphical vector addition.     Graphically subtracting two vectors   To graphically subtract two vectors , first draw the opposite vector of , which would be drawn with the same length as but exactly from . Then put the tail of vector at the head of . The difference , is the vector from the tail of to the head of . This process really creates . Check out this Desmos link for a visual on graphical vector addition.     Unit Vector   A unit vector is a vector of magnitude 1. There is a formula that takes any vector, , and will find a unit vector, , in the same direction as :      Dot Product   The dot product of two vectors, and , is the sum of the product of the corresponding components of the vectors: This happens to tell you something about how far apart the vectors are, angle-wise. There is a relationship between the dot product and the angle, , between the vectors: Note that this implies that two vectors are perpendicular if and only if their dot product is 0 since cosine is only 0 when the angle is a right angle. To be more specific, cosine is only 0 when the angle is an odd multiple of .      Exit Exercises    Answer the following where and       Draw and onto a coordinate plane.    A blank graph.          Draw and label on the same plane as exercise (a).      Evaluate .      Evaluate .      Evaluate .      What is the direction of ? Use degrees and round your answer to two digits behind the decimal place.      Find the angle between and using the dot product.         On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
 },
 {
   "id": "prep-vectors-3",
   "level": "2",
   "url": "sec-vectors.html#prep-vectors-3",
   "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "   For the right triangle shown in , find the missing lengths of and using SOHCAHTOA. You can use a calculator to help get an approximation, accurate to four digits behind the decimal place.     A right triangle with hypotenuse 10cm, known angle 32 , adjacent side and opposite side .        "
+},
+{
+  "id": "prep-vectors-4",
+  "level": "2",
+  "url": "sec-vectors.html#prep-vectors-4",
+  "type": "Exercise",
   "number": "2",
   "title": "",
-  "body": "                   "
+  "body": "   Convert the polar point to rectangular coordinates. Leave your coordinates in exact form using memorized values from the unit circle.      Write the complex number in Euler’s form, . Write your angle in radians and round it to two digits behind the decimal place.      Convert the rectangular point to polar form. Write your angle in radians and round it to two digits behind the decimal place.    "
 },
 {
   "id": "practice-vectors-2",
@@ -2311,7 +2311,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1",
   "title": "",
-  "body": "                                     "
+  "body": "    Draw a vector, , onto the coordinate plane, that goes from point to point .    A blank graph.          Draw another copy of⃗ onto the same graph from exercise (a), this one starting from the origin.      Write in component form using the angled-bracket notation, .      Write in component form using the notation.      Find , the magnitude of .      Find , the direction of , measured in degrees from the standard position. Round your answer to two digits behind the decimal place.    "
 },
 {
   "id": "practice-vectors-3",
@@ -2320,7 +2320,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2",
   "title": "",
-  "body": "                                         "
+  "body": "  Perform the vector arithmetic.                                             "
 },
 {
   "id": "practice-vectors-4",
@@ -2329,7 +2329,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3",
   "title": "",
-  "body": "                             "
+  "body": "  Are the vectors in the same direction, perpendicular, or skew? Consider using the dot product to show that vectors are perpendicular since two vectors are perpendicular if and only if their dot product is 0.      and ?       and ?       and ?       and ?    "
 },
 {
   "id": "practice-vectors-5",
@@ -2338,7 +2338,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4",
   "title": "",
-  "body": "     "
+  "body": "  Find a unit vector, , in direction of .   "
 },
 {
   "id": "practice-vectors-6",
@@ -2347,7 +2347,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5",
   "title": "",
-  "body": "     "
+  "body": "  If a vector , has a magnitude and a direction angle of , use a calculator to find the approximate components of , rounded to two digits behind the decimal place.   "
 },
 {
   "id": "practice-vectors-7",
@@ -2356,7 +2356,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "6",
   "title": "",
-  "body": "     "
+  "body": "  Find the angle between the two vectors and using the formula    "
 },
 {
   "id": "practice-vectors-8",
@@ -2365,88 +2365,88 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "7",
   "title": "",
-  "body": "                       "
+  "body": "  Jamal and Jenna did a dive in the Columbia River while taking an advanced SCUBA class. It was cold, dark, and muddy. They dove to the deepest part of the river, enjoyed a fast-paced drift dive, and started toward shore well below the surface to avoid boat traffic. They swam at a pace of (relative to the water around them) toward shore at a bearing of on his compass. The river was pushing them at a pace of at a bearing of . They felt like they were spinning in circles, but managed to get to shore safely.     Find the component form of , the vector that represents their swimming velocity, ignoring that the water around them is moving, assuming that the positive -axis aligns with East.      Find the component form of , the vector that represents the river's velocity.      Find the sum , and interpret its meaning in terms of the divers and the river.    "
 },
 {
   "id": "definitions-vectors-2",
   "level": "2",
   "url": "sec-vectors.html#definitions-vectors-2",
   "type": "Definition",
-  "number": "8.4.1",
+  "number": "8.4.2",
   "title": "Vector.",
-  "body": " Vector      "
+  "body": " Vector    A vector is a quantity drawn as a line segment with an arrowhead at one end. It has an initial point, where it begins, and a terminal point, where it ends. It is a line segment with a direction. Vectors are placement-independent in that two vectors that are the same length and parallel are considered the same vector, as shown in . Vector notation is usually \"the vector \" with a right arrow indicating the variable is a vector.              "
 },
 {
   "id": "definitions-vectors-3",
   "level": "2",
   "url": "sec-vectors.html#definitions-vectors-3",
   "type": "Definition",
-  "number": "8.4.2",
+  "number": "8.4.4",
   "title": "The vectors <span class=\"process-math\">\\(\\hat{i}\\)<\/span> and <span class=\"process-math\">\\(\\hat{j}\\)<\/span>.",
-  "body": " The vectors and      "
+  "body": " The vectors and    The vector (read “i hat”) is defined to be a vector of length 1 pointed to the right (parallel to the positive x-axis) and (read “j hat”) is defined to be a vector of length 1 pointed up (parallel to the positive y-axis), as shown in . We always use a “hat” on unit vectors instead of an arrow.              "
 },
 {
   "id": "definitions-vectors-4",
   "level": "2",
   "url": "sec-vectors.html#definitions-vectors-4",
   "type": "Definition",
-  "number": "8.4.3",
+  "number": "8.4.6",
   "title": "Components of a Vector.",
-  "body": " Components of a Vector      "
+  "body": " Components of a Vector    If you take a vector , and create a right triangle where the vector is the hypotenuse and the legs of the triangle are horizontal and vertical, then the components of vector are the vertical and horizontal vectors that add together to form , as shown in . Since the components are horizontal and vertical, we measure them with 's and 's.              "
 },
 {
   "id": "definitions-vectors-5",
   "level": "2",
   "url": "sec-vectors.html#definitions-vectors-5",
   "type": "Definition",
-  "number": "8.4.4",
+  "number": "8.4.8",
   "title": "Magnitude of a Vector.",
-  "body": " Magnitude of a Vector      "
+  "body": " Magnitude of a Vector   The magnitude of a vector , , is the length of the vector and is written . We use the Pythagorean theorem on the components of the vector to find a formula for the magnitude:    "
 },
 {
   "id": "definitions-vectors-6",
   "level": "2",
   "url": "sec-vectors.html#definitions-vectors-6",
   "type": "Definition",
-  "number": "8.4.5",
+  "number": "8.4.9",
   "title": "Direction of a Vector.",
-  "body": " Direction of a Vector      "
+  "body": " Direction of a Vector   The direction of a vector is defined by an angle, , relative to the standard position (unless otherwise specified), positioned at the initial point of the vector.   "
 },
 {
   "id": "definitions-vectors-7",
   "level": "2",
   "url": "sec-vectors.html#definitions-vectors-7",
   "type": "Definition",
-  "number": "8.4.6",
+  "number": "8.4.10",
   "title": "Graphically adding two vectors.",
-  "body": " Graphically adding two vectors      "
+  "body": " Graphically adding two vectors   To graphically add two vectors , put the tail of vector at the head of . The sum, , is the vector from the tail of to the head of . Check out this Desmos link for a visual on graphical vector addition.   "
 },
 {
   "id": "definitions-vectors-8",
   "level": "2",
   "url": "sec-vectors.html#definitions-vectors-8",
   "type": "Definition",
-  "number": "8.4.7",
+  "number": "8.4.11",
   "title": "Graphically subtracting two vectors.",
-  "body": " Graphically subtracting two vectors      "
+  "body": " Graphically subtracting two vectors   To graphically subtract two vectors , first draw the opposite vector of , which would be drawn with the same length as but exactly from . Then put the tail of vector at the head of . The difference , is the vector from the tail of to the head of . This process really creates . Check out this Desmos link for a visual on graphical vector addition.   "
 },
 {
   "id": "definitions-vectors-9",
   "level": "2",
   "url": "sec-vectors.html#definitions-vectors-9",
   "type": "Definition",
-  "number": "8.4.8",
+  "number": "8.4.12",
   "title": "Unit Vector.",
-  "body": " Unit Vector      "
+  "body": " Unit Vector   A unit vector is a vector of magnitude 1. There is a formula that takes any vector, , and will find a unit vector, , in the same direction as :    "
 },
 {
   "id": "definitions-vectors-10",
   "level": "2",
   "url": "sec-vectors.html#definitions-vectors-10",
   "type": "Definition",
-  "number": "8.4.9",
+  "number": "8.4.13",
   "title": "Dot Product.",
-  "body": " Dot Product      "
+  "body": " Dot Product   The dot product of two vectors, and , is the sum of the product of the corresponding components of the vectors: This happens to tell you something about how far apart the vectors are, angle-wise. There is a relationship between the dot product and the angle, , between the vectors: Note that this implies that two vectors are perpendicular if and only if their dot product is 0 since cosine is only 0 when the angle is a right angle. To be more specific, cosine is only 0 when the angle is an odd multiple of .   "
 },
 {
   "id": "exit-vectors-2",
@@ -2455,7 +2455,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1",
   "title": "",
-  "body": "                                               "
+  "body": "  Answer the following where and       Draw and onto a coordinate plane.    A blank graph.          Draw and label on the same plane as exercise (a).      Evaluate .      Evaluate .      Evaluate .      What is the direction of ? Use degrees and round your answer to two digits behind the decimal place.      Find the angle between and using the dot product.    "
 },
 {
   "id": "sec-vectors-8-1",

@@ -1006,7 +1006,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.3",
   "title": "Inverse Trigonometry",
-  "body": " Inverse Trigonometry   In this section, we'll use the inverse sine, cosine, and tangent functions, find the exact value of expressions involving the inverse-trigonometric functions, use a calculator to evaluate inverse-trigonometric functions, and find the exact values of composite functions with inverse-trigonometric functions.    Textbook Reference  This relates to content in 8.3 of Algebra and Trigonometry 2e .    Preparation Exercises   Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.     Fill in the blanks referring to the angles in .           is coterminal with the negative angle        is coterminal with the negative angle        is coterminal with the negative angle        is coterminal with the negative angle         The invertible function is defined by . Fill in the row. Some entries may be \"undefined\".                                                                                                  Show that the graph in represents an invertible function . Graph the inverse alongside .            Practice Exercises    Evaluate the expressions using your memorized values on the unit circle. Some might be undefined.                                         Fill in using your memorized values on the unit circle.                                                                                                   Fill in with standard values of inverse trigonmetric functions without a calculator. If the value of is blank, start by filling that in first.                                                     N\/A                        N\/A             N\/A           Use a calculator to approximate the values below.                                         Use inverse trigonometry to find the missing angles.      Use inverse trigonometry and a calculator to find the missing angles and in the triangle shown in . Drawing not to scale.             Imagine designing a birdhouse to make out of wood. The sides of this birdhouse are shaped like trapezoids, with dimensions shown in . Find the angle , in degrees, using inverse trigonometry and your calculator. Note: this angle will be related to how you set up your saw to cut the wood correctly.             Evaluate the following expressions without a calculator.                                   Evaluate the following expressions without a calculator.                                  In this exercise, discuss some of the details about inverse trigonometry with your group members.     What are the similarities and differences between and ? Start by discussing the meaning of the inputs and outputs of the functions.      What are the similarities and differences between and ? Start by discussing the meaning of the inputs and outputs of the functions.      The range of both and is in quadrants I and IV. The range of is in quadrants I and II. Why do you think that none of the inverse trigonometric functions using quadrant III?      If Georgiana said that, \"I think that the value of is ,\" how would you help her understand her mistake?       Definitions   Inverse Cosine   The inverse cosine function inputs an -value on the unit circle and outputs the angle from to that matches that -value, as shown in . Another way to say that is that for angles, , in the interval , if then .          Function            Domain and meaning     except odd multiples of   Angles on unit circle        -values on unit circle      Range and meaning        -values on unit circle       Angles on unit circle                    Inverse Sine   The inverse sine function inputs a -value on the unit circle and outputs the angle from to that matches that -value, as shown in . Another way to say that is that for angles, , in the interval , if then .          Function            Domain and meaning     except odd multiples of   Angles on unit circle        -values on unit circle      Range and meaning        -values on unit circle       Angles on unit circle                    Inverse Tangent    The inverse tangent function inputs a slope, , and ouptuts the angle from to (non-inclusive) that matches that slope, as shown in . Another way to say that is that for angles, , in the interval , if then .           Function            Domain and meaning     except odd multiples of   Angles on unit circle       Slopes      Range and meaning       Slopes       Angles on unit circle                     Exit Exercises    Fill in the blanks to show how you should think about the inputs and outputs of each function? The answer to each is either \"an angle\", \"an -value on the unit circle\", or \" -value on the unit circle\".                                  Evaluate .       Fill in the missing values in .                                                           Use inverse trigonometry and a calculator to find the missing angle in the triangle shown in . Drawing is not to scale.                   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
+  "body": " Inverse Trigonometry   In this section, we'll use the inverse sine, cosine, and tangent functions, find the exact value of expressions involving the inverse-trigonometric functions, use a calculator to evaluate inverse-trigonometric functions, and find the exact values of composite functions with inverse-trigonometric functions.    Textbook Reference  This relates to content in 8.3 of Algebra and Trigonometry 2e .    Preparation Exercises   Answer the following without using a calculator. These questions are intended to check the prerequisite skills needed to complete the rest of the lab.     Fill in the blanks referring to the angles in .   Unit Circle with Standard Values    Quadrant IV of a unit circle. The angles      are indicated.          is coterminal with the negative angle        is coterminal with the negative angle        is coterminal with the negative angle        is coterminal with the negative angle         The invertible function is defined by . Fill in the row. Some entries may be \"undefined\".   The invertible function                                                                                                 Show that the graph in represents an invertible function . Graph the inverse alongside .   Graph of    A graph of a piecewise function, defined as:   on the interval ,   on the interval ,   on the interval ,   on the interval .             Practice Exercises    Evaluate the expressions using your memorized values on the unit circle. Some might be undefined.                                         Fill in using your memorized values on the unit circle.   Table for Practice 2                                                                                                  Fill in with standard values of inverse trigonmetric functions without a calculator. If the value of is blank, start by filling that in first.   Table for Practice 3                                                   N\/A                      N\/A           N\/A          Use a calculator to approximate the values below.                                         Use inverse trigonometry to find the missing angles.      Use inverse trigonometry and a calculator to find the missing angles and in the triangle shown in . Drawing not to scale.   A right triangle    A right triangle with hypotenuse 97cm, angle adjacent to length 72cm, and angle adjacent to side 65cm.            Imagine designing a birdhouse to make out of wood. The sides of this birdhouse are shaped like trapezoids, with dimensions shown in . Find the angle , in degrees, using inverse trigonometry and your calculator. Note: this angle will be related to how you set up your saw to cut the wood correctly.   The side of a birdhouse    A trapezoid showing the side profile of a birdhouse. The base is of length 15cm, the sides are at right angles to the base, the short side is length 20cm, and the long side is length 28cm. The top is of unknown length, but meets the long side at an angle labeled .            Evaluate the following expressions without a calculator.                                   Evaluate the following expressions without a calculator.                                  In this exercise, discuss some of the details about inverse trigonometry with your group members.     What are the similarities and differences between and ? Start by discussing the meaning of the inputs and outputs of the functions.      What are the similarities and differences between and ? Start by discussing the meaning of the inputs and outputs of the functions.      The range of both and is in quadrants I and IV. The range of is in quadrants I and II. Why do you think that none of the inverse trigonometric functions using quadrant III?      If Georgiana said that, \"I think that the value of is ,\" how would you help her understand her mistake?       Definitions   Inverse Cosine   The inverse cosine function inputs an -value on the unit circle and outputs the angle from to that matches that -value, as shown in . Another way to say that is that for angles, , in the interval , if then .    Domain and range for cosine and cosine inverse       Function          Domain and meaning   except odd multiples of  Angles on unit circle     -values on unit circle     Range and meaning    -values on unit circle     Angles on unit circle       Unit Circle with Standard Inverse Cosine Values    A unit circle with the values in quadrants I and II, where is positive and is between and , are indicated.          Inverse Sine   The inverse sine function inputs a -value on the unit circle and outputs the angle from to that matches that -value, as shown in . Another way to say that is that for angles, , in the interval , if then .    Domain and range for sine and sine inverse       Function          Domain and meaning    except odd multiples of   Angles on unit circle        -values on unit circle      Range and meaning        -values on unit circle       Angles on unit circle       Unit Circle with Standard Inverse Sine Values    A unit circle with the values in quadrants IV and II, where is positive and is between and , are indicated.          Inverse Tangent    The inverse tangent function inputs a slope, , and ouptuts the angle from to (non-inclusive) that matches that slope, as shown in . Another way to say that is that for angles, , in the interval , if then .     Domain and range for tangent and tangent inverse       Function          Domain and meaning    except odd multiples of   Angles on unit circle       Slopes     Range and meaning      Slopes       Angles on unit circle       Unit Circle with Standard Inverse Tangent Values    A unit circle with the values in quadrants I and II, where is positive and is between and , are indicated.           Exit Exercises    Fill in the blanks to show how you should think about the inputs and outputs of each function? The answer to each is either \"an angle\", \"an -value on the unit circle\", or \" -value on the unit circle\".                                  Evaluate .       Fill in the missing values in .   A table of invere trigonometry                                                          Use inverse trigonometry and a calculator to find the missing angle in the triangle shown in . Drawing is not to scale.   A right triangle    A right triangle with hypotenuse 89cm, unknown angle , adjacent side 39cm, and opposite side 80cm.             On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
 },
 {
   "id": "prep-inverse-trig-3",
@@ -1015,7 +1015,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1",
   "title": "",
-  "body": "  Fill in the blanks referring to the angles in .           is coterminal with the negative angle        is coterminal with the negative angle        is coterminal with the negative angle        is coterminal with the negative angle     "
+  "body": "  Fill in the blanks referring to the angles in .   Unit Circle with Standard Values    Quadrant IV of a unit circle. The angles      are indicated.          is coterminal with the negative angle        is coterminal with the negative angle        is coterminal with the negative angle        is coterminal with the negative angle     "
 },
 {
   "id": "prep-inverse-trig-4",
@@ -1024,7 +1024,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2",
   "title": "",
-  "body": "   The invertible function is defined by . Fill in the row. Some entries may be \"undefined\".                                                                                              "
+  "body": "   The invertible function is defined by . Fill in the row. Some entries may be \"undefined\".   The invertible function                                                                                             "
 },
 {
   "id": "prep-inverse-trig-5",
@@ -1033,7 +1033,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3",
   "title": "",
-  "body": "   Show that the graph in represents an invertible function . Graph the inverse alongside .         "
+  "body": "   Show that the graph in represents an invertible function . Graph the inverse alongside .   Graph of    A graph of a piecewise function, defined as:   on the interval ,   on the interval ,   on the interval ,   on the interval .          "
 },
 {
   "id": "practice-inverse-trig-2",
@@ -1051,7 +1051,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2",
   "title": "",
-  "body": "  Fill in using your memorized values on the unit circle.                                                                                               "
+  "body": "  Fill in using your memorized values on the unit circle.   Table for Practice 2                                                                                              "
 },
 {
   "id": "practice-inverse-trig-4",
@@ -1060,7 +1060,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3",
   "title": "",
-  "body": "   Fill in with standard values of inverse trigonmetric functions without a calculator. If the value of is blank, start by filling that in first.                                                     N\/A                        N\/A             N\/A        "
+  "body": "   Fill in with standard values of inverse trigonmetric functions without a calculator. If the value of is blank, start by filling that in first.   Table for Practice 3                                                   N\/A                      N\/A           N\/A       "
 },
 {
   "id": "practice-inverse-trig-5",
@@ -1078,7 +1078,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "5",
   "title": "",
-  "body": "  Use inverse trigonometry to find the missing angles.      Use inverse trigonometry and a calculator to find the missing angles and in the triangle shown in . Drawing not to scale.             Imagine designing a birdhouse to make out of wood. The sides of this birdhouse are shaped like trapezoids, with dimensions shown in . Find the angle , in degrees, using inverse trigonometry and your calculator. Note: this angle will be related to how you set up your saw to cut the wood correctly.          "
+  "body": "  Use inverse trigonometry to find the missing angles.      Use inverse trigonometry and a calculator to find the missing angles and in the triangle shown in . Drawing not to scale.   A right triangle    A right triangle with hypotenuse 97cm, angle adjacent to length 72cm, and angle adjacent to side 65cm.            Imagine designing a birdhouse to make out of wood. The sides of this birdhouse are shaped like trapezoids, with dimensions shown in . Find the angle , in degrees, using inverse trigonometry and your calculator. Note: this angle will be related to how you set up your saw to cut the wood correctly.   The side of a birdhouse    A trapezoid showing the side profile of a birdhouse. The base is of length 15cm, the sides are at right angles to the base, the short side is length 20cm, and the long side is length 28cm. The top is of unknown length, but meets the long side at an angle labeled .         "
 },
 {
   "id": "practice-inverse-trig-7",
@@ -1114,7 +1114,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "6.3.8",
   "title": "Inverse Cosine.",
-  "body": " Inverse Cosine   The inverse cosine function inputs an -value on the unit circle and outputs the angle from to that matches that -value, as shown in . Another way to say that is that for angles, , in the interval , if then .          Function            Domain and meaning     except odd multiples of   Angles on unit circle        -values on unit circle      Range and meaning        -values on unit circle       Angles on unit circle                  "
+  "body": " Inverse Cosine   The inverse cosine function inputs an -value on the unit circle and outputs the angle from to that matches that -value, as shown in . Another way to say that is that for angles, , in the interval , if then .    Domain and range for cosine and cosine inverse       Function          Domain and meaning   except odd multiples of  Angles on unit circle     -values on unit circle     Range and meaning    -values on unit circle     Angles on unit circle       Unit Circle with Standard Inverse Cosine Values    A unit circle with the values in quadrants I and II, where is positive and is between and , are indicated.        "
 },
 {
   "id": "definitions-inverse-trig-3",
@@ -1123,7 +1123,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "6.3.11",
   "title": "Inverse Sine.",
-  "body": " Inverse Sine   The inverse sine function inputs a -value on the unit circle and outputs the angle from to that matches that -value, as shown in . Another way to say that is that for angles, , in the interval , if then .          Function            Domain and meaning     except odd multiples of   Angles on unit circle        -values on unit circle      Range and meaning        -values on unit circle       Angles on unit circle                  "
+  "body": " Inverse Sine   The inverse sine function inputs a -value on the unit circle and outputs the angle from to that matches that -value, as shown in . Another way to say that is that for angles, , in the interval , if then .    Domain and range for sine and sine inverse       Function          Domain and meaning    except odd multiples of   Angles on unit circle        -values on unit circle      Range and meaning        -values on unit circle       Angles on unit circle       Unit Circle with Standard Inverse Sine Values    A unit circle with the values in quadrants IV and II, where is positive and is between and , are indicated.        "
 },
 {
   "id": "definitions-inverse-trig-4",
@@ -1132,7 +1132,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "6.3.14",
   "title": "Inverse Tangent.",
-  "body": " Inverse Tangent    The inverse tangent function inputs a slope, , and ouptuts the angle from to (non-inclusive) that matches that slope, as shown in . Another way to say that is that for angles, , in the interval , if then .           Function            Domain and meaning     except odd multiples of   Angles on unit circle       Slopes      Range and meaning       Slopes       Angles on unit circle                  "
+  "body": " Inverse Tangent    The inverse tangent function inputs a slope, , and ouptuts the angle from to (non-inclusive) that matches that slope, as shown in . Another way to say that is that for angles, , in the interval , if then .     Domain and range for tangent and tangent inverse       Function          Domain and meaning    except odd multiples of   Angles on unit circle       Slopes     Range and meaning      Slopes       Angles on unit circle       Unit Circle with Standard Inverse Tangent Values    A unit circle with the values in quadrants I and II, where is positive and is between and , are indicated.        "
 },
 {
   "id": "exit-inverse-trig-2",
@@ -1159,7 +1159,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3",
   "title": "",
-  "body": "   Fill in the missing values in .                                                       "
+  "body": "   Fill in the missing values in .   A table of invere trigonometry                                                      "
 },
 {
   "id": "exit-inverse-trig-5",
@@ -1168,7 +1168,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "4",
   "title": "",
-  "body": "   Use inverse trigonometry and a calculator to find the missing angle in the triangle shown in . Drawing is not to scale.              "
+  "body": "   Use inverse trigonometry and a calculator to find the missing angle in the triangle shown in . Drawing is not to scale.   A right triangle    A right triangle with hypotenuse 89cm, unknown angle , adjacent side 39cm, and opposite side 80cm.        "
 },
 {
   "id": "sec-inverse-trig-8-1",

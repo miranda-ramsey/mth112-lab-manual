@@ -33,7 +33,20 @@
                     Fill in the blanks referring to the angles in <xref ref="figure-inverse-trig-prep-1"/>.
                 </p>
                 <figure xml:id = "figure-inverse-trig-prep-1">
+                    <caption>Unit Circle with Standard Values</caption>
                     <image width="60%">
+                        <description>
+                            <p>
+                                Quadrant IV of a unit circle. The angles
+                                <ul>
+                                    <li><m>\frac{11\pi}{6}</m></li>
+                                    <li><m>\frac{7\pi}{4}</m></li>
+                                    <li><m>\frac{5\pi}{3}</m></li>
+                                    <li><m>\frac{3\pi}{2}</m></li>
+                                </ul>
+                                are indicated.
+                            </p>
+                        </description>
                         <latex-image>
                             <![CDATA[
                                 \begin{tikzpicture}
@@ -108,6 +121,7 @@
                         Fill in the <m>g^{-1}(x)</m> row. Some entries may be "undefined".
                     </p>
                     <table xml:id = "table-inverse-trig-prep-2">
+                        <title>The invertible function <m>g</m></title>
                         <tabular row-headers="yes" halign="center" top="major" left="major" right="major">
                             <col right="minor"/>
                             <col right="minor"/>
@@ -209,7 +223,27 @@
                         alongside <m>y=R(x)</m>.
                     </p>
                     <figure xml:id = "figure-inverse-trig-prep-3">
+                        <caption>Graph of <m>y=R(x)</m></caption>
                         <image>
+                            <description>
+                                <p>
+                                    A graph of a piecewise function, defined as:
+                                    <ul>
+                                        <li>
+                                            <m>y=-\frac{1}{2}(x-1)</m> on the interval <m>[-5,-3)</m>,
+                                        </li>
+                                        <li>
+                                            <m>y=-3x-8</m> on the interval <m>[-3,-2)</m>,
+                                        </li>
+                                        <li>
+                                            <m>y=\frac{1}{3}(x-13)</m> on the interval <m>[-2,1)</m>,
+                                        </li>
+                                        <li>
+                                            <m>y=\frac{2}{3}(x-7)</m> on the interval <m>[1,4]</m>.
+                                        </li>
+                                    </ul>
+                                </p>
+                            </description>
                             <latex-image>
                                 <![CDATA[
                                     \begin{tikzpicture}
@@ -291,6 +325,7 @@
                     on the unit circle.
                 </p>
                     <table xml:id = "table-inverse-trig-practice-1">
+                        <title>Table for Practice 2</title>
                         <tabular row-headers="yes" halign="center" top="major" left="major" right="major">
                             <col right="minor"/>
                             <col right="minor"/>
@@ -393,6 +428,7 @@
                         <m>z</m> is blank, start by filling that in first.
                     </p>
                     <table xml:id = "table-inverse-trig-practice-2">
+                        <title>Table for Practice 3</title>
                         <tabular row-headers="yes" halign="center" top="major" left="major" right="major">
                             <col right="minor"/>
                             <col right="minor"/>
@@ -435,7 +471,7 @@
                                     <m>\frac{\pi}{6}</m>
                                 </cell>
                                 <cell> 
-                                    <p>N/A</p>
+                                    N/A
                                 </cell>
                             </row>
                             <row bottom="minor">
@@ -453,7 +489,7 @@
                                 <cell> </cell>
                                 <cell> </cell>
                                 <cell> 
-                                    <p>N/A</p>
+                                    N/A
                                 </cell>
                             </row>
                             <row bottom="major">
@@ -463,7 +499,7 @@
                                     <m>\frac{2\pi}{3}</m>
                                 </cell>
                                 <cell>
-                                    <p>N/A</p>
+                                    N/A
                                 </cell>
                             </row>
                         </tabular>
@@ -528,7 +564,15 @@
                             <xref ref="figure-inverse-trig-practice-5a"/>. Drawing not to scale.
                         </p>
                         <figure xml:id = "figure-inverse-trig-practice-5a">
+                            <caption>A right triangle</caption>
                             <image>
+                                <description>
+                                    <p>
+                                    A right triangle with hypotenuse 97cm, angle <m>\alpha</m> 
+                                    adjacent to length 72cm, and angle <m>\beta</m> adjacent to side 
+                                    65cm.
+                                    </p>
+                                </description>
                                 <latex-image>
                                     <![CDATA[
                                         \begin{tikzpicture}
@@ -565,7 +609,17 @@
                             wood correctly.
                         </p>
                         <figure xml:id = "figure-inverse-trig-practice-5b">
+                            <caption>The side of a birdhouse</caption>
                             <image>
+                                <description>
+                                    <p>
+                                        A trapezoid showing the side profile of a birdhouse. The base
+                                        is of length 15cm, the sides are at right angles to the base,
+                                        the short side is length 20cm, and the long side is length 
+                                        28cm. The top is of unknown length, but meets the long side
+                                        at an angle labeled <m>\phi</m>.
+                                    </p>
+                                </description>
                                 <latex-image>
                                     <![CDATA[
                                         \begin{tikzpicture}
@@ -721,17 +775,16 @@
                     Another way to say that is that for angles, <m>\theta</m>, in the interval 
                     <m>[0,\pi]</m>, if <m>\cos(\theta) = x</m> then <m>\cos^{-1}(x) = \theta</m>.
                 </p>
-                <sidebyside widths="48% 48%">
+                <sidebyside widths="55% 40%">
                     <table xml:id="table-inverse-cosine-definition">
+                    <title>Domain and range for cosine and cosine inverse</title>
                         <tabular row-headers="yes" halign="center" top="major" left="major" right="major">
                             <col right="minor"/>
                             <col right="minor"/>
                             <col/>
                             <row bottom="minor">
                                 <cell>
-                                    <p>
-                                        Function
-                                    </p>
+                                    Function
                                 </cell>
                                 <cell>
                                     <m>\sin\left(z\right)</m>
@@ -742,57 +795,40 @@
                             </row>
                             <row bottom="minor">
                                 <cell>
-                                    <p>
                                         Domain and meaning
-                                    </p>
                                 </cell>
                                 <cell>
-                                    <p>
-                                        <m>\mathbb{R}</m> except odd multiples of <m>\frac{\pi}{2}</m>
-                                    </p>
-                                    <p>
-                                        Angles on unit circle
-                                    </p>
+                                    <line><m>\mathbb{R}</m> except odd multiples of <m>\frac{\pi}{2}</m></line>
+                                    <line>Angles on unit circle</line>
                                 </cell>
                                 <cell>
-                                    <p>
-                                        <m>[-1,1]</m>
-                                    </p>
-                                    <p>
-                                        <m>x</m>-values on unit circle
-                                    </p>
+                                    <line><m>[-1,1]</m></line>
+                                    <line><m>x</m>-values on unit circle</line>
                                 </cell>
                             </row>
                             <row bottom="major">
                                 <cell>
-                                    <p>
                                         Range and meaning
-                                    </p>
                                 </cell>
                                 <cell>
-                                    <p>
-                                        <m>[-1,1]</m>
-                                    </p>
-                                    <p>
-                                        <m>x</m>-values on unit circle
-                                    </p>
+                                    <line><m>[-1,1]</m></line>
+                                    <line><m>x</m>-values on unit circle</line>
                                 </cell>
                                 <cell>
-                                    <p>
-                                        <m>\left[0,\pi\right]</m>
-                                    </p>
-                                    <p>
-                                        Angles on unit circle
-                                    </p>
+                                    <line><m>\left[0,\pi\right]</m></line>
+                                    <line>Angles on unit circle</line>
                                 </cell>
                             </row>
                         </tabular>
                     </table>
                     <figure xml:id = "figure-inverse-cosine-definition">
+                        <caption>Unit Circle with Standard Inverse Cosine Values</caption>
                         <image>
                             <description>
                                 <p>
-                                    <!--TODO-->
+                                    A unit circle with the values in quadrants I and II, where 
+                                    <m>y</m> is positive and <m>\theta</m> is between <m>0</m> and
+                                    <m>\pi</m>, are indicated.
                                 </p>
                             </description>
                             <latex-image>
@@ -868,15 +904,14 @@
                 </p>
                 <sidebyside widths="48% 48%">
                     <table xml:id="table-inverse-sine-definition">
+                        <title>Domain and range for sine and sine inverse</title>
                         <tabular row-headers="yes" halign="center" top="major" left="major" right="major">
                             <col right="minor"/>
                             <col right="minor"/>
                             <col/>
                             <row bottom="minor">
                                 <cell>
-                                    <p>
                                         Function
-                                    </p>
                                 </cell>
                                 <cell>
                                     <m>\sin\left(z\right)</m>
@@ -887,57 +922,58 @@
                             </row>
                             <row bottom="minor">
                                 <cell>
-                                    <p>
                                         Domain and meaning
-                                    </p>
                                 </cell>
                                 <cell>
-                                    <p>
+                                    <line>
                                         <m>\mathbb{R}</m> except odd multiples of <m>\frac{\pi}{2}</m>
-                                    </p>
-                                    <p>
+                                    </line>
+                                    <line>
                                         Angles on unit circle
-                                    </p>
+                                    </line>
                                 </cell>
                                 <cell>
-                                    <p>
+                                    <line>
                                         <m>[-1,1]</m>
-                                    </p>
-                                    <p>
+                                    </line>
+                                    <line>
                                         <m>y</m>-values on unit circle
-                                    </p>
+                                    </line>
                                 </cell>
                             </row>
                             <row bottom="major">
                                 <cell>
-                                    <p>
+                                    <line>
                                         Range and meaning
-                                    </p>
+                                    </line>
                                 </cell>
                                 <cell>
-                                    <p>
+                                    <line>
                                         <m>[-1,1]</m>
-                                    </p>
-                                    <p>
+                                    </line>
+                                    <line>
                                         <m>y</m>-values on unit circle
-                                    </p>
+                                    </line>
                                 </cell>
                                 <cell>
-                                    <p>
+                                    <line>
                                         <m>\left[-\frac{\pi}{2},\frac{\pi}{2}\right]</m>
-                                    </p>
-                                    <p>
+                                    </line>
+                                    <line>
                                         Angles on unit circle
-                                    </p>
+                                    </line>
                                 </cell>
                             </row>
                         </tabular>
                     </table>
                     <figure xml:id = "figure-inverse-sine-definition">
+                        <caption>Unit Circle with Standard Inverse Sine Values</caption>
                         <image>
                             <description>
                                 <p>
-                                    <!--TODO-->
+                                    A unit circle with the values in quadrants IV and II, where 
+                                    <m>x</m> is positive and <m>\theta</m> is between <m>-\frac{\pi}{2}</m> and
+                                    <m>\frac{\pi}{2}</m>, are indicated.
                                 </p>
                             </description>
                             <latex-image>
@@ -1019,15 +1055,14 @@
                 </p>
                 <sidebyside widths="48% 48%">
                     <table xml:id="table-inverse-tan-definition">
+                        <title>Domain and range for tangent and tangent inverse</title>
                         <tabular row-headers="yes" halign="center" top="major" left="major" right="major">
                             <col right="minor"/>
                             <col right="minor"/>
                             <col/>
                             <row bottom="minor">
                                 <cell>
-                                    <p>
                                         Function
-                                    </p>
                                 </cell>
                                 <cell>
                                     <m>\tan\left(z\right)</m>
@@ -1038,57 +1073,56 @@
                             </row>
                             <row bottom="minor">
                                 <cell>
-                                    <p>
                                         Domain and meaning
-                                    </p>
                                 </cell>
                                 <cell>
-                                    <p>
+                                    <line>
                                         <m>\mathbb{R}</m> except odd multiples of <m>\frac{\pi}{2}</m>
-                                    </p>
-                                    <p>
+                                    </line>
+                                    <line>
                                         Angles on unit circle
-                                    </p>
+                                    </line>
                                 </cell>
                                 <cell>
-                                    <p>
+                                    <line>
                                         <m>\mathbb{R}</m>
-                                    </p>
-                                    <p>
+                                    </line>
+                                    <line>
                                         Slopes
-                                    </p>
+                                    </line>
                                 </cell>
                             </row>
                             <row bottom="major">
                                 <cell>
-                                    <p>
                                         Range and meaning
-                                    </p>
                                 </cell>
                                 <cell>
-                                    <p>
+                                    <line>
                                         <m>\mathbb{R}</m>
-                                    </p>
-                                    <p>
+                                    </line>
+                                    <line>
                                         Slopes
-                                    </p>
+                                    </line>
                                 </cell>
                                 <cell>
-                                    <p>
+                                    <line>
                                         <m>\left(-\frac{\pi}{2},\frac{\pi}{2}\right)</m>
-                                    </p>
-                                    <p>
+                                    </line>
+                                    <line>
                                         Angles on unit circle
-                                    </p>
+                                    </line>
                                 </cell>
                             </row>
                         </tabular>
                     </table>
                     <figure xml:id = "figure-inverse-tan-definition">
+                        <caption>Unit Circle with Standard Inverse Tangent Values</caption>
                         <image>
                             <description>
                                 <p>
-                                    <!--TODO-->
+                                    A unit circle with the values in quadrants I and II, where 
+                                    <m>x</m> is positive and <m>\theta</m> is between <m>-\frac{\pi}{2}</m> and
+                                    <m>\frac{\pi}{2}</m>, are indicated.
                                 </p>
                             </description>
                             <latex-image>
@@ -1208,6 +1242,7 @@
                         Fill in the missing values in <xref ref="table-inverse-trig-exit"/>.
                     </p>
                     <table xml:id="table-inverse-trig-exit">
+                        <title>A table of invere trigonometry</title>
                         <tabular row-headers="yes" halign="center" top="major" left="major" right="major">
                             <col right="minor"/>
                             <col right="minor"/>
@@ -1270,10 +1305,12 @@
                     is not to scale.
                     </p>
                     <figure xml:id = "figure-inverse-trig-exit">
+                        <caption>A right triangle</caption>
                         <image>
                             <description>
                                 <p>
-                                    <!--TODO-->
+                                A right triangle with hypotenuse 89cm, unknown angle <m>\zeta</m>,
+                                adjacent side 39cm, and opposite side 80cm.
                                 </p>
                             </description>
                             <latex-image>
